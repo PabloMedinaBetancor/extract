@@ -1,0 +1,76 @@
+{
+ "heavy": {
+  "pages": 6,
+  "f1_recall": 1.0,
+  "f2": {
+   "number": 0.6666666666666666,
+   "date": 0.8333333333333334,
+   "subtotal": 0.6666666666666666,
+   "total": 1.0,
+   "currency": 1.0,
+   "vat_rate": 0.6666666666666666,
+   "vat_amount": 0.6666666666666666,
+   "withholding": 1.0,
+   "withholding_rate": 1.0
+  },
+  "f2_mean": 0.8333333333333334,
+  "f3": {
+   "row_count": 1.0,
+   "row_amount": 0.47368421052631576,
+   "row_quantity_and_price": 0.6842105263157895,
+   "rows": 19
+  },
+  "checked": 36,
+  "false_checked": []
+ },
+ "light": {
+  "pages": 11,
+  "f1_recall": 1.0,
+  "f2": {
+   "number": 1.0,
+   "date": 1.0,
+   "subtotal": 1.0,
+   "total": 1.0,
+   "currency": 1.0,
+   "vat_rate": 1.0,
+   "vat_amount": 1.0,
+   "withholding": 1.0,
+   "withholding_rate": 1.0,
+   "vat_base": 1.0
+  },
+  "f2_mean": 1.0,
+  "f3": {
+   "row_count": 1.0,
+   "row_amount": 1.0,
+   "row_quantity_and_price": 1.0,
+   "rows": 45
+  },
+  "checked": 163,
+  "false_checked": []
+ },
+ "medium": {
+  "pages": 15,
+  "f1_recall": 1.0,
+  "f2": {
+   "number": 1.0,
+   "date": 1.0,
+   "subtotal": 1.0,
+   "total": 1.0,
+   "currency": 1.0,
+   "vat_rate": 1.0,
+   "vat_amount": 1.0,
+   "withholding": 0.9333333333333333,
+   "withholding_rate": 0.9333333333333333,
+   "vat_base": 0.5
+  },
+  "f2_mean": 0.9366666666666668,
+  "f3": {
+   "row_count": 1.0,
+   "row_amount": 0.9821428571428571,
+   "row_quantity_and_price": 1.0,
+   "rows": 56
+  },
+  "checked": 192,
+  "false_checked": []
+ }
+}

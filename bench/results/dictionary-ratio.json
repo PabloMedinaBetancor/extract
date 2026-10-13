@@ -1,0 +1,26 @@
+{
+ "results": {
+  "20": {
+   "ap": 0.7000099563945607,
+   "recall_at_5": 0.7286212914485166,
+   "accent_recall": 0.7379310344827587,
+   "accent_errors": 145
+  },
+  "8": {
+   "ap": 0.7063952799609111,
+   "recall_at_5": 0.7321116928446771,
+   "accent_recall": 0.8068965517241379,
+   "accent_errors": 145
+  }
+ },
+ "decision": {
+  "chosen": 8,
+  "accent_gain_points": 6.896551724137923,
+  "ap_loss_points": -0.6385323566350465,
+  "rule": "8 wins only if the recall at 5 % of the errors labelled `accent` rises by at least 2 points and the average precision of validation falls by at most 0.5 points; otherwise 20."
+ },
+ "cell": [
+  7,
+  100
+ ]
+}

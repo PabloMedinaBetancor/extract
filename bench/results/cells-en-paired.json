@@ -1,0 +1,172 @@
+{
+ "resamples": 2000,
+ "runs": {
+  "latin+wide+deep": {
+   "reading_cost": {
+    "mean_s": 3.583,
+    "p95_s_upper_bound": 7.354
+   },
+   "wrong_words": 4152,
+   "sites": 26603,
+   "reachable_sites": 1838,
+   "seconds": 198.2,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 0,
+      "fixed": 0,
+      "broken": 0,
+      "net": 0,
+      "precision": null,
+      "net_se": 0.0,
+      "net_interval": [
+       0.0,
+       0.0
+      ],
+      "safe_edge": false
+     },
+     "more": {
+      "applied": 1820,
+      "fixed": 1337,
+      "broken": 66,
+      "net": 1271,
+      "precision": 0.7346153846153847,
+      "net_se": 259.0496985844094,
+      "net_interval": [
+       830.425,
+       1767.05
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.0948605342118103
+      },
+      "join": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment": {
+       "t_safe": null,
+       "m": -0.004121351499794573
+      },
+      "drop": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  },
+  "none": {
+   "reading_cost": {
+    "mean_s": 0.0,
+    "p95_s": 0.0
+   },
+   "wrong_words": 4152,
+   "sites": 25262,
+   "reachable_sites": 1760,
+   "seconds": 178.8,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 0,
+      "fixed": 0,
+      "broken": 0,
+      "net": 0,
+      "precision": null,
+      "net_se": 0.0,
+      "net_interval": [
+       0.0,
+       0.0
+      ],
+      "safe_edge": false
+     },
+     "more": {
+      "applied": 1692,
+      "fixed": 1208,
+      "broken": 60,
+      "net": 1148,
+      "precision": 0.7139479905437353,
+      "net_se": 245.97645911117948,
+      "net_interval": [
+       727.0,
+       1609.5749999999998
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.10037709340748513
+      },
+      "join": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  }
+ },
+ "paired": {
+  "lightgbm": {
+   "latin+wide+deep - none": {
+    "more_net": {
+     "difference": 123.0,
+     "se": 21.50803560411257,
+     "low": 82.0,
+     "high": 166.02499999999986,
+     "excludes_zero": true
+    },
+    "more_net_per_100_wrong": 2.96242774566474,
+    "safe_fixed": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    },
+    "safe_applied": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    }
+   }
+  }
+ },
+ "learner_pairs": {}
+}

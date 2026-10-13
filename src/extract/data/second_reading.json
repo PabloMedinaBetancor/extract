@@ -1,0 +1,32 @@
+{
+ "decision": "Default OFF (decided 2026-10-03). No capped cell of L+Z passes the pre-registered rule inside the time budget (4/4 +16, 4/5 +36, 4/8 +41, 8/8 +125 [+78,+176] 1.75/100, 8/10 +110, 8/16 +114; all under 2 per 100 against none; the 8/x cost 1.9-2.3 s); the full L+Z (16 lines + 40 zones, +163 [+98,+241], 2.28/100, about 3 s a page (p95 5-7 s, reader up to 1.6 GB)) is the THOROUGH MODE, an opt-in with its own model file. Default model: trained without readings.",
+ "default": false,
+ "unit": "line",
+ "readers": [
+  "latin",
+  "wide"
+ ],
+ "cap": null,
+ "reader": null,
+ "seconds_per_page": null,
+ "fixes_more_pct": null,
+ "thorough": {
+  "lines": 16,
+  "zones": 40,
+  "readers_lines": [
+   "latin",
+   "wide"
+  ],
+  "reader_zones": "deep",
+  "seconds_per_page": 2.95,
+  "fixes_more_pct_vs_default": 1.64,
+  "net_vs_none_es_dev": 163,
+  "seconds_p95": 5.46,
+  "reader_ram_mb": 1586,
+  "fixes_more_pct_by_language": {
+   "es": 1.64,
+   "en": 2.11
+  },
+  "measured": "Cost = 60 pilot pages through the real reader process, quiet machine (bench/results/thorough-run-nocap.json): mean 2.95 s, p95 5.46 s, peak 1.586 GB over the runs; the first page of a batch takes 8-22 s (three models loaded). Gain = the sealed test T5 (bench/results/read-test-v5.json), all pages of the test, `more`, net per 100 wrong words of the thorough mode minus the default model, paired by document (the Spanish 163 net fixes of `net_vs_none_es_dev` are the development, out-of-fold figure of cells-paired.json)."
+ }
+}

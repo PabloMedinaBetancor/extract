@@ -1,0 +1,682 @@
+{
+ "resamples": 2000,
+ "runs": {
+  "none": {
+   "wrong_words": 7150,
+   "sites": 47437,
+   "reachable_sites": 3632,
+   "seconds": 494.5,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 0,
+      "fixed": 0,
+      "broken": 0,
+      "net": 0,
+      "precision": null,
+      "net_se": 0.0,
+      "net_interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "more": {
+      "applied": 3620,
+      "fixed": 2580,
+      "broken": 127,
+      "net": 2453,
+      "precision": 0.712707182320442,
+      "net_se": 264.4799750726487,
+      "net_interval": [
+       1909.7250000000001,
+       2918.05
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.035308695942889476
+      },
+      "join": {
+       "t_safe": null,
+       "m": 0.02586690808712744
+      },
+      "segment": {
+       "t_safe": null,
+       "m": -0.0027563167850872226
+      },
+      "drop": {
+       "t_safe": null,
+       "m": 0.2491451016568982
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment|structure": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop|structure": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  },
+  "latin": {
+   "wrong_words": 7150,
+   "sites": 47339,
+   "reachable_sites": 3691,
+   "seconds": 656.0,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 0,
+      "fixed": 0,
+      "broken": 0,
+      "net": 0,
+      "precision": null,
+      "net_se": 0.0,
+      "net_interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "more": {
+      "applied": 3706,
+      "fixed": 2648,
+      "broken": 130,
+      "net": 2518,
+      "precision": 0.7145169994603346,
+      "net_se": 274.00723811073703,
+      "net_interval": [
+       1967.225,
+       3017.2
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.04264907514112365
+      },
+      "join": {
+       "t_safe": null,
+       "m": -0.044042364574117816
+      },
+      "segment": {
+       "t_safe": null,
+       "m": -0.0017838758596603866
+      },
+      "drop": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment|structure": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop|structure": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  },
+  "wide": {
+   "wrong_words": 7150,
+   "sites": 47470,
+   "reachable_sites": 3673,
+   "seconds": 578.7,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 0,
+      "fixed": 0,
+      "broken": 0,
+      "net": 0,
+      "precision": null,
+      "net_se": 0.0,
+      "net_interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "more": {
+      "applied": 3621,
+      "fixed": 2620,
+      "broken": 130,
+      "net": 2490,
+      "precision": 0.7235570284451809,
+      "net_se": 273.580608044862,
+      "net_interval": [
+       1947.925,
+       3003.7749999999996
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.022490020231445584
+      },
+      "join": {
+       "t_safe": null,
+       "m": -0.00030548190003833707
+      },
+      "segment": {
+       "t_safe": null,
+       "m": 0.0017709574007808084
+      },
+      "drop": {
+       "t_safe": null,
+       "m": 0.22212318196656533
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment|structure": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop|structure": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  },
+  "latin+wide": {
+   "wrong_words": 7150,
+   "sites": 47074,
+   "reachable_sites": 3713,
+   "seconds": 380.7,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 0,
+      "fixed": 0,
+      "broken": 0,
+      "net": 0,
+      "precision": null,
+      "net_se": 0.0,
+      "net_interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "more": {
+      "applied": 3720,
+      "fixed": 2674,
+      "broken": 130,
+      "net": 2544,
+      "precision": 0.7188172043010753,
+      "net_se": 279.9725264506042,
+      "net_interval": [
+       1984.775,
+       3059.625
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.04031992845705987
+      },
+      "join": {
+       "t_safe": null,
+       "m": -0.009678317092879488
+      },
+      "segment": {
+       "t_safe": null,
+       "m": -0.00432601249484289
+      },
+      "drop": {
+       "t_safe": null,
+       "m": 0.5448454376672931
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment|structure": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop|structure": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  },
+  "deep": {
+   "wrong_words": 7150,
+   "sites": 47459,
+   "reachable_sites": 3689,
+   "seconds": 442.7,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 0,
+      "fixed": 0,
+      "broken": 0,
+      "net": 0,
+      "precision": null,
+      "net_se": 0.0,
+      "net_interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "more": {
+      "applied": 3706,
+      "fixed": 2696,
+      "broken": 133,
+      "net": 2563,
+      "precision": 0.7274689692390718,
+      "net_se": 272.0098345210193,
+      "net_interval": [
+       2006.125,
+       3055.525
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.0352568075623859
+      },
+      "join": {
+       "t_safe": null,
+       "m": 0.04983383460052901
+      },
+      "segment": {
+       "t_safe": null,
+       "m": 0.10721669748816472
+      },
+      "drop": {
+       "t_safe": null,
+       "m": 0.6168995380367419
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment|structure": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop|structure": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  },
+  "latin+wide+deep": {
+   "wrong_words": 7150,
+   "sites": 47387,
+   "reachable_sites": 3742,
+   "seconds": 403.1,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 304,
+      "fixed": 303,
+      "broken": 0,
+      "net": 303,
+      "precision": 0.9967105263157895,
+      "net_se": 38.74021896079397,
+      "net_interval": [
+       230.475,
+       379.0
+      ]
+     },
+     "more": {
+      "applied": 3777,
+      "fixed": 2752,
+      "broken": 136,
+      "net": 2616,
+      "precision": 0.7286205983584856,
+      "net_se": 283.417927172728,
+      "net_interval": [
+       2046.425,
+       3139.7749999999996
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.028933256039110844
+      },
+      "join": {
+       "t_safe": null,
+       "m": -0.10003536480452717
+      },
+      "segment": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop": {
+       "t_safe": null,
+       "m": 0.5193690234673048
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": 0.9783971370283611,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment|structure": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop|structure": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  }
+ },
+ "paired": {
+  "lightgbm": {
+   "latin - none": {
+    "more_net": {
+     "difference": 65.0,
+     "se": 27.584186618889323,
+     "low": 14.975000000000001,
+     "high": 122.0,
+     "excludes_zero": true
+    },
+    "more_net_per_100_wrong": 0.9090909090909091,
+    "safe_fixed": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    },
+    "safe_applied": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    }
+   },
+   "wide - none": {
+    "more_net": {
+     "difference": 37.0,
+     "se": 28.396918181928044,
+     "low": -15.0,
+     "high": 94.0,
+     "excludes_zero": false
+    },
+    "more_net_per_100_wrong": 0.5174825174825175,
+    "safe_fixed": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    },
+    "safe_applied": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    }
+   },
+   "latin+wide - none": {
+    "more_net": {
+     "difference": 91.0,
+     "se": 36.59971944539658,
+     "low": 27.0,
+     "high": 169.0,
+     "excludes_zero": true
+    },
+    "more_net_per_100_wrong": 1.2727272727272727,
+    "safe_fixed": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    },
+    "safe_applied": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    }
+   },
+   "deep - none": {
+    "more_net": {
+     "difference": 110.0,
+     "se": 23.220639053200486,
+     "low": 64.0,
+     "high": 156.02499999999986,
+     "excludes_zero": true
+    },
+    "more_net_per_100_wrong": 1.5384615384615385,
+    "safe_fixed": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    },
+    "safe_applied": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    }
+   },
+   "latin+wide+deep - none": {
+    "more_net": {
+     "difference": 163.0,
+     "se": 36.35136669618269,
+     "low": 98.0,
+     "high": 241.0,
+     "excludes_zero": true
+    },
+    "more_net_per_100_wrong": 2.2797202797202796,
+    "safe_fixed": {
+     "difference": 303.0,
+     "se": 38.969556616947294,
+     "low": 226.975,
+     "high": 381.0,
+     "excludes_zero": true
+    },
+    "safe_applied": {
+     "difference": 304.0,
+     "se": 39.28019914374654,
+     "low": 227.0,
+     "high": 381.02499999999986,
+     "excludes_zero": true
+    }
+   },
+   "latin+wide - latin": {
+    "more_net": {
+     "difference": 26.0,
+     "se": 18.253032230092522,
+     "low": -6.0,
+     "high": 65.0,
+     "excludes_zero": false
+    },
+    "more_net_per_100_wrong": 0.36363636363636365,
+    "safe_fixed": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    },
+    "safe_applied": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    }
+   },
+   "latin+wide - wide": {
+    "more_net": {
+     "difference": 54.0,
+     "se": 25.826659465939162,
+     "low": 4.975000000000001,
+     "high": 108.0,
+     "excludes_zero": true
+    },
+    "more_net_per_100_wrong": 0.7552447552447552,
+    "safe_fixed": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    },
+    "safe_applied": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    }
+   },
+   "latin+wide+deep - latin+wide": {
+    "more_net": {
+     "difference": 72.0,
+     "se": 20.858683883377527,
+     "low": 30.0,
+     "high": 114.0,
+     "excludes_zero": true
+    },
+    "more_net_per_100_wrong": 1.006993006993007,
+    "safe_fixed": {
+     "difference": 303.0,
+     "se": 38.969556616947294,
+     "low": 226.975,
+     "high": 381.0,
+     "excludes_zero": true
+    },
+    "safe_applied": {
+     "difference": 304.0,
+     "se": 39.28019914374654,
+     "low": 227.0,
+     "high": 381.02499999999986,
+     "excludes_zero": true
+    }
+   },
+   "latin+wide+deep - deep": {
+    "more_net": {
+     "difference": 53.0,
+     "se": 26.99346756894523,
+     "low": 6.0,
+     "high": 110.0,
+     "excludes_zero": true
+    },
+    "more_net_per_100_wrong": 0.7412587412587412,
+    "safe_fixed": {
+     "difference": 303.0,
+     "se": 38.969556616947294,
+     "low": 226.975,
+     "high": 381.0,
+     "excludes_zero": true
+    },
+    "safe_applied": {
+     "difference": 304.0,
+     "se": 39.28019914374654,
+     "low": 227.0,
+     "high": 381.02499999999986,
+     "excludes_zero": true
+    }
+   },
+   "deep - latin+wide": {
+    "more_net": {
+     "difference": 19.0,
+     "se": 32.198167941039436,
+     "low": -47.0,
+     "high": 77.0,
+     "excludes_zero": false
+    },
+    "more_net_per_100_wrong": 0.26573426573426573,
+    "safe_fixed": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    },
+    "safe_applied": {
+     "difference": 0.0,
+     "se": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "excludes_zero": false
+    }
+   }
+  }
+ },
+ "learner_pairs": {}
+}

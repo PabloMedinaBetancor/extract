@@ -1,0 +1,57 @@
+{
+ "pages": {
+  "joint": 985,
+  "es_only": 646,
+  "en_only": 339
+ },
+ "numbers": {
+  "joint": {
+   "es": {
+    "metric": "more_net",
+    "value": 2697.0,
+    "se": 299.2698033651959,
+    "applied": 3872
+   },
+   "en": {
+    "metric": "more_net",
+    "value": 1320.0,
+    "se": 257.54232919394894,
+    "applied": 1896
+   }
+  },
+  "es_only": {
+   "es": {
+    "metric": "more_net",
+    "value": 2650.0,
+    "se": 284.72774320049854,
+    "applied": 3844
+   },
+   "en": {
+    "metric": null,
+    "value": null,
+    "se": null
+   }
+  },
+  "en_only": {
+   "es": {
+    "metric": null,
+    "value": null,
+    "se": null
+   },
+   "en": {
+    "metric": "more_net",
+    "value": 1324.0,
+    "se": 246.43949327604506,
+    "applied": 1886
+   }
+  }
+ },
+ "exploratory": "31x200",
+ "seconds": 918.5,
+ "decision": {
+  "ships": "joint",
+  "cost_to_spanish": -47.0,
+  "one_se": 284.72774320049854,
+  "metric": "more_net"
+ }
+}

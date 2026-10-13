@@ -1,0 +1,2302 @@
+{
+ "pages": 60,
+ "missing": {},
+ "cells": {
+  "L": {
+   "unit": "line",
+   "readers": [
+    "bin",
+    "clahe",
+    "latin",
+    "wide"
+   ],
+   "units_stored": 16,
+   "units_observed": 16,
+   "budgets": {
+    "4": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6306,
+     "gain": 0.0047,
+     "gain_ci95": [
+      0.0015,
+      0.0065
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7241
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8232,
+      "with_readings_ci95": [
+       0.7296,
+       0.9454
+      ]
+     },
+     "harm": {
+      "right_words_read": 1786,
+      "right_words_contradicted": 316,
+      "harm_rate": 0.1769,
+      "wrong_words_read": 268,
+      "wrong_words_fixed": 136,
+      "change_precision": 0.2442,
+      "net100": -15.1
+     },
+     "cost_speed": {
+      "mean_s": 1.12,
+      "p95_s": 1.842,
+      "rss_mb": 1043.0
+     },
+     "cost_pilot": {
+      "mean_s": 0.7035447351862564,
+      "p95_s": 1.0889708503233841,
+      "rss_mb": 1380.0,
+      "batch_scale": [
+       1.228,
+       1.171
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "8": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6339,
+     "gain": 0.0081,
+     "gain_ci95": [
+      0.0034,
+      0.0108
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7283
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8279,
+      "with_readings_ci95": [
+       0.7363,
+       0.9495
+      ]
+     },
+     "harm": {
+      "right_words_read": 3485,
+      "right_words_contradicted": 617,
+      "harm_rate": 0.177,
+      "wrong_words_read": 418,
+      "wrong_words_fixed": 220,
+      "change_precision": 0.222,
+      "net100": -33.2
+     },
+     "cost_speed": {
+      "mean_s": 2.019,
+      "p95_s": 3.465,
+      "rss_mb": 1043.0
+     },
+     "cost_pilot": {
+      "mean_s": 1.3374613218759734,
+      "p95_s": 2.125894718627012,
+      "rss_mb": 1380.0,
+      "batch_scale": [
+       1.228,
+       1.171
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "16": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6433,
+     "gain": 0.0175,
+     "gain_ci95": [
+      0.0054,
+      0.0246
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.74
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8413,
+      "with_readings_ci95": [
+       0.7542,
+       0.9543
+      ]
+     },
+     "harm": {
+      "right_words_read": 5971,
+      "right_words_contradicted": 1062,
+      "harm_rate": 0.1779,
+      "wrong_words_read": 666,
+      "wrong_words_fixed": 359,
+      "change_precision": 0.2161,
+      "net100": -58.8
+     },
+     "cost_speed": {
+      "mean_s": 2.86,
+      "p95_s": 4.778,
+      "rss_mb": 1043.0
+     },
+     "cost_pilot": {
+      "mean_s": 2.254,
+      "p95_s": 3.958,
+      "rss_mb": 1380.0,
+      "batch_scale": [
+       1.228,
+       1.171
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    }
+   },
+   "collapsed": {},
+   "knee": {
+    "budget": 8,
+    "gain_per_second": 0.004
+   },
+   "by_reader_at_the_cap": {
+    "bin": {
+     "gain": 0.0034,
+     "gain_ci95": [
+      0.0006,
+      0.0068
+     ],
+     "harm": {
+      "right_words_read": 5758,
+      "right_words_contradicted": 846,
+      "harm_rate": 0.1469,
+      "wrong_words_read": 514,
+      "wrong_words_fixed": 94,
+      "change_precision": 0.0765,
+      "net100": -62.9
+     }
+    },
+    "clahe": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0031
+     ],
+     "harm": {
+      "right_words_read": 5881,
+      "right_words_contradicted": 275,
+      "harm_rate": 0.0468,
+      "wrong_words_read": 610,
+      "wrong_words_fixed": 84,
+      "change_precision": 0.1438,
+      "net100": -16.0
+     }
+    },
+    "latin": {
+     "gain": 0.0114,
+     "gain_ci95": [
+      0.003,
+      0.0164
+     ],
+     "harm": {
+      "right_words_read": 5938,
+      "right_words_contradicted": 170,
+      "harm_rate": 0.0286,
+      "wrong_words_read": 615,
+      "wrong_words_fixed": 256,
+      "change_precision": 0.4169,
+      "net100": 7.2
+     }
+    },
+    "wide": {
+     "gain": 0.0094,
+     "gain_ci95": [
+      0.0015,
+      0.0143
+     ],
+     "harm": {
+      "right_words_read": 5932,
+      "right_words_contradicted": 107,
+      "harm_rate": 0.018,
+      "wrong_words_read": 642,
+      "wrong_words_fixed": 145,
+      "change_precision": 0.3545,
+      "net100": 3.2
+     }
+    }
+   }
+  },
+  "Z": {
+   "unit": "zone",
+   "readers": [
+    "deep"
+   ],
+   "units_stored": 40,
+   "units_observed": 40,
+   "budgets": {
+    "5": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6265,
+     "gain": 0.0007,
+     "gain_ci95": [
+      0.0,
+      0.0023
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7191
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8175,
+      "with_readings_ci95": [
+       0.7234,
+       0.943
+      ]
+     },
+     "harm": {
+      "right_words_read": 489,
+      "right_words_contradicted": 11,
+      "harm_rate": 0.0225,
+      "wrong_words_read": 110,
+      "wrong_words_fixed": 54,
+      "change_precision": 0.5745,
+      "net100": 3.6
+     },
+     "cost_speed": {
+      "mean_s": 0.793,
+      "p95_s": 1.044,
+      "rss_mb": 808.0
+     },
+     "cost_pilot": {
+      "mean_s": 0.3633113470123849,
+      "p95_s": 0.503654039344997,
+      "rss_mb": 770.0,
+      "batch_scale": [
+       1.058,
+       1.047
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "10": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6272,
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0039
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7199
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8184,
+      "with_readings_ci95": [
+       0.724,
+       0.9446
+      ]
+     },
+     "harm": {
+      "right_words_read": 948,
+      "right_words_contradicted": 27,
+      "harm_rate": 0.0285,
+      "wrong_words_read": 211,
+      "wrong_words_fixed": 102,
+      "change_precision": 0.5484,
+      "net100": 6.3
+     },
+     "cost_speed": {
+      "mean_s": 1.269,
+      "p95_s": 1.829,
+      "rss_mb": 808.0
+     },
+     "cost_pilot": {
+      "mean_s": 0.6613185800007021,
+      "p95_s": 0.8886836649432553,
+      "rss_mb": 770.0,
+      "batch_scale": [
+       1.058,
+       1.047
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "20": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6272,
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0039
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7199
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8184,
+      "with_readings_ci95": [
+       0.724,
+       0.9446
+      ]
+     },
+     "harm": {
+      "right_words_read": 1653,
+      "right_words_contradicted": 59,
+      "harm_rate": 0.0357,
+      "wrong_words_read": 338,
+      "wrong_words_fixed": 169,
+      "change_precision": 0.5505,
+      "net100": 9.2
+     },
+     "cost_speed": {
+      "mean_s": 1.645,
+      "p95_s": 2.791,
+      "rss_mb": 808.0
+     },
+     "cost_pilot": {
+      "mean_s": 1.0843939945239989,
+      "p95_s": 1.6950261841115355,
+      "rss_mb": 770.0,
+      "batch_scale": [
+       1.058,
+       1.047
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "40": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6292,
+     "gain": 0.0034,
+     "gain_ci95": [
+      0.0,
+      0.0079
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7224
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8213,
+      "with_readings_ci95": [
+       0.7281,
+       0.9477
+      ]
+     },
+     "harm": {
+      "right_words_read": 2476,
+      "right_words_contradicted": 97,
+      "harm_rate": 0.0392,
+      "wrong_words_read": 490,
+      "wrong_words_fixed": 236,
+      "change_precision": 0.5256,
+      "net100": 11.6
+     },
+     "cost_speed": {
+      "mean_s": 2.192,
+      "p95_s": 4.955,
+      "rss_mb": 808.0
+     },
+     "cost_pilot": {
+      "mean_s": 1.557,
+      "p95_s": 3.269,
+      "rss_mb": 770.0,
+      "batch_scale": [
+       1.058,
+       1.047
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    }
+   },
+   "collapsed": {},
+   "knee": {
+    "budget": 20,
+    "gain_per_second": 0.0008
+   },
+   "by_reader_at_the_cap": {
+    "deep": {
+     "gain": 0.0034,
+     "gain_ci95": [
+      0.0,
+      0.0079
+     ],
+     "harm": {
+      "right_words_read": 2476,
+      "right_words_contradicted": 97,
+      "harm_rate": 0.0392,
+      "wrong_words_read": 490,
+      "wrong_words_fixed": 236,
+      "change_precision": 0.5256,
+      "net100": 11.6
+     }
+    }
+   }
+  },
+  "LD": {
+   "unit": "line",
+   "readers": [
+    "deep"
+   ],
+   "units_stored": 16,
+   "units_observed": 16,
+   "budgets": {
+    "4": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6272,
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0034
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7199
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8184,
+      "with_readings_ci95": [
+       0.7234,
+       0.9434
+      ]
+     },
+     "harm": {
+      "right_words_read": 1730,
+      "right_words_contradicted": 54,
+      "harm_rate": 0.0312,
+      "wrong_words_read": 196,
+      "wrong_words_fixed": 83,
+      "change_precision": 0.4256,
+      "net100": 2.4
+     },
+     "cost_speed": {
+      "mean_s": 1.297,
+      "p95_s": 2.004,
+      "rss_mb": 1034.0
+     },
+     "cost_pilot": {
+      "mean_s": 0.8116789431916835,
+      "p95_s": 1.2612936567891606,
+      "rss_mb": 1214.0,
+      "batch_scale": [
+       1.198,
+       1.119
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "8": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6285,
+     "gain": 0.0027,
+     "gain_ci95": [
+      0.0005,
+      0.0059
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7216
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8203,
+      "with_readings_ci95": [
+       0.7252,
+       0.9482
+      ]
+     },
+     "harm": {
+      "right_words_read": 3393,
+      "right_words_contradicted": 97,
+      "harm_rate": 0.0286,
+      "wrong_words_read": 336,
+      "wrong_words_fixed": 140,
+      "change_precision": 0.4179,
+      "net100": 3.6
+     },
+     "cost_speed": {
+      "mean_s": 2.294,
+      "p95_s": 3.797,
+      "rss_mb": 1034.0
+     },
+     "cost_pilot": {
+      "mean_s": 1.5536958480465224,
+      "p95_s": 2.4386472243883413,
+      "rss_mb": 1214.0,
+      "batch_scale": [
+       1.198,
+       1.119
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "16": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6332,
+     "gain": 0.0074,
+     "gain_ci95": [
+      0.0031,
+      0.0124
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7274
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.827,
+      "with_readings_ci95": [
+       0.7307,
+       0.9549
+      ]
+     },
+     "harm": {
+      "right_words_read": 5807,
+      "right_words_contradicted": 167,
+      "harm_rate": 0.0288,
+      "wrong_words_read": 532,
+      "wrong_words_fixed": 218,
+      "change_precision": 0.3956,
+      "net100": 4.3
+     },
+     "cost_speed": {
+      "mean_s": 3.435,
+      "p95_s": 6.001,
+      "rss_mb": 1034.0
+     },
+     "cost_pilot": {
+      "mean_s": 2.624,
+      "p95_s": 4.59,
+      "rss_mb": 1214.0,
+      "batch_scale": [
+       1.198,
+       1.119
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    }
+   },
+   "collapsed": {},
+   "knee": {
+    "budget": 8,
+    "gain_per_second": 0.0012
+   },
+   "by_reader_at_the_cap": {
+    "deep": {
+     "gain": 0.0074,
+     "gain_ci95": [
+      0.0031,
+      0.0124
+     ],
+     "harm": {
+      "right_words_read": 5807,
+      "right_words_contradicted": 167,
+      "harm_rate": 0.0288,
+      "wrong_words_read": 532,
+      "wrong_words_fixed": 218,
+      "change_precision": 0.3956,
+      "net100": 4.3
+     }
+    }
+   }
+  },
+  "ZC": {
+   "unit": "zone",
+   "readers": [
+    "bin",
+    "clahe",
+    "latin",
+    "wide"
+   ],
+   "units_stored": 40,
+   "units_observed": 40,
+   "budgets": {
+    "5": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6258,
+     "gain": 0.0,
+     "gain_ci95": [
+      0.0,
+      0.0
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7182
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8165,
+      "with_readings_ci95": [
+       0.7223,
+       0.9414
+      ]
+     },
+     "harm": {
+      "right_words_read": 502,
+      "right_words_contradicted": 123,
+      "harm_rate": 0.245,
+      "wrong_words_read": 122,
+      "wrong_words_fixed": 69,
+      "change_precision": 0.2899,
+      "net100": -4.5
+     },
+     "cost_speed": {
+      "mean_s": 0.602,
+      "p95_s": 0.768,
+      "rss_mb": 707.0
+     },
+     "cost_pilot": {
+      "mean_s": 0.29706767001226675,
+      "p95_s": 0.41245999855421756,
+      "rss_mb": 715.0,
+      "batch_scale": [
+       0.957,
+       0.938
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "10": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6279,
+     "gain": 0.002,
+     "gain_ci95": [
+      0.0,
+      0.0043
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7207
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8194,
+      "with_readings_ci95": [
+       0.7253,
+       0.9451
+      ]
+     },
+     "harm": {
+      "right_words_read": 966,
+      "right_words_contradicted": 244,
+      "harm_rate": 0.2526,
+      "wrong_words_read": 225,
+      "wrong_words_fixed": 131,
+      "change_precision": 0.2867,
+      "net100": -9.4
+     },
+     "cost_speed": {
+      "mean_s": 0.896,
+      "p95_s": 1.357,
+      "rss_mb": 707.0
+     },
+     "cost_pilot": {
+      "mean_s": 0.5415634668981242,
+      "p95_s": 0.7332356431174588,
+      "rss_mb": 715.0,
+      "batch_scale": [
+       0.957,
+       0.938
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "20": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6279,
+     "gain": 0.002,
+     "gain_ci95": [
+      0.0,
+      0.0043
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7207
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8194,
+      "with_readings_ci95": [
+       0.7253,
+       0.9451
+      ]
+     },
+     "harm": {
+      "right_words_read": 1675,
+      "right_words_contradicted": 452,
+      "harm_rate": 0.2699,
+      "wrong_words_read": 356,
+      "wrong_words_fixed": 210,
+      "change_precision": 0.2689,
+      "net100": -20.2
+     },
+     "cost_speed": {
+      "mean_s": 1.218,
+      "p95_s": 2.045,
+      "rss_mb": 707.0
+     },
+     "cost_pilot": {
+      "mean_s": 0.8865144732122026,
+      "p95_s": 1.4052061209485032,
+      "rss_mb": 715.0,
+      "batch_scale": [
+       0.957,
+       0.938
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    },
+    "40": {
+     "wrong_weight": 1486.0,
+     "base": 0.6258,
+     "with_readings": 0.6319,
+     "gain": 0.0061,
+     "gain_ci95": [
+      0.0024,
+      0.0096
+     ],
+     "by_family": {
+      "replace": {
+       "wrong_weight": 1196.0,
+       "base": 0.7182,
+       "with_readings": 0.7258
+      },
+      "join": {
+       "wrong_weight": 24.0,
+       "base": 0.0417,
+       "with_readings": 0.0417
+      },
+      "segment": {
+       "wrong_weight": 229.0,
+       "base": 0.1921,
+       "with_readings": 0.1921
+      },
+      "drop": {
+       "wrong_weight": 37.0,
+       "base": 0.7027,
+       "with_readings": 0.7027
+      }
+     },
+     "plain_wrong_pairs": {
+      "n": 1052,
+      "base": 0.8165,
+      "with_readings": 0.8251,
+      "with_readings_ci95": [
+       0.7318,
+       0.9498
+      ]
+     },
+     "harm": {
+      "right_words_read": 2516,
+      "right_words_contradicted": 731,
+      "harm_rate": 0.2905,
+      "wrong_words_read": 519,
+      "wrong_words_fixed": 288,
+      "change_precision": 0.2394,
+      "net100": -37.0
+     },
+     "cost_speed": {
+      "mean_s": 1.561,
+      "p95_s": 3.343,
+      "rss_mb": 707.0
+     },
+     "cost_pilot": {
+      "mean_s": 1.271,
+      "p95_s": 2.66,
+      "rss_mb": 715.0,
+      "batch_scale": [
+       0.957,
+       0.938
+      ]
+     },
+     "gate_p_plain_written": "between_80_and_85"
+    }
+   },
+   "collapsed": {},
+   "knee": {
+    "budget": 20,
+    "gain_per_second": 0.0016
+   },
+   "by_reader_at_the_cap": {
+    "bin": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0041
+     ],
+     "harm": {
+      "right_words_read": 2379,
+      "right_words_contradicted": 552,
+      "harm_rate": 0.232,
+      "wrong_words_read": 433,
+      "wrong_words_fixed": 106,
+      "change_precision": 0.1218,
+      "net100": -37.3
+     }
+    },
+    "clahe": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0034
+     ],
+     "harm": {
+      "right_words_read": 2401,
+      "right_words_contradicted": 261,
+      "harm_rate": 0.1087,
+      "wrong_words_read": 461,
+      "wrong_words_fixed": 102,
+      "change_precision": 0.1917,
+      "net100": -13.3
+     }
+    },
+    "latin": {
+     "gain": 0.0054,
+     "gain_ci95": [
+      0.0018,
+      0.0085
+     ],
+     "harm": {
+      "right_words_read": 2457,
+      "right_words_contradicted": 132,
+      "harm_rate": 0.0537,
+      "wrong_words_read": 485,
+      "wrong_words_fixed": 206,
+      "change_precision": 0.4355,
+      "net100": 6.2
+     }
+    },
+    "wide": {
+     "gain": 0.002,
+     "gain_ci95": [
+      0.0,
+      0.0046
+     ],
+     "harm": {
+      "right_words_read": 2470,
+      "right_words_contradicted": 119,
+      "harm_rate": 0.0482,
+      "wrong_words_read": 497,
+      "wrong_words_fixed": 116,
+      "change_precision": 0.3213,
+      "net100": -0.3
+     }
+    }
+   }
+  }
+ },
+ "wrong_components": 1361,
+ "wrong_weight": 1486.0,
+ "plain_wrong_pairs": 1052,
+ "choice": {
+  "options": [
+   {
+    "cell": "L",
+    "budget": 4,
+    "gain": 0.0047,
+    "mean_s": 1.12,
+    "p95_s": 1.842,
+    "rss_mb": 1043.0,
+    "infeasible": []
+   },
+   {
+    "cell": "L",
+    "budget": 8,
+    "gain": 0.0081,
+    "mean_s": 2.019,
+    "p95_s": 3.465,
+    "rss_mb": 1043.0,
+    "infeasible": [
+     "mean_seconds_over_R6"
+    ]
+   },
+   {
+    "cell": "L",
+    "budget": 16,
+    "gain": 0.0175,
+    "mean_s": 2.86,
+    "p95_s": 4.778,
+    "rss_mb": 1043.0,
+    "infeasible": [
+     "mean_seconds_over_R6",
+     "p95_seconds_over_R6"
+    ]
+   },
+   {
+    "cell": "Z",
+    "budget": 5,
+    "gain": 0.0007,
+    "mean_s": 0.793,
+    "p95_s": 1.044,
+    "rss_mb": 808.0,
+    "infeasible": []
+   },
+   {
+    "cell": "Z",
+    "budget": 10,
+    "gain": 0.0013,
+    "mean_s": 1.269,
+    "p95_s": 1.829,
+    "rss_mb": 808.0,
+    "infeasible": []
+   },
+   {
+    "cell": "Z",
+    "budget": 20,
+    "gain": 0.0013,
+    "mean_s": 1.645,
+    "p95_s": 2.791,
+    "rss_mb": 808.0,
+    "infeasible": [
+     "mean_seconds_over_R6"
+    ]
+   },
+   {
+    "cell": "Z",
+    "budget": 40,
+    "gain": 0.0034,
+    "mean_s": 2.192,
+    "p95_s": 4.955,
+    "rss_mb": 808.0,
+    "infeasible": [
+     "mean_seconds_over_R6",
+     "p95_seconds_over_R6"
+    ]
+   },
+   {
+    "cell": "LD",
+    "budget": 4,
+    "gain": 0.0013,
+    "mean_s": 1.297,
+    "p95_s": 2.004,
+    "rss_mb": 1034.0,
+    "infeasible": []
+   },
+   {
+    "cell": "LD",
+    "budget": 8,
+    "gain": 0.0027,
+    "mean_s": 2.294,
+    "p95_s": 3.797,
+    "rss_mb": 1034.0,
+    "infeasible": [
+     "mean_seconds_over_R6",
+     "p95_seconds_over_R6"
+    ]
+   },
+   {
+    "cell": "LD",
+    "budget": 16,
+    "gain": 0.0074,
+    "mean_s": 3.435,
+    "p95_s": 6.001,
+    "rss_mb": 1034.0,
+    "infeasible": [
+     "mean_seconds_over_R6",
+     "p95_seconds_over_R6"
+    ]
+   },
+   {
+    "cell": "ZC",
+    "budget": 5,
+    "gain": 0.0,
+    "mean_s": 0.602,
+    "p95_s": 0.768,
+    "rss_mb": 707.0,
+    "infeasible": []
+   },
+   {
+    "cell": "ZC",
+    "budget": 10,
+    "gain": 0.002,
+    "mean_s": 0.896,
+    "p95_s": 1.357,
+    "rss_mb": 707.0,
+    "infeasible": []
+   },
+   {
+    "cell": "ZC",
+    "budget": 20,
+    "gain": 0.002,
+    "mean_s": 1.218,
+    "p95_s": 2.045,
+    "rss_mb": 707.0,
+    "infeasible": []
+   },
+   {
+    "cell": "ZC",
+    "budget": 40,
+    "gain": 0.0061,
+    "mean_s": 1.561,
+    "p95_s": 3.343,
+    "rss_mb": 707.0,
+    "infeasible": []
+   }
+  ],
+  "caps": {
+   "L": 4,
+   "Z": 10,
+   "LD": 4,
+   "ZC": 40
+  },
+  "difference_first_minus_second": {
+   "first": "ZC",
+   "second": "L",
+   "value": 0.0013,
+   "low": -0.0019,
+   "high": 0.0054,
+   "se": 0.0019,
+   "excludes_zero": false
+  },
+  "decision": "choice",
+  "cell": "L",
+  "budget": 4,
+  "reason": "gains not told apart (the interval includes zero); the cheaper in seconds a page"
+ },
+ "gate_p": {
+  "option": "chosen",
+  "cell": "L",
+  "budget": 4,
+  "n_plain_wrong_words": 1052,
+  "recall_with_readings": 0.8232,
+  "recall_ci95": [
+   0.7296,
+   0.9454
+  ],
+  "base": 0.8165,
+  "decision": "between_80_and_85",
+  "action": "raise the candidate cap from 16 to 20 and repeat the pool recall; stop only if it stays under 80 %",
+  "unreached_plain_wrong_words_by_cause": {
+   "within_3_edits_but_no_source_found_it": 99,
+   "farther_than_3_edits": 59,
+   "truth_outside_the_dictionary": 28
+  },
+  "base_unreached_by_cause": {
+   "within_3_edits_but_no_source_found_it": 105,
+   "farther_than_3_edits": 59,
+   "truth_outside_the_dictionary": 29
+  }
+ },
+ "choice_pilot_costs": {
+  "options": [
+   {
+    "cell": "L",
+    "budget": 4,
+    "gain": 0.0047,
+    "mean_s": 0.7035447351862564,
+    "p95_s": 1.0889708503233841,
+    "rss_mb": 1380.0,
+    "infeasible": []
+   },
+   {
+    "cell": "L",
+    "budget": 8,
+    "gain": 0.0081,
+    "mean_s": 1.3374613218759734,
+    "p95_s": 2.125894718627012,
+    "rss_mb": 1380.0,
+    "infeasible": []
+   },
+   {
+    "cell": "L",
+    "budget": 16,
+    "gain": 0.0175,
+    "mean_s": 2.254,
+    "p95_s": 3.958,
+    "rss_mb": 1380.0,
+    "infeasible": [
+     "mean_seconds_over_R6",
+     "p95_seconds_over_R6"
+    ]
+   },
+   {
+    "cell": "Z",
+    "budget": 5,
+    "gain": 0.0007,
+    "mean_s": 0.3633113470123849,
+    "p95_s": 0.503654039344997,
+    "rss_mb": 770.0,
+    "infeasible": []
+   },
+   {
+    "cell": "Z",
+    "budget": 10,
+    "gain": 0.0013,
+    "mean_s": 0.6613185800007021,
+    "p95_s": 0.8886836649432553,
+    "rss_mb": 770.0,
+    "infeasible": []
+   },
+   {
+    "cell": "Z",
+    "budget": 20,
+    "gain": 0.0013,
+    "mean_s": 1.0843939945239989,
+    "p95_s": 1.6950261841115355,
+    "rss_mb": 770.0,
+    "infeasible": []
+   },
+   {
+    "cell": "Z",
+    "budget": 40,
+    "gain": 0.0034,
+    "mean_s": 1.557,
+    "p95_s": 3.269,
+    "rss_mb": 770.0,
+    "infeasible": []
+   },
+   {
+    "cell": "LD",
+    "budget": 4,
+    "gain": 0.0013,
+    "mean_s": 0.8116789431916835,
+    "p95_s": 1.2612936567891606,
+    "rss_mb": 1214.0,
+    "infeasible": []
+   },
+   {
+    "cell": "LD",
+    "budget": 8,
+    "gain": 0.0027,
+    "mean_s": 1.5536958480465224,
+    "p95_s": 2.4386472243883413,
+    "rss_mb": 1214.0,
+    "infeasible": []
+   },
+   {
+    "cell": "LD",
+    "budget": 16,
+    "gain": 0.0074,
+    "mean_s": 2.624,
+    "p95_s": 4.59,
+    "rss_mb": 1214.0,
+    "infeasible": [
+     "mean_seconds_over_R6",
+     "p95_seconds_over_R6"
+    ]
+   },
+   {
+    "cell": "ZC",
+    "budget": 5,
+    "gain": 0.0,
+    "mean_s": 0.29706767001226675,
+    "p95_s": 0.41245999855421756,
+    "rss_mb": 715.0,
+    "infeasible": []
+   },
+   {
+    "cell": "ZC",
+    "budget": 10,
+    "gain": 0.002,
+    "mean_s": 0.5415634668981242,
+    "p95_s": 0.7332356431174588,
+    "rss_mb": 715.0,
+    "infeasible": []
+   },
+   {
+    "cell": "ZC",
+    "budget": 20,
+    "gain": 0.002,
+    "mean_s": 0.8865144732122026,
+    "p95_s": 1.4052061209485032,
+    "rss_mb": 715.0,
+    "infeasible": []
+   },
+   {
+    "cell": "ZC",
+    "budget": 40,
+    "gain": 0.0061,
+    "mean_s": 1.271,
+    "p95_s": 2.66,
+    "rss_mb": 715.0,
+    "infeasible": []
+   }
+  ],
+  "caps": {
+   "L": 8,
+   "Z": 40,
+   "LD": 8,
+   "ZC": 40
+  },
+  "difference_first_minus_second": {
+   "first": "L",
+   "second": "ZC",
+   "value": 0.002,
+   "low": -0.0028,
+   "high": 0.0053,
+   "se": 0.0021,
+   "excludes_zero": false
+  },
+  "decision": "choice",
+  "cell": "ZC",
+  "budget": 40,
+  "reason": "gains not told apart (the interval includes zero); the cheaper in seconds a page"
+ },
+ "gate_p_pilot_costs": {
+  "option": "chosen",
+  "cell": "ZC",
+  "budget": 40,
+  "n_plain_wrong_words": 1052,
+  "recall_with_readings": 0.8251,
+  "recall_ci95": [
+   0.7318,
+   0.9498
+  ],
+  "base": 0.8165,
+  "decision": "between_80_and_85",
+  "action": "raise the candidate cap from 16 to 20 and repeat the pool recall; stop only if it stays under 80 %"
+ },
+ "readers_ablation": {
+  "line": {
+   "latin": {
+    "4": {
+     "gain": 0.0027,
+     "gain_ci95": [
+      0.0008,
+      0.0042
+     ],
+     "plain_recall": 0.8203,
+     "harm_rate": 0.0301,
+     "net100": 3.8,
+     "estimated_seconds": {
+      "mean_s": 0.17634622641509434,
+      "p95_s": 0.3326405660377359,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "8": {
+     "gain": 0.0047,
+     "gain_ci95": [
+      0.0013,
+      0.0067
+     ],
+     "plain_recall": 0.8232,
+     "harm_rate": 0.0289,
+     "net100": 5.0,
+     "estimated_seconds": {
+      "mean_s": 0.3119971698113208,
+      "p95_s": 0.588517924528302,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "16": {
+     "gain": 0.0114,
+     "gain_ci95": [
+      0.003,
+      0.0164
+     ],
+     "plain_recall": 0.8327,
+     "harm_rate": 0.0286,
+     "net100": 7.2,
+     "estimated_seconds": {
+      "mean_s": 0.4793,
+      "p95_s": 0.9041,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    }
+   },
+   "latin+wide": {
+    "4": {
+     "gain": 0.0047,
+     "gain_ci95": [
+      0.0015,
+      0.0065
+     ],
+     "plain_recall": 0.8232,
+     "harm_rate": 0.0443,
+     "net100": 3.6,
+     "estimated_seconds": {
+      "mean_s": 0.4850349056603774,
+      "p95_s": 0.8942405660377358,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "8": {
+     "gain": 0.0074,
+     "gain_ci95": [
+      0.0024,
+      0.0103
+     ],
+     "plain_recall": 0.827,
+     "harm_rate": 0.0416,
+     "net100": 3.8,
+     "estimated_seconds": {
+      "mean_s": 0.8581386792452831,
+      "p95_s": 1.582117924528302,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "16": {
+     "gain": 0.0162,
+     "gain_ci95": [
+      0.0045,
+      0.0228
+     ],
+     "plain_recall": 0.8394,
+     "harm_rate": 0.0407,
+     "net100": 5.8,
+     "estimated_seconds": {
+      "mean_s": 1.3183,
+      "p95_s": 2.4305,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    }
+   },
+   "latin+wide+clahe": {
+    "4": {
+     "gain": 0.0047,
+     "gain_ci95": [
+      0.0015,
+      0.0065
+     ],
+     "plain_recall": 0.8232,
+     "harm_rate": 0.0728,
+     "net100": -0.2,
+     "estimated_seconds": {
+      "mean_s": 0.7991320754716981,
+      "p95_s": 1.485237735849057,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "8": {
+     "gain": 0.0074,
+     "gain_ci95": [
+      0.0024,
+      0.0103
+     ],
+     "plain_recall": 0.827,
+     "harm_rate": 0.072,
+     "net100": -3.9,
+     "estimated_seconds": {
+      "mean_s": 1.4138490566037736,
+      "p95_s": 2.627728301886793,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "16": {
+     "gain": 0.0162,
+     "gain_ci95": [
+      0.0045,
+      0.0228
+     ],
+     "plain_recall": 0.8394,
+     "harm_rate": 0.0715,
+     "net100": -7.9,
+     "estimated_seconds": {
+      "mean_s": 2.1719999999999997,
+      "p95_s": 4.0368,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    }
+   },
+   "all_cheap": {
+    "4": {
+     "gain": 0.0047,
+     "gain_ci95": [
+      0.0015,
+      0.0065
+     ],
+     "plain_recall": 0.8232,
+     "harm_rate": 0.1769,
+     "net100": -15.1,
+     "estimated_seconds": {
+      "mean_s": 1.120477358490566,
+      "p95_s": 2.07487358490566,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "8": {
+     "gain": 0.0081,
+     "gain_ci95": [
+      0.0034,
+      0.0108
+     ],
+     "plain_recall": 0.8279,
+     "harm_rate": 0.177,
+     "net100": -33.2,
+     "estimated_seconds": {
+      "mean_s": 1.9823830188679248,
+      "p95_s": 3.6709301886792454,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    },
+    "16": {
+     "gain": 0.0175,
+     "gain_ci95": [
+      0.0054,
+      0.0246
+     ],
+     "plain_recall": 0.8413,
+     "harm_rate": 0.1779,
+     "net100": -58.8,
+     "estimated_seconds": {
+      "mean_s": 3.0454,
+      "p95_s": 5.639399999999999,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    }
+   },
+   "deep": {
+    "4": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0034
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.0312,
+     "net100": 2.4,
+     "estimated_seconds": {
+      "mean_s": 0.7790433962264152,
+      "p95_s": 1.404772641509434,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "8": {
+     "gain": 0.0027,
+     "gain_ci95": [
+      0.0005,
+      0.0059
+     ],
+     "plain_recall": 0.8203,
+     "harm_rate": 0.0286,
+     "net100": 3.6,
+     "estimated_seconds": {
+      "mean_s": 1.3783075471698114,
+      "p95_s": 2.4853669811320755,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "16": {
+     "gain": 0.0074,
+     "gain_ci95": [
+      0.0031,
+      0.0124
+     ],
+     "plain_recall": 0.827,
+     "harm_rate": 0.0288,
+     "net100": 4.3,
+     "estimated_seconds": {
+      "mean_s": 2.1174,
+      "p95_s": 3.8181,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    }
+   },
+   "latin+wide+deep": {
+    "4": {
+     "gain": 0.0047,
+     "gain_ci95": [
+      0.0015,
+      0.0065
+     ],
+     "plain_recall": 0.8232,
+     "harm_rate": 0.0689,
+     "net100": 1.8,
+     "estimated_seconds": {
+      "mean_s": 1.2640783018867925,
+      "p95_s": 2.29901320754717,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "8": {
+     "gain": 0.0087,
+     "gain_ci95": [
+      0.0035,
+      0.0117
+     ],
+     "plain_recall": 0.8289,
+     "harm_rate": 0.0608,
+     "net100": 2.0,
+     "estimated_seconds": {
+      "mean_s": 2.2364462264150946,
+      "p95_s": 4.067484905660377,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    },
+    "16": {
+     "gain": 0.0195,
+     "gain_ci95": [
+      0.0082,
+      0.0258
+     ],
+     "plain_recall": 0.8441,
+     "harm_rate": 0.0601,
+     "net100": 1.8,
+     "estimated_seconds": {
+      "mean_s": 3.4356999999999998,
+      "p95_s": 6.2486,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    }
+   },
+   "all_cheap+deep": {
+    "4": {
+     "gain": 0.0047,
+     "gain_ci95": [
+      0.0015,
+      0.0065
+     ],
+     "plain_recall": 0.8232,
+     "harm_rate": 0.192,
+     "net100": -16.0,
+     "estimated_seconds": {
+      "mean_s": 1.8995207547169815,
+      "p95_s": 3.4796462264150945,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    },
+    "8": {
+     "gain": 0.0087,
+     "gain_ci95": [
+      0.0035,
+      0.0117
+     ],
+     "plain_recall": 0.8289,
+     "harm_rate": 0.1862,
+     "net100": -33.0,
+     "estimated_seconds": {
+      "mean_s": 3.3606905660377366,
+      "p95_s": 6.156297169811321,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    },
+    "16": {
+     "gain": 0.0202,
+     "gain_ci95": [
+      0.0082,
+      0.0271
+     ],
+     "plain_recall": 0.8451,
+     "harm_rate": 0.1872,
+     "net100": -59.4,
+     "estimated_seconds": {
+      "mean_s": 5.162800000000001,
+      "p95_s": 9.4575,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    }
+   }
+  },
+  "zone": {
+   "latin": {
+    "10": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0027
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.0498,
+     "net100": 3.4,
+     "estimated_seconds": {
+      "mean_s": 0.17323797468354427,
+      "p95_s": 0.3671316455696202,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "20": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0027
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.0526,
+     "net100": 4.5,
+     "estimated_seconds": {
+      "mean_s": 0.25563164556962026,
+      "p95_s": 0.5417430379746836,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "40": {
+     "gain": 0.0054,
+     "gain_ci95": [
+      0.0018,
+      0.0085
+     ],
+     "plain_recall": 0.8241,
+     "harm_rate": 0.0537,
+     "net100": 6.2,
+     "estimated_seconds": {
+      "mean_s": 0.3338,
+      "p95_s": 0.7074,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    }
+   },
+   "latin+wide": {
+    "10": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0027
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.0756,
+     "net100": 2.9,
+     "estimated_seconds": {
+      "mean_s": 0.4646493670886075,
+      "p95_s": 1.0222493670886073,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "20": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0027
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.0819,
+     "net100": 3.1,
+     "estimated_seconds": {
+      "mean_s": 0.6856411392405063,
+      "p95_s": 1.5084411392405064,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "40": {
+     "gain": 0.0054,
+     "gain_ci95": [
+      0.0018,
+      0.0085
+     ],
+     "plain_recall": 0.8241,
+     "harm_rate": 0.0846,
+     "net100": 2.8,
+     "estimated_seconds": {
+      "mean_s": 0.8953,
+      "p95_s": 1.9697,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    }
+   },
+   "latin+wide+clahe": {
+    "10": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0027
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.1304,
+     "net100": -0.6,
+     "estimated_seconds": {
+      "mean_s": 0.7835670886075947,
+      "p95_s": 1.6628354430379741,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "20": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0027
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.1375,
+     "net100": -3.2,
+     "estimated_seconds": {
+      "mean_s": 1.156239240506329,
+      "p95_s": 2.453696202531645,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "40": {
+     "gain": 0.0054,
+     "gain_ci95": [
+      0.0018,
+      0.0085
+     ],
+     "plain_recall": 0.8241,
+     "harm_rate": 0.1473,
+     "net100": -8.6,
+     "estimated_seconds": {
+      "mean_s": 1.5098,
+      "p95_s": 3.2039999999999997,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    }
+   },
+   "all_cheap": {
+    "10": {
+     "gain": 0.002,
+     "gain_ci95": [
+      0.0,
+      0.0043
+     ],
+     "plain_recall": 0.8194,
+     "harm_rate": 0.2526,
+     "net100": -9.4,
+     "estimated_seconds": {
+      "mean_s": 1.1011873417721518,
+      "p95_s": 2.3852139240506323,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "20": {
+     "gain": 0.002,
+     "gain_ci95": [
+      0.0,
+      0.0043
+     ],
+     "plain_recall": 0.8194,
+     "harm_rate": 0.2699,
+     "net100": -20.2,
+     "estimated_seconds": {
+      "mean_s": 1.6249227848101269,
+      "p95_s": 3.5196449367088603,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    },
+    "40": {
+     "gain": 0.0061,
+     "gain_ci95": [
+      0.0024,
+      0.0096
+     ],
+     "plain_recall": 0.8251,
+     "harm_rate": 0.2905,
+     "net100": -37.0,
+     "estimated_seconds": {
+      "mean_s": 2.1218000000000004,
+      "p95_s": 4.595899999999999,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    }
+   },
+   "deep": {
+    "10": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0039
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.0285,
+     "net100": 6.3,
+     "estimated_seconds": {
+      "mean_s": 0.7473417721518986,
+      "p95_s": 1.5934987341772147,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "20": {
+     "gain": 0.0013,
+     "gain_ci95": [
+      0.0,
+      0.0039
+     ],
+     "plain_recall": 0.8184,
+     "harm_rate": 0.0357,
+     "net100": 9.2,
+     "estimated_seconds": {
+      "mean_s": 1.1027848101265822,
+      "p95_s": 2.3513822784810126,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "40": {
+     "gain": 0.0034,
+     "gain_ci95": [
+      0.0,
+      0.0079
+     ],
+     "plain_recall": 0.8213,
+     "harm_rate": 0.0392,
+     "net100": 11.6,
+     "estimated_seconds": {
+      "mean_s": 1.44,
+      "p95_s": 3.0704,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    }
+   },
+   "latin+wide+deep": {
+    "10": {
+     "gain": 0.0027,
+     "gain_ci95": [
+      0.0,
+      0.0061
+     ],
+     "plain_recall": 0.8203,
+     "harm_rate": 0.09,
+     "net100": 4.2,
+     "estimated_seconds": {
+      "mean_s": 1.211991139240506,
+      "p95_s": 2.615748101265822,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": true
+    },
+    "20": {
+     "gain": 0.0027,
+     "gain_ci95": [
+      0.0,
+      0.0061
+     ],
+     "plain_recall": 0.8203,
+     "harm_rate": 0.0983,
+     "net100": 4.6,
+     "estimated_seconds": {
+      "mean_s": 1.7884259493670887,
+      "p95_s": 3.8598234177215187,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    },
+    "40": {
+     "gain": 0.0067,
+     "gain_ci95": [
+      0.0019,
+      0.012
+     ],
+     "plain_recall": 0.826,
+     "harm_rate": 0.1033,
+     "net100": 4.1,
+     "estimated_seconds": {
+      "mean_s": 2.3353,
+      "p95_s": 5.0401,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    }
+   },
+   "all_cheap+deep": {
+    "10": {
+     "gain": 0.0034,
+     "gain_ci95": [
+      0.0006,
+      0.0072
+     ],
+     "plain_recall": 0.8213,
+     "harm_rate": 0.2596,
+     "net100": -8.6,
+     "estimated_seconds": {
+      "mean_s": 1.8485291139240503,
+      "p95_s": 3.978712658227847,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    },
+    "20": {
+     "gain": 0.0034,
+     "gain_ci95": [
+      0.0006,
+      0.0072
+     ],
+     "plain_recall": 0.8213,
+     "harm_rate": 0.2766,
+     "net100": -19.1,
+     "estimated_seconds": {
+      "mean_s": 2.727707594936709,
+      "p95_s": 5.871027215189873,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    },
+    "40": {
+     "gain": 0.0074,
+     "gain_ci95": [
+      0.0026,
+      0.0129
+     ],
+     "plain_recall": 0.827,
+     "harm_rate": 0.2992,
+     "net100": -35.7,
+     "estimated_seconds": {
+      "mean_s": 3.5618000000000003,
+      "p95_s": 7.6663,
+      "estimate": true,
+      "source": "per_reader",
+      "note": "approximation: sum of the readers alone (an upper bound of a batch) and the p95 scaled by the units of the budget; the batched measure of the chosen set decides R6"
+     },
+     "fits_R6_estimated": false
+    }
+   }
+  }
+ },
+ "seconds": 113.9
+}

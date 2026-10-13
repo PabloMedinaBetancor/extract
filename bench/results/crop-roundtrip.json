@@ -1,0 +1,443 @@
+{
+  "pages": 20,
+  "line": {
+    "units": 157,
+    "round_trip": 131,
+    "share": 0.8344,
+    "context_units": 125,
+    "context_round_trip": 118,
+    "context_share": 0.944
+  },
+  "zone": {
+    "units": 164,
+    "round_trip": 115,
+    "share": 0.7012,
+    "context_units": 126,
+    "context_round_trip": 116,
+    "context_share": 0.9206
+  },
+  "note": "a unit holds words the recogniser doubted, so a second look at them may legitimately read them differently: `share` is the strict round trip of the whole unit, `context_share` the one of its words that were not doubtful",
+  "min_share": 0.95,
+  "failures": [
+    {
+      "page": "scratch/pages/train/c266957b5fb/55.json",
+      "kind": "line",
+      "rank": 0,
+      "first": "en el ámbito de la Norma Zonal \"p\"",
+      "crop": "en el ámbito de la Norma Zonal \"P\""
+    },
+    {
+      "page": "scratch/pages/train/c473fcf7cba/53.json",
+      "kind": "line",
+      "rank": 6,
+      "first": "3,00 metros y la máxima será la establecida en cada típología y uso.",
+      "crop": "3,00 metros y la máxima será la establecida en cada tipología y uso."
+    },
+    {
+      "page": "scratch/pages/train/c473fcf7cba/53.json",
+      "kind": "line",
+      "rank": 10,
+      "first": "+",
+      "crop": "医"
+    },
+    {
+      "page": "scratch/pages/train/c473fcf7cba/53.json",
+      "kind": "zone",
+      "rank": 4,
+      "first": "libre míníma sea",
+      "crop": "libre mínima sea"
+    },
+    {
+      "page": "scratch/pages/train/c473fcf7cba/53.json",
+      "kind": "zone",
+      "rank": 6,
+      "first": "usos resídenciales la",
+      "crop": "usos residenciales la"
+    },
+    {
+      "page": "scratch/pages/train/c473fcf7cba/53.json",
+      "kind": "zone",
+      "rank": 7,
+      "first": "se determína por",
+      "crop": "se determina por"
+    },
+    {
+      "page": "scratch/pages/train/c473fcf7cba/53.json",
+      "kind": "zone",
+      "rank": 13,
+      "first": "la máxima será",
+      "crop": "la máxima será l"
+    },
+    {
+      "page": "scratch/pages/train/c70bb57504e/4.json",
+      "kind": "line",
+      "rank": 0,
+      "first": "Ans s Ss s s les",
+      "crop": ""
+    },
+    {
+      "page": "scratch/pages/train/c70bb57504e/4.json",
+      "kind": "line",
+      "rank": 1,
+      "first": "Modificación en los ámbitos de las Sistemas Generales SG-09 y SG-31 Septiembre de 2018",
+      "crop": "Modificióo en las ibitas la istairas Senerals G-09s Septieabars de 2018"
+    },
+    {
+      "page": "scratch/pages/train/c70bb57504e/4.json",
+      "kind": "zone",
+      "rank": 0,
+      "first": "Ans s Ss",
+      "crop": "20"
+    },
+    {
+      "page": "scratch/pages/train/c70bb57504e/4.json",
+      "kind": "zone",
+      "rank": 1,
+      "first": "s s les",
+      "crop": "201"
+    },
+    {
+      "page": "scratch/pages/train/c70bb57504e/4.json",
+      "kind": "zone",
+      "rank": 7,
+      "first": "y SG-31 Septiembre",
+      "crop": "y SG-3Septiembre"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "line",
+      "rank": 7,
+      "first": "E",
+      "crop": "窗"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "line",
+      "rank": 9,
+      "first": "2.1.2. Indice de frecuencia e índice de gravedad.",
+      "crop": "2.1.2. Indice de frecuencia e indice de gravedad."
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "line",
+      "rank": 15,
+      "first": "Se calcularán los indices de frecuencia y gravedad de incendios según los datos de",
+      "crop": "Se calcularán los índices de frecuencia y gravedad de incendios según los datos de"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 1,
+      "first": "los incendioş ocurridos",
+      "crop": "los incendioş ocurridos e"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 2,
+      "first": "E",
+      "crop": "窗"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 4,
+      "first": "e índice de",
+      "crop": "e indice de"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 7,
+      "first": "información posible",
+      "crop": "información posible a"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 9,
+      "first": "la tipología de",
+      "crop": "la tipología de l"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 10,
+      "first": "entomo asi como",
+      "crop": "entomo así como i"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 11,
+      "first": "la ZARi. De",
+      "crop": "la ZARI. De"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 13,
+      "first": "los indices de",
+      "crop": "n los indices de"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 14,
+      "first": "mas agricolas, actividades industriales, etc.),",
+      "crop": "mas agricolas, actividades industriales, etc.), d"
+    },
+    {
+      "page": "scratch/pages/train/c913b66df2a/5.json",
+      "kind": "zone",
+      "rank": 15,
+      "first": "Se recógerá mediante",
+      "crop": "Se recogerá mediante"
+    },
+    {
+      "page": "scratch/pages/train/c9dd9580ef5/15.json",
+      "kind": "line",
+      "rank": 0,
+      "first": "Monumento Natural dè Montaña Cardón",
+      "crop": "Monumento Natural de Montaña Cardón"
+    },
+    {
+      "page": "scratch/pages/train/c9dd9580ef5/15.json",
+      "kind": "line",
+      "rank": 2,
+      "first": "categorias de Sueló Rústico de Protección Ambiental.",
+      "crop": "categorías de Sueló Rústico de Protección Ambiental.."
+    },
+    {
+      "page": "scratch/pages/train/c9dd9580ef5/15.json",
+      "kind": "line",
+      "rank": 13,
+      "first": "4",
+      "crop": "X"
+    },
+    {
+      "page": "scratch/pages/train/c9dd9580ef5/15.json",
+      "kind": "zone",
+      "rank": 3,
+      "first": "explotación *de las",
+      "crop": "explotación  de las"
+    },
+    {
+      "page": "scratch/pages/train/c9dd9580ef5/15.json",
+      "kind": "zone",
+      "rank": 4,
+      "first": "el artículo 55.p.5 del",
+      "crop": "n el artículo 55.p.5 del"
+    },
+    {
+      "page": "scratch/pages/train/c9dd9580ef5/15.json",
+      "kind": "zone",
+      "rank": 5,
+      "first": "Rústico de Protección Ambiental.",
+      "crop": "Rústico de Protección Ambiental.."
+    },
+    {
+      "page": "scratch/pages/train/c9dd9580ef5/15.json",
+      "kind": "zone",
+      "rank": 7,
+      "first": "categorias de Sueló",
+      "crop": "categorías de Sueló"
+    },
+    {
+      "page": "scratch/pages/train/ca7e55bf78c/80.json",
+      "kind": "zone",
+      "rank": 2,
+      "first": "instrumentos de",
+      "crop": "instrumentos de p"
+    },
+    {
+      "page": "scratch/pages/train/cac22f89225/20.json",
+      "kind": "line",
+      "rank": 1,
+      "first": "ctorizad OrdenadpReside",
+      "crop": "ctorizadOrdenadpResiae"
+    },
+    {
+      "page": "scratch/pages/train/cac22f89225/20.json",
+      "kind": "line",
+      "rank": 12,
+      "first": "P.K.54T40",
+      "crop": " P.K.54140"
+    },
+    {
+      "page": "scratch/pages/train/cac22f89225/20.json",
+      "kind": "zone",
+      "rank": 1,
+      "first": "ctorizad OrdenadpReside",
+      "crop": "ctorizado Ordenadp Resiae"
+    },
+    {
+      "page": "scratch/pages/train/cac22f89225/20.json",
+      "kind": "zone",
+      "rank": 5,
+      "first": "R-5 \"SARDINA NORTE\"",
+      "crop": "0 R-5 \"SARDINA NORTE\""
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "line",
+      "rank": 2,
+      "first": "Comprobaci0n CSV: mps:/semvicos. guiadeisra.es/pubko0oumemta/DA7532F3561F5839111884A75D54DC7C",
+      "crop": "Comprobaci0n CSV: mps:/semvicos. guiadeisra.es/pubko0ooumemta/DA7532F3561F5839111884A75D54DC7C"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "line",
+      "rank": 5,
+      "first": "cœoncursos, sociedades y entidades en general, cuando por n’egligencia o mala fe no",
+      "crop": "concursos, sociedades y entidades en general, cuando por n’egligencia o mala fe no"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "line",
+      "rank": 8,
+      "first": "ILUSTRE AYUNTAMIENTO DE GUÍA DE ISORA",
+      "crop": "LUSTRE AYUNTAMIENTO DE GUÍA DE ISORA"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "line",
+      "rank": 11,
+      "first": "Artículo 5. RESPONSABLES",
+      "crop": "Articulo 5. RESPONSABLES"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "zone",
+      "rank": 0,
+      "first": "Comprobaci0n CSV: mps:/semvicos. guiadeisra.es/pubko0oumemta/DA7532F3561F5839111884A75D54DC7C",
+      "crop": "Comprobaci0n CSV: mps:/semvicos. guiadeisra.es/pubko0ooumemta/DA7532F3561F5839111884A75D54DC7C"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "zone",
+      "rank": 2,
+      "first": "de Vesficación (CSV): DA7532F3561F5B39118B4A75D54DC7C",
+      "crop": " de Vesficación (CSV): DA7532F3561F5B3911884A75D54DC7C"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "zone",
+      "rank": 3,
+      "first": "os respectivos",
+      "crop": "bs respectivos"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "zone",
+      "rank": 12,
+      "first": "por n’egligencia o",
+      "crop": "por negligencia o"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "zone",
+      "rank": 13,
+      "first": "cœoncursos, sociedades",
+      "crop": "concursos, sociedades"
+    },
+    {
+      "page": "scratch/pages/train/cb81ffe0d4e/2.json",
+      "kind": "zone",
+      "rank": 14,
+      "first": "los síndicos, interventores",
+      "crop": "los sindicos, interventores"
+    },
+    {
+      "page": "scratch/pages/train/cb838e58f00/1.json",
+      "kind": "line",
+      "rank": 5,
+      "first": "Da. [name removed] (Ponente)",
+      "crop": "Dª. [name removed] (Ponente)"
+    },
+    {
+      "page": "scratch/pages/train/cb838e58f00/1.json",
+      "kind": "zone",
+      "rank": 3,
+      "first": "sEGUNDo.- Las",
+      "crop": "SEGUNDO.- Las"
+    },
+    {
+      "page": "scratch/pages/train/cb838e58f00/1.json",
+      "kind": "zone",
+      "rank": 7,
+      "first": "Dª. MARÍA",
+      "crop": "Da. MARÍA"
+    },
+    {
+      "page": "scratch/pages/train/cb838e58f00/1.json",
+      "kind": "zone",
+      "rank": 8,
+      "first": "Agustín Nº 6",
+      "crop": "Agustín N° 6L"
+    },
+    {
+      "page": "scratch/pages/train/cc018bb6134/3.json",
+      "kind": "line",
+      "rank": 0,
+      "first": "de las Painas de Gran Caaria SA.",
+      "crop": "de Las Palmas de Gran Canaria, S.A."
+    },
+    {
+      "page": "scratch/pages/train/cc018bb6134/3.json",
+      "kind": "line",
+      "rank": 2,
+      "first": "caso que se llegaran a afectar a las zonas de servidumbre de protección de la carretera GÇ-23 y",
+      "crop": "caso que se llegaran a afectar a las zonas de servidumbre de protección de la carretera Gç-23 y"
+    },
+    {
+      "page": "scratch/pages/train/cc018bb6134/3.json",
+      "kind": "line",
+      "rank": 6,
+      "first": "Artículo 4. Afección.",
+      "crop": "Articulo 4. Afección."
+    },
+    {
+      "page": "scratch/pages/train/cc018bb6134/3.json",
+      "kind": "zone",
+      "rank": 0,
+      "first": "Seciedad Manicipal de Gestión Urbanistica",
+      "crop": "Seciedad Menicipal de Gestión Urbanistica"
+    },
+    {
+      "page": "scratch/pages/train/cc018bb6134/3.json",
+      "kind": "zone",
+      "rank": 1,
+      "first": "Gran Caaria SA.",
+      "crop": "Gran Canaria, S.A."
+    },
+    {
+      "page": "scratch/pages/train/cc018bb6134/3.json",
+      "kind": "zone",
+      "rank": 2,
+      "first": "de las Painas de",
+      "crop": "de Las Palmas de G"
+    },
+    {
+      "page": "scratch/pages/train/cc018bb6134/3.json",
+      "kind": "zone",
+      "rank": 7,
+      "first": "Artículo 4.",
+      "crop": "Artículo 4. A"
+    },
+    {
+      "page": "scratch/pages/train/cd340e54c6a/1.json",
+      "kind": "line",
+      "rank": 3,
+      "first": "A DERECHO. (...)\"",
+      "crop": "A DERECHO.(...)\""
+    },
+    {
+      "page": "scratch/pages/train/cd340e54c6a/1.json",
+      "kind": "zone",
+      "rank": 3,
+      "first": "DERECHO. (...)\"",
+      "crop": "DERECHO.(...)\""
+    }
+  ]
+}

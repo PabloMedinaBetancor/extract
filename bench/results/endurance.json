@@ -1,0 +1,255 @@
+{
+ "runs": [
+  {
+   "pages": 403,
+   "recycles": 3,
+   "workers": 4,
+   "seconds_per_page_by_window_of_100": [
+    4.636,
+    4.837,
+    4.045
+   ],
+   "peak_rss_mb_by_worker": {
+    "100168": 1799,
+    "108564": 1749,
+    "113697": 2012,
+    "131196": 1582
+   },
+   "slowdown": 0.898,
+   "passed": false,
+   "workers_over_memory_limit": [
+    100168,
+    108564,
+    113697
+   ],
+   "sets": [
+    "train",
+    "val",
+    "clean"
+   ],
+   "run": "20261002-024732",
+   "wall_seconds": 1824,
+   "recycle_pages": 120,
+   "failed": [],
+   "unaligned_share": 0.0,
+   "unaligned_within_limit": true,
+   "backends": [
+    "openvino"
+   ]
+  },
+  {
+   "pages": 150,
+   "recycles": 2,
+   "workers": 3,
+   "seconds_per_page_by_window_of_100": [
+    0.966
+   ],
+   "peak_rss_mb_by_worker": {
+    "144761": 981,
+    "144995": 996,
+    "145248": 976
+   },
+   "slowdown": null,
+   "passed": false,
+   "workers_over_memory_limit": [],
+   "sets": [
+    "train",
+    "val"
+   ],
+   "run": "20261002-032139",
+   "wall_seconds": 149,
+   "recycle_pages": 50,
+   "failed": [],
+   "unaligned_share": 0.0,
+   "unaligned_within_limit": true,
+   "backends": [
+    "openvino"
+   ]
+  },
+  {
+   "pages": 403,
+   "recycles": 10,
+   "workers": 11,
+   "seconds_per_page_by_window_of_100": [
+    3.984,
+    4.119,
+    3.706
+   ],
+   "peak_rss_mb_by_worker": {
+    "149352": 1612,
+    "153288": 1626,
+    "153666": 1603,
+    "153967": 1789,
+    "155896": 1602,
+    "156819": 1682,
+    "157025": 1613,
+    "157907": 1683,
+    "158606": 1611,
+    "160202": 1608,
+    "161224": 1160
+   },
+   "slowdown": 0.923,
+   "passed": false,
+   "workers_over_memory_limit": [
+    149352,
+    153288,
+    153666,
+    153967,
+    155896,
+    156819,
+    157025,
+    157907,
+    158606,
+    160202
+   ],
+   "sets": [
+    "train",
+    "val",
+    "clean"
+   ],
+   "run": "20261002-033331",
+   "wall_seconds": 1590,
+   "recycle_pages": 120,
+   "recycled_by": {
+    "rss": 10
+   },
+   "failed": [],
+   "unaligned_share": 0.0,
+   "unaligned_within_limit": true,
+   "backends": [
+    "openvino"
+   ]
+  },
+  {
+   "pages": 325,
+   "recycles": 8,
+   "workers": 9,
+   "seconds_per_page_by_window_of_100": [
+    3.645,
+    3.637
+   ],
+   "peak_rss_mb_by_worker": {
+    "162125": 1525,
+    "165133": 1570,
+    "167014": 1504,
+    "167528": 1556,
+    "167681": 1525,
+    "167851": 1554,
+    "168353": 1842,
+    "168588": 1508,
+    "168903": 1511
+   },
+   "slowdown": null,
+   "passed": false,
+   "workers_over_memory_limit": [
+    168353
+   ],
+   "sets": [
+    "test",
+    "unseen"
+   ],
+   "run": "20261002-040212",
+   "wall_seconds": 1186,
+   "recycle_pages": 120,
+   "recycled_by": {
+    "rss": 8
+   },
+   "failed": [],
+   "unaligned_share": 0.0,
+   "unaligned_within_limit": true,
+   "backends": [
+    "openvino"
+   ]
+  },
+  {
+   "pages": 403,
+   "recycles": 16,
+   "workers": 17,
+   "seconds_per_page_by_window_of_100": [
+    3.61,
+    4.012,
+    3.486
+   ],
+   "peak_rss_mb_by_worker": {
+    "171144": 1405,
+    "171459": 1415,
+    "172032": 1416,
+    "172217": 1424,
+    "172437": 1544,
+    "172919": 1412,
+    "173392": 1490,
+    "173639": 1441,
+    "173871": 1452,
+    "174708": 1440,
+    "175863": 1460,
+    "175981": 1480,
+    "176087": 1445,
+    "178060": 1417,
+    "178878": 1423,
+    "179674": 1401,
+    "180089": 1199
+   },
+   "slowdown": 0.941,
+   "passed": true,
+   "workers_over_memory_limit": [],
+   "sets": [
+    "train",
+    "val",
+    "clean"
+   ],
+   "run": "20261002-042636",
+   "wall_seconds": 1530,
+   "recycle_pages": 120,
+   "recycled_by": {
+    "rss": 16
+   },
+   "failed": [],
+   "unaligned_share": 0.0,
+   "unaligned_within_limit": true,
+   "backends": [
+    "openvino"
+   ]
+  },
+  {
+   "pages": 553,
+   "recycles": 4,
+   "workers": 5,
+   "seconds_per_page_by_window_of_100": [
+    3.05,
+    3.115,
+    2.449,
+    1.311,
+    2.276
+   ],
+   "peak_rss_mb_by_worker": {
+    "608541": 1151,
+    "611178": 1128,
+    "612046": 1228,
+    "612631": 1330,
+    "613168": 1172
+   },
+   "slowdown": 0.784,
+   "passed": true,
+   "workers_over_memory_limit": [],
+   "sets": [
+    "train",
+    "val",
+    "clean"
+   ],
+   "run": "20261002-212335",
+   "wall_seconds": 1384,
+   "recycle_pages": 120,
+   "recycled_by": {
+    "pages": 4
+   },
+   "failed": [],
+   "unaligned_share": 0.0,
+   "unaligned_within_limit": true,
+   "backends": [
+    "openvino"
+   ],
+   "note": "dd135b8 (CPU cache 32), second reading pass 1 on, --no-write"
+  }
+ ],
+ "o9_met": true
+}

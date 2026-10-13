@@ -1,0 +1,4386 @@
+{
+ "schema_version": 2,
+ "source": {
+  "name": "mismatch.pdf",
+  "sha256": "f79ddbc36632c833c2366feff5a6057e3dc6a996a6c88b2745e8ec103baf86c7"
+ },
+ "page_count": 1,
+ "engine": "rapidocr-3.9.2|PP-OCRv6-small|det1280|max3000|score0.3|nocls|v1|alts2",
+ "guard": "doubting-guard",
+ "options": {
+  "languages": [
+   "es",
+   "en"
+  ],
+  "review": "balanced",
+  "correct": "off",
+  "second_reading": false
+ },
+ "fixes": {
+  "mode": "off",
+  "second_reading": false,
+  "thorough": false,
+  "applied": 0,
+  "undone": 0,
+  "by_source": {},
+  "by_op": {},
+  "withheld": [],
+  "second_reading_failed_pages": []
+ },
+ "status": "done",
+ "unreadable_pages": [],
+ "doc_type": "invoice",
+ "locale": "es",
+ "pages": [
+  {
+   "number": 1,
+   "status": "ocr",
+   "reason": null,
+   "error": null,
+   "dpi": 200,
+   "width_px": 1654,
+   "height_px": 2339,
+   "width_pt": 595.2755737304688,
+   "height_pt": 841.8897705078125,
+   "mean_conf": 0.9997448186851027,
+   "unaligned_words": 0,
+   "words": [
+    {
+     "id": "p1w0",
+     "text": "FACTURA",
+     "box_px": [
+      147.0,
+      117.0,
+      425.0,
+      172.0
+     ],
+     "box_pt": [
+      52.90538654073694,
+      42.11248531398635,
+      152.95775020281087,
+      61.908952769279075
+     ],
+     "conf": 0.999887142857143,
+     "char_conf": [
+      0.99992,
+      0.99997,
+      0.99988,
+      0.99995,
+      0.99966,
+      0.99999,
+      0.99984
+     ],
+     "line_id": 0,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w1",
+     "text": "Nº",
+     "box_px": [
+      140.0,
+      247.0,
+      177.0,
+      289.0
+     ],
+     "box_pt": [
+      50.38608241974947,
+      88.90413566286007,
+      63.70240420211183,
+      104.02143808326542
+     ],
+     "conf": 0.99027,
+     "char_conf": [
+      0.99952,
+      0.98102
+     ],
+     "line_id": 1,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w2",
+     "text": "de",
+     "box_px": [
+      182.0,
+      247.0,
+      212.0,
+      289.0
+     ],
+     "box_pt": [
+      65.50190714567431,
+      88.90413566286007,
+      76.29892480704919,
+      104.02143808326542
+     ],
+     "conf": 0.999985,
+     "char_conf": [
+      0.99998,
+      0.99999
+     ],
+     "line_id": 1,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w3",
+     "text": "factura:",
+     "box_px": [
+      224.0,
+      247.0,
+      330.0,
+      289.0
+     ],
+     "box_pt": [
+      80.61773187159915,
+      88.90413566286007,
+      118.76719427512374,
+      104.02143808326542
+     ],
+     "conf": 0.9999587500000002,
+     "char_conf": [
+      0.9999,
+      0.99996,
+      0.99997,
+      1.0,
+      0.99997,
+      0.99999,
+      0.99994,
+      0.99994
+     ],
+     "line_id": 1,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w4",
+     "text": "F-2026-0498",
+     "box_px": [
+      449.0,
+      247.0,
+      634.0,
+      283.0
+     ],
+     "box_pt": [
+      161.5953643319108,
+      88.90413566286007,
+      228.17697324372259,
+      101.86182345177895
+     ],
+     "conf": 0.9999618181818183,
+     "char_conf": [
+      0.9999,
+      1.0,
+      0.99998,
+      0.99984,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99989,
+      1.0,
+      1.0,
+      0.99999
+     ],
+     "line_id": 2,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w5",
+     "text": "Fecha",
+     "box_px": [
+      142.0,
+      294.0,
+      221.0,
+      325.0
+     ],
+     "box_pt": [
+      51.10588359717446,
+      105.82111694283749,
+      79.53803010546166,
+      116.9791258721843
+     ],
+     "conf": 0.999972,
+     "char_conf": [
+      0.99991,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99998
+     ],
+     "line_id": 3,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w6",
+     "text": "de",
+     "box_px": [
+      225.0,
+      294.0,
+      262.0,
+      325.0
+     ],
+     "box_pt": [
+      80.97763246031164,
+      105.82111694283749,
+      94.293954242674,
+      116.9791258721843
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w7",
+     "text": "emisión:",
+     "box_px": [
+      266.0,
+      294.0,
+      382.0,
+      325.0
+     ],
+     "box_pt": [
+      95.73355659752399,
+      105.82111694283749,
+      137.48202488817356,
+      116.9791258721843
+     ],
+     "conf": 0.99989875,
+     "char_conf": [
+      0.99997,
+      0.99991,
+      0.99999,
+      0.99998,
+      0.99997,
+      0.99956,
+      1.0,
+      0.99981
+     ],
+     "line_id": 3,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w8",
+     "text": "20/01/2025",
+     "box_px": [
+      444.0,
+      290.0,
+      612.0,
+      332.0
+     ],
+     "box_pt": [
+      159.7958613883483,
+      104.38137385517983,
+      220.25916029204768,
+      119.4986762755852
+     ],
+     "conf": 0.999991,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      1.0,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99998,
+      1.0,
+      0.99999
+     ],
+     "line_id": 4,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w9",
+     "text": "Emisor",
+     "box_px": [
+      141.0,
+      355.0,
+      225.0,
+      393.0
+     ],
+     "box_pt": [
+      50.74598300846196,
+      127.7771990296167,
+      80.97763246031164,
+      141.4547583623644
+     ],
+     "conf": 0.9999233333333333,
+     "char_conf": [
+      0.99965,
+      0.99996,
+      0.99999,
+      0.99998,
+      0.99998,
+      0.99998
+     ],
+     "line_id": 5,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w10",
+     "text": "Cliente",
+     "box_px": [
+      864.0,
+      355.0,
+      953.0,
+      393.0
+     ],
+     "box_pt": [
+      310.95410864759674,
+      127.7771990296167,
+      342.98526104300885,
+      141.4547583623644
+     ],
+     "conf": 0.9999714285714286,
+     "char_conf": [
+      0.99989,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 6,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w11",
+     "text": "Pelmuda",
+     "box_px": [
+      143.0,
+      387.0,
+      282.0,
+      429.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      139.29514373087792,
+      101.49196601692393,
+      154.41244615128326
+     ],
+     "conf": 0.9967100000000001,
+     "char_conf": [
+      0.9999,
+      0.99998,
+      0.97717,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99996
+     ],
+     "line_id": 7,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w12",
+     "text": "S.A.",
+     "box_px": [
+      290.0,
+      387.0,
+      362.0,
+      429.0
+     ],
+     "box_pt": [
+      104.3711707266239,
+      139.29514373087792,
+      130.28401311392363,
+      154.41244615128326
+     ],
+     "conf": 0.9998775,
+     "char_conf": [
+      0.99962,
+      0.99999,
+      0.99993,
+      0.99997
+     ],
+     "line_id": 7,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w13",
+     "text": "Esquilmar",
+     "box_px": [
+      863.0,
+      391.0,
+      1028.0,
+      428.0
+     ],
+     "box_pt": [
+      310.5942080588842,
+      140.73488681853559,
+      369.97780519644607,
+      154.05251037936887
+     ],
+     "conf": 0.9990933333333333,
+     "char_conf": [
+      0.99944,
+      0.99995,
+      0.99993,
+      0.99995,
+      0.99997,
+      0.99265,
+      0.99998,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 8,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w14",
+     "text": "Orvelia",
+     "box_px": [
+      1042.0,
+      391.0,
+      1151.0,
+      428.0
+     ],
+     "box_pt": [
+      375.016413438421,
+      140.73488681853559,
+      414.2455776080831,
+      154.05251037936887
+     ],
+     "conf": 0.999917142857143,
+     "char_conf": [
+      0.99964,
+      0.99999,
+      0.99999,
+      0.99995,
+      0.99998,
+      0.9999,
+      0.99997
+     ],
+     "line_id": 8,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w15",
+     "text": "Calle",
+     "box_px": [
+      142.0,
+      428.0,
+      205.0,
+      464.0
+     ],
+     "box_pt": [
+      51.10588359717446,
+      154.05251037936887,
+      73.77962068606172,
+      167.01019816828773
+     ],
+     "conf": 0.9999480000000001,
+     "char_conf": [
+      0.99993,
+      0.99998,
+      0.99986,
+      0.99999,
+      0.99998
+     ],
+     "line_id": 9,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w16",
+     "text": "del",
+     "box_px": [
+      214.0,
+      428.0,
+      259.0,
+      464.0
+     ],
+     "box_pt": [
+      77.01872598447419,
+      154.05251037936887,
+      93.21425247653652,
+      167.01019816828773
+     ],
+     "conf": 0.9999133333333333,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      0.99976
+     ],
+     "line_id": 9,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w17",
+     "text": "Río",
+     "box_px": [
+      262.0,
+      428.0,
+      307.0,
+      464.0
+     ],
+     "box_pt": [
+      94.293954242674,
+      154.05251037936887,
+      110.48948073473633,
+      167.01019816828773
+     ],
+     "conf": 0.9999466666666668,
+     "char_conf": [
+      0.99997,
+      0.99992,
+      0.99995
+     ],
+     "line_id": 9,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w18",
+     "text": "Supuesto",
+     "box_px": [
+      310.0,
+      428.0,
+      432.0,
+      464.0
+     ],
+     "box_pt": [
+      111.56918250087382,
+      154.05251037936887,
+      155.47705432379837,
+      167.01019816828773
+     ],
+     "conf": 0.99995375,
+     "char_conf": [
+      0.99984,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99994,
+      0.99996,
+      1.0,
+      0.99993
+     ],
+     "line_id": 9,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w19",
+     "text": "22,",
+     "box_px": [
+      448.0,
+      428.0,
+      492.0,
+      464.0
+     ],
+     "box_pt": [
+      161.2354637431983,
+      154.05251037936887,
+      177.07108964654813,
+      167.01019816828773
+     ],
+     "conf": 0.9987,
+     "char_conf": [
+      0.99997,
+      0.99999,
+      0.99614
+     ],
+     "line_id": 9,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w20",
+     "text": "Ejemplar",
+     "box_px": [
+      496.0,
+      428.0,
+      612.0,
+      464.0
+     ],
+     "box_pt": [
+      178.51069200139813,
+      154.05251037936887,
+      220.25916029204768,
+      167.01019816828773
+     ],
+     "conf": 0.9999450000000001,
+     "char_conf": [
+      0.99969,
+      0.99998,
+      0.99996,
+      0.99997,
+      0.99999,
+      0.99998,
+      0.99999,
+      1.0
+     ],
+     "line_id": 9,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w21",
+     "text": "de",
+     "box_px": [
+      621.0,
+      428.0,
+      654.0,
+      464.0
+     ],
+     "box_pt": [
+      223.49826559046014,
+      154.05251037936887,
+      235.3749850179725,
+      167.01019816828773
+     ],
+     "conf": 0.999985,
+     "char_conf": [
+      0.99999,
+      0.99998
+     ],
+     "line_id": 9,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w22",
+     "text": "Arriba",
+     "box_px": [
+      663.0,
+      428.0,
+      738.0,
+      464.0
+     ],
+     "box_pt": [
+      238.614090316385,
+      154.05251037936887,
+      265.6066344698222,
+      167.01019816828773
+     ],
+     "conf": 0.9999683333333333,
+     "char_conf": [
+      0.99987,
+      0.99998,
+      0.99999,
+      0.99998,
+      1.0,
+      0.99999
+     ],
+     "line_id": 9,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w23",
+     "text": "Paseo",
+     "box_px": [
+      863.0,
+      428.0,
+      936.0,
+      464.0
+     ],
+     "box_pt": [
+      310.5942080588842,
+      154.05251037936887,
+      336.86695103489643,
+      167.01019816828773
+     ],
+     "conf": 0.9999499999999999,
+     "char_conf": [
+      0.99995,
+      0.99999,
+      0.99996,
+      0.99996,
+      0.99989
+     ],
+     "line_id": 10,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w24",
+     "text": "de",
+     "box_px": [
+      952.0,
+      428.0,
+      978.0,
+      464.0
+     ],
+     "box_pt": [
+      342.62536045429636,
+      154.05251037936887,
+      351.98277576082126,
+      167.01019816828773
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999,
+      0.99999
+     ],
+     "line_id": 10,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w25",
+     "text": "la",
+     "box_px": [
+      988.0,
+      428.0,
+      1014.0,
+      464.0
+     ],
+     "box_pt": [
+      355.58178164794623,
+      154.05251037936887,
+      364.93919695447113,
+      167.01019816828773
+     ],
+     "conf": 0.9997149999999999,
+     "char_conf": [
+      0.99947,
+      0.99996
+     ],
+     "line_id": 10,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w26",
+     "text": "Estación",
+     "box_px": [
+      1024.0,
+      428.0,
+      1128.0,
+      464.0
+     ],
+     "box_pt": [
+      368.5382028415961,
+      154.05251037936887,
+      405.9678640676957,
+      167.01019816828773
+     ],
+     "conf": 0.9998212500000001,
+     "char_conf": [
+      0.99897,
+      0.99997,
+      1.0,
+      0.99995,
+      0.99999,
+      0.99998,
+      0.99972,
+      0.99999
+     ],
+     "line_id": 10,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w27",
+     "text": "Falsa",
+     "box_px": [
+      1144.0,
+      428.0,
+      1206.0,
+      464.0
+     ],
+     "box_pt": [
+      411.7262734870956,
+      154.05251037936887,
+      434.0401099872704,
+      167.01019816828773
+     ],
+     "conf": 0.999938,
+     "char_conf": [
+      0.99991,
+      0.99999,
+      0.99982,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 10,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w28",
+     "text": "31,",
+     "box_px": [
+      1222.0,
+      428.0,
+      1266.0,
+      464.0
+     ],
+     "box_pt": [
+      439.7985194066703,
+      154.05251037936887,
+      455.6341453100202,
+      167.01019816828773
+     ],
+     "conf": 0.9992933333333335,
+     "char_conf": [
+      0.99997,
+      0.9998,
+      0.99811
+     ],
+     "line_id": 10,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w29",
+     "text": "San",
+     "box_px": [
+      1270.0,
+      428.0,
+      1314.0,
+      464.0
+     ],
+     "box_pt": [
+      457.07374766487015,
+      154.05251037936887,
+      472.90937356822,
+      167.01019816828773
+     ],
+     "conf": 0.9999500000000001,
+     "char_conf": [
+      0.99989,
+      0.99999,
+      0.99997
+     ],
+     "line_id": 10,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w30",
+     "text": "Nadie",
+     "box_px": [
+      1330.0,
+      428.0,
+      1404.0,
+      464.0
+     ],
+     "box_pt": [
+      478.66778298761994,
+      154.05251037936887,
+      505.3004265523447,
+      167.01019816828773
+     ],
+     "conf": 0.9999480000000001,
+     "char_conf": [
+      0.99989,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99989
+     ],
+     "line_id": 10,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w31",
+     "text": "del",
+     "box_px": [
+      1414.0,
+      428.0,
+      1452.0,
+      464.0
+     ],
+     "box_pt": [
+      508.8994324394696,
+      154.05251037936887,
+      522.5756548105445,
+      167.01019816828773
+     ],
+     "conf": 0.9999566666666667,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      0.99989
+     ],
+     "line_id": 10,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w32",
+     "text": "Mar",
+     "box_px": [
+      1462.0,
+      428.0,
+      1511.0,
+      464.0
+     ],
+     "box_pt": [
+      526.1746606976694,
+      154.05251037936887,
+      543.8097895445818,
+      167.01019816828773
+     ],
+     "conf": 0.9999433333333333,
+     "char_conf": [
+      0.99988,
+      0.99997,
+      0.99998
+     ],
+     "line_id": 10,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w33",
+     "text": "NIF:",
+     "box_px": [
+      141.0,
+      462.0,
+      192.0,
+      499.0
+     ],
+     "box_pt": [
+      50.74598300846196,
+      166.2903266244589,
+      69.10091303279927,
+      179.6079501852922
+     ],
+     "conf": 0.999915,
+     "char_conf": [
+      0.99997,
+      0.99994,
+      0.99989,
+      0.99986
+     ],
+     "line_id": 11,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w34",
+     "text": "U2694194",
+     "box_px": [
+      202.0,
+      462.0,
+      334.0,
+      499.0
+     ],
+     "box_pt": [
+      72.69991891992423,
+      166.2903266244589,
+      120.20679662997372,
+      179.6079501852922
+     ],
+     "conf": 0.99996875,
+     "char_conf": [
+      0.9998,
+      0.99999,
+      0.99999,
+      1.0,
+      1.0,
+      0.99998,
+      1.0,
+      0.99999
+     ],
+     "line_id": 11,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w35",
+     "text": "NIF:",
+     "box_px": [
+      863.0,
+      462.0,
+      914.0,
+      499.0
+     ],
+     "box_pt": [
+      310.5942080588842,
+      166.2903266244589,
+      328.9491380832215,
+      179.6079501852922
+     ],
+     "conf": 0.999885,
+     "char_conf": [
+      0.99997,
+      0.99991,
+      0.9998,
+      0.99986
+     ],
+     "line_id": 12,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w36",
+     "text": "4975341T",
+     "box_px": [
+      924.0,
+      462.0,
+      1056.0,
+      499.0
+     ],
+     "box_pt": [
+      332.5481439703465,
+      166.2903266244589,
+      380.05502168039595,
+      179.6079501852922
+     ],
+     "conf": 0.99997375,
+     "char_conf": [
+      1.0,
+      0.99999,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.99996,
+      0.99984
+     ],
+     "line_id": 12,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w37",
+     "text": "Descripción",
+     "box_px": [
+      146.0,
+      570.0,
+      300.0,
+      612.0
+     ],
+     "box_pt": [
+      52.54548595202444,
+      205.16338999121555,
+      107.97017661374886,
+      220.2806924116209
+     ],
+     "conf": 0.9999545454545455,
+     "char_conf": [
+      0.99996,
+      0.99999,
+      0.99996,
+      0.99992,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99995,
+      0.99998,
+      0.99979,
+      0.99998
+     ],
+     "line_id": 13,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w38",
+     "text": "Cantidad",
+     "box_px": [
+      751.0,
+      570.0,
+      878.0,
+      607.0
+     ],
+     "box_pt": [
+      270.28534212308466,
+      205.16338999121555,
+      315.9927168895717,
+      218.48101355204884
+     ],
+     "conf": 0.9999887500000001,
+     "char_conf": [
+      0.99997,
+      0.99998,
+      0.99999,
+      1.0,
+      0.99998,
+      1.0,
+      0.99999,
+      1.0
+     ],
+     "line_id": 14,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w39",
+     "text": "Precio",
+     "box_px": [
+      990.0,
+      572.0,
+      1078.0,
+      609.0
+     ],
+     "box_pt": [
+      356.3015828253712,
+      205.88326153504437,
+      387.9728346320709,
+      219.20088509587765
+     ],
+     "conf": 0.9998900000000001,
+     "char_conf": [
+      0.99975,
+      0.99998,
+      0.9999,
+      0.99995,
+      0.99984,
+      0.99992
+     ],
+     "line_id": 15,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w40",
+     "text": "unitario",
+     "box_px": [
+      1089.0,
+      572.0,
+      1195.0,
+      609.0
+     ],
+     "box_pt": [
+      391.93174110790835,
+      205.88326153504437,
+      430.08120351143293,
+      219.20088509587765
+     ],
+     "conf": 0.99992375,
+     "char_conf": [
+      0.99988,
+      0.99998,
+      0.99968,
+      0.99999,
+      0.99996,
+      0.99999,
+      0.99995,
+      0.99996
+     ],
+     "line_id": 15,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w41",
+     "text": "Importe",
+     "box_px": [
+      1403.0,
+      572.0,
+      1514.0,
+      610.0
+     ],
+     "box_pt": [
+      504.9405259636322,
+      205.88326153504437,
+      544.8894913107192,
+      219.56082086779207
+     ],
+     "conf": 0.9999142857142858,
+     "char_conf": [
+      0.99946,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99999
+     ],
+     "line_id": 16,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w42",
+     "text": "Formación",
+     "box_px": [
+      141.0,
+      632.0,
+      278.0,
+      669.0
+     ],
+     "box_pt": [
+      50.74598300846196,
+      227.47940784990917,
+      100.05236366207394,
+      240.79703141074245
+     ],
+     "conf": 0.9999644444444447,
+     "char_conf": [
+      0.99993,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99983,
+      0.99999
+     ],
+     "line_id": 17,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w43",
+     "text": "presencial",
+     "box_px": [
+      288.0,
+      632.0,
+      426.0,
+      669.0
+     ],
+     "box_pt": [
+      103.6513695491989,
+      227.47940784990917,
+      153.3176507915234,
+      240.79703141074245
+     ],
+     "conf": 0.999989,
+     "char_conf": [
+      0.99999,
+      1.0,
+      0.99998,
+      0.99998,
+      0.99999,
+      1.0,
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 17,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w44",
+     "text": "11,2",
+     "box_px": [
+      819.0,
+      630.0,
+      875.0,
+      672.0
+     ],
+     "box_pt": [
+      294.7585821555344,
+      226.75953630608032,
+      314.91301512343415,
+      241.8768387264857
+     ],
+     "conf": 0.9993799999999999,
+     "char_conf": [
+      0.99995,
+      0.99997,
+      0.99761,
+      0.99999
+     ],
+     "line_id": 18,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w45",
+     "text": "1.893,85",
+     "box_px": [
+      1077.0,
+      630.0,
+      1196.0,
+      669.0
+     ],
+     "box_pt": [
+      387.6129340433584,
+      226.75953630608032,
+      430.4411041001454,
+      240.79703141074245
+     ],
+     "conf": 0.9998537500000001,
+     "char_conf": [
+      0.99998,
+      0.99989,
+      0.99999,
+      1.0,
+      0.99996,
+      0.99903,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 19,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w46",
+     "text": "21.211,12",
+     "box_px": [
+      1383.0,
+      632.0,
+      1515.0,
+      671.0
+     ],
+     "box_pt": [
+      497.74251418938223,
+      227.47940784990917,
+      545.2493918994318,
+      241.51690295457126
+     ],
+     "conf": 0.99996,
+     "char_conf": [
+      1.0,
+      0.99997,
+      0.99994,
+      1.0,
+      0.99996,
+      0.99991,
+      0.99988,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 20,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w47",
+     "text": "Transporte",
+     "box_px": [
+      141.0,
+      683.0,
+      284.0,
+      720.0
+     ],
+     "box_pt": [
+      50.74598300846196,
+      245.83613221754425,
+      102.21176719434892,
+      259.1537557783775
+     ],
+     "conf": 0.9999850000000002,
+     "char_conf": [
+      0.99996,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99996,
+      0.99999,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99999
+     ],
+     "line_id": 21,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w48",
+     "text": "de",
+     "box_px": [
+      295.0,
+      683.0,
+      321.0,
+      720.0
+     ],
+     "box_pt": [
+      106.17067367018637,
+      245.83613221754425,
+      115.52808897671127,
+      259.1537557783775
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 21,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w49",
+     "text": "mercancías",
+     "box_px": [
+      338.0,
+      683.0,
+      487.0,
+      720.0
+     ],
+     "box_pt": [
+      121.64639898482372,
+      245.83613221754425,
+      175.27158670298564,
+      259.1537557783775
+     ],
+     "conf": 0.999943,
+     "char_conf": [
+      1.0,
+      0.99998,
+      0.99999,
+      0.99978,
+      0.99999,
+      0.99999,
+      0.99995,
+      0.99981,
+      0.99994,
+      1.0
+     ],
+     "line_id": 21,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w50",
+     "text": "26",
+     "box_px": [
+      840.0,
+      682.0,
+      880.0,
+      722.0
+     ],
+     "box_pt": [
+      302.3164945184968,
+      245.47619644562982,
+      316.71251806699667,
+      259.87362732220635
+     ],
+     "conf": 0.999965,
+     "char_conf": [
+      0.99999,
+      0.99994
+     ],
+     "line_id": 22,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w51",
+     "text": "1.441,11",
+     "box_px": [
+      1081.0,
+      682.0,
+      1197.0,
+      720.0
+     ],
+     "box_pt": [
+      389.05253639820836,
+      245.47619644562982,
+      430.801004688858,
+      259.1537557783775
+     ],
+     "conf": 0.99997,
+     "char_conf": [
+      0.99999,
+      0.99998,
+      1.0,
+      0.99999,
+      0.99997,
+      0.9999,
+      0.99998,
+      0.99995
+     ],
+     "line_id": 23,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w52",
+     "text": "37.468,86",
+     "box_px": [
+      1383.0,
+      682.0,
+      1518.0,
+      720.0
+     ],
+     "box_pt": [
+      497.74251418938223,
+      245.47619644562982,
+      546.3290936655692,
+      259.1537557783775
+     ],
+     "conf": 0.9999411111111112,
+     "char_conf": [
+      1.0,
+      1.0,
+      0.99989,
+      1.0,
+      0.99998,
+      0.99999,
+      0.99964,
+      0.99999,
+      0.99998
+     ],
+     "line_id": 24,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w53",
+     "text": "Consultoría",
+     "box_px": [
+      139.0,
+      731.0,
+      288.0,
+      769.0
+     ],
+     "box_pt": [
+      50.02618183103697,
+      263.1130492694361,
+      103.6513695491989,
+      276.7906086021838
+     ],
+     "conf": 0.9999690909090909,
+     "char_conf": [
+      0.99994,
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99998,
+      0.99996,
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99992,
+      0.99995
+     ],
+     "line_id": 25,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w54",
+     "text": "de",
+     "box_px": [
+      298.0,
+      732.0,
+      332.0,
+      770.0
+     ],
+     "box_pt": [
+      107.25037543632386,
+      263.47298504135046,
+      119.48699545254874,
+      277.15054437409816
+     ],
+     "conf": 0.999985,
+     "char_conf": [
+      1.0,
+      0.99997
+     ],
+     "line_id": 25,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w55",
+     "text": "procesos",
+     "box_px": [
+      336.0,
+      732.0,
+      459.0,
+      770.0
+     ],
+     "box_pt": [
+      120.92659780739872,
+      263.47298504135046,
+      165.19437021903576,
+      277.15054437409816
+     ],
+     "conf": 0.99994125,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99985,
+      0.99997,
+      0.99996,
+      0.99982,
+      0.99997
+     ],
+     "line_id": 25,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w56",
+     "text": "2",
+     "box_px": [
+      852.0,
+      731.0,
+      882.0,
+      771.0
+     ],
+     "box_pt": [
+      306.6353015830468,
+      263.1130492694361,
+      317.43231924442165,
+      277.5104801460126
+     ],
+     "conf": 0.99996,
+     "char_conf": [
+      0.99996
+     ],
+     "line_id": 26,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w57",
+     "text": "1.930,07",
+     "box_px": [
+      1078.0,
+      733.0,
+      1195.0,
+      769.0
+     ],
+     "box_pt": [
+      387.9728346320709,
+      263.8329208132649,
+      430.08120351143293,
+      276.7906086021838
+     ],
+     "conf": 0.9999387500000001,
+     "char_conf": [
+      0.99999,
+      0.99994,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99962,
+      1.0,
+      0.99999
+     ],
+     "line_id": 27,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w58",
+     "text": "3.860,14",
+     "box_px": [
+      1399.0,
+      733.0,
+      1516.0,
+      769.0
+     ],
+     "box_pt": [
+      503.50092360878216,
+      263.8329208132649,
+      545.6092924881442,
+      276.7906086021838
+     ],
+     "conf": 0.9999637500000002,
+     "char_conf": [
+      0.99999,
+      0.99998,
+      1.0,
+      0.99998,
+      0.99999,
+      0.99979,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 28,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w59",
+     "text": "Auditoría",
+     "box_px": [
+      140.0,
+      784.0,
+      257.0,
+      820.0
+     ],
+     "box_pt": [
+      50.38608241974947,
+      282.18964518089996,
+      92.49445129911152,
+      295.1473329698188
+     ],
+     "conf": 0.9999455555555556,
+     "char_conf": [
+      0.99986,
+      0.99998,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99978,
+      0.99996
+     ],
+     "line_id": 29,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w60",
+     "text": "de",
+     "box_px": [
+      266.0,
+      784.0,
+      299.0,
+      820.0
+     ],
+     "box_pt": [
+      95.73355659752399,
+      282.18964518089996,
+      107.61027602503636,
+      295.1473329698188
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999,
+      0.99999
+     ],
+     "line_id": 29,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w61",
+     "text": "seguridad",
+     "box_px": [
+      308.0,
+      784.0,
+      437.0,
+      820.0
+     ],
+     "box_pt": [
+      110.84938132344882,
+      282.18964518089996,
+      157.27655726736083,
+      295.1473329698188
+     ],
+     "conf": 0.99998,
+     "char_conf": [
+      0.99997,
+      0.99995,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99996,
+      1.0,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 29,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w62",
+     "text": "24",
+     "box_px": [
+      840.0,
+      782.0,
+      880.0,
+      822.0
+     ],
+     "box_pt": [
+      302.3164945184968,
+      281.46977363707117,
+      316.71251806699667,
+      295.86720451364766
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 30,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w63",
+     "text": "903,58",
+     "box_px": [
+      1105.0,
+      782.0,
+      1196.0,
+      820.0
+     ],
+     "box_pt": [
+      397.6901505273083,
+      281.46977363707117,
+      430.4411041001454,
+      295.1473329698188
+     ],
+     "conf": 0.9998966666666668,
+     "char_conf": [
+      0.99999,
+      1.0,
+      1.0,
+      0.99941,
+      0.99998,
+      1.0
+     ],
+     "line_id": 31,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w64",
+     "text": "21.685,92",
+     "box_px": [
+      1383.0,
+      782.0,
+      1514.0,
+      819.0
+     ],
+     "box_pt": [
+      497.74251418938223,
+      281.46977363707117,
+      544.8894913107192,
+      294.78739719790445
+     ],
+     "conf": 0.9999399999999999,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99951,
+      0.99999,
+      1.0
+     ],
+     "line_id": 32,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w65",
+     "text": "Base",
+     "box_px": [
+      878.0,
+      872.0,
+      941.0,
+      908.0
+     ],
+     "box_pt": [
+      315.9927168895717,
+      313.8639931093683,
+      338.66645397845895,
+      326.8216808982872
+     ],
+     "conf": 0.99998,
+     "char_conf": [
+      0.99995,
+      1.0,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 33,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w66",
+     "text": "imponible",
+     "box_px": [
+      944.0,
+      872.0,
+      1079.0,
+      908.0
+     ],
+     "box_pt": [
+      339.7461557445964,
+      313.8639931093683,
+      388.3327352207834,
+      326.8216808982872
+     ],
+     "conf": 0.9999888888888889,
+     "char_conf": [
+      0.99999,
+      0.99998,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 33,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w67",
+     "text": "84.226,04",
+     "box_px": [
+      1349.0,
+      872.0,
+      1484.0,
+      908.0
+     ],
+     "box_pt": [
+      485.50589417315734,
+      313.8639931093683,
+      534.0924736493444,
+      326.8216808982872
+     ],
+     "conf": 0.9999700000000001,
+     "char_conf": [
+      1.0,
+      1.0,
+      0.99995,
+      1.0,
+      1.0,
+      0.99999,
+      0.9998,
+      1.0,
+      0.99999
+     ],
+     "line_id": 34,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w68",
+     "text": "€",
+     "box_px": [
+      1493.0,
+      872.0,
+      1508.0,
+      908.0
+     ],
+     "box_pt": [
+      537.3315789477568,
+      313.8639931093683,
+      542.7300877784443,
+      326.8216808982872
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999
+     ],
+     "line_id": 34,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w69",
+     "text": "IVA",
+     "box_px": [
+      877.0,
+      917.0,
+      919.0,
+      956.0
+     ],
+     "box_pt": [
+      315.6328163008592,
+      330.0611028455169,
+      330.748641026784,
+      344.09859795017906
+     ],
+     "conf": 0.9990766666666667,
+     "char_conf": [
+      0.99907,
+      0.99826,
+      0.9999
+     ],
+     "line_id": 35,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w70",
+     "text": "21",
+     "box_px": [
+      929.0,
+      917.0,
+      964.0,
+      956.0
+     ],
+     "box_pt": [
+      334.347646913909,
+      330.0611028455169,
+      346.9441675188463,
+      344.09859795017906
+     ],
+     "conf": 0.99993,
+     "char_conf": [
+      0.99999,
+      0.99987
+     ],
+     "line_id": 35,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w71",
+     "text": "%",
+     "box_px": [
+      974.0,
+      917.0,
+      990.0,
+      956.0
+     ],
+     "box_pt": [
+      350.5431734059713,
+      330.0611028455169,
+      356.3015828253712,
+      344.09859795017906
+     ],
+     "conf": 0.99899,
+     "char_conf": [
+      0.99899
+     ],
+     "line_id": 35,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w72",
+     "text": "17.687,47",
+     "box_px": [
+      1348.0,
+      915.0,
+      1485.0,
+      958.0
+     ],
+     "box_pt": [
+      485.14599358444485,
+      329.3412313016881,
+      534.4523742380569,
+      344.8184694940079
+     ],
+     "conf": 0.9999600000000002,
+     "char_conf": [
+      0.99998,
+      0.99999,
+      0.99975,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 36,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w73",
+     "text": "€",
+     "box_px": [
+      1498.0,
+      915.0,
+      1514.0,
+      958.0
+     ],
+     "box_pt": [
+      539.1310818913194,
+      329.3412313016881,
+      544.8894913107192,
+      344.8184694940079
+     ],
+     "conf": 0.99998,
+     "char_conf": [
+      0.99998
+     ],
+     "line_id": 36,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w74",
+     "text": "TOTAL",
+     "box_px": [
+      880.0,
+      965.0,
+      975.0,
+      1003.0
+     ],
+     "box_pt": [
+      316.71251806699667,
+      347.33801989740874,
+      350.9030739946838,
+      361.01557923015645
+     ],
+     "conf": 0.9999740000000001,
+     "char_conf": [
+      0.99997,
+      0.99994,
+      0.99998,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 37,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w75",
+     "text": "101.913,81",
+     "box_px": [
+      1306.0,
+      963.0,
+      1485.0,
+      1005.0
+     ],
+     "box_pt": [
+      470.03016885852,
+      346.61814835357995,
+      534.4523742380569,
+      361.7354507739853
+     ],
+     "conf": 0.9999770000000001,
+     "char_conf": [
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99989,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 38,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w76",
+     "text": "€",
+     "box_px": [
+      1495.0,
+      963.0,
+      1513.0,
+      1005.0
+     ],
+     "box_pt": [
+      538.0513801251818,
+      346.61814835357995,
+      544.5295907220068,
+      361.7354507739853
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999
+     ],
+     "line_id": 38,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w77",
+     "text": "IBAN:",
+     "box_px": [
+      135.0,
+      2063.0,
+      218.0,
+      2094.0
+     ],
+     "box_pt": [
+      48.586579476186984,
+      742.5474974594345,
+      78.45832833932417,
+      753.7055063887813
+     ],
+     "conf": 0.999798,
+     "char_conf": [
+      0.99965,
+      0.99998,
+      0.99997,
+      0.99996,
+      0.99943
+     ],
+     "line_id": 39,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w78",
+     "text": "ESXX",
+     "box_px": [
+      221.0,
+      2063.0,
+      290.0,
+      2094.0
+     ],
+     "box_pt": [
+      79.53803010546166,
+      742.5474974594345,
+      104.3711707266239,
+      753.7055063887813
+     ],
+     "conf": 0.9999575,
+     "char_conf": [
+      0.99996,
+      0.99996,
+      0.99995,
+      0.99996
+     ],
+     "line_id": 39,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w79",
+     "text": "6368",
+     "box_px": [
+      299.0,
+      2063.0,
+      362.0,
+      2094.0
+     ],
+     "box_pt": [
+      107.61027602503636,
+      742.5474974594345,
+      130.28401311392363,
+      753.7055063887813
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      0.99999,
+      1.0,
+      0.99999,
+      1.0
+     ],
+     "line_id": 39,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w80",
+     "text": "2471",
+     "box_px": [
+      371.0,
+      2063.0,
+      440.0,
+      2094.0
+     ],
+     "box_pt": [
+      133.5231184123361,
+      742.5474974594345,
+      158.35625903349833,
+      753.7055063887813
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      0.99999,
+      1.0,
+      1.0,
+      0.99999
+     ],
+     "line_id": 39,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w81",
+     "text": "1369",
+     "box_px": [
+      448.0,
+      2063.0,
+      517.0,
+      2094.0
+     ],
+     "box_pt": [
+      161.2354637431983,
+      742.5474974594345,
+      186.06860436436054,
+      753.7055063887813
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      0.99999,
+      1.0,
+      0.99999,
+      1.0
+     ],
+     "line_id": 39,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w82",
+     "text": "8468",
+     "box_px": [
+      526.0,
+      2063.0,
+      589.0,
+      2094.0
+     ],
+     "box_pt": [
+      189.307709662773,
+      742.5474974594345,
+      211.98144675166026,
+      753.7055063887813
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      0.99999,
+      1.0,
+      0.99999,
+      1.0
+     ],
+     "line_id": 39,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w83",
+     "text": "54",
+     "box_px": [
+      598.0,
+      2063.0,
+      636.0,
+      2094.0
+     ],
+     "box_pt": [
+      215.2205520500727,
+      742.5474974594345,
+      228.89677442114757,
+      753.7055063887813
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999,
+      0.99999
+     ],
+     "line_id": 39,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w84",
+     "text": "Forma",
+     "box_px": [
+      143.0,
+      2101.0,
+      225.0,
+      2138.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      756.2250567921822,
+      80.97763246031164,
+      769.5426803530155
+     ],
+     "conf": 0.999958,
+     "char_conf": [
+      0.99995,
+      0.99995,
+      0.99999,
+      0.99999,
+      0.99991
+     ],
+     "line_id": 40,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w85",
+     "text": "de",
+     "box_px": [
+      235.0,
+      2101.0,
+      262.0,
+      2138.0
+     ],
+     "box_pt": [
+      84.5766383474366,
+      756.2250567921822,
+      94.293954242674,
+      769.5426803530155
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 40,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w86",
+     "text": "pago:",
+     "box_px": [
+      272.0,
+      2101.0,
+      348.0,
+      2138.0
+     ],
+     "box_pt": [
+      97.89296012979896,
+      756.2250567921822,
+      125.24540487194868,
+      769.5426803530155
+     ],
+     "conf": 0.9999439999999999,
+     "char_conf": [
+      0.99999,
+      0.99995,
+      0.99996,
+      0.99992,
+      0.9999
+     ],
+     "line_id": 40,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w87",
+     "text": "transferencia",
+     "box_px": [
+      352.0,
+      2101.0,
+      533.0,
+      2138.0
+     ],
+     "box_pt": [
+      126.68500722679866,
+      756.2250567921822,
+      191.82701378376046,
+      769.5426803530155
+     ],
+     "conf": 0.9999769230769231,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      0.99996,
+      0.99999,
+      0.99997,
+      0.99998,
+      0.99997,
+      1.0,
+      0.99997,
+      0.99998,
+      0.99999,
+      0.99993,
+      0.99998
+     ],
+     "line_id": 40,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    }
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "word_ids": [
+    "p1w4"
+   ],
+   "page": 1,
+   "text": "F-2026-0498",
+   "value": null,
+   "kind": "other",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w8"
+   ],
+   "page": 1,
+   "text": "20/01/2025",
+   "value": null,
+   "kind": "date",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.date_valid",
+     "params": {},
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w19"
+   ],
+   "page": 1,
+   "text": "22,",
+   "value": "22",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w28"
+   ],
+   "page": 1,
+   "text": "31,",
+   "value": "31",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w34"
+   ],
+   "page": 1,
+   "text": "U2694194",
+   "value": null,
+   "kind": "other",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w36"
+   ],
+   "page": 1,
+   "text": "4975341T",
+   "value": null,
+   "kind": "other",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w44"
+   ],
+   "page": 1,
+   "text": "11,2",
+   "value": "11.2",
+   "kind": "quantity",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "11.2",
+      "unit_price": "1893.85",
+      "expected": "21211.12",
+      "found": "21211.12"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w45"
+   ],
+   "page": 1,
+   "text": "1.893,85",
+   "value": "1893.85",
+   "kind": "amount",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "11.2",
+      "unit_price": "1893.85",
+      "expected": "21211.12",
+      "found": "21211.12"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w46"
+   ],
+   "page": 1,
+   "text": "21.211,12",
+   "value": "21211.12",
+   "kind": "amount",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "11.2",
+      "unit_price": "1893.85",
+      "expected": "21211.12",
+      "found": "21211.12"
+     },
+     "result": "pass",
+     "verifying": true
+    },
+    {
+     "key": "checks.rule.lines_sum",
+     "params": {
+      "expected": "84226.04",
+      "found": "84226.04"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w50"
+   ],
+   "page": 1,
+   "text": "26",
+   "value": "26",
+   "kind": "quantity",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "26",
+      "unit_price": "1441.11",
+      "expected": "37468.86",
+      "found": "37468.86"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w51"
+   ],
+   "page": 1,
+   "text": "1.441,11",
+   "value": "1441.11",
+   "kind": "amount",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "26",
+      "unit_price": "1441.11",
+      "expected": "37468.86",
+      "found": "37468.86"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w52"
+   ],
+   "page": 1,
+   "text": "37.468,86",
+   "value": "37468.86",
+   "kind": "amount",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "26",
+      "unit_price": "1441.11",
+      "expected": "37468.86",
+      "found": "37468.86"
+     },
+     "result": "pass",
+     "verifying": true
+    },
+    {
+     "key": "checks.rule.lines_sum",
+     "params": {
+      "expected": "84226.04",
+      "found": "84226.04"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w56"
+   ],
+   "page": 1,
+   "text": "2",
+   "value": "2",
+   "kind": "quantity",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "2",
+      "unit_price": "1930.07",
+      "expected": "3860.14",
+      "found": "3860.14"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w57"
+   ],
+   "page": 1,
+   "text": "1.930,07",
+   "value": "1930.07",
+   "kind": "amount",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "2",
+      "unit_price": "1930.07",
+      "expected": "3860.14",
+      "found": "3860.14"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w58"
+   ],
+   "page": 1,
+   "text": "3.860,14",
+   "value": "3860.14",
+   "kind": "amount",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "2",
+      "unit_price": "1930.07",
+      "expected": "3860.14",
+      "found": "3860.14"
+     },
+     "result": "pass",
+     "verifying": true
+    },
+    {
+     "key": "checks.rule.lines_sum",
+     "params": {
+      "expected": "84226.04",
+      "found": "84226.04"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w62"
+   ],
+   "page": 1,
+   "text": "24",
+   "value": "24",
+   "kind": "quantity",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "24",
+      "unit_price": "903.58",
+      "expected": "21685.92",
+      "found": "21685.92"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w63"
+   ],
+   "page": 1,
+   "text": "903,58",
+   "value": "903.58",
+   "kind": "amount",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "24",
+      "unit_price": "903.58",
+      "expected": "21685.92",
+      "found": "21685.92"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w64"
+   ],
+   "page": 1,
+   "text": "21.685,92",
+   "value": "21685.92",
+   "kind": "amount",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.line_amount",
+     "params": {
+      "quantity": "24",
+      "unit_price": "903.58",
+      "expected": "21685.92",
+      "found": "21685.92"
+     },
+     "result": "pass",
+     "verifying": true
+    },
+    {
+     "key": "checks.rule.lines_sum",
+     "params": {
+      "expected": "84226.04",
+      "found": "84226.04"
+     },
+     "result": "pass",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w67"
+   ],
+   "page": 1,
+   "text": "84.226,04",
+   "value": "84226.04",
+   "kind": "amount",
+   "status": "mismatch",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.lines_sum",
+     "params": {
+      "expected": "84226.04",
+      "found": "84226.04"
+     },
+     "result": "pass",
+     "verifying": true
+    },
+    {
+     "key": "checks.rule.vat_amount",
+     "params": {
+      "rate": "21",
+      "expected": "17687.47",
+      "found": "17687.47"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.total",
+     "params": {
+      "expected": "101913.51",
+      "found": "101913.81"
+     },
+     "result": "fail",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w70"
+   ],
+   "page": 1,
+   "text": "21",
+   "value": "21",
+   "kind": "percent",
+   "status": "checked",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.vat_amount",
+     "params": {
+      "rate": "21",
+      "expected": "17687.47",
+      "found": "17687.47"
+     },
+     "result": "pass",
+     "verifying": true
+    },
+    {
+     "key": "checks.rule.vat_rate_plausible",
+     "params": {
+      "rate": "21"
+     },
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w72"
+   ],
+   "page": 1,
+   "text": "17.687,47",
+   "value": "17687.47",
+   "kind": "amount",
+   "status": "mismatch",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.vat_amount",
+     "params": {
+      "rate": "21",
+      "expected": "17687.47",
+      "found": "17687.47"
+     },
+     "result": "pass",
+     "verifying": true
+    },
+    {
+     "key": "checks.rule.total",
+     "params": {
+      "expected": "101913.51",
+      "found": "101913.81"
+     },
+     "result": "fail",
+     "verifying": true
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w75"
+   ],
+   "page": 1,
+   "text": "101.913,81",
+   "value": "101913.81",
+   "kind": "amount",
+   "status": "mismatch",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.total",
+     "params": {
+      "expected": "101913.51",
+      "found": "101913.81"
+     },
+     "result": "fail",
+     "verifying": true
+    }
+   ],
+   "suggestion": {
+    "position": 8,
+    "from": "8",
+    "to": "5",
+    "verified": true,
+    "rule": "checks.rule.total"
+   }
+  },
+  {
+   "word_ids": [
+    "p1w79"
+   ],
+   "page": 1,
+   "text": "6368",
+   "value": "6368",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w80"
+   ],
+   "page": 1,
+   "text": "2471",
+   "value": "2471",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w81"
+   ],
+   "page": 1,
+   "text": "1369",
+   "value": "1369",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w82"
+   ],
+   "page": 1,
+   "text": "8468",
+   "value": "8468",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w83"
+   ],
+   "page": 1,
+   "text": "54",
+   "value": "54",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  }
+ ],
+ "invoice": {
+  "fields": {
+   "number": {
+    "text": "F-2026-0498",
+    "word_ids": [
+     "p1w4"
+    ],
+    "page": 1,
+    "status": "unverified"
+   },
+   "date": {
+    "text": "20/01/2025",
+    "word_ids": [
+     "p1w8"
+    ],
+    "page": 1,
+    "status": "unverified"
+   },
+   "subtotal": {
+    "text": "84.226,04",
+    "word_ids": [
+     "p1w67"
+    ],
+    "page": 1,
+    "status": "mismatch"
+   },
+   "vat": [
+    {
+     "rate": {
+      "text": "21 %",
+      "word_ids": [
+       "p1w70",
+       "p1w71"
+      ],
+      "page": 1,
+      "status": "checked"
+     },
+     "amount": {
+      "text": "17.687,47",
+      "word_ids": [
+       "p1w72"
+      ],
+      "page": 1,
+      "status": "mismatch"
+     },
+     "base": null
+    }
+   ],
+   "withholding": null,
+   "withholding_rate": null,
+   "total": {
+    "text": "101.913,81",
+    "word_ids": [
+     "p1w75"
+    ],
+    "page": 1,
+    "status": "mismatch"
+   },
+   "currency": "EUR"
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Formación presencial",
+     "word_ids": [
+      "p1w42",
+      "p1w43"
+     ],
+     "page": 1,
+     "status": "unverified"
+    },
+    "quantity": {
+     "text": "11,2",
+     "word_ids": [
+      "p1w44"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "unit_price": {
+     "text": "1.893,85",
+     "word_ids": [
+      "p1w45"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "amount": {
+     "text": "21.211,12",
+     "word_ids": [
+      "p1w46"
+     ],
+     "page": 1,
+     "status": "checked"
+    }
+   },
+   {
+    "description": {
+     "text": "Transporte de mercancías",
+     "word_ids": [
+      "p1w47",
+      "p1w48",
+      "p1w49"
+     ],
+     "page": 1,
+     "status": "unverified"
+    },
+    "quantity": {
+     "text": "26",
+     "word_ids": [
+      "p1w50"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "unit_price": {
+     "text": "1.441,11",
+     "word_ids": [
+      "p1w51"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "amount": {
+     "text": "37.468,86",
+     "word_ids": [
+      "p1w52"
+     ],
+     "page": 1,
+     "status": "checked"
+    }
+   },
+   {
+    "description": {
+     "text": "Consultoría de procesos",
+     "word_ids": [
+      "p1w53",
+      "p1w54",
+      "p1w55"
+     ],
+     "page": 1,
+     "status": "unverified"
+    },
+    "quantity": {
+     "text": "2",
+     "word_ids": [
+      "p1w56"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "unit_price": {
+     "text": "1.930,07",
+     "word_ids": [
+      "p1w57"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "amount": {
+     "text": "3.860,14",
+     "word_ids": [
+      "p1w58"
+     ],
+     "page": 1,
+     "status": "checked"
+    }
+   },
+   {
+    "description": {
+     "text": "Auditoría de seguridad",
+     "word_ids": [
+      "p1w59",
+      "p1w60",
+      "p1w61"
+     ],
+     "page": 1,
+     "status": "unverified"
+    },
+    "quantity": {
+     "text": "24",
+     "word_ids": [
+      "p1w62"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "unit_price": {
+     "text": "903,58",
+     "word_ids": [
+      "p1w63"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "amount": {
+     "text": "21.685,92",
+     "word_ids": [
+      "p1w64"
+     ],
+     "page": 1,
+     "status": "checked"
+    }
+   }
+  ],
+  "missing": []
+ }
+}

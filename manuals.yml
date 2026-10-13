@@ -1,0 +1,53 @@
+# The two shorter PDF manuals (scripts/docs.py pdf --manual user|developer). Edit the lists here; nothing else needs to change.
+#
+# pages:                    pages of mkdocs.yml's navigation, written as in the navigation; they print in navigation order
+# appendices:               printed after the pages, under the heading "Appendices"
+# part:                     {page: heading}, lists a page under another heading of the contents
+# strip_code:               true leaves the Python examples out (what they printed stays)
+# other:                    what a link to a page of the other manual says, e.g. "(in the Developer reference, Options)"
+# left_out:                 pages in neither manual: the site and the full manual have them, and a link to one names "the full manual".
+#                           Every page of the navigation must be in exactly one list, or the print stops.
+manuals:
+  user:
+    label: user manual
+    cover: User manual
+    other: Developer reference
+    strip_code: true
+    part:
+      reference/interface.md: Using the interface
+    pages:
+      - index.md
+      - getting-started/installation.md
+      - getting-started/quickstart.md
+      - concepts/privacy.md
+      - reference/interface.md
+      - faq.md
+  developer:
+    label: developer reference
+    cover: Developer reference
+    other: User manual
+    pages:
+      - tutorials/invoice.md
+      - how-to/batch-a-folder.md
+      - how-to/review-doubtful-words.md
+      - how-to/progress-and-cancel.md
+      - how-to/web-service.md
+      - how-to/ai-assistants.md
+      - reference/index.md
+      - reference/functions.md
+      - reference/reader.md
+      - reference/document.md
+      - reference/options.md
+      - reference/data-types.md
+      - reference/events.md
+      - reference/errors.md
+      - reference/json-format.md
+      - reference/command-line.md
+    appendices: []
+left_out:
+  - concepts/how-it-works.md
+  - concepts/number-checks.md
+  - concepts/corrections.md
+  - accuracy.md
+  - troubleshooting.md
+  - licence.md

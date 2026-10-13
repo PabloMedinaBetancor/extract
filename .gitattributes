@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.whl binary
+*.model binary
+*.npy binary
+*.gz binary

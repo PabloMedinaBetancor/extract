@@ -1,0 +1,8 @@
+line-length = 120
+target-version = "py310"
+
+[lint]
+select = ["E4", "E7", "E9", "F", "W", "I", "B"]
+
+[lint.isort]
+known-first-party = ["extract", "bench", "tests"]

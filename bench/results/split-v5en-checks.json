@@ -1,0 +1,16 @@
+{
+ "pages_checked_against": 1156,
+ "english_pages_checked": 601,
+ "development_documents": 100,
+ "test_documents": 100,
+ "documents_in_both": 0,
+ "readback_documents_in_test": 0,
+ "readback_pages": 30,
+ "units_on_both_sides": 0,
+ "pages_repeating_another_page": 0,
+ "pages_near_a_page_of_another_set": 0,
+ "largest_jaccard_against_other_sets": 0.0036,
+ "english_pages_near_an_earlier_english_page": 0,
+ "largest_jaccard_between_english_pages": 0.4876,
+ "threshold": 0.5
+}

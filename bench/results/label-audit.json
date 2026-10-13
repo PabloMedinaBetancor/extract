@@ -1,0 +1,20 @@
+{
+ "what": "Reading of the audit sheets of the labels: each sheet shows a crop of a page with the OCR word and the text-layer word it was linked to.",
+ "reader": "an independent reviewer (a language model, not the labeler); 2026-10-02",
+ "round_2": {
+  "seed": 6,
+  "right_checked": 60,
+  "right_noisy": 0,
+  "wrong_checked": 60,
+  "wrong_noisy": 4,
+  "doubtful_not_counted": 3
+ },
+ "round_1": {
+  "right_checked": 60,
+  "right_noisy": 0,
+  "wrong_checked": 54,
+  "wrong_noisy_low": 9,
+  "wrong_noisy_high": 10
+ },
+ "note": "What is left in the wrong labels are artefacts of the text layer (superscripts, stray spaces) and one turned margin word."
+}

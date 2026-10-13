@@ -1,0 +1,34 @@
+{
+  "invoice_title": ["factura", "invoice"],
+  "totals": ["subtotal", "base imponible", "iva", "vat", "total"],
+  "number": [
+    ["no", "de", "factura"],
+    ["numero", "de", "factura"],
+    ["factura", "no"],
+    ["factura", "numero"],
+    ["n", "factura"],
+    ["invoice", "no"],
+    ["invoice", "number"],
+    ["invoice", "num"]
+  ],
+  "date": [
+    ["fecha", "de", "emision"],
+    ["fecha", "de", "factura"],
+    ["fecha", "factura"],
+    ["invoice", "date"],
+    ["date", "of", "issue"],
+    ["issue", "date"],
+    ["fecha"]
+  ],
+  "subtotal": [["base", "imponible"], ["subtotal"], ["importe", "bruto"]],
+  "vat": [["iva"], ["vat"]],
+  "withholding": [["retencion"], ["withholding"], ["irpf"]],
+  "total": [["total", "a", "pagar"], ["total", "due"], ["amount", "due"], ["total"]],
+  "header": {
+    "description": ["descripcion", "concepto", "description", "item"],
+    "quantity": ["cantidad", "uds", "qty", "quantity"],
+    "unit_price": ["precio", "price"],
+    "amount": ["importe", "amount"]
+  },
+  "currency": {"€": "EUR", "eur": "EUR", "euros": "EUR", "$": "USD", "usd": "USD", "£": "GBP", "gbp": "GBP"}
+}

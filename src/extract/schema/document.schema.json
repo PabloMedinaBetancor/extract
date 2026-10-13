@@ -1,0 +1,797 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "extract-document-2",
+ "title": "Extract document",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema_version",
+  "source",
+  "page_count",
+  "engine",
+  "guard",
+  "options",
+  "status",
+  "unreadable_pages",
+  "doc_type",
+  "locale",
+  "pages",
+  "numbers",
+  "invoice",
+  "fixes"
+ ],
+ "properties": {
+  "schema_version": {
+   "const": 2
+  },
+  "source": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "name",
+    "sha256"
+   ],
+   "properties": {
+    "name": {
+     "type": "string"
+    },
+    "sha256": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{64}$"
+    }
+   }
+  },
+  "page_count": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "engine": {
+   "type": "string"
+  },
+  "guard": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "options": {
+   "type": "object"
+  },
+  "status": {
+   "enum": [
+    "done",
+    "partial"
+   ]
+  },
+  "unreadable_pages": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "page",
+     "reason",
+     "error"
+    ],
+    "properties": {
+     "page": {
+      "type": "integer"
+     },
+     "reason": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "error": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "doc_type": {
+   "enum": [
+    "invoice",
+    "generic"
+   ]
+  },
+  "locale": {
+   "enum": [
+    "es",
+    "en",
+    null
+   ]
+  },
+  "pages": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/page"
+   }
+  },
+  "numbers": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/number"
+   }
+  },
+  "invoice": {
+   "anyOf": [
+    {
+     "type": "null"
+    },
+    {
+     "$ref": "#/$defs/invoice"
+    }
+   ]
+  },
+  "fixes": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "mode",
+    "second_reading",
+    "applied",
+    "undone",
+    "by_source",
+    "by_op",
+    "withheld"
+   ],
+   "properties": {
+    "mode": {
+     "enum": [
+      "off",
+      "safe",
+      "more"
+     ]
+    },
+    "second_reading": {
+     "type": "boolean"
+    },
+    "thorough": {
+     "type": "boolean"
+    },
+    "applied": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "undone": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "by_source": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "integer"
+     }
+    },
+    "by_op": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "integer"
+     }
+    },
+    "withheld": {
+     "type": "array",
+     "items": {
+      "type": "object"
+     }
+    },
+    "second_reading_failed_pages": {
+     "type": "array",
+     "items": {
+      "type": "integer",
+      "minimum": 1
+     }
+    }
+   }
+  }
+ },
+ "$defs": {
+  "word": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "text",
+    "box_px",
+    "box_pt",
+    "conf",
+    "char_conf",
+    "line_id",
+    "idx_in_line",
+    "status",
+    "p_wrong",
+    "reasons",
+    "suggestion",
+    "suggestion_conf",
+    "review",
+    "original",
+    "corrected_by",
+    "absorbed_by",
+    "guard_status",
+    "orig_box_px",
+    "fix"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^p[0-9]+w[0-9]+$"
+    },
+    "text": {
+     "type": "string"
+    },
+    "box_px": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     },
+     "minItems": 4,
+     "maxItems": 4
+    },
+    "box_pt": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     },
+     "minItems": 4,
+     "maxItems": 4
+    },
+    "conf": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "char_conf": {
+     "type": [
+      "array",
+      "null"
+     ],
+     "items": {
+      "type": "number"
+     }
+    },
+    "line_id": {
+     "type": "integer"
+    },
+    "idx_in_line": {
+     "type": "integer"
+    },
+    "status": {
+     "enum": [
+      "native",
+      "ok",
+      "doubtful",
+      "fixed",
+      "absorbed",
+      "unscored"
+     ]
+    },
+    "p_wrong": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "reasons": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "key",
+       "params"
+      ],
+      "additionalProperties": false,
+      "properties": {
+       "key": {
+        "type": "string"
+       },
+       "params": {
+        "type": "object"
+       }
+      }
+     }
+    },
+    "suggestion": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "suggestion_conf": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "review": {
+     "enum": [
+      null,
+      "accepted",
+      "corrected"
+     ]
+    },
+    "original": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "corrected_by": {
+     "enum": [
+      null,
+      "guard",
+      "user"
+     ]
+    },
+    "absorbed_by": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "guard_status": {
+     "enum": [
+      null,
+      "ok",
+      "doubtful",
+      "unscored",
+      "native"
+     ]
+    },
+    "orig_box_px": {
+     "type": [
+      "array",
+      "null"
+     ],
+     "items": {
+      "type": "number"
+     },
+     "minItems": 4,
+     "maxItems": 4
+    },
+    "fix": {
+     "anyOf": [
+      {
+       "type": "null"
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "op",
+        "kind",
+        "text",
+        "ids",
+        "source",
+        "sources",
+        "p_fix",
+        "p_keep",
+        "rule",
+        "modes",
+        "reasons",
+        "applied"
+       ],
+       "properties": {
+        "op": {
+         "enum": [
+          "text",
+          "join",
+          "segment",
+          "drop"
+         ]
+        },
+        "kind": {
+         "enum": [
+          "accent",
+          "case",
+          "accent_case",
+          "letters",
+          "punct",
+          "structure",
+          "number"
+         ]
+        },
+        "text": {
+         "type": "string"
+        },
+        "ids": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "source": {
+         "type": "string"
+        },
+        "sources": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         }
+        },
+        "p_fix": {
+         "type": "number"
+        },
+        "p_keep": {
+         "type": "number"
+        },
+        "rule": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "modes": {
+         "type": "array",
+         "items": {
+          "enum": [
+           "safe",
+           "more"
+          ]
+         }
+        },
+        "reasons": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "required": [
+           "key",
+           "params"
+          ],
+          "additionalProperties": false,
+          "properties": {
+           "key": {
+            "type": "string"
+           },
+           "params": {
+            "type": "object"
+           }
+          }
+         }
+        },
+        "applied": {
+         "type": "boolean"
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "page": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "number",
+    "status",
+    "reason",
+    "error",
+    "dpi",
+    "width_px",
+    "height_px",
+    "width_pt",
+    "height_pt",
+    "mean_conf",
+    "unaligned_words",
+    "words"
+   ],
+   "properties": {
+    "number": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "status": {
+     "enum": [
+      "native",
+      "ocr",
+      "unreadable"
+     ]
+    },
+    "reason": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "error": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "dpi": {
+     "type": "integer"
+    },
+    "width_px": {
+     "type": "integer"
+    },
+    "height_px": {
+     "type": "integer"
+    },
+    "width_pt": {
+     "type": "number"
+    },
+    "height_pt": {
+     "type": "number"
+    },
+    "mean_conf": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "words": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/word"
+     }
+    },
+    "unaligned_words": {
+     "type": "integer",
+     "minimum": 0
+    }
+   }
+  },
+  "number": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "word_ids",
+    "page",
+    "text",
+    "value",
+    "kind",
+    "status",
+    "rules",
+    "suggestion"
+   ],
+   "properties": {
+    "word_ids": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "page": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "text": {
+     "type": "string"
+    },
+    "value": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^-?[0-9]+(\\.[0-9]+)?$"
+    },
+    "kind": {
+     "type": "string"
+    },
+    "status": {
+     "enum": [
+      "checked",
+      "mismatch",
+      "unverified"
+     ]
+    },
+    "rules": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "key",
+       "params",
+       "result",
+       "verifying"
+      ],
+      "properties": {
+       "key": {
+        "type": "string"
+       },
+       "params": {
+        "type": "object"
+       },
+       "result": {
+        "enum": [
+         "pass",
+         "fail",
+         "not_applicable"
+        ]
+       },
+       "verifying": {
+        "type": "boolean"
+       }
+      }
+     }
+    },
+    "suggestion": {
+     "anyOf": [
+      {
+       "type": "null"
+      },
+      {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "position",
+        "from",
+        "to"
+       ],
+       "properties": {
+        "position": {
+         "type": "integer"
+        },
+        "from": {
+         "type": "string"
+        },
+        "to": {
+         "type": "string"
+        },
+        "verified": {
+         "type": "boolean"
+        },
+        "rule": {
+         "type": "string"
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "cell": {
+   "anyOf": [
+    {
+     "type": "null"
+    },
+    {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "text",
+      "word_ids",
+      "page",
+      "status"
+     ],
+     "properties": {
+      "text": {
+       "type": "string"
+      },
+      "word_ids": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "page": {
+       "type": "integer"
+      },
+      "status": {
+       "enum": [
+        "checked",
+        "mismatch",
+        "unverified"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "invoice": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "fields",
+    "lines",
+    "missing"
+   ],
+   "properties": {
+    "fields": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "number",
+      "date",
+      "subtotal",
+      "vat",
+      "withholding",
+      "withholding_rate",
+      "total",
+      "currency"
+     ],
+     "properties": {
+      "number": {
+       "$ref": "#/$defs/cell"
+      },
+      "date": {
+       "$ref": "#/$defs/cell"
+      },
+      "subtotal": {
+       "$ref": "#/$defs/cell"
+      },
+      "vat": {
+       "type": "array",
+       "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+         "rate",
+         "amount",
+         "base"
+        ],
+        "properties": {
+         "rate": {
+          "$ref": "#/$defs/cell"
+         },
+         "amount": {
+          "$ref": "#/$defs/cell"
+         },
+         "base": {
+          "$ref": "#/$defs/cell"
+         }
+        }
+       }
+      },
+      "withholding": {
+       "$ref": "#/$defs/cell"
+      },
+      "withholding_rate": {
+       "$ref": "#/$defs/cell"
+      },
+      "total": {
+       "$ref": "#/$defs/cell"
+      },
+      "currency": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     }
+    },
+    "lines": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "description",
+       "quantity",
+       "unit_price",
+       "amount"
+      ],
+      "properties": {
+       "description": {
+        "$ref": "#/$defs/cell"
+       },
+       "quantity": {
+        "$ref": "#/$defs/cell"
+       },
+       "unit_price": {
+        "$ref": "#/$defs/cell"
+       },
+       "amount": {
+        "$ref": "#/$defs/cell"
+       }
+      }
+     }
+    },
+    "missing": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}

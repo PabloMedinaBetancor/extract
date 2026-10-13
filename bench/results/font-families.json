@@ -1,0 +1,9 @@
+{
+ "families": {
+  "train": 55,
+  "val": 34,
+  "test": 29
+ },
+ "test_families_never_in_training": 5,
+ "test_families_never_in_training_share": 0.172
+}

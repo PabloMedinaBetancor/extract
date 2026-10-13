@@ -1,0 +1,486 @@
+{
+ "schema_version": 2,
+ "source": {
+  "name": "invoice.pdf",
+  "sha256": "f79ddbc36632c833c2366feff5a6057e3dc6a996a6c88b2745e8ec103baf86c7"
+ },
+ "page_count": 1,
+ "engine": "rapidocr-3.9.2|PP-OCRv6-small|det1280|max3000|score0.3|nocls|v1|alts2",
+ "guard": "2a1fb77ab905",
+ "options": {
+  "languages": [
+   "es",
+   "en"
+  ],
+  "review": "balanced",
+  "correct": "off",
+  "second_reading": false
+ },
+ "fixes": {
+  "mode": "off",
+  "second_reading": false,
+  "thorough": false,
+  "applied": 0,
+  "undone": 0,
+  "by_source": {},
+  "by_op": {},
+  "withheld": [],
+  "second_reading_failed_pages": []
+ },
+ "status": "done",
+ "unreadable_pages": [],
+ "doc_type": "invoice",
+ "locale": "es",
+ "pages": [
+  {
+   "number": 1,
+   "status": "ocr",
+   "reason": null,
+   "error": null,
+   "dpi": 200,
+   "width_px": 1654,
+   "height_px": 2339,
+   "width_pt": 595.2755737304688,
+   "height_pt": 841.8897705078125,
+   "mean_conf": 0.9997447429275268,
+   "unaligned_words": 0,
+   "words": [
+    {
+     "id": "p1w4",
+     "text": "F-2026-0498",
+     "box_px": [
+      449.0,
+      247.0,
+      634.0,
+      283.0
+     ],
+     "box_pt": [
+      161.5953643319108,
+      88.90413566286007,
+      228.17697324372259,
+      101.86182345177895
+     ],
+     "conf": 0.9999618181818183,
+     "char_conf": [
+      0.9999,
+      1.0,
+      0.99998,
+      0.99984,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99989,
+      1.0,
+      1.0,
+      0.99999
+     ],
+     "line_id": 2,
+     "idx_in_line": 0,
+     "status": "doubtful",
+     "p_wrong": 0.03859739714479737,
+     "reasons": [
+      {
+       "key": "guard.reason.not_in_dictionary",
+       "params": {}
+      },
+      {
+       "key": "guard.reason.mixed_letters_digits",
+       "params": {}
+      },
+      {
+       "key": "guard.reason.neighbours_unusual",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w11",
+     "text": "Pelmuda",
+     "box_px": [
+      143.0,
+      387.0,
+      282.0,
+      429.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      139.29514373087792,
+      101.49196601692393,
+      154.41244615128326
+     ],
+     "conf": 0.9967100000000001,
+     "char_conf": [
+      0.9999,
+      0.99998,
+      0.97717,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99996
+     ],
+     "line_id": 7,
+     "idx_in_line": 0,
+     "status": "doubtful",
+     "p_wrong": 0.1928614297887054,
+     "reasons": [
+      {
+       "key": "guard.reason.not_in_dictionary",
+       "params": {}
+      },
+      {
+       "key": "guard.reason.low_char_conf",
+       "params": {
+        "char": "l",
+        "conf": 0.98
+       }
+      },
+      {
+       "key": "guard.reason.neighbours_unusual",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": {
+      "op": "segment",
+      "kind": "structure",
+      "text": "Pel mud a",
+      "ids": [
+       "p1w11"
+      ],
+      "source": "segment",
+      "sources": [
+       "segment"
+      ],
+      "p_fix": 0.00014106826322768167,
+      "p_keep": 0.7610816863837765,
+      "rule": null,
+      "modes": [],
+      "reasons": [
+       {
+        "key": "guard.fix.word_split",
+        "params": {}
+       }
+      ],
+      "applied": false
+     }
+    },
+    {
+     "id": "p1w13",
+     "text": "Esquilmar",
+     "box_px": [
+      863.0,
+      391.0,
+      1028.0,
+      428.0
+     ],
+     "box_pt": [
+      310.5942080588842,
+      140.73488681853559,
+      369.97780519644607,
+      154.05251037936887
+     ],
+     "conf": 0.9990933333333333,
+     "char_conf": [
+      0.99944,
+      0.99995,
+      0.99993,
+      0.99995,
+      0.99997,
+      0.99265,
+      0.99998,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 8,
+     "idx_in_line": 0,
+     "status": "doubtful",
+     "p_wrong": 0.11566189424817888,
+     "reasons": [
+      {
+       "key": "guard.reason.not_in_dictionary",
+       "params": {}
+      },
+      {
+       "key": "guard.reason.low_char_conf",
+       "params": {
+        "char": "l",
+        "conf": 0.99
+       }
+      },
+      {
+       "key": "guard.reason.neighbours_unusual",
+       "params": {}
+      }
+     ],
+     "suggestion": "Esquivar",
+     "suggestion_conf": 0.008685261758950945,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": {
+      "op": "text",
+      "kind": "letters",
+      "text": "Esquivar",
+      "ids": [
+       "p1w13"
+      ],
+      "source": "dictionary",
+      "sources": [
+       "dictionary"
+      ],
+      "p_fix": 0.008685261758950945,
+      "p_keep": 0.9486465451309257,
+      "rule": null,
+      "modes": [],
+      "reasons": [
+       {
+        "key": "guard.fix.dictionary_nearest",
+        "params": {
+         "word": "Esquivar"
+        }
+       }
+      ],
+      "applied": false
+     }
+    },
+    {
+     "id": "p1w74",
+     "text": "TOTAL",
+     "box_px": [
+      880.0,
+      965.0,
+      975.0,
+      1003.0
+     ],
+     "box_pt": [
+      316.71251806699667,
+      347.33801989740874,
+      350.9030739946838,
+      361.01557923015645
+     ],
+     "conf": 0.9999740000000001,
+     "char_conf": [
+      0.99997,
+      0.99994,
+      0.99998,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 37,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.0010416223682568624,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w75",
+     "text": "101.913,81",
+     "box_px": [
+      1306.0,
+      963.0,
+      1485.0,
+      1005.0
+     ],
+     "box_pt": [
+      470.03016885852,
+      346.61814835357995,
+      534.4523742380569,
+      361.7354507739853
+     ],
+     "conf": 0.9999770000000001,
+     "char_conf": [
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99999,
+      0.99989,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 38,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.00402855388054636,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    }
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "word_ids": [
+    "p1w75"
+   ],
+   "page": 1,
+   "text": "101.913,81",
+   "value": "101913.81",
+   "kind": "amount",
+   "status": "mismatch",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    },
+    {
+     "key": "checks.rule.total",
+     "params": {
+      "expected": "101913.51",
+      "found": "101913.81"
+     },
+     "result": "fail",
+     "verifying": true
+    }
+   ],
+   "suggestion": {
+    "position": 8,
+    "from": "8",
+    "to": "5",
+    "verified": true,
+    "rule": "checks.rule.total"
+   }
+  }
+ ],
+ "invoice": {
+  "fields": {
+   "number": {
+    "text": "F-2026-0498",
+    "word_ids": [
+     "p1w4"
+    ],
+    "page": 1,
+    "status": "unverified"
+   },
+   "date": {
+    "text": "20/01/2025",
+    "word_ids": [
+     "p1w8"
+    ],
+    "page": 1,
+    "status": "unverified"
+   },
+   "subtotal": {
+    "text": "84.226,04",
+    "word_ids": [
+     "p1w67"
+    ],
+    "page": 1,
+    "status": "mismatch"
+   },
+   "vat": [
+    {
+     "rate": {
+      "text": "21 %",
+      "word_ids": [
+       "p1w70",
+       "p1w71"
+      ],
+      "page": 1,
+      "status": "checked"
+     },
+     "amount": {
+      "text": "17.687,47",
+      "word_ids": [
+       "p1w72"
+      ],
+      "page": 1,
+      "status": "mismatch"
+     },
+     "base": null
+    }
+   ],
+   "withholding": null,
+   "withholding_rate": null,
+   "total": {
+    "text": "101.913,81",
+    "word_ids": [
+     "p1w75"
+    ],
+    "page": 1,
+    "status": "mismatch"
+   },
+   "currency": "EUR"
+  },
+  "lines": [
+   {
+    "description": {
+     "text": "Formación presencial",
+     "word_ids": [
+      "p1w42",
+      "p1w43"
+     ],
+     "page": 1,
+     "status": "unverified"
+    },
+    "quantity": {
+     "text": "11,2",
+     "word_ids": [
+      "p1w44"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "unit_price": {
+     "text": "1.893,85",
+     "word_ids": [
+      "p1w45"
+     ],
+     "page": 1,
+     "status": "checked"
+    },
+    "amount": {
+     "text": "21.211,12",
+     "word_ids": [
+      "p1w46"
+     ],
+     "page": 1,
+     "status": "checked"
+    }
+   }
+  ],
+  "missing": []
+ }
+}

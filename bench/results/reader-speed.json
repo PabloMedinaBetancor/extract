@@ -1,0 +1,172 @@
+{
+ "pages": 20,
+ "v4_baseline_seconds_per_page_this_session": 3.616,
+ "caps": {
+  "pass2_mean_s": 1.6,
+  "pass2_p95_s": 3.5,
+  "end_to_end_ratio": 1.4
+ },
+ "alternatives": {
+  "pages": 20,
+  "median_seconds_off": 2.577,
+  "median_seconds_on": 2.501,
+  "mean_seconds_off": 2.704,
+  "mean_seconds_on": 2.615,
+  "cost_ms_by_mean": -88.2,
+  "limit_ms": 60,
+  "load_average": 3.50146484375
+ },
+ "cells": {
+  "L": {
+   "pass2_seconds_mean": 1.369,
+   "pass2_seconds_p95": 2.435,
+   "pass2_within_cap": true,
+   "end_to_end_seconds_per_page": 1.899,
+   "end_to_end_ratio_to_v4": 0.53,
+   "end_to_end_within_cap": true,
+   "peak_reader_rss_mb": 1019,
+   "readers": {
+    "latin": {
+     "mean": 0.544,
+     "p95": 0.922
+    },
+    "wide": {
+     "mean": 0.928,
+     "p95": 1.576
+    }
+   },
+   "units_per_page_mean": 10.6,
+   "budgets": {
+    "4": {
+     "mean": 0.51,
+     "p95": 0.777,
+     "units_per_page_mean": 3.9
+    },
+    "8": {
+     "mean": 0.903,
+     "p95": 1.502,
+     "units_per_page_mean": 6.9
+    },
+    "16": {
+     "mean": 1.391,
+     "p95": 2.399,
+     "units_per_page_mean": 10.6
+    }
+   }
+  },
+  "LD": {
+   "pass2_seconds_mean": 3.308,
+   "pass2_seconds_p95": 5.741,
+   "pass2_within_cap": false,
+   "end_to_end_seconds_per_page": 1.899,
+   "end_to_end_ratio_to_v4": 0.53,
+   "end_to_end_within_cap": true,
+   "peak_reader_rss_mb": 1034,
+   "readers": {
+    "deep": {
+     "mean": 3.614,
+     "p95": 6.427
+    }
+   },
+   "units_per_page_mean": 10.6,
+   "budgets": {
+    "4": {
+     "mean": 1.297,
+     "p95": 2.004,
+     "units_per_page_mean": 3.9
+    },
+    "8": {
+     "mean": 2.294,
+     "p95": 3.797,
+     "units_per_page_mean": 6.9
+    },
+    "16": {
+     "mean": 3.435,
+     "p95": 6.001,
+     "units_per_page_mean": 10.6
+    }
+   }
+  },
+  "Z": {
+   "pass2_seconds_mean": 2.141,
+   "pass2_seconds_p95": 4.654,
+   "pass2_within_cap": false,
+   "end_to_end_seconds_per_page": 1.942,
+   "end_to_end_ratio_to_v4": 0.54,
+   "end_to_end_within_cap": true,
+   "peak_reader_rss_mb": 808,
+   "readers": {
+    "deep": {
+     "mean": 2.277,
+     "p95": 4.393
+    }
+   },
+   "units_per_page_mean": 15.8,
+   "budgets": {
+    "5": {
+     "mean": 0.793,
+     "p95": 1.044,
+     "units_per_page_mean": 4.8
+    },
+    "10": {
+     "mean": 1.269,
+     "p95": 1.829,
+     "units_per_page_mean": 8.2
+    },
+    "20": {
+     "mean": 1.645,
+     "p95": 2.791,
+     "units_per_page_mean": 12.1
+    },
+    "40": {
+     "mean": 2.192,
+     "p95": 4.955,
+     "units_per_page_mean": 15.8
+    }
+   }
+  },
+  "ZC": {
+   "pass2_seconds_mean": 0.811,
+   "pass2_seconds_p95": 1.722,
+   "pass2_within_cap": true,
+   "end_to_end_seconds_per_page": 1.942,
+   "end_to_end_ratio_to_v4": 0.54,
+   "end_to_end_within_cap": true,
+   "peak_reader_rss_mb": 694,
+   "readers": {
+    "latin": {
+     "mean": 0.324,
+     "p95": 0.674
+    },
+    "wide": {
+     "mean": 0.516,
+     "p95": 1.073
+    }
+   },
+   "units_per_page_mean": 15.8,
+   "budgets": {
+    "5": {
+     "mean": 0.316,
+     "p95": 0.421,
+     "units_per_page_mean": 4.8
+    },
+    "10": {
+     "mean": 0.462,
+     "p95": 0.698,
+     "units_per_page_mean": 8.2
+    },
+    "20": {
+     "mean": 0.632,
+     "p95": 1.067,
+     "units_per_page_mean": 12.1
+    },
+    "40": {
+     "mean": 0.803,
+     "p95": 1.715,
+     "units_per_page_mean": 15.8
+    }
+   }
+  }
+ },
+ "note": "figures taken on a loaded machine are a first sample; the quiet-machine run is the one that decides"
+}

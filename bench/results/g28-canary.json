@@ -1,0 +1,12 @@
+{
+ "pages": 698,
+ "structure_sites": true,
+ "exploratory": "31x200",
+ "canary": {
+  "safe_applied": 0,
+  "more_net": 0,
+  "more_net_se": 0.0,
+  "passes": true
+ },
+ "seconds": 370.8
+}

@@ -1,0 +1,48 @@
+# Extract
+
+> Offline OCR for PDFs, as a Python library and a local web interface. Extract reads scanned and digital PDFs in Spanish and English on your own machine, gives every word a status, and says which words and numbers are probably wrong. Numbers are checked with rules (check letters, check digits, sums, VAT), never by confidence alone, and no digit is changed unless a verifying rule or a person decides.
+
+Read `AGENTS.md` first when you write code that calls Extract: it has the calls for the common tasks on one page, the exact imports, the mistakes a model makes and what never to do. Version 5.0.7. Python 3.10 or newer; tested on Linux. It reads PDF only, in Spanish and English. Every script that reads must call Extract under `if __name__ == "__main__":`, because the OCR runs in worker processes that import the script again.
+
+## For assistants
+
+- [AGENTS.md](AGENTS.md): rules for AI coding assistants: runnable recipes, imports, statuses, pitfalls, what never to do.
+- [Using Extract from an AI coding assistant](docs/how-to/ai-assistants.md): the usual mistakes with their symptoms, and a checklist to review code an assistant wrote.
+- [llms-full.txt](llms-full.txt): every page of the documentation site as one plain file.
+
+## API reference
+
+- [Reference index](docs/reference/index.md): every public name, the import line and the three sample documents the examples use.
+- [Functions and helpers](docs/reference/functions.md): `read`, `load`, `inspect`, `FileInfo` and `CancelToken`.
+- [Reader](docs/reference/reader.md): keeps the OCR workers and models loaded for a batch of files.
+- [Document](docs/reference/document.md): the result of a read, with `doubtful`, `accept`, `correct`, `use_suggestion`, `undo`, `save` and `export`.
+- [Options](docs/reference/options.md): every setting of a read, its valid values and its default.
+- [Data types](docs/reference/data-types.md): `Word`, `Page`, `Number`, `Rule`, `Invoice` and the types inside them.
+- [Events](docs/reference/events.md): what `on_event` receives, in which order, and every warning code.
+- [Errors](docs/reference/errors.md): each error class, its `code` and `params`, when it is raised and what to do.
+- [JSON format](docs/reference/json-format.md): every field of the saved `.extract.json` file, generated from its schema.
+- [Command line](docs/reference/command-line.md): the interface command, the install and model scripts, and their flags.
+
+## Guides
+
+- [Installation](docs/getting-started/installation.md): install from a clone or offline, where the models go, and how to check an install.
+- [Quickstart](docs/getting-started/quickstart.md): read a document, review its doubtful words and export, from the interface and from Python.
+- [How it works](docs/concepts/how-it-works.md): how a page is read, and what each status of a word, a page, a number and a document means.
+- [Number checks](docs/concepts/number-checks.md): the rules that verify numbers and the digit suggestions.
+- [Corrections and the second reading](docs/concepts/corrections.md): the modes `off`, `safe` and `more`, proposals, undo, and the thorough mode.
+- [Batch a folder](docs/how-to/batch-a-folder.md): read many PDFs with one `Reader` into one workbook, partial documents and errors.
+- [Review doubtful words](docs/how-to/review-doubtful-words.md): decide the words and failing numbers in code, and export.
+- [Progress and cancel](docs/how-to/progress-and-cancel.md): follow a read page by page and stop one under way.
+- [Use Extract in a web service](docs/how-to/web-service.md): one reading thread behind a request handler.
+- [Accuracy and limits](docs/accuracy.md): measured results, each with its condition, and what Extract does not do.
+- [Troubleshooting](docs/troubleshooting.md): symptom, cause and fix, from real error messages.
+
+## Optional
+
+- [README](README.md): what Extract is, with a ten-line example.
+- [Tutorial: an invoice](docs/tutorials/invoice.md): an invoice whose total is 30 cents off, its doubtful words, why the total fails, and the workbook.
+- [Interface](docs/reference/interface.md): the four screens, the keys and the modes of the local web interface.
+- [Privacy](docs/concepts/privacy.md): what is written where, and why reading uses no network.
+- [FAQ](docs/faq.md): short answers to the questions people ask first.
+- [Licence and credits](docs/licence.md): what is licensed under what, and where each credit lives.
+- [Changelog](CHANGELOG.md): what changed in each version.

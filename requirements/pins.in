@@ -1,0 +1,21 @@
+# Versions tested on the development machine (Linux x86-64, Python 3.10). scripts/lock.py resolves every other
+# package around them; where a pin has no wheel for a target platform, lock.py drops it for that platform and says so
+# in the header of the lock file.
+lightgbm==4.7.0
+numpy==2.2.6
+pillow==12.3.0
+openpyxl==3.1.5
+pikepdf==10.13.0.post1
+psutil==7.2.2
+pypdfium2==5.13.0
+rapidfuzz==3.14.5
+opencv-python==5.0.0.93
+onnxruntime==1.23.2
+rapidocr==3.9.2
+openvino==2026.4.0
+jsonschema==4.26.0
+pytest==9.1.1
+ruff==0.16.10
+scipy==1.15.3
+wordfreq==3.1.1
+reportlab==3.6.13

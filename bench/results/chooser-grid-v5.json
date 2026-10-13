@@ -1,0 +1,439 @@
+{
+ "pages": 698,
+ "structure_sites": true,
+ "cells": {
+  "15x100": {
+   "fixed": 0.0,
+   "se": 0.0,
+   "logloss": 0.024692075872974815,
+   "safe_applied": 0,
+   "more_net": 2538,
+   "more_net_se": 274.23416695911396,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.02365501083303834
+    },
+    "join": {
+     "t_safe": null,
+     "m": 0.023278315761929697
+    },
+    "segment": {
+     "t_safe": null,
+     "m": -0.00031968693050615045
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.6570340056270614
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  },
+  "15x200": {
+   "fixed": 300.0,
+   "se": 29.995439266855122,
+   "logloss": 0.023033228781602317,
+   "safe_applied": 301,
+   "more_net": 2622,
+   "more_net_se": 281.32061023209815,
+   "thresholds": {
+    "text": {
+     "t_safe": 0.9949149984895439,
+     "m": -0.042541534024359326
+    },
+    "join": {
+     "t_safe": null,
+     "m": 0.007896042910874453
+    },
+    "segment": {
+     "t_safe": null,
+     "m": -0.00040465491292606087
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.7602363934280194
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  },
+  "15x400": {
+   "fixed": 0.0,
+   "se": 0.0,
+   "logloss": 0.021935087489658646,
+   "safe_applied": 0,
+   "more_net": 2620,
+   "more_net_se": 282.7053099900036,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.02206423749080215
+    },
+    "join": {
+     "t_safe": null,
+     "m": -0.10545391491348026
+    },
+    "segment": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.7337494351548798
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  },
+  "31x100": {
+   "fixed": 0.0,
+   "se": 0.0,
+   "logloss": 0.022801216220745674,
+   "safe_applied": 0,
+   "more_net": 2585,
+   "more_net_se": 280.1262307234961,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.027817363035239066
+    },
+    "join": {
+     "t_safe": null,
+     "m": -0.05817443948290366
+    },
+    "segment": {
+     "t_safe": null,
+     "m": -0.00046380286915747795
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.62034199439841
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  },
+  "31x200": {
+   "fixed": 0.0,
+   "se": 0.0,
+   "logloss": 0.02174099738891358,
+   "safe_applied": 0,
+   "more_net": 2616,
+   "more_net_se": 282.59269522323825,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.028933256039110844
+    },
+    "join": {
+     "t_safe": null,
+     "m": -0.10003536480452717
+    },
+    "segment": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.5193690234673048
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  },
+  "31x400": {
+   "fixed": 0.0,
+   "se": 0.0,
+   "logloss": 0.021080950220408543,
+   "safe_applied": 0,
+   "more_net": 2687,
+   "more_net_se": 288.7601193215414,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.058272894235711054
+    },
+    "join": {
+     "t_safe": null,
+     "m": -0.08553410474110468
+    },
+    "segment": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.5541453740363401
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  },
+  "63x100": {
+   "fixed": 0.0,
+   "se": 0.0,
+   "logloss": 0.021861154603666628,
+   "safe_applied": 0,
+   "more_net": 2650,
+   "more_net_se": 285.2944412642428,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.0405400703067792
+    },
+    "join": {
+     "t_safe": null,
+     "m": -0.043619939034987926
+    },
+    "segment": {
+     "t_safe": null,
+     "m": 2.1839748620768114e-05
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.8269708330832773
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  },
+  "63x200": {
+   "fixed": 0.0,
+   "se": 0.0,
+   "logloss": 0.021300316063860136,
+   "safe_applied": 0,
+   "more_net": 2647,
+   "more_net_se": 288.6798224092234,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.05697148083653558
+    },
+    "join": {
+     "t_safe": null,
+     "m": -0.019944725164838584
+    },
+    "segment": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  },
+  "63x400": {
+   "fixed": 0.0,
+   "se": 0.0,
+   "logloss": 0.021068627177093836,
+   "safe_applied": 0,
+   "more_net": 2677,
+   "more_net_se": 290.38442394140475,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.07183436387730685
+    },
+    "join": {
+     "t_safe": null,
+     "m": -0.03867405213804109
+    },
+    "segment": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.8349748178278691
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   }
+  }
+ },
+ "seconds": 860.7,
+ "choice_first_run_rule": {
+  "cell": "15x200",
+  "bar": 270.0045607331449,
+  "within_one_se": [
+   [
+    15,
+    200
+   ]
+  ],
+  "cost": 3000
+ },
+ "metric_first_run_rule": "safe_fixed",
+ "metric": "more_net",
+ "choice": {
+  "cell": "15x100",
+  "bar": 2398.2398806784586,
+  "within_one_se": [
+   "15x100",
+   "15x200",
+   "15x400",
+   "31x100",
+   "31x200",
+   "31x400",
+   "63x100",
+   "63x200",
+   "63x400"
+  ],
+  "cost": 1500,
+  "recomputed_from_the_cells": "safe is the metric only if on in 2/3 of the cells (grid.by_metric)"
+ }
+}

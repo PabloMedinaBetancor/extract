@@ -1,0 +1,84 @@
+{
+ "f1": {
+  "invoices": 60,
+  "others": 235,
+  "recall": 1.0,
+  "precision": 1.0,
+  "false_positives": 0
+ },
+ "f2": {
+  "number": 0.9333333333333333,
+  "date": 0.9833333333333333,
+  "subtotal": 0.9166666666666666,
+  "total": 1.0,
+  "currency": 1.0,
+  "vat_rate": 0.95,
+  "vat_amount": 0.8833333333333333,
+  "withholding": 0.95,
+  "withholding_rate": 0.9833333333333333,
+  "vat_base": 0.75
+ },
+ "f3": {
+  "row_count": 0.95,
+  "row_amount": 0.859504132231405,
+  "row_quantity_and_price": 0.8636363636363636,
+  "rows": 242
+ },
+ "n6": {
+  "invoices": 60,
+  "checked": 702,
+  "false_checked": 0,
+  "false_checked_numbers": [],
+  "rate_upper_bound_95": 0.004273504273504274,
+  "by_band": {
+   "light": {
+    "invoices": 30,
+    "checked": 442,
+    "false_checked": 0
+   },
+   "heavy": {
+    "invoices": 11,
+    "checked": 44,
+    "false_checked": 0
+   },
+   "medium": {
+    "invoices": 19,
+    "checked": 216,
+    "false_checked": 0
+   }
+  }
+ },
+ "injection": {
+  "seed": 1,
+  "invoices": 210,
+  "one_digit_sweep": {
+   "invoices": 210,
+   "trials": 15064,
+   "false_checked": 0
+  },
+  "one_digit": {
+   "trials": 20000,
+   "false_checked": 0,
+   "rate": 0.0,
+   "upper_bound_95": 0.00015
+  },
+  "one_edit": {
+   "trials": 20000,
+   "false_checked": 0,
+   "rate": 0.0,
+   "upper_bound_95": 0.00015
+  },
+  "two_digits_one_number": {
+   "trials": 19297,
+   "false_checked": 27,
+   "rate": 0.0013991812198787376,
+   "upper_bound_95": null
+  },
+  "two_digits_same_equation": {
+   "trials": 20000,
+   "false_checked": 307,
+   "rate": 0.01535,
+   "upper_bound_95": null
+  }
+ }
+}

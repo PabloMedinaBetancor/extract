@@ -1,0 +1,37 @@
+[
+ {
+  "time": "2026-10-02T04:01:57+00:00",
+  "purpose": "ocr",
+  "pages": 325,
+  "fingerprint": "9cb7e51b86d5bad7597030d8dc2ad03b6503438d53f281845c8bd0b253db4345",
+  "reason": null
+ },
+ {
+  "time": "2026-10-02T04:36:11+00:00",
+  "purpose": "ocr",
+  "pages": 325,
+  "fingerprint": "9cb7e51b86d5bad7597030d8dc2ad03b6503438d53f281845c8bd0b253db4345",
+  "reason": null
+ },
+ {
+  "time": "2026-10-02T04:37:02+00:00",
+  "purpose": "ocr",
+  "pages": 325,
+  "fingerprint": "e37808175856366efcadd3d5ac1336b697072d2af7d8a8cee92feb96237cbda1",
+  "reason": null
+ },
+ {
+  "time": "2026-10-02T05:09:33+00:00",
+  "purpose": "ocr",
+  "pages": 325,
+  "fingerprint": "e37808175856366efcadd3d5ac1336b697072d2af7d8a8cee92feb96237cbda1",
+  "reason": null
+ },
+ {
+  "time": "2026-10-02T05:09:44+00:00",
+  "purpose": "metrics",
+  "pages": 325,
+  "fingerprint": "e37808175856366efcadd3d5ac1336b697072d2af7d8a8cee92feb96237cbda1",
+  "reason": null
+ }
+]

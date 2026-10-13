@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 766" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<title id="t">How a page is read</title>
+<desc id="d">Seven stacked steps from the text of a page to the output files: take the text, judge every OCR word, an optional second reading, apply fixes by mode, find the invoice fields, check the numbers, write the outputs.</desc>
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a869a"/></marker></defs>
+<rect x="40" y="20" width="520" height="84" rx="8" fill="#dbe8fb" stroke="#5b8bd6" stroke-width="1.6"/>
+<text x="300.0" y="39.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1b2430">1. Take the text</text>
+<text x="300.0" y="57.0" text-anchor="middle" font-size="13" fill="#1b2430">The text layer of the PDF when it is legible: those words are native</text>
+<text x="300.0" y="75.0" text-anchor="middle" font-size="13" fill="#1b2430">and are not judged. Otherwise render the page and read it with OCR</text>
+<text x="300.0" y="93.0" text-anchor="middle" font-size="13" fill="#1b2430">in worker processes.</text>
+<line x1="300.0" y1="104" x2="300.0" y2="130" stroke="#7a869a" stroke-width="2" marker-end="url(#head)"/>
+<rect x="40" y="130" width="520" height="84" rx="8" fill="#fdefc7" stroke="#c98f12" stroke-width="1.6"/>
+<text x="300.0" y="149.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1b2430">2. Judge every OCR word</text>
+<text x="300.0" y="167.0" text-anchor="middle" font-size="13" fill="#1b2430">The guard sets ok or doubtful, with a probability, the</text>
+<text x="300.0" y="185.0" text-anchor="middle" font-size="13" fill="#1b2430">reasons, and a fix proposal when it has one. It sets unscored when</text>
+<text x="300.0" y="203.0" text-anchor="middle" font-size="13" fill="#1b2430">nothing could judge the word.</text>
+<line x1="300.0" y1="214" x2="300.0" y2="240" stroke="#7a869a" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#head)"/>
+<rect x="40" y="240" width="520" height="66" rx="8" fill="#e6e8ec" stroke="#8a94a6" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="300.0" y="259.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1b2430">Second reading (optional, off by default)</text>
+<text x="300.0" y="277.0" text-anchor="middle" font-size="13" fill="#1b2430">Re-reads the doubtful lines with other recognisers; the readings</text>
+<text x="300.0" y="295.0" text-anchor="middle" font-size="13" fill="#1b2430">become evidence for fixes.</text>
+<line x1="300.0" y1="306" x2="300.0" y2="332" stroke="#7a869a" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#head)"/>
+<rect x="40" y="332" width="520" height="84" rx="8" fill="#eadcf8" stroke="#8e5cc2" stroke-width="1.6"/>
+<text x="300.0" y="351.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1b2430">3. Apply fixes by mode</text>
+<text x="300.0" y="369.0" text-anchor="middle" font-size="13" fill="#1b2430">off applies none. safe and more apply the proposals that pass their</text>
+<text x="300.0" y="387.0" text-anchor="middle" font-size="13" fill="#1b2430">thresholds. A page where more than 8 % of the words would change</text>
+<text x="300.0" y="405.0" text-anchor="middle" font-size="13" fill="#1b2430">keeps none.</text>
+<line x1="300.0" y1="416" x2="300.0" y2="442" stroke="#7a869a" stroke-width="2" marker-end="url(#head)"/>
+<rect x="40" y="442" width="520" height="84" rx="8" fill="#e8edf3" stroke="#8a94a6" stroke-width="1.6"/>
+<text x="300.0" y="461.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1b2430">4. Find the invoice fields</text>
+<text x="300.0" y="479.0" text-anchor="middle" font-size="13" fill="#1b2430">On page 1, when it has an invoice title and at least two totals</text>
+<text x="300.0" y="497.0" text-anchor="middle" font-size="13" fill="#1b2430">labels: number, date, subtotal, VAT, withholding, total, currency</text>
+<text x="300.0" y="515.0" text-anchor="middle" font-size="13" fill="#1b2430">and lines.</text>
+<line x1="300.0" y1="526" x2="300.0" y2="552" stroke="#7a869a" stroke-width="2" marker-end="url(#head)"/>
+<rect x="40" y="552" width="520" height="84" rx="8" fill="#dcf1e0" stroke="#4a9d5b" stroke-width="1.6"/>
+<text x="300.0" y="571.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1b2430">5. Check the numbers</text>
+<text x="300.0" y="589.0" text-anchor="middle" font-size="13" fill="#1b2430">Rules for check digits and arithmetic give checked, mismatch or</text>
+<text x="300.0" y="607.0" text-anchor="middle" font-size="13" fill="#1b2430">unverified, and a one-digit suggestion when exactly one change would</text>
+<text x="300.0" y="625.0" text-anchor="middle" font-size="13" fill="#1b2430">pass.</text>
+<line x1="300.0" y1="636" x2="300.0" y2="662" stroke="#7a869a" stroke-width="2" marker-end="url(#head)"/>
+<rect x="40" y="662" width="520" height="84" rx="8" fill="#e8edf3" stroke="#8a94a6" stroke-width="1.6"/>
+<text x="300.0" y="690.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1b2430">6. Write the outputs</text>
+<text x="300.0" y="708.0" text-anchor="middle" font-size="13" fill="#1b2430">Searchable PDF, JSON, Excel and text, when you export. Nothing is</text>
+<text x="300.0" y="726.0" text-anchor="middle" font-size="13" fill="#1b2430">read again.</text>
+</svg>

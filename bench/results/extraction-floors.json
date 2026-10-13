@@ -1,0 +1,6 @@
+{
+ "note": "Floors under what the engine's readings of the 32 validation invoices gave (bench/results/extraction-val.json). The invoices come from the six layouts the extractor was written on, so they say how the extraction holds up under damage, not how it generalises. Heavy has 6 pages: its floors are loose on purpose.",
+ "light": {"f1_recall": 1.0, "f2_mean": 1.0, "row_count": 1.0, "row_amount": 1.0, "row_quantity_and_price": 1.0, "min_checked": 100},
+ "medium": {"f1_recall": 1.0, "f2_mean": 0.9, "row_count": 1.0, "row_amount": 0.95, "row_quantity_and_price": 1.0, "min_checked": 100},
+ "heavy": {"f1_recall": 1.0, "f2_mean": 0.8, "row_count": 1.0, "row_amount": 0.4, "row_quantity_and_price": 0.6, "min_checked": 20}
+}

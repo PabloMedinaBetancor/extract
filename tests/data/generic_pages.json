@@ -1,0 +1,27 @@
+{
+ "contract": [
+  "CONTRATO DE ARRENDAMIENTO",
+  "Reunidos de una parte el arrendador y de otra el arrendatario, acuerdan lo siguiente.",
+  "Primera. El precio total de la renta mensual sera de 650,00 euros."
+ ],
+ "quote": [
+  "PRESUPUESTO",
+  "Base imponible 1.000,00",
+  "IVA 21 % 210,00",
+  "TOTAL 1.210,00"
+ ],
+ "letter": [
+  "Estimado cliente",
+  "Adjuntamos la factura del mes pasado, con su total.",
+  "Un saludo"
+ ],
+ "english_report": [
+  "Annual report",
+  "Total sales grew 4 % and the VAT regime did not change",
+  "End"
+ ],
+ "title_only": [
+  "FACTURA",
+  "Gracias por su compra"
+ ]
+}

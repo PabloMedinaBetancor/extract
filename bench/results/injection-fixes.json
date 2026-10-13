@@ -1,0 +1,426 @@
+{
+ "seed": 20261006,
+ "invoices": 210,
+ "trials_per_mode": 20000,
+ "modes": {
+  "one_digit_any": {
+   "verified": {
+    "trials": 20000,
+    "trials_with_a_fix": 14395,
+    "all_corrected": 14395,
+    "false_fixes": 0,
+    "false_fix_rate": 0.0,
+    "false_fix_upper_bound_95": 0.00015,
+    "false_fix_rate_among_trials_with_a_fix": 0.0,
+    "wrong_checked": 0,
+    "wrong_checked_upper_bound_95": 0.00015,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 12,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.25
+     },
+     "checks.rule.line_amount": {
+      "applied": 6295,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0004765687053216839
+     },
+     "checks.rule.lines_sum": {
+      "applied": 2170,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0013824884792626728
+     },
+     "checks.rule.total": {
+      "applied": 3597,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0008340283569641367
+     },
+     "checks.rule.vat_amount": {
+      "applied": 1526,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.001965923984272608
+     },
+     "checks.rule.withholding_amount": {
+      "applied": 795,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0037735849056603774
+     }
+    }
+   },
+   "verified_and_alts": {
+    "trials": 20000,
+    "trials_with_a_fix": 1484,
+    "all_corrected": 1484,
+    "false_fixes": 0,
+    "false_fix_rate": 0.0,
+    "false_fix_upper_bound_95": 0.00015,
+    "false_fix_rate_among_trials_with_a_fix": 0.0,
+    "wrong_checked": 0,
+    "wrong_checked_upper_bound_95": 0.00015,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 1,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 3.0
+     },
+     "checks.rule.line_amount": {
+      "applied": 625,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0048
+     },
+     "checks.rule.lines_sum": {
+      "applied": 263,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.011406844106463879
+     },
+     "checks.rule.total": {
+      "applied": 409,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.007334963325183374
+     },
+     "checks.rule.vat_amount": {
+      "applied": 98,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.030612244897959183
+     },
+     "checks.rule.withholding_amount": {
+      "applied": 88,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.03409090909090909
+     }
+    }
+   }
+  },
+  "one_digit_ctc": {
+   "verified": {
+    "trials": 20000,
+    "trials_with_a_fix": 14585,
+    "all_corrected": 14585,
+    "false_fixes": 0,
+    "false_fix_rate": 0.0,
+    "false_fix_upper_bound_95": 0.00015,
+    "false_fix_rate_among_trials_with_a_fix": 0.0,
+    "wrong_checked": 0,
+    "wrong_checked_upper_bound_95": 0.00015,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 32,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.09375
+     },
+     "checks.rule.line_amount": {
+      "applied": 6403,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.00046853037638606906
+     },
+     "checks.rule.lines_sum": {
+      "applied": 2543,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0011797090051120724
+     },
+     "checks.rule.total": {
+      "applied": 3600,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0008333333333333334
+     },
+     "checks.rule.vat_amount": {
+      "applied": 1051,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0028544243577545195
+     },
+     "checks.rule.withholding_amount": {
+      "applied": 956,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0031380753138075313
+     }
+    }
+   },
+   "verified_and_alts": {
+    "trials": 20000,
+    "trials_with_a_fix": 14585,
+    "all_corrected": 14585,
+    "false_fixes": 0,
+    "false_fix_rate": 0.0,
+    "false_fix_upper_bound_95": 0.00015,
+    "false_fix_rate_among_trials_with_a_fix": 0.0,
+    "wrong_checked": 0,
+    "wrong_checked_upper_bound_95": 0.00015,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 32,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.09375
+     },
+     "checks.rule.line_amount": {
+      "applied": 6403,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.00046853037638606906
+     },
+     "checks.rule.lines_sum": {
+      "applied": 2543,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0011797090051120724
+     },
+     "checks.rule.total": {
+      "applied": 3600,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0008333333333333334
+     },
+     "checks.rule.vat_amount": {
+      "applied": 1051,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0028544243577545195
+     },
+     "checks.rule.withholding_amount": {
+      "applied": 956,
+      "false": 0,
+      "false_rate": 0.0,
+      "upper_bound_95": 0.0031380753138075313
+     }
+    }
+   }
+  },
+  "two_digits_any": {
+   "verified": {
+    "trials": 20000,
+    "trials_with_a_fix": 97,
+    "all_corrected": 0,
+    "false_fixes": 97,
+    "false_fix_rate": 0.00485,
+    "false_fix_upper_bound_95": 0.00591252691344354,
+    "false_fix_rate_among_trials_with_a_fix": 1.0,
+    "wrong_checked": 177,
+    "wrong_checked_upper_bound_95": 0.010245643181181862,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 25,
+      "false": 25,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.line_amount": {
+      "applied": 4,
+      "false": 4,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.lines_sum": {
+      "applied": 66,
+      "false": 66,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0000000000000002
+     },
+     "checks.rule.total": {
+      "applied": 3,
+      "false": 3,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     }
+    }
+   },
+   "verified_and_alts": {
+    "trials": 20000,
+    "trials_with_a_fix": 14,
+    "all_corrected": 0,
+    "false_fixes": 14,
+    "false_fix_rate": 0.0007,
+    "false_fix_upper_bound_95": 0.0011747412119744872,
+    "false_fix_rate_among_trials_with_a_fix": 1.0,
+    "wrong_checked": 95,
+    "wrong_checked_upper_bound_95": 0.005802667495690674,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 2,
+      "false": 2,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.line_amount": {
+      "applied": 1,
+      "false": 1,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.lines_sum": {
+      "applied": 11,
+      "false": 11,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     }
+    }
+   }
+  },
+  "two_digits_ctc": {
+   "verified": {
+    "trials": 20000,
+    "trials_with_a_fix": 108,
+    "all_corrected": 0,
+    "false_fixes": 108,
+    "false_fix_rate": 0.0054,
+    "false_fix_upper_bound_95": 0.006515011429519077,
+    "false_fix_rate_among_trials_with_a_fix": 1.0,
+    "wrong_checked": 247,
+    "wrong_checked_upper_bound_95": 0.01397701600033357,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 30,
+      "false": 30,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.line_amount": {
+      "applied": 10,
+      "false": 10,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.lines_sum": {
+      "applied": 65,
+      "false": 65,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.total": {
+      "applied": 5,
+      "false": 5,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0000000000000002
+     }
+    }
+   },
+   "verified_and_alts": {
+    "trials": 20000,
+    "trials_with_a_fix": 12,
+    "all_corrected": 0,
+    "false_fixes": 12,
+    "false_fix_rate": 0.0006,
+    "false_fix_upper_bound_95": 0.0010485460275795058,
+    "false_fix_rate_among_trials_with_a_fix": 1.0,
+    "wrong_checked": 155,
+    "wrong_checked_upper_bound_95": 0.009063440954997842,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 3,
+      "false": 3,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.line_amount": {
+      "applied": 3,
+      "false": 3,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     },
+     "checks.rule.lines_sum": {
+      "applied": 5,
+      "false": 5,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0000000000000002
+     },
+     "checks.rule.total": {
+      "applied": 1,
+      "false": 1,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     }
+    }
+   }
+  },
+  "one_letter_any": {
+   "verified": {
+    "trials": 20000,
+    "trials_with_a_fix": 941,
+    "all_corrected": 0,
+    "false_fixes": 941,
+    "false_fix_rate": 0.04705,
+    "false_fix_upper_bound_95": 0.050072640653724645,
+    "false_fix_rate_among_trials_with_a_fix": 1.0,
+    "wrong_checked": 941,
+    "wrong_checked_upper_bound_95": 0.050072640653724645,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 941,
+      "false": 941,
+      "false_rate": 1.0,
+      "upper_bound_95": 0.9999999999999998
+     }
+    }
+   },
+   "verified_and_alts": {
+    "trials": 20000,
+    "trials_with_a_fix": 114,
+    "all_corrected": 0,
+    "false_fixes": 114,
+    "false_fix_rate": 0.0057,
+    "false_fix_upper_bound_95": 0.006842503818379999,
+    "false_fix_rate_among_trials_with_a_fix": 1.0,
+    "wrong_checked": 114,
+    "wrong_checked_upper_bound_95": 0.006842503818379999,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 114,
+      "false": 114,
+      "false_rate": 1.0,
+      "upper_bound_95": 1.0
+     }
+    }
+   }
+  },
+  "one_letter_ctc": {
+   "verified": {
+    "trials": 20000,
+    "trials_with_a_fix": 1047,
+    "all_corrected": 0,
+    "false_fixes": 1047,
+    "false_fix_rate": 0.05235,
+    "false_fix_upper_bound_95": 0.05552377459831621,
+    "false_fix_rate_among_trials_with_a_fix": 1.0,
+    "wrong_checked": 1047,
+    "wrong_checked_upper_bound_95": 0.05552377459831621,
+    "by_rule": {
+     "checks.rule.dni_letter": {
+      "applied": 1047,
+      "false": 1047,
+      "false_rate": 1.0,
+      "upper_bound_95": 0.9999999999999998
+     }
+    }
+   },
+   "verified_and_alts": {
+    "trials": 20000,
+    "trials_with_a_fix": 0,
+    "all_corrected": 0,
+    "false_fixes": 0,
+    "false_fix_rate": 0.0,
+    "false_fix_upper_bound_95": 0.00015,
+    "false_fix_rate_among_trials_with_a_fix": null,
+    "wrong_checked": 0,
+    "wrong_checked_upper_bound_95": 0.00015,
+    "by_rule": {}
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+f0b03ff6c2b5effb261cb22590f1b0db519c3fcd0c215fd9ffe4ee2e9b0f1246  guard.model
+d764a66b89a5e0f68a9196c6d6b5a687e01d668c9c5b28bd5f480ead61fc209b  guard-thorough.model
+344d973db341c83768f9750d088f4b99e4d0b98162f0b61892dff3044c874297  guard-v4.model
+787a5ee02cad836ad2a5dd02dcc82b8947fb526cfa04f290f8bbed6efa53e504  models.json
+f0b03ff6c2b5effb261cb22590f1b0db519c3fcd0c215fd9ffe4ee2e9b0f1246  ../src/extract/data/guard.model
+d764a66b89a5e0f68a9196c6d6b5a687e01d668c9c5b28bd5f480ead61fc209b  ../src/extract/data/guard-thorough.model
+2b856f1e746bc220670be385defe30ee7d82e1b0d80ba162723676bfb1063a07  ../src/extract/guard/data/charlm_en.npy
+b8013f44387e61d678890174ff529668f9cf160b19f31ac7d572dd417642197e  ../src/extract/guard/data/charlm_es.npy
+e9164dbd95e6e6a4a0d0c939f67bf171487e6253d4b441a893099d9c90c0a5df  ../src/extract/guard/data/symdel_en.npy
+b4ddd53e272e77a3c4556d0244d329d15b9647001432c17ea101664b9d00856c  ../src/extract/guard/data/symdel_es.npy
+6ebca24a20a8852b9d1a9724e89ac25328a95034a42b0c559746d03dfd4f2df8  ../src/extract/guard/data/dict_en.tsv.gz
+b2391a47b0110ddb48caf27cee4fff99b3155b2dc3e3e95ded9104c655c90807  ../src/extract/guard/data/dict_es.tsv.gz

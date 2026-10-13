@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "extract"
+dynamic = ["version"]
+description = "Offline OCR for PDFs that flags the words and numbers that are probably wrong"
+readme = "README.md"
+authors = [{ name = "Pablo Medina" }]
+license = { text = "MIT" }
+keywords = ["ocr", "pdf", "offline", "spanish", "english", "document-processing"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Natural Language :: Spanish",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pypdfium2>=5.13,<6",
+    "pikepdf>=10.13,<11",
+    "rapidocr>=3.9.2,<3.10",
+    "onnxruntime>=1.23,<2",
+    "numpy>=2.2,<3",
+    "pillow>=12.3,<13",
+    "opencv-python>=5.0,<6",
+    "openpyxl>=3.1,<4",
+    "lightgbm>=4.7,<5",
+    "psutil>=7.2,<8",
+    "rapidfuzz>=3.14,<4",
+]
+
+[project.urls]
+Homepage = "https://github.com/PabloMedinaBetancor/extract"
+Issues = "https://github.com/PabloMedinaBetancor/extract/issues"
+
+[project.optional-dependencies]
+openvino = ["openvino>=2026.4,<2027"]
+dev = [
+    "pytest>=9.1",
+    "ruff>=0.16",
+    "jsonschema>=4.26",
+    "reportlab>=3.6.13",
+    "wordfreq>=3.1,<4",
+    "scipy>=1.15",
+    "tomli>=2.4; python_version < '3.11'",
+]
+
+[tool.setuptools.dynamic]
+version = { attr = "extract.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+extract = ["py.typed", "schema/*.json", "fields/*.json", "data/guard.model", "data/guard-thorough.model", "data/second_reading.json", "guard/data/*", "ui/static/*", "ui/i18n/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "corpus: needs the benchmark corpus (EXTRACT_BENCH_DATA, EXTRACT_CATALOG; see bench/README.md)",
+    "docs: runs the documentation examples on the real models; skipped unless EXTRACT_DOCS=1 (scripts/docs.py check sets it)",
+]
+addopts = "-m 'not corpus'"

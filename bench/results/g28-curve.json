@@ -1,0 +1,55 @@
+{
+ "pages": 698,
+ "structure_sites": true,
+ "exploratory": "31x200",
+ "points": {
+  "0.25": {
+   "safe_applied": 360,
+   "safe_fixed": 359,
+   "more_applied": 3658,
+   "more_net": 2535,
+   "more_net_se": 278.3027192958183,
+   "more_broken": 130,
+   "sites": 47387,
+   "reachable_sites": 3742
+  },
+  "0.5": {
+   "safe_applied": 407,
+   "safe_fixed": 405,
+   "more_applied": 3776,
+   "more_net": 2597,
+   "more_net_se": 282.82912647499495,
+   "more_broken": 133,
+   "sites": 47387,
+   "reachable_sites": 3742
+  },
+  "1.0": {
+   "safe_applied": 304,
+   "safe_fixed": 303,
+   "more_applied": 3777,
+   "more_net": 2616,
+   "more_net_se": 282.59269522323825,
+   "more_broken": 136,
+   "sites": 47387,
+   "reachable_sites": 3742
+  }
+ },
+ "curve": {
+  "0.25": {
+   "more_net": 2535,
+   "se": 278.3027192958183,
+   "safe_fixed": 359
+  },
+  "0.5": {
+   "more_net": 2597,
+   "se": 282.82912647499495,
+   "safe_fixed": 405
+  },
+  "1.0": {
+   "more_net": 2616,
+   "se": 282.59269522323825,
+   "safe_fixed": 303
+  }
+ },
+ "seconds": 657.2
+}

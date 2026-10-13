@@ -1,0 +1,430 @@
+{
+ "seed": 20261002,
+ "crop_fingerprint": "019fd82998a8b75b1fc731b1d3671d4b5e236e45b5f2fa21cde2ce19a406cdb2",
+ "pages": [
+  "cecc994ebb0/32",
+  "c62e75944a7/63",
+  "c5ab1125d0f/73",
+  "c82c743b8a8/20",
+  "inv-tv-0137/1",
+  "cc05078b478/8",
+  "inv-tv-0115/1",
+  "inv-tv-0138/1",
+  "c473fcf7cba/88",
+  "c626d0c271e/13",
+  "inv-tv-0073/1",
+  "inv-tv-0141/1",
+  "inv-tv-0125/1",
+  "c0923cc0a16/25",
+  "inv-tv-0110/1",
+  "cf96b5c90cf/17",
+  "inv-tv-0121/1",
+  "ca6059e8be9/10",
+  "inv-tv-0079/1",
+  "cf92d4402b8/47",
+  "c56714b3737/39",
+  "c3aaef74fb7/25",
+  "inv-tv-0061/1",
+  "inv-tv-0050/1",
+  "inv-tv-0134/1",
+  "cc018bb6134/8",
+  "cd5554a6130/31",
+  "c0b46fc421c/72",
+  "ca8df8f8b2c/7",
+  "c799c4ab635/4",
+  "inv-tv-0030/1",
+  "cdb6e36589a/3",
+  "c7ddcf8cb51/5",
+  "inv-tv-0104/1",
+  "cd61fdabdf2/129",
+  "inv-tv-0005/1",
+  "cc72ba0a352/28",
+  "c7fd5fe1618/39",
+  "inv-tv-0103/1",
+  "c203795fbf4/1"
+ ],
+ "crops": 510,
+ "crop_method": "slice of the first reading's word boxes straightened by the page's tilt, 0.25 line heights wider on each side",
+ "suspect_rule": {
+  "tau_char": 0.9,
+  "tau_word": 0.9
+ },
+ "targets_skipped": {
+  "measured": 542,
+  "not measured": 67
+ },
+ "reader_parse": "NFC, then every run of white space (line breaks included) becomes one space",
+ "vocabulary_excluded": {
+  "onnxtr-parseq": {
+   "vocabulary": "latin letters, digits and punctuation of English plus àâéèêëîïôùûüçÀÂÉÈÊËÎÏÔÙÛÜÇ",
+   "missing": "áíóúñÁÍÓÚÑ¿¡"
+  },
+  "onnxtr-crnn_vgg16_bn": {
+   "vocabulary": "latin letters, digits and punctuation of English plus àâéèêëîïôùûüçÀÂÉÈÊËÎÏÔÙÛÜÇ",
+   "missing": "áíóúñÁÍÓÚÑ¿¡"
+  },
+  "onnxtr-vitstr_small": {
+   "vocabulary": "latin letters, digits and punctuation of English plus àâéèêëîïôùûüçÀÂÉÈÊËÎÏÔÙÛÜÇ",
+   "missing": "áíóúñÁÍÓÚÑ¿¡"
+  }
+ },
+ "not_run": {
+  "florence-2-base": {
+   "reason": "Not measured on this machine (2026-10-02; the reason is given here). (1) torch and transformers are not installed and a VLM needs them, outside the repo, plus its weights; (2) the run asks for a 4.5 GB memory scope with more than 5.5 GB free and the machine has 7.8 GB shared with other processes (about 5.4 GB available when asked); (3) it would go on only with 10 points of net100 over the best recogniser (PP-OCRv6 medium), the catalogue marks every VLM as inventing text, and the pilot (gate P) showed that all second readers together add at most 1.8 points of pool recall, so the engine was frozen without it.",
+   "status": "not_run"
+  },
+  "got-ocr-2.0": {
+   "reason": "Not measured on this machine (2026-10-02; the reason is given here). (1) torch and transformers are not installed and a VLM needs them, outside the repo, plus its weights; (2) the run asks for a 4.5 GB memory scope with more than 5.5 GB free and the machine has 7.8 GB shared with other processes (about 5.4 GB available when asked); (3) it would go on only with 10 points of net100 over the best recogniser (PP-OCRv6 medium), the catalogue marks every VLM as inventing text, and the pilot (gate P) showed that all second readers together add at most 1.8 points of pool recall, so the engine was frozen without it.",
+   "status": "not_run"
+  },
+  "glm-ocr": {
+   "reason": "Not measured on this machine (2026-10-02; the reason is given here). (1) torch and transformers are not installed and a VLM needs them, outside the repo, plus its weights; (2) the run asks for a 4.5 GB memory scope with more than 5.5 GB free and the machine has 7.8 GB shared with other processes (about 5.4 GB available when asked); (3) it would go on only with 10 points of net100 over the best recogniser (PP-OCRv6 medium), the catalogue marks every VLM as inventing text, and the pilot (gate P) showed that all second readers together add at most 1.8 points of pool recall, so the engine was frozen without it.",
+   "status": "not_run"
+  },
+  "paddleocr-vl": {
+   "reason": "Not measured on this machine (2026-10-02; the reason is given here). (1) torch and transformers are not installed and a VLM needs them, outside the repo, plus its weights; (2) the run asks for a 4.5 GB memory scope with more than 5.5 GB free and the machine has 7.8 GB shared with other processes (about 5.4 GB available when asked); (3) it would go on only with 10 points of net100 over the best recogniser (PP-OCRv6 medium), the catalogue marks every VLM as inventing text, and the pilot (gate P) showed that all second readers together add at most 1.8 points of pool recall, so the engine was frozen without it.",
+   "status": "not_run"
+  }
+ },
+ "models": {
+  "ppocrv6-small": {
+   "role": "control",
+   "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv6/rec/PP-OCRv6_rec_small.onnx",
+   "licence": "Apache-2.0",
+   "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+   "size_bytes": 21234383,
+   "screening": {
+    "crops": 150,
+    "zones": 150,
+    "zones_unaligned": 2,
+    "wrong_words": 41,
+    "right_words": 112,
+    "fixed": 8,
+    "harmed": 7,
+    "changed": 19,
+    "reader_recall": 0.1951,
+    "recall_beyond_pool": 0.2,
+    "wrong_beyond_pool": 5,
+    "change_precision": 0.4211,
+    "reader_harm": 0.0625,
+    "net100": 2.44
+   },
+   "screening_seconds_4_threads": {
+    "median": 0.0183,
+    "p95": 0.0416
+   },
+   "emits": {
+    "á": true,
+    "é": true,
+    "í": true,
+    "ó": true,
+    "ú": true,
+    "ü": true,
+    "ñ": true,
+    "Á": true,
+    "É": true,
+    "Í": true,
+    "Ó": true,
+    "Ú": true,
+    "Ü": true,
+    "Ñ": true,
+    "¿": true,
+    "¡": false
+   },
+   "hand_test": {
+    "camión": "camión",
+    "señor": "señor",
+    "pingüino": "pingüino",
+    "¿Qué?": "¿Qué?",
+    "¡Hola!": "Hola!",
+    "árbol": "árbol",
+    "último": "último",
+    "MÁLAGA": "MÁLAGA",
+    "NIÑO": "NIÑO",
+    "avión": "avión"
+   },
+   "admissible": true,
+   "full": {
+    "zones": 510,
+    "zones_unaligned": 9,
+    "wrong_words": 152,
+    "right_words": 390,
+    "fixed": 48,
+    "harmed": 29,
+    "changed": 98,
+    "reader_recall": 0.3158,
+    "recall_beyond_pool": 0.125,
+    "wrong_beyond_pool": 16,
+    "change_precision": 0.4898,
+    "reader_harm": 0.0744,
+    "net100": 12.5
+   },
+   "reproduces_first_reading": 0.6529,
+   "seconds_4_threads": {
+    "median": 0.0154,
+    "p95": 0.0364
+   },
+   "seconds_1_thread": {
+    "median": 0.0318,
+    "p95": 0.0693
+   },
+   "peak_rss_mb": 435.0
+  },
+  "ppocrv6-medium": {
+   "role": "candidate",
+   "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv6/rec/PP-OCRv6_rec_medium.onnx",
+   "licence": "Apache-2.0",
+   "sha256": "eef444829dbbe18d7fea59a3f6eb75647518d2b3a9568d27c92e42940204894b",
+   "size_bytes": 76629984,
+   "screening": {
+    "crops": 150,
+    "zones": 150,
+    "zones_unaligned": 4,
+    "wrong_words": 41,
+    "right_words": 112,
+    "fixed": 26,
+    "harmed": 7,
+    "changed": 37,
+    "reader_recall": 0.6341,
+    "recall_beyond_pool": 0.6,
+    "wrong_beyond_pool": 5,
+    "change_precision": 0.7027,
+    "reader_harm": 0.0625,
+    "net100": 46.34
+   },
+   "screening_seconds_4_threads": {
+    "median": 0.0617,
+    "p95": 0.1269
+   },
+   "emits": {
+    "á": true,
+    "é": true,
+    "í": true,
+    "ó": true,
+    "ú": true,
+    "ü": true,
+    "ñ": true,
+    "Á": true,
+    "É": true,
+    "Í": true,
+    "Ó": true,
+    "Ú": true,
+    "Ü": true,
+    "Ñ": true,
+    "¿": true,
+    "¡": false
+   },
+   "hand_test": {
+    "camión": "camión",
+    "señor": "señor",
+    "pingüino": "pingüino",
+    "¿Qué?": "¿Qué?",
+    "¡Hola!": "Hola!",
+    "árbol": "árbol",
+    "último": "último",
+    "MÁLAGA": "MÁLAGA",
+    "NIÑO": "NIÑO",
+    "avión": "avión"
+   },
+   "admissible": true,
+   "full": {
+    "zones": 510,
+    "zones_unaligned": 11,
+    "wrong_words": 152,
+    "right_words": 390,
+    "fixed": 87,
+    "harmed": 28,
+    "changed": 138,
+    "reader_recall": 0.5724,
+    "recall_beyond_pool": 0.4375,
+    "wrong_beyond_pool": 16,
+    "change_precision": 0.6304,
+    "reader_harm": 0.0718,
+    "net100": 38.82
+   },
+   "reproduces_first_reading": 0.5725,
+   "seconds_4_threads": {
+    "median": 0.0609,
+    "p95": 0.1047
+   },
+   "seconds_1_thread": {
+    "median": 0.1469,
+    "p95": 0.3
+   },
+   "peak_rss_mb": 673.9
+  },
+  "ppocrv5-server": {
+   "role": "candidate",
+   "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/rec/ch_PP-OCRv5_rec_server.onnx",
+   "licence": "Apache-2.0",
+   "sha256": "e09385400eaaaef34ceff54aeb7c4f0f1fe014c27fa8b9905d4709b65746562a",
+   "size_bytes": 84577022,
+   "screening": {
+    "crops": 150,
+    "zones": 150,
+    "zones_unaligned": 10,
+    "wrong_words": 41,
+    "right_words": 112,
+    "fixed": 14,
+    "harmed": 33,
+    "changed": 52,
+    "reader_recall": 0.3415,
+    "recall_beyond_pool": 0.2,
+    "wrong_beyond_pool": 5,
+    "change_precision": 0.2692,
+    "reader_harm": 0.2946,
+    "net100": -46.34
+   },
+   "screening_seconds_4_threads": {
+    "median": 0.3322,
+    "p95": 0.562
+   },
+   "emits": {
+    "á": true,
+    "é": true,
+    "í": true,
+    "ó": true,
+    "ú": true,
+    "ü": true,
+    "ñ": true,
+    "Á": true,
+    "É": true,
+    "Í": true,
+    "Ó": true,
+    "Ú": false,
+    "Ü": true,
+    "Ñ": false,
+    "¿": false,
+    "¡": false
+   },
+   "hand_test": {
+    "camión": "camión",
+    "señor": "señor",
+    "pingüino": "pingüino",
+    "¿Qué?": "qué？",
+    "¡Hola!": "jHola!",
+    "árbol": "árbol",
+    "último": "último",
+    "MÁLAGA": "mALaGA",
+    "NIÑO": "NINO",
+    "avión": "avión"
+   },
+   "admissible": true,
+   "full": {
+    "zones": 510,
+    "zones_unaligned": 31,
+    "wrong_words": 152,
+    "right_words": 390,
+    "fixed": 42,
+    "harmed": 123,
+    "changed": 193,
+    "reader_recall": 0.2763,
+    "recall_beyond_pool": 0.25,
+    "wrong_beyond_pool": 16,
+    "change_precision": 0.2176,
+    "reader_harm": 0.3154,
+    "net100": -53.29
+   },
+   "reproduces_first_reading": 0.3137,
+   "seconds_4_threads": {
+    "median": 0.3728,
+    "p95": 0.6822
+   },
+   "seconds_1_thread": {
+    "median": 1.4131,
+    "p95": 2.035
+   },
+   "peak_rss_mb": 941.5
+  },
+  "latin-ppocrv5-mobile": {
+   "role": "candidate",
+   "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/rec/latin_PP-OCRv5_rec_mobile.onnx",
+   "licence": "Apache-2.0",
+   "sha256": "b20bd37c168a570f583afbc8cd7925603890efbcdc000a59e22c269d160b5f5a",
+   "size_bytes": 7904513,
+   "screening": {
+    "crops": 150,
+    "zones": 150,
+    "zones_unaligned": 5,
+    "wrong_words": 41,
+    "right_words": 112,
+    "fixed": 23,
+    "harmed": 7,
+    "changed": 34,
+    "reader_recall": 0.561,
+    "recall_beyond_pool": 0.6,
+    "wrong_beyond_pool": 5,
+    "change_precision": 0.6765,
+    "reader_harm": 0.0625,
+    "net100": 39.02
+   },
+   "screening_seconds_4_threads": {
+    "median": 0.02,
+    "p95": 0.0773
+   },
+   "emits": {
+    "á": true,
+    "é": true,
+    "í": true,
+    "ó": true,
+    "ú": true,
+    "ü": true,
+    "ñ": true,
+    "Á": true,
+    "É": true,
+    "Í": true,
+    "Ó": true,
+    "Ú": true,
+    "Ü": true,
+    "Ñ": true,
+    "¿": true,
+    "¡": true
+   },
+   "hand_test": {
+    "camión": "camión",
+    "señor": "señor",
+    "pingüino": "pingüino",
+    "¿Qué?": "¿Qué?",
+    "¡Hola!": "¡Hola!",
+    "árbol": "árbol",
+    "último": "último",
+    "MÁLAGA": "MÁLAGA",
+    "NIÑO": "NIÑO",
+    "avión": "avión"
+   },
+   "admissible": true,
+   "full": {
+    "zones": 510,
+    "zones_unaligned": 11,
+    "wrong_words": 152,
+    "right_words": 390,
+    "fixed": 75,
+    "harmed": 33,
+    "changed": 138,
+    "reader_recall": 0.4934,
+    "recall_beyond_pool": 0.25,
+    "wrong_beyond_pool": 16,
+    "change_precision": 0.5435,
+    "reader_harm": 0.0846,
+    "net100": 27.63
+   },
+   "reproduces_first_reading": 0.5745,
+   "seconds_4_threads": {
+    "median": 0.035,
+    "p95": 0.0877
+   },
+   "seconds_1_thread": {
+    "median": 0.058,
+    "p95": 0.1143
+   },
+   "peak_rss_mb": 599.8
+  }
+ },
+ "deep": "ppocrv6-medium",
+ "ranking_by_net100": [
+  "ppocrv6-medium",
+  "latin-ppocrv5-mobile",
+  "ppocrv5-server"
+ ],
+ "timing_note": "The seconds and the memory in this file were measured on a loaded machine (other processes running, load about 8): they are not a clean measurement and are not cited. The ranking figures (net100, fixed, harmed) do not depend on the machine."
+}

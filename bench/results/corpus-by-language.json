@@ -1,0 +1,242 @@
+{
+ "development_pool_D": {
+  "roles": [
+   "dev",
+   "shift"
+  ],
+  "pages": 1018,
+  "by_language": {
+   "en": {
+    "pages": 339,
+    "documents": 152,
+    "catalogue_pages": 287,
+    "catalogue_documents": 100,
+    "invoice_pages": 52,
+    "invoice_documents": 52,
+    "invoice_share_of_pages": 0.1534,
+    "pages_by_band": {
+     "heavy": 56,
+     "light": 170,
+     "medium": 113
+    },
+    "pages_by_fold": {
+     "fold0": 77,
+     "fold1": 59,
+     "fold2": 69,
+     "fold3": 70,
+     "fold4": 64
+    }
+   },
+   "es": {
+    "pages": 679,
+    "documents": 326,
+    "catalogue_pages": 628,
+    "catalogue_documents": 275,
+    "invoice_pages": 51,
+    "invoice_documents": 51,
+    "invoice_share_of_pages": 0.0751,
+    "pages_by_band": {
+     "heavy": 108,
+     "light": 317,
+     "medium": 224,
+     "unseen": 30
+    },
+    "pages_by_fold": {
+     "fold0": 115,
+     "fold1": 128,
+     "fold2": 142,
+     "fold3": 128,
+     "fold4": 136
+    }
+   }
+  },
+  "language_share_of_pages": {
+   "en": 0.333,
+   "es": 0.667
+  }
+ },
+ "dev_only": {
+  "en": {
+   "pages": 339,
+   "documents": 152,
+   "catalogue_pages": 287,
+   "catalogue_documents": 100,
+   "invoice_pages": 52,
+   "invoice_documents": 52,
+   "invoice_share_of_pages": 0.1534,
+   "pages_by_band": {
+    "heavy": 56,
+    "light": 170,
+    "medium": 113
+   },
+   "pages_by_fold": {
+    "fold0": 77,
+    "fold1": 59,
+    "fold2": 69,
+    "fold3": 70,
+    "fold4": 64
+   }
+  },
+  "es": {
+   "pages": 649,
+   "documents": 311,
+   "catalogue_pages": 598,
+   "catalogue_documents": 260,
+   "invoice_pages": 51,
+   "invoice_documents": 51,
+   "invoice_share_of_pages": 0.0786,
+   "pages_by_band": {
+    "heavy": 108,
+    "light": 317,
+    "medium": 224
+   },
+   "pages_by_fold": {
+    "fold0": 115,
+    "fold1": 128,
+    "fold2": 142,
+    "fold3": 128,
+    "fold4": 136
+   }
+  }
+ },
+ "shift": {
+  "es": {
+   "pages": 30,
+   "documents": 15,
+   "catalogue_pages": 30,
+   "catalogue_documents": 15,
+   "invoice_pages": 0,
+   "invoice_documents": 0,
+   "invoice_share_of_pages": 0.0,
+   "pages_by_band": {
+    "unseen": 30
+   },
+   "pages_by_fold": {}
+  }
+ },
+ "aside_invoices": {
+  "en": {
+   "pages": 51,
+   "documents": 51,
+   "catalogue_pages": 0,
+   "catalogue_documents": 0,
+   "invoice_pages": 51,
+   "invoice_documents": 51,
+   "invoice_share_of_pages": 1.0,
+   "pages_by_band": {
+    "heavy": 7,
+    "light": 24,
+    "medium": 20
+   },
+   "pages_by_fold": {}
+  },
+  "es": {
+   "pages": 56,
+   "documents": 56,
+   "catalogue_pages": 0,
+   "catalogue_documents": 0,
+   "invoice_pages": 56,
+   "invoice_documents": 56,
+   "invoice_share_of_pages": 1.0,
+   "pages_by_band": {
+    "heavy": 9,
+    "light": 29,
+    "medium": 18
+   },
+   "pages_by_fold": {}
+  }
+ },
+ "readback": {
+  "en": {
+   "pages": 30,
+   "documents": 30,
+   "catalogue_pages": 30,
+   "catalogue_documents": 30,
+   "invoice_pages": 0,
+   "invoice_documents": 0,
+   "invoice_share_of_pages": 0.0,
+   "pages_by_band": {
+    "clean": 30
+   },
+   "pages_by_fold": {}
+  },
+  "es": {
+   "pages": 30,
+   "documents": 30,
+   "catalogue_pages": 30,
+   "catalogue_documents": 30,
+   "invoice_pages": 0,
+   "invoice_documents": 0,
+   "invoice_share_of_pages": 0.0,
+   "pages_by_band": {
+    "clean": 30
+   },
+   "pages_by_fold": {}
+  }
+ },
+ "sealed_not_opened": {
+  "t5_pages": {
+   "es": 456,
+   "en": 32
+  },
+  "t5_english_invoices": 32,
+  "t5en_pages": {
+   "en": 284
+  },
+  "t5en_candidate_documents": 100
+ },
+ "folds_en": {
+  "fold3": {
+   "light": 30,
+   "medium": 20,
+   "heavy": 9
+  },
+  "fold2": {
+   "medium": 23,
+   "light": 29,
+   "heavy": 7
+  },
+  "fold4": {
+   "medium": 15,
+   "light": 26,
+   "heavy": 10
+  },
+  "fold0": {
+   "light": 36,
+   "medium": 19,
+   "heavy": 11
+  },
+  "fold1": {
+   "heavy": 9,
+   "medium": 16,
+   "light": 27
+  }
+ },
+ "folds": {
+  "fold1": {
+   "medium": 43,
+   "heavy": 25,
+   "light": 67
+  },
+  "fold2": {
+   "heavy": 26,
+   "light": 72,
+   "medium": 54
+  },
+  "fold3": {
+   "medium": 54,
+   "heavy": 21,
+   "light": 64
+  },
+  "fold4": {
+   "heavy": 25,
+   "light": 73,
+   "medium": 51
+  },
+  "fold0": {
+   "light": 63,
+   "heavy": 21,
+   "medium": 42
+  }
+ }
+}

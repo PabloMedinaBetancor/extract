@@ -1,0 +1,30 @@
+{
+ "limits": {
+  "page_ms": 150.0,
+  "scoring_ms": 10.0,
+  "load_seconds": 3.0,
+  "added_mb": 250.0
+ },
+ "load_seconds": 0.4991771679997328,
+ "added_mb": 81.956864,
+ "pages": 20,
+ "page_ms": {
+  "median": 42.22460972049681,
+  "p95": 207.53649982323103,
+  "max": 246.92234762741685
+ },
+ "signals_ms": {
+  "median": 21.09248850218996,
+  "p95": 26.862410233614916,
+  "max": 27.727225581395555
+ },
+ "scoring_ms": {
+  "median": 1.2905321667657041,
+  "p95": 1.4273948337154347,
+  "max": 1.4711837209296015
+ },
+ "page_ms_ok": true,
+ "scoring_ms_ok": true,
+ "load_ok": true,
+ "memory_ok": true
+}

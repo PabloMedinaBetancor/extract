@@ -1,0 +1,144 @@
+{
+ "words": {
+  "es": {
+   "title": "FACTURA",
+   "number": "Nº de factura",
+   "date": "Fecha de emisión",
+   "supplier": "Emisor",
+   "customer": "Cliente",
+   "tax_id": "NIF",
+   "description": "Descripción",
+   "quantity": "Cantidad",
+   "unit_price": "Precio unitario",
+   "amount": "Importe",
+   "subtotal": "Base imponible",
+   "vat": "IVA",
+   "withholding": "Retención IRPF",
+   "total": "TOTAL",
+   "iban": "IBAN",
+   "pay": "Forma de pago: transferencia"
+  },
+  "en": {
+   "title": "INVOICE",
+   "number": "Invoice no.",
+   "date": "Invoice date",
+   "supplier": "From",
+   "customer": "Bill to",
+   "tax_id": "Tax ID",
+   "description": "Description",
+   "quantity": "Qty",
+   "unit_price": "Unit price",
+   "amount": "Amount",
+   "subtotal": "Subtotal",
+   "vat": "VAT",
+   "withholding": "Withholding",
+   "total": "TOTAL",
+   "iban": "IBAN",
+   "pay": "Payment: bank transfer"
+  }
+ },
+ "items": {
+  "es": [
+   "Consultoría de procesos",
+   "Mantenimiento de equipos",
+   "Licencia de software anual",
+   "Diseño gráfico de catálogo",
+   "Transporte de mercancías",
+   "Formación presencial",
+   "Revisión de instalación eléctrica",
+   "Servicio de limpieza mensual",
+   "Soporte técnico remoto",
+   "Material de oficina",
+   "Traducción de documentos",
+   "Auditoría de seguridad"
+  ],
+  "en": [
+   "Process consulting",
+   "Equipment maintenance",
+   "Annual software licence",
+   "Catalogue graphic design",
+   "Freight transport",
+   "On-site training",
+   "Electrical installation review",
+   "Monthly cleaning service",
+   "Remote technical support",
+   "Office supplies",
+   "Document translation",
+   "Security audit"
+  ]
+ },
+ "companies": [
+  "Aldorbe",
+  "Brindel",
+  "Cuarzola",
+  "Dorbena",
+  "Esquilmar",
+  "Falcanda",
+  "Gorvelia",
+  "Hurdanza",
+  "Ilmeria",
+  "Jarpona",
+  "Lunarda",
+  "Mirlanza",
+  "Norquel",
+  "Orvelia",
+  "Pelmuda",
+  "Quirondal"
+ ],
+ "suffixes": [
+  "S.L.",
+  "S.A.",
+  "Ltd",
+  "Group",
+  "& Hijos",
+  "Partners"
+ ],
+ "streets": [
+  "Calle de los Inventos",
+  "Avenida de la Muestra",
+  "Paseo de la Estación Falsa",
+  "Plaza Imaginaria",
+  "Calle del Río Supuesto",
+  "Camino del Ejemplo"
+ ],
+ "cities": [
+  "Villaficticia",
+  "Puerto Inventado",
+  "Valdeinvento",
+  "Cerro Supuesto",
+  "Nuevamuestra",
+  "Playa Imaginaria",
+  "San Nadie del Mar",
+  "Ejemplar de Arriba"
+ ],
+ "months": {
+  "es": [
+   "enero",
+   "febrero",
+   "marzo",
+   "abril",
+   "mayo",
+   "junio",
+   "julio",
+   "agosto",
+   "septiembre",
+   "octubre",
+   "noviembre",
+   "diciembre"
+  ],
+  "en": [
+   "January",
+   "February",
+   "March",
+   "April",
+   "May",
+   "June",
+   "July",
+   "August",
+   "September",
+   "October",
+   "November",
+   "December"
+  ]
+ }
+}

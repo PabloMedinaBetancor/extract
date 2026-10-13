@@ -1,0 +1,11 @@
+[
+ {
+  "time": "2026-10-02T12:04:29+00:00",
+  "pages": 488,
+  "fingerprint": "285a5db58a608e1670b8a3db890364420629c61647a850b4c5586ddcaa9cba99",
+  "images": "a6936232c120e819868f0f70ac1fd79e61ceb63e01ccef0648608e88d51e40e6",
+  "truth": "2dc8e55c86660030a261bc6c6d14bbcfbadab432438c10c7e2e8f320504c0a5a",
+  "ungrounded": "192d39d6fc6e725b87a12d5c9f5c0a32b2f68c1a983c0ad7c0c5d9a489c16876",
+  "note": "T5 as built by bench.corpus.build5, before any v5 model"
+ }
+]

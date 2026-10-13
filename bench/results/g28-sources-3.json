@@ -1,0 +1,71 @@
+{
+ "pages": 698,
+ "structure_sites": true,
+ "exploratory": "31x200",
+ "base": {
+  "wrong_words": 7150,
+  "chooser": {
+   "safe_applied": 304,
+   "safe_fixed": 303,
+   "more_applied": 3777,
+   "more_net": 2616,
+   "more_net_se": 282.59269522323825,
+   "more_broken": 136,
+   "sites": 47387,
+   "reachable_sites": 3742
+  }
+ },
+ "dropped": {
+  "reading:latin": {
+   "safe_applied": 320,
+   "safe_fixed": 319,
+   "more_applied": 3766,
+   "more_net": 2580,
+   "more_net_se": 278.2119864784583,
+   "more_broken": 134,
+   "sites": 47387,
+   "reachable_sites": 3713
+  },
+  "reading:wide": {
+   "safe_applied": 0,
+   "safe_fixed": 0,
+   "more_applied": 3799,
+   "more_net": 2650,
+   "more_net_se": 281.9846975733822,
+   "more_broken": 136,
+   "sites": 47387,
+   "reachable_sites": 3727
+  },
+  "reading:deep": {
+   "safe_applied": 0,
+   "safe_fixed": 0,
+   "more_applied": 3855,
+   "more_net": 2646,
+   "more_net_se": 282.86342087975055,
+   "more_broken": 135,
+   "sites": 47093,
+   "reachable_sites": 3714
+  }
+ },
+ "verdicts": {
+  "reading:latin": {
+   "safe_fixed_lost_per_100_wrong": -0.22377622377622378,
+   "more_net_lost_per_100_wrong": 0.5034965034965035,
+   "keeps": false,
+   "reachable_sites": 3713
+  },
+  "reading:wide": {
+   "safe_fixed_lost_per_100_wrong": 4.2377622377622375,
+   "more_net_lost_per_100_wrong": -0.4755244755244755,
+   "keeps": true,
+   "reachable_sites": 3727
+  },
+  "reading:deep": {
+   "safe_fixed_lost_per_100_wrong": 4.2377622377622375,
+   "more_net_lost_per_100_wrong": -0.4195804195804196,
+   "keeps": true,
+   "reachable_sites": 3714
+  }
+ },
+ "seconds": 1120.8
+}

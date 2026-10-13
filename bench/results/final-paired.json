@@ -1,0 +1,281 @@
+{
+ "resamples": 2000,
+ "sensed": {
+  "total": {
+   "more_net": {
+    "difference": 340.0,
+    "se": 41.6244372440991,
+    "low": 260.0,
+    "high": 428.0,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 393.0,
+    "se": 44.27298546937156,
+    "low": 307.0,
+    "high": 485.0,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 4011,
+    "default": 3671
+   }
+  },
+  "language_en": {
+   "more_net": {
+    "difference": 128.0,
+    "se": 26.31847592163001,
+    "low": 80.0,
+    "high": 181.0,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 136.0,
+    "se": 27.19516251895208,
+    "low": 88.0,
+    "high": 193.02499999999986,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 1315,
+    "default": 1187
+   }
+  },
+  "language_es": {
+   "more_net": {
+    "difference": 212.0,
+    "se": 33.34298689586115,
+    "low": 150.0,
+    "high": 278.0,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 257.0,
+    "se": 37.06415621038463,
+    "low": 189.0,
+    "high": 332.02499999999986,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 2696,
+    "default": 2484
+   }
+  },
+  "documents_labelled_en": {
+   "documents": 152,
+   "more_net": {
+    "difference": 128.0,
+    "se": 24.701352962319383,
+    "low": 80.0,
+    "high": 177.0,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 136.0,
+    "se": 26.320279530378826,
+    "low": 88.0,
+    "high": 190.02499999999986,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 1315,
+    "default": 1187
+   }
+  },
+  "documents_labelled_es": {
+   "documents": 311,
+   "more_net": {
+    "difference": 212.0,
+    "se": 32.402717259404284,
+    "low": 153.0,
+    "high": 279.0,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 257.0,
+    "se": 36.78825299982849,
+    "low": 188.975,
+    "high": 332.0,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 2696,
+    "default": 2484
+   }
+  }
+ },
+ "label": {
+  "total": {
+   "more_net": {
+    "difference": 342.0,
+    "se": 41.7171942746522,
+    "low": 263.0,
+    "high": 429.02499999999986,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 402.0,
+    "se": 44.62330796295562,
+    "low": 316.0,
+    "high": 493.02499999999986,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 4017,
+    "default": 3675
+   }
+  },
+  "language_en": {
+   "more_net": {
+    "difference": 129.0,
+    "se": 26.00926788681304,
+    "low": 81.975,
+    "high": 181.0,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 137.0,
+    "se": 27.951677447625,
+    "low": 88.0,
+    "high": 195.0,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 1320,
+    "default": 1191
+   }
+  },
+  "language_es": {
+   "more_net": {
+    "difference": 213.0,
+    "se": 33.64323415788532,
+    "low": 150.975,
+    "high": 280.02499999999986,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 265.0,
+    "se": 37.06215319365127,
+    "low": 198.0,
+    "high": 343.0,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 2697,
+    "default": 2484
+   }
+  },
+  "documents_labelled_en": {
+   "documents": 152,
+   "more_net": {
+    "difference": 129.0,
+    "se": 24.407704967507502,
+    "low": 82.0,
+    "high": 178.0,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 137.0,
+    "se": 27.080470521980338,
+    "low": 86.0,
+    "high": 192.0,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 1320,
+    "default": 1191
+   }
+  },
+  "documents_labelled_es": {
+   "documents": 311,
+   "more_net": {
+    "difference": 213.0,
+    "se": 32.62272926936818,
+    "low": 154.0,
+    "high": 281.0,
+    "excludes_zero": true
+   },
+   "more_applied": {
+    "difference": 265.0,
+    "se": 36.96398263182693,
+    "low": 196.0,
+    "high": 339.0,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 0.0,
+    "se": 0.0,
+    "low": 0.0,
+    "high": 0.0,
+    "excludes_zero": false
+   },
+   "more_net_each": {
+    "thorough": 2697,
+    "default": 2484
+   }
+  }
+ }
+}

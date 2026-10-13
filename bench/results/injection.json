@@ -1,0 +1,33 @@
+{
+ "seed": 1,
+ "invoices": 210,
+ "one_digit_sweep": {
+  "invoices": 210,
+  "trials": 15064,
+  "false_checked": 0
+ },
+ "one_digit": {
+  "trials": 20000,
+  "false_checked": 0,
+  "rate": 0.0,
+  "upper_bound_95": 0.00015
+ },
+ "one_edit": {
+  "trials": 20000,
+  "false_checked": 0,
+  "rate": 0.0,
+  "upper_bound_95": 0.00015
+ },
+ "two_digits_one_number": {
+  "trials": 19297,
+  "false_checked": 27,
+  "rate": 0.0013991812198787376,
+  "upper_bound_95": null
+ },
+ "two_digits_same_equation": {
+  "trials": 20000,
+  "false_checked": 307,
+  "rate": 0.01535,
+  "upper_bound_95": null
+ }
+}

@@ -1,0 +1,8124 @@
+{
+ "schema_version": 2,
+ "source": {
+  "name": "unreadable.pdf",
+  "sha256": "cef10d148433236cd07f2d0deac7f434805d2b4165b9ace93fac907bf309ae30"
+ },
+ "page_count": 3,
+ "engine": "rapidocr-3.9.2|PP-OCRv6-small|det1280|max3000|score0.3|nocls|v1|alts2",
+ "guard": "doubting-guard",
+ "options": {
+  "languages": [
+   "es",
+   "en"
+  ],
+  "review": "balanced",
+  "correct": "off",
+  "second_reading": false
+ },
+ "fixes": {
+  "mode": "off",
+  "second_reading": false,
+  "thorough": false,
+  "applied": 0,
+  "undone": 0,
+  "by_source": {},
+  "by_op": {},
+  "withheld": [],
+  "second_reading_failed_pages": []
+ },
+ "status": "partial",
+ "unreadable_pages": [
+  {
+   "page": 2,
+   "reason": "page.reason.few_words",
+   "error": null
+  }
+ ],
+ "doc_type": "invoice",
+ "locale": "es",
+ "pages": [
+  {
+   "number": 1,
+   "status": "ocr",
+   "reason": null,
+   "error": null,
+   "dpi": 200,
+   "width_px": 1654,
+   "height_px": 2339,
+   "width_pt": 595.2755737304688,
+   "height_pt": 841.8897705078125,
+   "mean_conf": 0.9998195925735086,
+   "unaligned_words": 0,
+   "words": [
+    {
+     "id": "p1w0",
+     "text": "Factura",
+     "box_px": [
+      143.0,
+      137.0,
+      231.0,
+      172.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      49.311200752274615,
+      83.13703599258662,
+      61.908952769279075
+     ],
+     "conf": 0.9999614285714287,
+     "char_conf": [
+      0.99991,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99998,
+      1.0,
+      0.99986
+     ],
+     "line_id": 0,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w1",
+     "text": "numero",
+     "box_px": [
+      235.0,
+      137.0,
+      330.0,
+      172.0
+     ],
+     "box_pt": [
+      84.5766383474366,
+      49.311200752274615,
+      118.76719427512374,
+      61.908952769279075
+     ],
+     "conf": 0.9999633333333334,
+     "char_conf": [
+      0.99993,
+      0.99995,
+      0.99999,
+      0.99995,
+      0.99999,
+      0.99997
+     ],
+     "line_id": 0,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w2",
+     "text": "2026-0042",
+     "box_px": [
+      340.0,
+      137.0,
+      464.0,
+      172.0
+     ],
+     "box_pt": [
+      122.3662001622487,
+      49.311200752274615,
+      166.99387316259822,
+      61.908952769279075
+     ],
+     "conf": 0.9999833333333333,
+     "char_conf": [
+      1.0,
+      0.99999,
+      1.0,
+      0.99999,
+      0.99999,
+      0.99991,
+      0.99998,
+      1.0,
+      0.99999
+     ],
+     "line_id": 0,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w3",
+     "text": "emitida",
+     "box_px": [
+      473.0,
+      137.0,
+      563.0,
+      172.0
+     ],
+     "box_pt": [
+      170.2329784610107,
+      49.311200752274615,
+      202.62403144513536,
+      61.908952769279075
+     ],
+     "conf": 0.9999628571428572,
+     "char_conf": [
+      0.99996,
+      0.99997,
+      0.99992,
+      0.99999,
+      0.99992,
+      1.0,
+      0.99998
+     ],
+     "line_id": 0,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w4",
+     "text": "el",
+     "box_px": [
+      572.0,
+      137.0,
+      598.0,
+      172.0
+     ],
+     "box_pt": [
+      205.8631367435478,
+      49.311200752274615,
+      215.2205520500727,
+      61.908952769279075
+     ],
+     "conf": 0.9999800000000001,
+     "char_conf": [
+      0.99999,
+      0.99997
+     ],
+     "line_id": 0,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w5",
+     "text": "14/03/2026",
+     "box_px": [
+      601.0,
+      137.0,
+      738.0,
+      172.0
+     ],
+     "box_pt": [
+      216.30025381621022,
+      49.311200752274615,
+      265.6066344698222,
+      61.908952769279075
+     ],
+     "conf": 0.999986,
+     "char_conf": [
+      0.99998,
+      1.0,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99999,
+      1.0,
+      0.99994
+     ],
+     "line_id": 0,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w6",
+     "text": "por",
+     "box_px": [
+      747.0,
+      137.0,
+      790.0,
+      172.0
+     ],
+     "box_pt": [
+      268.84573976823464,
+      49.311200752274615,
+      284.321465082872,
+      61.908952769279075
+     ],
+     "conf": 0.9999666666666666,
+     "char_conf": [
+      0.99996,
+      0.99996,
+      0.99998
+     ],
+     "line_id": 0,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w7",
+     "text": "servicios",
+     "box_px": [
+      794.0,
+      137.0,
+      901.0,
+      172.0
+     ],
+     "box_pt": [
+      285.761067437722,
+      49.311200752274615,
+      324.27043042995905,
+      61.908952769279075
+     ],
+     "conf": 0.9999722222222223,
+     "char_conf": [
+      0.99998,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99989,
+      1.0,
+      0.99997,
+      0.99997,
+      0.99999
+     ],
+     "line_id": 0,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w8",
+     "text": "de",
+     "box_px": [
+      910.0,
+      137.0,
+      936.0,
+      172.0
+     ],
+     "box_pt": [
+      327.50953572837153,
+      49.311200752274615,
+      336.86695103489643,
+      61.908952769279075
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 0,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w9",
+     "text": "consultoria",
+     "box_px": [
+      945.0,
+      137.0,
+      1075.0,
+      172.0
+     ],
+     "box_pt": [
+      340.1060563333089,
+      49.311200752274615,
+      386.8931328659334,
+      61.908952769279075
+     ],
+     "conf": 0.9999636363636363,
+     "char_conf": [
+      0.99999,
+      0.99997,
+      0.99998,
+      0.99998,
+      0.99998,
+      0.99988,
+      0.99999,
+      0.99996,
+      1.0,
+      0.99992,
+      0.99995
+     ],
+     "line_id": 0,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w10",
+     "text": "Cliente:",
+     "box_px": [
+      145.0,
+      175.0,
+      234.0,
+      210.0
+     ],
+     "box_pt": [
+      52.18558536331195,
+      62.988760085022314,
+      84.21673775872411,
+      75.58651210202677
+     ],
+     "conf": 0.99994,
+     "char_conf": [
+      0.99984,
+      0.99986,
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99995,
+      0.99993
+     ],
+     "line_id": 1,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w11",
+     "text": "Zulema",
+     "box_px": [
+      244.0,
+      175.0,
+      333.0,
+      210.0
+     ],
+     "box_pt": [
+      87.81574364584907,
+      62.988760085022314,
+      119.84689604126123,
+      75.58651210202677
+     ],
+     "conf": 0.9998766666666666,
+     "char_conf": [
+      0.99944,
+      0.99998,
+      0.99998,
+      0.99996,
+      0.99996,
+      0.99994
+     ],
+     "line_id": 1,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w12",
+     "text": "Quentarra",
+     "box_px": [
+      344.0,
+      175.0,
+      462.0,
+      210.0
+     ],
+     "box_pt": [
+      123.8058025170987,
+      62.988760085022314,
+      166.27407198517324,
+      75.58651210202677
+     ],
+     "conf": 0.9999800000000002,
+     "char_conf": [
+      0.99997,
+      0.99999,
+      0.99994,
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99998
+     ],
+     "line_id": 1,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w13",
+     "text": "Ibolo,",
+     "box_px": [
+      466.0,
+      175.0,
+      538.0,
+      210.0
+     ],
+     "box_pt": [
+      167.71367434002323,
+      62.988760085022314,
+      193.62651672732295,
+      75.58651210202677
+     ],
+     "conf": 0.999565,
+     "char_conf": [
+      0.99766,
+      0.99997,
+      0.99999,
+      0.99996,
+      0.99996,
+      0.99985
+     ],
+     "line_id": 1,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w14",
+     "text": "calle",
+     "box_px": [
+      543.0,
+      175.0,
+      602.0,
+      210.0
+     ],
+     "box_pt": [
+      195.42601967088544,
+      62.988760085022314,
+      216.6601544049227,
+      75.58651210202677
+     ],
+     "conf": 0.999938,
+     "char_conf": [
+      0.99997,
+      0.99996,
+      0.99982,
+      0.99996,
+      0.99998
+     ],
+     "line_id": 1,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w15",
+     "text": "del",
+     "box_px": [
+      613.0,
+      175.0,
+      649.0,
+      210.0
+     ],
+     "box_pt": [
+      220.61906088076017,
+      62.988760085022314,
+      233.57548207441002,
+      75.58651210202677
+     ],
+     "conf": 0.9996900000000001,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      0.99909
+     ],
+     "line_id": 1,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w16",
+     "text": "Inventor",
+     "box_px": [
+      654.0,
+      175.0,
+      754.0,
+      210.0
+     ],
+     "box_pt": [
+      235.3749850179725,
+      62.988760085022314,
+      271.36504388922214,
+      75.58651210202677
+     ],
+     "conf": 0.99994875,
+     "char_conf": [
+      0.99969,
+      0.99999,
+      0.99998,
+      0.99997,
+      0.99999,
+      1.0,
+      0.99997,
+      1.0
+     ],
+     "line_id": 1,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w17",
+     "text": "12,",
+     "box_px": [
+      765.0,
+      175.0,
+      801.0,
+      210.0
+     ],
+     "box_pt": [
+      275.3239503650596,
+      62.988760085022314,
+      288.2803715587095,
+      75.58651210202677
+     ],
+     "conf": 0.9998066666666667,
+     "char_conf": [
+      0.99997,
+      0.99999,
+      0.99946
+     ],
+     "line_id": 1,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w18",
+     "text": "Villa",
+     "box_px": [
+      806.0,
+      175.0,
+      859.0,
+      210.0
+     ],
+     "box_pt": [
+      290.07987450227193,
+      62.988760085022314,
+      309.1546057040342,
+      75.58651210202677
+     ],
+     "conf": 0.9997300000000001,
+     "char_conf": [
+      0.99984,
+      0.9997,
+      0.9998,
+      0.99934,
+      0.99997
+     ],
+     "line_id": 1,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w19",
+     "text": "Inventada",
+     "box_px": [
+      864.0,
+      175.0,
+      982.0,
+      210.0
+     ],
+     "box_pt": [
+      310.95410864759674,
+      62.988760085022314,
+      353.4223781156713,
+      75.58651210202677
+     ],
+     "conf": 0.9999366666666667,
+     "char_conf": [
+      0.99959,
+      0.99999,
+      0.99998,
+      0.99996,
+      0.99999,
+      0.99999,
+      0.99997,
+      1.0,
+      0.99996
+     ],
+     "line_id": 1,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w20",
+     "text": "de",
+     "box_px": [
+      993.0,
+      175.0,
+      1023.0,
+      210.0
+     ],
+     "box_pt": [
+      357.38128459150875,
+      62.988760085022314,
+      368.1783022528836,
+      75.58651210202677
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999,
+      0.99999
+     ],
+     "line_id": 1,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w21",
+     "text": "Abajo",
+     "box_px": [
+      1034.0,
+      175.0,
+      1099.0,
+      210.0
+     ],
+     "box_pt": [
+      372.1372087287211,
+      62.988760085022314,
+      395.5307469950333,
+      75.58651210202677
+     ],
+     "conf": 0.999932,
+     "char_conf": [
+      0.9998,
+      0.99998,
+      0.99996,
+      0.99999,
+      0.99993
+     ],
+     "line_id": 1,
+     "idx_in_line": 11,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w22",
+     "text": "Concepto:",
+     "box_px": [
+      144.0,
+      214.0,
+      262.0,
+      249.0
+     ],
+     "box_pt": [
+      51.82568477459945,
+      77.02625518968443,
+      94.293954242674,
+      89.62400720668889
+     ],
+     "conf": 0.9997133333333333,
+     "char_conf": [
+      0.99992,
+      0.99992,
+      0.99997,
+      0.99984,
+      0.99987,
+      0.99997,
+      0.99999,
+      0.99949,
+      0.99845
+     ],
+     "line_id": 2,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w23",
+     "text": "revision",
+     "box_px": [
+      273.0,
+      214.0,
+      361.0,
+      249.0
+     ],
+     "box_pt": [
+      98.25286071851146,
+      77.02625518968443,
+      129.92411252521111,
+      89.62400720668889
+     ],
+     "conf": 0.9998475,
+     "char_conf": [
+      0.99999,
+      0.99975,
+      1.0,
+      0.99978,
+      0.99996,
+      0.99983,
+      0.99952,
+      0.99995
+     ],
+     "line_id": 2,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w24",
+     "text": "del",
+     "box_px": [
+      372.0,
+      214.0,
+      414.0,
+      249.0
+     ],
+     "box_pt": [
+      133.88301900104858,
+      77.02625518968443,
+      148.99884372697343,
+      89.62400720668889
+     ],
+     "conf": 0.9999899999999999,
+     "char_conf": [
+      1.0,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 2,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w25",
+     "text": "proyecto",
+     "box_px": [
+      418.0,
+      214.0,
+      519.0,
+      249.0
+     ],
+     "box_pt": [
+      150.4384460818234,
+      77.02625518968443,
+      186.78840554178552,
+      89.62400720668889
+     ],
+     "conf": 0.9998225000000002,
+     "char_conf": [
+      0.99999,
+      0.99998,
+      0.9997,
+      0.99997,
+      0.99987,
+      0.99994,
+      1.0,
+      0.99913
+     ],
+     "line_id": 2,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w26",
+     "text": "de",
+     "box_px": [
+      529.0,
+      214.0,
+      559.0,
+      249.0
+     ],
+     "box_pt": [
+      190.3874114289105,
+      77.02625518968443,
+      201.18442909028536,
+      89.62400720668889
+     ],
+     "conf": 0.999985,
+     "char_conf": [
+      1.0,
+      0.99997
+     ],
+     "line_id": 2,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w27",
+     "text": "reforma",
+     "box_px": [
+      564.0,
+      214.0,
+      658.0,
+      249.0
+     ],
+     "box_pt": [
+      202.98393203384785,
+      77.02625518968443,
+      236.8145873728225,
+      89.62400720668889
+     ],
+     "conf": 0.9999014285714285,
+     "char_conf": [
+      0.99999,
+      0.99985,
+      0.99995,
+      0.99992,
+      0.99997,
+      0.99987,
+      0.99976
+     ],
+     "line_id": 2,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w28",
+     "text": "y",
+     "box_px": [
+      668.0,
+      214.0,
+      682.0,
+      249.0
+     ],
+     "box_pt": [
+      240.41359325994745,
+      77.02625518968443,
+      245.45220150192242,
+      89.62400720668889
+     ],
+     "conf": 0.99994,
+     "char_conf": [
+      0.99994
+     ],
+     "line_id": 2,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w29",
+     "text": "entrega",
+     "box_px": [
+      692.0,
+      214.0,
+      781.0,
+      249.0
+     ],
+     "box_pt": [
+      249.05120738904736,
+      77.02625518968443,
+      281.0823597844595,
+      89.62400720668889
+     ],
+     "conf": 0.9999185714285714,
+     "char_conf": [
+      0.99983,
+      0.99997,
+      1.0,
+      0.99999,
+      0.99979,
+      0.99997,
+      0.99988
+     ],
+     "line_id": 2,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w30",
+     "text": "de",
+     "box_px": [
+      797.0,
+      214.0,
+      821.0,
+      249.0
+     ],
+     "box_pt": [
+      286.84076920385945,
+      77.02625518968443,
+      295.47838333295937,
+      89.62400720668889
+     ],
+     "conf": 0.9999899999999999,
+     "char_conf": [
+      1.0,
+      0.99998
+     ],
+     "line_id": 2,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w31",
+     "text": "la",
+     "box_px": [
+      826.0,
+      214.0,
+      850.0,
+      249.0
+     ],
+     "box_pt": [
+      297.2778862765219,
+      77.02625518968443,
+      305.91550040562174,
+      89.62400720668889
+     ],
+     "conf": 0.9998400000000001,
+     "char_conf": [
+      0.99973,
+      0.99995
+     ],
+     "line_id": 2,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w32",
+     "text": "documentacion",
+     "box_px": [
+      861.0,
+      214.0,
+      1043.0,
+      249.0
+     ],
+     "box_pt": [
+      309.8744068814592,
+      77.02625518968443,
+      375.3763140271335,
+      89.62400720668889
+     ],
+     "conf": 0.9998207692307693,
+     "char_conf": [
+      0.99999,
+      0.99976,
+      0.99993,
+      0.99995,
+      0.99998,
+      0.99983,
+      0.99999,
+      0.99999,
+      0.99976,
+      0.99993,
+      0.99996,
+      0.99864,
+      0.99996
+     ],
+     "line_id": 2,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w33",
+     "text": "Base",
+     "box_px": [
+      141.0,
+      248.0,
+      198.0,
+      285.0
+     ],
+     "box_pt": [
+      50.74598300846196,
+      89.26407143477448,
+      71.26031656507425,
+      102.58169499560778
+     ],
+     "conf": 0.9999775,
+     "char_conf": [
+      0.99994,
+      0.99999,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w34",
+     "text": "imponible",
+     "box_px": [
+      203.0,
+      248.0,
+      327.0,
+      285.0
+     ],
+     "box_pt": [
+      73.05981950863672,
+      89.26407143477448,
+      117.68749250898625,
+      102.58169499560778
+     ],
+     "conf": 0.9999577777777778,
+     "char_conf": [
+      0.99994,
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99979,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w35",
+     "text": "1.000,00",
+     "box_px": [
+      332.0,
+      248.0,
+      438.0,
+      285.0
+     ],
+     "box_pt": [
+      119.48699545254874,
+      89.26407143477448,
+      157.63645785607332,
+      102.58169499560778
+     ],
+     "conf": 0.99993125,
+     "char_conf": [
+      0.99999,
+      0.99991,
+      0.99993,
+      0.99996,
+      0.99995,
+      0.99979,
+      0.99995,
+      0.99997
+     ],
+     "line_id": 3,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w36",
+     "text": "EUR,",
+     "box_px": [
+      449.0,
+      248.0,
+      506.0,
+      285.0
+     ],
+     "box_pt": [
+      161.5953643319108,
+      89.26407143477448,
+      182.10969788852307,
+      102.58169499560778
+     ],
+     "conf": 0.9993774999999999,
+     "char_conf": [
+      0.99983,
+      0.99928,
+      0.99998,
+      0.99842
+     ],
+     "line_id": 3,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w37",
+     "text": "IVA",
+     "box_px": [
+      510.0,
+      248.0,
+      549.0,
+      285.0
+     ],
+     "box_pt": [
+      183.54930024337307,
+      89.26407143477448,
+      197.58542320316042,
+      102.58169499560778
+     ],
+     "conf": 0.9992366666666667,
+     "char_conf": [
+      0.99801,
+      0.99976,
+      0.99994
+     ],
+     "line_id": 3,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w38",
+     "text": "21",
+     "box_px": [
+      560.0,
+      248.0,
+      586.0,
+      285.0
+     ],
+     "box_pt": [
+      201.54432967899788,
+      89.26407143477448,
+      210.90174498552278,
+      102.58169499560778
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w39",
+     "text": "%",
+     "box_px": [
+      596.0,
+      248.0,
+      610.0,
+      285.0
+     ],
+     "box_pt": [
+      214.50075087264773,
+      89.26407143477448,
+      219.53935911462267,
+      102.58169499560778
+     ],
+     "conf": 0.99975,
+     "char_conf": [
+      0.99975
+     ],
+     "line_id": 3,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w40",
+     "text": "210,00",
+     "box_px": [
+      627.0,
+      249.0,
+      709.0,
+      286.0
+     ],
+     "box_pt": [
+      225.65766912273511,
+      89.62400720668889,
+      255.1695173971598,
+      102.94163076752218
+     ],
+     "conf": 0.9999383333333333,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99998,
+      0.99971,
+      0.99997,
+      0.99998
+     ],
+     "line_id": 3,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w41",
+     "text": "EUR,",
+     "box_px": [
+      720.0,
+      249.0,
+      776.0,
+      286.0
+     ],
+     "box_pt": [
+      259.12842387299725,
+      89.62400720668889,
+      279.28285684089707,
+      102.94163076752218
+     ],
+     "conf": 0.9996475,
+     "char_conf": [
+      0.99985,
+      0.99935,
+      0.99998,
+      0.99941
+     ],
+     "line_id": 3,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w42",
+     "text": "total",
+     "box_px": [
+      781.0,
+      249.0,
+      838.0,
+      286.0
+     ],
+     "box_pt": [
+      281.0823597844595,
+      89.62400720668889,
+      301.5966933410718,
+      102.94163076752218
+     ],
+     "conf": 0.9999040000000001,
+     "char_conf": [
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99958
+     ],
+     "line_id": 3,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w43",
+     "text": "a",
+     "box_px": [
+      849.0,
+      249.0,
+      863.0,
+      286.0
+     ],
+     "box_pt": [
+      305.55559981690925,
+      89.62400720668889,
+      310.5942080588842,
+      102.94163076752218
+     ],
+     "conf": 0.99891,
+     "char_conf": [
+      0.99891
+     ],
+     "line_id": 3,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w44",
+     "text": "pagar",
+     "box_px": [
+      867.0,
+      249.0,
+      936.0,
+      286.0
+     ],
+     "box_pt": [
+      312.0338104137342,
+      89.62400720668889,
+      336.86695103489643,
+      102.94163076752218
+     ],
+     "conf": 0.999972,
+     "char_conf": [
+      0.99995,
+      0.99996,
+      0.99998,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 11,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w45",
+     "text": "1.210,00",
+     "box_px": [
+      947.0,
+      249.0,
+      1053.0,
+      286.0
+     ],
+     "box_pt": [
+      340.8258575107339,
+      89.62400720668889,
+      378.9753199142585,
+      102.94163076752218
+     ],
+     "conf": 0.9999562500000001,
+     "char_conf": [
+      0.99999,
+      0.99995,
+      1.0,
+      0.99998,
+      0.99998,
+      0.99985,
+      0.99996,
+      0.99994
+     ],
+     "line_id": 3,
+     "idx_in_line": 12,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w46",
+     "text": "EUR",
+     "box_px": [
+      1058.0,
+      249.0,
+      1109.0,
+      286.0
+     ],
+     "box_pt": [
+      380.774822857821,
+      89.62400720668889,
+      399.1297528821583,
+      102.94163076752218
+     ],
+     "conf": 0.99979,
+     "char_conf": [
+      0.99967,
+      0.99974,
+      0.99996
+     ],
+     "line_id": 3,
+     "idx_in_line": 13,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w47",
+     "text": "Pago",
+     "box_px": [
+      142.0,
+      287.0,
+      196.0,
+      322.0
+     ],
+     "box_pt": [
+      51.10588359717446,
+      103.30156653943659,
+      70.54051538764925,
+      115.89931855644106
+     ],
+     "conf": 0.999725,
+     "char_conf": [
+      0.9999,
+      0.99997,
+      0.9999,
+      0.99913
+     ],
+     "line_id": 4,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w48",
+     "text": "por",
+     "box_px": [
+      207.0,
+      287.0,
+      249.0,
+      322.0
+     ],
+     "box_pt": [
+      74.49942186348672,
+      103.30156653943659,
+      89.61524658941156,
+      115.89931855644106
+     ],
+     "conf": 0.9999766666666666,
+     "char_conf": [
+      0.99998,
+      0.99996,
+      0.99999
+     ],
+     "line_id": 4,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w49",
+     "text": "transferencia",
+     "box_px": [
+      253.0,
+      287.0,
+      412.0,
+      322.0
+     ],
+     "box_pt": [
+      91.05484894426154,
+      103.30156653943659,
+      148.27904254954842,
+      115.89931855644106
+     ],
+     "conf": 0.9996200000000001,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99975,
+      0.99998,
+      0.99993,
+      0.99992,
+      0.99994,
+      0.99999,
+      0.99988,
+      0.99997,
+      0.99995,
+      0.99587,
+      0.99989
+     ],
+     "line_id": 4,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w50",
+     "text": "en",
+     "box_px": [
+      422.0,
+      287.0,
+      447.0,
+      322.0
+     ],
+     "box_pt": [
+      151.8780484366734,
+      103.30156653943659,
+      160.8755631544858,
+      115.89931855644106
+     ],
+     "conf": 0.99995,
+     "char_conf": [
+      0.99996,
+      0.99994
+     ],
+     "line_id": 4,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w51",
+     "text": "un",
+     "box_px": [
+      457.0,
+      287.0,
+      487.0,
+      322.0
+     ],
+     "box_pt": [
+      164.47456904161075,
+      103.30156653943659,
+      175.27158670298564,
+      115.89931855644106
+     ],
+     "conf": 0.9999549999999999,
+     "char_conf": [
+      0.99995,
+      0.99996
+     ],
+     "line_id": 4,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w52",
+     "text": "plazo",
+     "box_px": [
+      498.0,
+      287.0,
+      557.0,
+      322.0
+     ],
+     "box_pt": [
+      179.2304931788231,
+      103.30156653943659,
+      200.46462791286038,
+      115.89931855644106
+     ],
+     "conf": 0.999906,
+     "char_conf": [
+      0.99999,
+      0.99996,
+      0.99994,
+      0.99982,
+      0.99982
+     ],
+     "line_id": 4,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w53",
+     "text": "de",
+     "box_px": [
+      567.0,
+      287.0,
+      598.0,
+      322.0
+     ],
+     "box_pt": [
+      204.06363379998535,
+      103.30156653943659,
+      215.2205520500727,
+      115.89931855644106
+     ],
+     "conf": 0.9999899999999999,
+     "char_conf": [
+      1.0,
+      0.99998
+     ],
+     "line_id": 4,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w54",
+     "text": "treinta",
+     "box_px": [
+      602.0,
+      287.0,
+      685.0,
+      322.0
+     ],
+     "box_pt": [
+      216.6601544049227,
+      103.30156653943659,
+      246.5319032680599,
+      115.89931855644106
+     ],
+     "conf": 0.9998328571428571,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99996,
+      0.99921,
+      0.99995,
+      0.99998,
+      0.99974
+     ],
+     "line_id": 4,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w55",
+     "text": "dias",
+     "box_px": [
+      690.0,
+      287.0,
+      738.0,
+      322.0
+     ],
+     "box_pt": [
+      248.33140621162238,
+      103.30156653943659,
+      265.6066344698222,
+      115.89931855644106
+     ],
+     "conf": 0.996165,
+     "char_conf": [
+      1.0,
+      0.98477,
+      0.99992,
+      0.99997
+     ],
+     "line_id": 4,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w56",
+     "text": "desde",
+     "box_px": [
+      748.0,
+      287.0,
+      819.0,
+      322.0
+     ],
+     "box_pt": [
+      269.20564035694713,
+      103.30156653943659,
+      294.7585821555344,
+      115.89931855644106
+     ],
+     "conf": 0.9999780000000001,
+     "char_conf": [
+      0.99999,
+      0.99997,
+      0.99996,
+      0.99999,
+      0.99998
+     ],
+     "line_id": 4,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w57",
+     "text": "la",
+     "box_px": [
+      824.0,
+      287.0,
+      848.0,
+      322.0
+     ],
+     "box_pt": [
+      296.55808509909684,
+      103.30156653943659,
+      305.19569922819676,
+      115.89931855644106
+     ],
+     "conf": 0.999805,
+     "char_conf": [
+      0.99964,
+      0.99997
+     ],
+     "line_id": 4,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w58",
+     "text": "fecha",
+     "box_px": [
+      859.0,
+      287.0,
+      924.0,
+      322.0
+     ],
+     "box_pt": [
+      309.1546057040342,
+      103.30156653943659,
+      332.5481439703465,
+      115.89931855644106
+     ],
+     "conf": 0.999924,
+     "char_conf": [
+      0.99992,
+      0.99994,
+      0.99997,
+      0.99999,
+      0.9998
+     ],
+     "line_id": 4,
+     "idx_in_line": 11,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w59",
+     "text": "de",
+     "box_px": [
+      934.0,
+      287.0,
+      959.0,
+      322.0
+     ],
+     "box_pt": [
+      336.14714985747145,
+      103.30156653943659,
+      345.14466457528385,
+      115.89931855644106
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999,
+      0.99999
+     ],
+     "line_id": 4,
+     "idx_in_line": 12,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w60",
+     "text": "factura",
+     "box_px": [
+      969.0,
+      287.0,
+      1052.0,
+      322.0
+     ],
+     "box_pt": [
+      348.74367046240883,
+      103.30156653943659,
+      378.615419325546,
+      115.89931855644106
+     ],
+     "conf": 0.9999214285714286,
+     "char_conf": [
+      0.99993,
+      0.99985,
+      0.99993,
+      0.99999,
+      0.99991,
+      0.99999,
+      0.99985
+     ],
+     "line_id": 4,
+     "idx_in_line": 13,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w61",
+     "text": "El",
+     "box_px": [
+      143.0,
+      327.0,
+      167.0,
+      362.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      117.69899741601313,
+      60.10339831498686,
+      130.2967494330176
+     ],
+     "conf": 0.99932,
+     "char_conf": [
+      0.99877,
+      0.99987
+     ],
+     "line_id": 5,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w62",
+     "text": "presente",
+     "box_px": [
+      172.0,
+      327.0,
+      278.0,
+      362.0
+     ],
+     "box_pt": [
+      61.90290125854935,
+      117.69899741601313,
+      100.05236366207394,
+      130.2967494330176
+     ],
+     "conf": 0.9999575,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      0.99986,
+      0.99995,
+      0.99995,
+      0.99999,
+      0.99999,
+      0.99994
+     ],
+     "line_id": 5,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w63",
+     "text": "documento",
+     "box_px": [
+      283.0,
+      327.0,
+      418.0,
+      362.0
+     ],
+     "box_pt": [
+      101.85186660563642,
+      117.69899741601313,
+      150.4384460818234,
+      130.2967494330176
+     ],
+     "conf": 0.9999522222222222,
+     "char_conf": [
+      0.99999,
+      0.99997,
+      0.99998,
+      0.99997,
+      0.99997,
+      0.99981,
+      0.99999,
+      0.99999,
+      0.9999
+     ],
+     "line_id": 5,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w64",
+     "text": "se",
+     "box_px": [
+      430.0,
+      327.0,
+      454.0,
+      362.0
+     ],
+     "box_pt": [
+      154.75725314637336,
+      117.69899741601313,
+      163.39486727547327,
+      130.2967494330176
+     ],
+     "conf": 0.99997,
+     "char_conf": [
+      0.99998,
+      0.99996
+     ],
+     "line_id": 5,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w65",
+     "text": "emite",
+     "box_px": [
+      465.0,
+      327.0,
+      530.0,
+      362.0
+     ],
+     "box_pt": [
+      167.35377375131074,
+      117.69899741601313,
+      190.747312017623,
+      130.2967494330176
+     ],
+     "conf": 0.9999379999999999,
+     "char_conf": [
+      0.99989,
+      0.99997,
+      0.99998,
+      0.99989,
+      0.99996
+     ],
+     "line_id": 5,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w66",
+     "text": "conforme",
+     "box_px": [
+      541.0,
+      327.0,
+      652.0,
+      362.0
+     ],
+     "box_pt": [
+      194.70621849346045,
+      117.69899741601313,
+      234.65518384054752,
+      130.2967494330176
+     ],
+     "conf": 0.9998625,
+     "char_conf": [
+      0.99999,
+      0.99994,
+      0.99999,
+      0.99997,
+      0.99996,
+      0.99999,
+      0.99914,
+      0.99992
+     ],
+     "line_id": 5,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w67",
+     "text": "a",
+     "box_px": [
+      664.0,
+      327.0,
+      676.0,
+      362.0
+     ],
+     "box_pt": [
+      238.97399090509748,
+      117.69899741601313,
+      243.29279796964744,
+      130.2967494330176
+     ],
+     "conf": 0.99867,
+     "char_conf": [
+      0.99867
+     ],
+     "line_id": 5,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w68",
+     "text": "la",
+     "box_px": [
+      681.0,
+      327.0,
+      705.0,
+      362.0
+     ],
+     "box_pt": [
+      245.0923009132099,
+      117.69899741601313,
+      253.7299150423098,
+      130.2967494330176
+     ],
+     "conf": 0.999925,
+     "char_conf": [
+      0.99993,
+      0.99992
+     ],
+     "line_id": 5,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w69",
+     "text": "normativa",
+     "box_px": [
+      716.0,
+      327.0,
+      834.0,
+      362.0
+     ],
+     "box_pt": [
+      257.6888215181473,
+      117.69899741601313,
+      300.1570909862218,
+      130.2967494330176
+     ],
+     "conf": 0.9999355555555556,
+     "char_conf": [
+      0.99989,
+      0.99988,
+      0.99998,
+      0.99998,
+      0.9999,
+      0.99998,
+      0.99996,
+      0.99999,
+      0.99986
+     ],
+     "line_id": 5,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w70",
+     "text": "vigente",
+     "box_px": [
+      845.0,
+      327.0,
+      933.0,
+      362.0
+     ],
+     "box_pt": [
+      304.1159974620593,
+      117.69899741601313,
+      335.78724926875896,
+      130.2967494330176
+     ],
+     "conf": 0.9999728571428571,
+     "char_conf": [
+      1.0,
+      0.99998,
+      0.99998,
+      0.99989,
+      0.99999,
+      1.0,
+      0.99997
+     ],
+     "line_id": 5,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w71",
+     "text": "en",
+     "box_px": [
+      944.0,
+      327.0,
+      968.0,
+      362.0
+     ],
+     "box_pt": [
+      339.7461557445964,
+      117.69899741601313,
+      348.38376987369634,
+      130.2967494330176
+     ],
+     "conf": 0.999965,
+     "char_conf": [
+      0.99995,
+      0.99998
+     ],
+     "line_id": 5,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w72",
+     "text": "la",
+     "box_px": [
+      979.0,
+      327.0,
+      998.0,
+      362.0
+     ],
+     "box_pt": [
+      352.34267634953375,
+      117.69899741601313,
+      359.1807875350712,
+      130.2967494330176
+     ],
+     "conf": 0.9999,
+     "char_conf": [
+      0.99987,
+      0.99993
+     ],
+     "line_id": 5,
+     "idx_in_line": 11,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w73",
+     "text": "materia",
+     "box_px": [
+      1015.0,
+      327.0,
+      1103.0,
+      362.0
+     ],
+     "box_pt": [
+      365.2990975431836,
+      117.69899741601313,
+      396.9703493498833,
+      130.2967494330176
+     ],
+     "conf": 0.9999514285714286,
+     "char_conf": [
+      0.99997,
+      0.99991,
+      0.99999,
+      0.99995,
+      0.99999,
+      0.99994,
+      0.99991
+     ],
+     "line_id": 5,
+     "idx_in_line": 12,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w74",
+     "text": "Para",
+     "box_px": [
+      143.0,
+      365.0,
+      193.0,
+      402.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      131.37655674876083,
+      69.46081362151176,
+      144.69418030959412
+     ],
+     "conf": 0.9999475,
+     "char_conf": [
+      0.9999,
+      0.99999,
+      0.99999,
+      0.99991
+     ],
+     "line_id": 6,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w75",
+     "text": "cualquier",
+     "box_px": [
+      199.0,
+      365.0,
+      316.0,
+      402.0
+     ],
+     "box_pt": [
+      71.62021715378674,
+      131.37655674876083,
+      113.7285860331488,
+      144.69418030959412
+     ],
+     "conf": 0.9999422222222223,
+     "char_conf": [
+      0.99998,
+      0.99998,
+      0.99992,
+      0.99998,
+      0.99985,
+      0.99998,
+      0.9999,
+      0.9999,
+      0.99999
+     ],
+     "line_id": 6,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w76",
+     "text": "aclaracion",
+     "box_px": [
+      322.0,
+      365.0,
+      440.0,
+      402.0
+     ],
+     "box_pt": [
+      115.88798956542378,
+      131.37655674876083,
+      158.35625903349833,
+      144.69418030959412
+     ],
+     "conf": 0.9997619999999999,
+     "char_conf": [
+      0.99996,
+      0.99999,
+      0.99998,
+      0.99991,
+      1.0,
+      0.99965,
+      0.99994,
+      0.99976,
+      0.99855,
+      0.99988
+     ],
+     "line_id": 6,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w77",
+     "text": "puede",
+     "box_px": [
+      451.0,
+      365.0,
+      526.0,
+      402.0
+     ],
+     "box_pt": [
+      162.31516550933577,
+      131.37655674876083,
+      189.307709662773,
+      144.69418030959412
+     ],
+     "conf": 0.999958,
+     "char_conf": [
+      0.99999,
+      0.99998,
+      0.99987,
+      0.99999,
+      0.99996
+     ],
+     "line_id": 6,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w78",
+     "text": "ponerse",
+     "box_px": [
+      537.0,
+      365.0,
+      630.0,
+      402.0
+     ],
+     "box_pt": [
+      193.26661613861046,
+      131.37655674876083,
+      226.7373708888726,
+      144.69418030959412
+     ],
+     "conf": 0.99992,
+     "char_conf": [
+      0.99999,
+      0.99987,
+      0.99987,
+      0.99984,
+      0.99999,
+      0.99996,
+      0.99992
+     ],
+     "line_id": 6,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w79",
+     "text": "en",
+     "box_px": [
+      642.0,
+      365.0,
+      667.0,
+      402.0
+     ],
+     "box_pt": [
+      231.05617795342255,
+      131.37655674876083,
+      240.05369267123496,
+      144.69418030959412
+     ],
+     "conf": 0.999895,
+     "char_conf": [
+      0.99989,
+      0.9999
+     ],
+     "line_id": 6,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w80",
+     "text": "contacto",
+     "box_px": [
+      679.0,
+      365.0,
+      778.0,
+      402.0
+     ],
+     "box_pt": [
+      244.3724997357849,
+      131.37655674876083,
+      280.00265801832205,
+      144.69418030959412
+     ],
+     "conf": 0.99988625,
+     "char_conf": [
+      0.99998,
+      0.99995,
+      0.99998,
+      0.99999,
+      0.99988,
+      0.9998,
+      1.0,
+      0.99951
+     ],
+     "line_id": 6,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w81",
+     "text": "con",
+     "box_px": [
+      790.0,
+      365.0,
+      827.0,
+      402.0
+     ],
+     "box_pt": [
+      284.321465082872,
+      131.37655674876083,
+      297.6377868652344,
+      144.69418030959412
+     ],
+     "conf": 0.9999266666666666,
+     "char_conf": [
+      0.99998,
+      0.99991,
+      0.99989
+     ],
+     "line_id": 6,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w82",
+     "text": "nuestro",
+     "box_px": [
+      839.0,
+      365.0,
+      932.0,
+      402.0
+     ],
+     "box_pt": [
+      301.95659392978433,
+      131.37655674876083,
+      335.42734868004646,
+      144.69418030959412
+     ],
+     "conf": 0.9998314285714286,
+     "char_conf": [
+      0.99983,
+      0.99997,
+      0.99985,
+      0.99997,
+      1.0,
+      0.99985,
+      0.99935
+     ],
+     "line_id": 6,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w83",
+     "text": "departamento",
+     "box_px": [
+      937.0,
+      365.0,
+      1110.0,
+      402.0
+     ],
+     "box_pt": [
+      337.2268516236089,
+      131.37655674876083,
+      399.4896534708708,
+      144.69418030959412
+     ],
+     "conf": 0.9999325,
+     "char_conf": [
+      1.0,
+      0.9999,
+      0.99998,
+      0.99988,
+      0.99999,
+      1.0,
+      0.9999,
+      0.99995,
+      0.99985,
+      0.99997,
+      0.99999,
+      0.99978
+     ],
+     "line_id": 6,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w84",
+     "text": "Gracias",
+     "box_px": [
+      142.0,
+      400.0,
+      230.0,
+      437.0
+     ],
+     "box_pt": [
+      51.10588359717446,
+      143.9743087657653,
+      82.77713540387413,
+      157.29193232659858
+     ],
+     "conf": 0.9998199999999999,
+     "char_conf": [
+      0.99989,
+      0.99999,
+      0.99978,
+      0.99996,
+      0.99918,
+      0.99996,
+      0.99998
+     ],
+     "line_id": 7,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w85",
+     "text": "por",
+     "box_px": [
+      242.0,
+      400.0,
+      280.0,
+      437.0
+     ],
+     "box_pt": [
+      87.09594246842408,
+      143.9743087657653,
+      100.77216483949894,
+      157.29193232659858
+     ],
+     "conf": 0.9999766666666666,
+     "char_conf": [
+      0.99998,
+      0.99996,
+      0.99999
+     ],
+     "line_id": 7,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w86",
+     "text": "confiar",
+     "box_px": [
+      286.0,
+      400.0,
+      367.0,
+      437.0
+     ],
+     "box_pt": [
+      102.9315683717739,
+      143.9743087657653,
+      132.0835160574861,
+      157.29193232659858
+     ],
+     "conf": 0.9991814285714286,
+     "char_conf": [
+      0.99999,
+      0.99995,
+      0.99997,
+      0.99792,
+      0.99649,
+      0.99996,
+      0.99999
+     ],
+     "line_id": 7,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w87",
+     "text": "en",
+     "box_px": [
+      380.0,
+      401.0,
+      405.0,
+      437.0
+     ],
+     "box_pt": [
+      136.76222371074854,
+      144.3342445376797,
+      145.75973842856095,
+      157.29193232659858
+     ],
+     "conf": 0.999955,
+     "char_conf": [
+      0.99997,
+      0.99994
+     ],
+     "line_id": 7,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w88",
+     "text": "nuestros",
+     "box_px": [
+      417.0,
+      401.0,
+      516.0,
+      438.0
+     ],
+     "box_pt": [
+      150.0785454931109,
+      144.3342445376797,
+      185.70870377564805,
+      157.651868098513
+     ],
+     "conf": 0.999955,
+     "char_conf": [
+      0.99991,
+      0.99997,
+      0.99994,
+      0.99996,
+      0.99999,
+      0.99998,
+      0.99991,
+      0.99998
+     ],
+     "line_id": 7,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w89",
+     "text": "servicios",
+     "box_px": [
+      528.0,
+      401.0,
+      628.0,
+      438.0
+     ],
+     "box_pt": [
+      190.02751084019798,
+      144.3342445376797,
+      226.0175697114476,
+      157.651868098513
+     ],
+     "conf": 0.9999422222222223,
+     "char_conf": [
+      0.99995,
+      0.99994,
+      0.99999,
+      0.99999,
+      0.99993,
+      0.99999,
+      0.99996,
+      0.99975,
+      0.99998
+     ],
+     "line_id": 7,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w90",
+     "text": "durante",
+     "box_px": [
+      639.0,
+      402.0,
+      731.0,
+      439.0
+     ],
+     "box_pt": [
+      229.97647618728507,
+      144.69418030959412,
+      263.0873303488347,
+      158.0118038704274
+     ],
+     "conf": 0.9999714285714286,
+     "char_conf": [
+      0.99999,
+      0.99994,
+      1.0,
+      0.99991,
+      0.99999,
+      1.0,
+      0.99997
+     ],
+     "line_id": 7,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w91",
+     "text": "este",
+     "box_px": [
+      743.0,
+      402.0,
+      792.0,
+      439.0
+     ],
+     "box_pt": [
+      267.40613741338467,
+      144.69418030959412,
+      285.041266260297,
+      158.0118038704274
+     ],
+     "conf": 0.99993,
+     "char_conf": [
+      0.99988,
+      0.99998,
+      1.0,
+      0.99986
+     ],
+     "line_id": 7,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w92",
+     "text": "periodo",
+     "box_px": [
+      797.0,
+      402.0,
+      889.0,
+      439.0
+     ],
+     "box_pt": [
+      286.84076920385945,
+      144.69418030959412,
+      319.9516233654091,
+      158.0118038704274
+     ],
+     "conf": 0.9999485714285715,
+     "char_conf": [
+      0.99999,
+      0.99993,
+      0.99999,
+      0.99983,
+      0.99994,
+      0.99999,
+      0.99997
+     ],
+     "line_id": 7,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w93",
+     "text": "de",
+     "box_px": [
+      901.0,
+      403.0,
+      925.0,
+      439.0
+     ],
+     "box_pt": [
+      324.27043042995905,
+      145.05411608150854,
+      332.90804455905896,
+      158.0118038704274
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 7,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p1w94",
+     "text": "trabajo",
+     "box_px": [
+      931.0,
+      403.0,
+      1022.0,
+      439.0
+     ],
+     "box_pt": [
+      335.067448091334,
+      145.05411608150854,
+      367.8184016641711,
+      158.0118038704274
+     ],
+     "conf": 0.9999442857142858,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99996,
+      0.99999,
+      0.99995,
+      0.99999,
+      0.99973
+     ],
+     "line_id": 7,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "status": "unreadable",
+   "reason": "page.reason.few_words",
+   "error": null,
+   "dpi": 200,
+   "width_px": 1654,
+   "height_px": 2339,
+   "width_pt": 595.2755737304688,
+   "height_pt": 841.8897705078125,
+   "mean_conf": 0.9994807196969696,
+   "unaligned_words": 0,
+   "words": [
+    {
+     "id": "p2w0",
+     "text": "Pagina",
+     "box_px": [
+      138.0,
+      133.0,
+      240.0,
+      175.0
+     ],
+     "box_pt": [
+      49.66628124232447,
+      47.87145766461696,
+      86.37614129099909,
+      62.988760085022314
+     ],
+     "conf": 0.9996116666666666,
+     "char_conf": [
+      0.99974,
+      0.99996,
+      0.99994,
+      0.99903,
+      0.99916,
+      0.99984
+     ],
+     "line_id": 0,
+     "idx_in_line": 0,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w1",
+     "text": "casi",
+     "box_px": [
+      250.0,
+      133.0,
+      316.0,
+      176.0
+     ],
+     "box_pt": [
+      89.97514717812405,
+      47.87145766461696,
+      113.7285860331488,
+      63.34869585693673
+     ],
+     "conf": 0.997055,
+     "char_conf": [
+      0.99987,
+      0.99993,
+      0.99987,
+      0.98855
+     ],
+     "line_id": 0,
+     "idx_in_line": 1,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w2",
+     "text": "vacia",
+     "box_px": [
+      320.0,
+      134.0,
+      400.0,
+      177.0
+     ],
+     "box_pt": [
+      115.16818838799878,
+      48.23139343653137,
+      143.96023548499846,
+      63.708631628851144
+     ],
+     "conf": 0.9996560000000001,
+     "char_conf": [
+      0.99997,
+      0.99972,
+      0.99987,
+      0.99893,
+      0.99979
+     ],
+     "line_id": 0,
+     "idx_in_line": 2,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w3",
+     "text": "con",
+     "box_px": [
+      404.0,
+      135.0,
+      456.0,
+      177.0
+     ],
+     "box_pt": [
+      145.39983783984846,
+      48.591329208445785,
+      164.11466845289826,
+      63.708631628851144
+     ],
+     "conf": 0.9993733333333333,
+     "char_conf": [
+      0.99968,
+      0.99971,
+      0.99873
+     ],
+     "line_id": 0,
+     "idx_in_line": 3,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w4",
+     "text": "muy",
+     "box_px": [
+      474.0,
+      135.0,
+      533.0,
+      178.0
+     ],
+     "box_pt": [
+      170.5928790497232,
+      48.591329208445785,
+      191.82701378376046,
+      64.06856740076556
+     ],
+     "conf": 0.9998,
+     "char_conf": [
+      0.99993,
+      0.99977,
+      0.9997
+     ],
+     "line_id": 0,
+     "idx_in_line": 4,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w5",
+     "text": "pocas",
+     "box_px": [
+      543.0,
+      136.0,
+      631.0,
+      178.0
+     ],
+     "box_pt": [
+      195.42601967088544,
+      48.9512649803602,
+      227.0972714775851,
+      64.06856740076556
+     ],
+     "conf": 0.9992340000000001,
+     "char_conf": [
+      0.99995,
+      0.99927,
+      0.99719,
+      0.99983,
+      0.99993
+     ],
+     "line_id": 0,
+     "idx_in_line": 5,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w6",
+     "text": "palabras",
+     "box_px": [
+      139.0,
+      185.0,
+      268.0,
+      227.0
+     ],
+     "box_pt": [
+      50.02618183103697,
+      66.58811780416644,
+      96.45335777494898,
+      81.7054202245718
+     ],
+     "conf": 0.9999612500000001,
+     "char_conf": [
+      0.99997,
+      0.99998,
+      0.99994,
+      0.99995,
+      0.99998,
+      0.99998,
+      0.99992,
+      0.99997
+     ],
+     "line_id": 1,
+     "idx_in_line": 0,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w7",
+     "text": "legibles",
+     "box_px": [
+      279.0,
+      185.0,
+      394.0,
+      227.0
+     ],
+     "box_pt": [
+      100.41226425078644,
+      66.58811780416644,
+      141.8008319527235,
+      81.7054202245718
+     ],
+     "conf": 0.9998900000000001,
+     "char_conf": [
+      0.99979,
+      0.99978,
+      0.99995,
+      0.99978,
+      0.99999,
+      0.99991,
+      0.99994,
+      0.99998
+     ],
+     "line_id": 1,
+     "idx_in_line": 1,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w8",
+     "text": "y",
+     "box_px": [
+      405.0,
+      185.0,
+      422.0,
+      227.0
+     ],
+     "box_pt": [
+      145.75973842856095,
+      66.58811780416644,
+      151.8780484366734,
+      81.7054202245718
+     ],
+     "conf": 0.99985,
+     "char_conf": [
+      0.99985
+     ],
+     "line_id": 1,
+     "idx_in_line": 2,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w9",
+     "text": "nada",
+     "box_px": [
+      433.0,
+      185.0,
+      506.0,
+      227.0
+     ],
+     "box_pt": [
+      155.83695491251086,
+      66.58811780416644,
+      182.10969788852307,
+      81.7054202245718
+     ],
+     "conf": 0.99992,
+     "char_conf": [
+      0.99987,
+      0.99988,
+      0.99999,
+      0.99994
+     ],
+     "line_id": 1,
+     "idx_in_line": 3,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p2w10",
+     "text": "mas",
+     "box_px": [
+      524.0,
+      185.0,
+      583.0,
+      227.0
+     ],
+     "box_pt": [
+      188.587908485348,
+      66.58811780416644,
+      209.82204321938528,
+      81.7054202245718
+     ],
+     "conf": 0.9999366666666667,
+     "char_conf": [
+      0.99995,
+      0.99988,
+      0.99998
+     ],
+     "line_id": 1,
+     "idx_in_line": 4,
+     "status": "unscored",
+     "p_wrong": null,
+     "reasons": [
+      {
+       "key": "page.reason.few_words",
+       "params": {}
+      }
+     ],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "status": "ocr",
+   "reason": null,
+   "error": null,
+   "dpi": 200,
+   "width_px": 1654,
+   "height_px": 2339,
+   "width_pt": 595.2755737304688,
+   "height_pt": 841.8897705078125,
+   "mean_conf": 0.9998195925735086,
+   "unaligned_words": 0,
+   "words": [
+    {
+     "id": "p3w0",
+     "text": "Factura",
+     "box_px": [
+      143.0,
+      137.0,
+      231.0,
+      172.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      49.311200752274615,
+      83.13703599258662,
+      61.908952769279075
+     ],
+     "conf": 0.9999614285714287,
+     "char_conf": [
+      0.99991,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99998,
+      1.0,
+      0.99986
+     ],
+     "line_id": 0,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w1",
+     "text": "numero",
+     "box_px": [
+      235.0,
+      137.0,
+      330.0,
+      172.0
+     ],
+     "box_pt": [
+      84.5766383474366,
+      49.311200752274615,
+      118.76719427512374,
+      61.908952769279075
+     ],
+     "conf": 0.9999633333333334,
+     "char_conf": [
+      0.99993,
+      0.99995,
+      0.99999,
+      0.99995,
+      0.99999,
+      0.99997
+     ],
+     "line_id": 0,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w2",
+     "text": "2026-0042",
+     "box_px": [
+      340.0,
+      137.0,
+      464.0,
+      172.0
+     ],
+     "box_pt": [
+      122.3662001622487,
+      49.311200752274615,
+      166.99387316259822,
+      61.908952769279075
+     ],
+     "conf": 0.9999833333333333,
+     "char_conf": [
+      1.0,
+      0.99999,
+      1.0,
+      0.99999,
+      0.99999,
+      0.99991,
+      0.99998,
+      1.0,
+      0.99999
+     ],
+     "line_id": 0,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w3",
+     "text": "emitida",
+     "box_px": [
+      473.0,
+      137.0,
+      563.0,
+      172.0
+     ],
+     "box_pt": [
+      170.2329784610107,
+      49.311200752274615,
+      202.62403144513536,
+      61.908952769279075
+     ],
+     "conf": 0.9999628571428572,
+     "char_conf": [
+      0.99996,
+      0.99997,
+      0.99992,
+      0.99999,
+      0.99992,
+      1.0,
+      0.99998
+     ],
+     "line_id": 0,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w4",
+     "text": "el",
+     "box_px": [
+      572.0,
+      137.0,
+      598.0,
+      172.0
+     ],
+     "box_pt": [
+      205.8631367435478,
+      49.311200752274615,
+      215.2205520500727,
+      61.908952769279075
+     ],
+     "conf": 0.9999800000000001,
+     "char_conf": [
+      0.99999,
+      0.99997
+     ],
+     "line_id": 0,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w5",
+     "text": "14/03/2026",
+     "box_px": [
+      601.0,
+      137.0,
+      738.0,
+      172.0
+     ],
+     "box_pt": [
+      216.30025381621022,
+      49.311200752274615,
+      265.6066344698222,
+      61.908952769279075
+     ],
+     "conf": 0.999986,
+     "char_conf": [
+      0.99998,
+      1.0,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99999,
+      1.0,
+      0.99999,
+      1.0,
+      0.99994
+     ],
+     "line_id": 0,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w6",
+     "text": "por",
+     "box_px": [
+      747.0,
+      137.0,
+      790.0,
+      172.0
+     ],
+     "box_pt": [
+      268.84573976823464,
+      49.311200752274615,
+      284.321465082872,
+      61.908952769279075
+     ],
+     "conf": 0.9999666666666666,
+     "char_conf": [
+      0.99996,
+      0.99996,
+      0.99998
+     ],
+     "line_id": 0,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w7",
+     "text": "servicios",
+     "box_px": [
+      794.0,
+      137.0,
+      901.0,
+      172.0
+     ],
+     "box_pt": [
+      285.761067437722,
+      49.311200752274615,
+      324.27043042995905,
+      61.908952769279075
+     ],
+     "conf": 0.9999722222222223,
+     "char_conf": [
+      0.99998,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99989,
+      1.0,
+      0.99997,
+      0.99997,
+      0.99999
+     ],
+     "line_id": 0,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w8",
+     "text": "de",
+     "box_px": [
+      910.0,
+      137.0,
+      936.0,
+      172.0
+     ],
+     "box_pt": [
+      327.50953572837153,
+      49.311200752274615,
+      336.86695103489643,
+      61.908952769279075
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 0,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w9",
+     "text": "consultoria",
+     "box_px": [
+      945.0,
+      137.0,
+      1075.0,
+      172.0
+     ],
+     "box_pt": [
+      340.1060563333089,
+      49.311200752274615,
+      386.8931328659334,
+      61.908952769279075
+     ],
+     "conf": 0.9999636363636363,
+     "char_conf": [
+      0.99999,
+      0.99997,
+      0.99998,
+      0.99998,
+      0.99998,
+      0.99988,
+      0.99999,
+      0.99996,
+      1.0,
+      0.99992,
+      0.99995
+     ],
+     "line_id": 0,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w10",
+     "text": "Cliente:",
+     "box_px": [
+      145.0,
+      175.0,
+      234.0,
+      210.0
+     ],
+     "box_pt": [
+      52.18558536331195,
+      62.988760085022314,
+      84.21673775872411,
+      75.58651210202677
+     ],
+     "conf": 0.99994,
+     "char_conf": [
+      0.99984,
+      0.99986,
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99995,
+      0.99993
+     ],
+     "line_id": 1,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w11",
+     "text": "Zulema",
+     "box_px": [
+      244.0,
+      175.0,
+      333.0,
+      210.0
+     ],
+     "box_pt": [
+      87.81574364584907,
+      62.988760085022314,
+      119.84689604126123,
+      75.58651210202677
+     ],
+     "conf": 0.9998766666666666,
+     "char_conf": [
+      0.99944,
+      0.99998,
+      0.99998,
+      0.99996,
+      0.99996,
+      0.99994
+     ],
+     "line_id": 1,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w12",
+     "text": "Quentarra",
+     "box_px": [
+      344.0,
+      175.0,
+      462.0,
+      210.0
+     ],
+     "box_pt": [
+      123.8058025170987,
+      62.988760085022314,
+      166.27407198517324,
+      75.58651210202677
+     ],
+     "conf": 0.9999800000000002,
+     "char_conf": [
+      0.99997,
+      0.99999,
+      0.99994,
+      0.99999,
+      0.99999,
+      0.99998,
+      0.99999,
+      0.99999,
+      0.99998
+     ],
+     "line_id": 1,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w13",
+     "text": "Ibolo,",
+     "box_px": [
+      466.0,
+      175.0,
+      538.0,
+      210.0
+     ],
+     "box_pt": [
+      167.71367434002323,
+      62.988760085022314,
+      193.62651672732295,
+      75.58651210202677
+     ],
+     "conf": 0.999565,
+     "char_conf": [
+      0.99766,
+      0.99997,
+      0.99999,
+      0.99996,
+      0.99996,
+      0.99985
+     ],
+     "line_id": 1,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w14",
+     "text": "calle",
+     "box_px": [
+      543.0,
+      175.0,
+      602.0,
+      210.0
+     ],
+     "box_pt": [
+      195.42601967088544,
+      62.988760085022314,
+      216.6601544049227,
+      75.58651210202677
+     ],
+     "conf": 0.999938,
+     "char_conf": [
+      0.99997,
+      0.99996,
+      0.99982,
+      0.99996,
+      0.99998
+     ],
+     "line_id": 1,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w15",
+     "text": "del",
+     "box_px": [
+      613.0,
+      175.0,
+      649.0,
+      210.0
+     ],
+     "box_pt": [
+      220.61906088076017,
+      62.988760085022314,
+      233.57548207441002,
+      75.58651210202677
+     ],
+     "conf": 0.9996900000000001,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      0.99909
+     ],
+     "line_id": 1,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w16",
+     "text": "Inventor",
+     "box_px": [
+      654.0,
+      175.0,
+      754.0,
+      210.0
+     ],
+     "box_pt": [
+      235.3749850179725,
+      62.988760085022314,
+      271.36504388922214,
+      75.58651210202677
+     ],
+     "conf": 0.99994875,
+     "char_conf": [
+      0.99969,
+      0.99999,
+      0.99998,
+      0.99997,
+      0.99999,
+      1.0,
+      0.99997,
+      1.0
+     ],
+     "line_id": 1,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w17",
+     "text": "12,",
+     "box_px": [
+      765.0,
+      175.0,
+      801.0,
+      210.0
+     ],
+     "box_pt": [
+      275.3239503650596,
+      62.988760085022314,
+      288.2803715587095,
+      75.58651210202677
+     ],
+     "conf": 0.9998066666666667,
+     "char_conf": [
+      0.99997,
+      0.99999,
+      0.99946
+     ],
+     "line_id": 1,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w18",
+     "text": "Villa",
+     "box_px": [
+      806.0,
+      175.0,
+      859.0,
+      210.0
+     ],
+     "box_pt": [
+      290.07987450227193,
+      62.988760085022314,
+      309.1546057040342,
+      75.58651210202677
+     ],
+     "conf": 0.9997300000000001,
+     "char_conf": [
+      0.99984,
+      0.9997,
+      0.9998,
+      0.99934,
+      0.99997
+     ],
+     "line_id": 1,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w19",
+     "text": "Inventada",
+     "box_px": [
+      864.0,
+      175.0,
+      982.0,
+      210.0
+     ],
+     "box_pt": [
+      310.95410864759674,
+      62.988760085022314,
+      353.4223781156713,
+      75.58651210202677
+     ],
+     "conf": 0.9999366666666667,
+     "char_conf": [
+      0.99959,
+      0.99999,
+      0.99998,
+      0.99996,
+      0.99999,
+      0.99999,
+      0.99997,
+      1.0,
+      0.99996
+     ],
+     "line_id": 1,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w20",
+     "text": "de",
+     "box_px": [
+      993.0,
+      175.0,
+      1023.0,
+      210.0
+     ],
+     "box_pt": [
+      357.38128459150875,
+      62.988760085022314,
+      368.1783022528836,
+      75.58651210202677
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999,
+      0.99999
+     ],
+     "line_id": 1,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w21",
+     "text": "Abajo",
+     "box_px": [
+      1034.0,
+      175.0,
+      1099.0,
+      210.0
+     ],
+     "box_pt": [
+      372.1372087287211,
+      62.988760085022314,
+      395.5307469950333,
+      75.58651210202677
+     ],
+     "conf": 0.999932,
+     "char_conf": [
+      0.9998,
+      0.99998,
+      0.99996,
+      0.99999,
+      0.99993
+     ],
+     "line_id": 1,
+     "idx_in_line": 11,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w22",
+     "text": "Concepto:",
+     "box_px": [
+      144.0,
+      214.0,
+      262.0,
+      249.0
+     ],
+     "box_pt": [
+      51.82568477459945,
+      77.02625518968443,
+      94.293954242674,
+      89.62400720668889
+     ],
+     "conf": 0.9997133333333333,
+     "char_conf": [
+      0.99992,
+      0.99992,
+      0.99997,
+      0.99984,
+      0.99987,
+      0.99997,
+      0.99999,
+      0.99949,
+      0.99845
+     ],
+     "line_id": 2,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w23",
+     "text": "revision",
+     "box_px": [
+      273.0,
+      214.0,
+      361.0,
+      249.0
+     ],
+     "box_pt": [
+      98.25286071851146,
+      77.02625518968443,
+      129.92411252521111,
+      89.62400720668889
+     ],
+     "conf": 0.9998475,
+     "char_conf": [
+      0.99999,
+      0.99975,
+      1.0,
+      0.99978,
+      0.99996,
+      0.99983,
+      0.99952,
+      0.99995
+     ],
+     "line_id": 2,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w24",
+     "text": "del",
+     "box_px": [
+      372.0,
+      214.0,
+      414.0,
+      249.0
+     ],
+     "box_pt": [
+      133.88301900104858,
+      77.02625518968443,
+      148.99884372697343,
+      89.62400720668889
+     ],
+     "conf": 0.9999899999999999,
+     "char_conf": [
+      1.0,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 2,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w25",
+     "text": "proyecto",
+     "box_px": [
+      418.0,
+      214.0,
+      519.0,
+      249.0
+     ],
+     "box_pt": [
+      150.4384460818234,
+      77.02625518968443,
+      186.78840554178552,
+      89.62400720668889
+     ],
+     "conf": 0.9998225000000002,
+     "char_conf": [
+      0.99999,
+      0.99998,
+      0.9997,
+      0.99997,
+      0.99987,
+      0.99994,
+      1.0,
+      0.99913
+     ],
+     "line_id": 2,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w26",
+     "text": "de",
+     "box_px": [
+      529.0,
+      214.0,
+      559.0,
+      249.0
+     ],
+     "box_pt": [
+      190.3874114289105,
+      77.02625518968443,
+      201.18442909028536,
+      89.62400720668889
+     ],
+     "conf": 0.999985,
+     "char_conf": [
+      1.0,
+      0.99997
+     ],
+     "line_id": 2,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w27",
+     "text": "reforma",
+     "box_px": [
+      564.0,
+      214.0,
+      658.0,
+      249.0
+     ],
+     "box_pt": [
+      202.98393203384785,
+      77.02625518968443,
+      236.8145873728225,
+      89.62400720668889
+     ],
+     "conf": 0.9999014285714285,
+     "char_conf": [
+      0.99999,
+      0.99985,
+      0.99995,
+      0.99992,
+      0.99997,
+      0.99987,
+      0.99976
+     ],
+     "line_id": 2,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w28",
+     "text": "y",
+     "box_px": [
+      668.0,
+      214.0,
+      682.0,
+      249.0
+     ],
+     "box_pt": [
+      240.41359325994745,
+      77.02625518968443,
+      245.45220150192242,
+      89.62400720668889
+     ],
+     "conf": 0.99994,
+     "char_conf": [
+      0.99994
+     ],
+     "line_id": 2,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w29",
+     "text": "entrega",
+     "box_px": [
+      692.0,
+      214.0,
+      781.0,
+      249.0
+     ],
+     "box_pt": [
+      249.05120738904736,
+      77.02625518968443,
+      281.0823597844595,
+      89.62400720668889
+     ],
+     "conf": 0.9999185714285714,
+     "char_conf": [
+      0.99983,
+      0.99997,
+      1.0,
+      0.99999,
+      0.99979,
+      0.99997,
+      0.99988
+     ],
+     "line_id": 2,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w30",
+     "text": "de",
+     "box_px": [
+      797.0,
+      214.0,
+      821.0,
+      249.0
+     ],
+     "box_pt": [
+      286.84076920385945,
+      77.02625518968443,
+      295.47838333295937,
+      89.62400720668889
+     ],
+     "conf": 0.9999899999999999,
+     "char_conf": [
+      1.0,
+      0.99998
+     ],
+     "line_id": 2,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w31",
+     "text": "la",
+     "box_px": [
+      826.0,
+      214.0,
+      850.0,
+      249.0
+     ],
+     "box_pt": [
+      297.2778862765219,
+      77.02625518968443,
+      305.91550040562174,
+      89.62400720668889
+     ],
+     "conf": 0.9998400000000001,
+     "char_conf": [
+      0.99973,
+      0.99995
+     ],
+     "line_id": 2,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w32",
+     "text": "documentacion",
+     "box_px": [
+      861.0,
+      214.0,
+      1043.0,
+      249.0
+     ],
+     "box_pt": [
+      309.8744068814592,
+      77.02625518968443,
+      375.3763140271335,
+      89.62400720668889
+     ],
+     "conf": 0.9998207692307693,
+     "char_conf": [
+      0.99999,
+      0.99976,
+      0.99993,
+      0.99995,
+      0.99998,
+      0.99983,
+      0.99999,
+      0.99999,
+      0.99976,
+      0.99993,
+      0.99996,
+      0.99864,
+      0.99996
+     ],
+     "line_id": 2,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w33",
+     "text": "Base",
+     "box_px": [
+      141.0,
+      248.0,
+      198.0,
+      285.0
+     ],
+     "box_pt": [
+      50.74598300846196,
+      89.26407143477448,
+      71.26031656507425,
+      102.58169499560778
+     ],
+     "conf": 0.9999775,
+     "char_conf": [
+      0.99994,
+      0.99999,
+      0.99999,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w34",
+     "text": "imponible",
+     "box_px": [
+      203.0,
+      248.0,
+      327.0,
+      285.0
+     ],
+     "box_pt": [
+      73.05981950863672,
+      89.26407143477448,
+      117.68749250898625,
+      102.58169499560778
+     ],
+     "conf": 0.9999577777777778,
+     "char_conf": [
+      0.99994,
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99979,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w35",
+     "text": "1.000,00",
+     "box_px": [
+      332.0,
+      248.0,
+      438.0,
+      285.0
+     ],
+     "box_pt": [
+      119.48699545254874,
+      89.26407143477448,
+      157.63645785607332,
+      102.58169499560778
+     ],
+     "conf": 0.99993125,
+     "char_conf": [
+      0.99999,
+      0.99991,
+      0.99993,
+      0.99996,
+      0.99995,
+      0.99979,
+      0.99995,
+      0.99997
+     ],
+     "line_id": 3,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w36",
+     "text": "EUR,",
+     "box_px": [
+      449.0,
+      248.0,
+      506.0,
+      285.0
+     ],
+     "box_pt": [
+      161.5953643319108,
+      89.26407143477448,
+      182.10969788852307,
+      102.58169499560778
+     ],
+     "conf": 0.9993774999999999,
+     "char_conf": [
+      0.99983,
+      0.99928,
+      0.99998,
+      0.99842
+     ],
+     "line_id": 3,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w37",
+     "text": "IVA",
+     "box_px": [
+      510.0,
+      248.0,
+      549.0,
+      285.0
+     ],
+     "box_pt": [
+      183.54930024337307,
+      89.26407143477448,
+      197.58542320316042,
+      102.58169499560778
+     ],
+     "conf": 0.9992366666666667,
+     "char_conf": [
+      0.99801,
+      0.99976,
+      0.99994
+     ],
+     "line_id": 3,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w38",
+     "text": "21",
+     "box_px": [
+      560.0,
+      248.0,
+      586.0,
+      285.0
+     ],
+     "box_pt": [
+      201.54432967899788,
+      89.26407143477448,
+      210.90174498552278,
+      102.58169499560778
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w39",
+     "text": "%",
+     "box_px": [
+      596.0,
+      248.0,
+      610.0,
+      285.0
+     ],
+     "box_pt": [
+      214.50075087264773,
+      89.26407143477448,
+      219.53935911462267,
+      102.58169499560778
+     ],
+     "conf": 0.99975,
+     "char_conf": [
+      0.99975
+     ],
+     "line_id": 3,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w40",
+     "text": "210,00",
+     "box_px": [
+      627.0,
+      249.0,
+      709.0,
+      286.0
+     ],
+     "box_pt": [
+      225.65766912273511,
+      89.62400720668889,
+      255.1695173971598,
+      102.94163076752218
+     ],
+     "conf": 0.9999383333333333,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99998,
+      0.99971,
+      0.99997,
+      0.99998
+     ],
+     "line_id": 3,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w41",
+     "text": "EUR,",
+     "box_px": [
+      720.0,
+      249.0,
+      776.0,
+      286.0
+     ],
+     "box_pt": [
+      259.12842387299725,
+      89.62400720668889,
+      279.28285684089707,
+      102.94163076752218
+     ],
+     "conf": 0.9996475,
+     "char_conf": [
+      0.99985,
+      0.99935,
+      0.99998,
+      0.99941
+     ],
+     "line_id": 3,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w42",
+     "text": "total",
+     "box_px": [
+      781.0,
+      249.0,
+      838.0,
+      286.0
+     ],
+     "box_pt": [
+      281.0823597844595,
+      89.62400720668889,
+      301.5966933410718,
+      102.94163076752218
+     ],
+     "conf": 0.9999040000000001,
+     "char_conf": [
+      0.99999,
+      0.99997,
+      0.99999,
+      0.99999,
+      0.99958
+     ],
+     "line_id": 3,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w43",
+     "text": "a",
+     "box_px": [
+      849.0,
+      249.0,
+      863.0,
+      286.0
+     ],
+     "box_pt": [
+      305.55559981690925,
+      89.62400720668889,
+      310.5942080588842,
+      102.94163076752218
+     ],
+     "conf": 0.99891,
+     "char_conf": [
+      0.99891
+     ],
+     "line_id": 3,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w44",
+     "text": "pagar",
+     "box_px": [
+      867.0,
+      249.0,
+      936.0,
+      286.0
+     ],
+     "box_pt": [
+      312.0338104137342,
+      89.62400720668889,
+      336.86695103489643,
+      102.94163076752218
+     ],
+     "conf": 0.999972,
+     "char_conf": [
+      0.99995,
+      0.99996,
+      0.99998,
+      0.99998,
+      0.99999
+     ],
+     "line_id": 3,
+     "idx_in_line": 11,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w45",
+     "text": "1.210,00",
+     "box_px": [
+      947.0,
+      249.0,
+      1053.0,
+      286.0
+     ],
+     "box_pt": [
+      340.8258575107339,
+      89.62400720668889,
+      378.9753199142585,
+      102.94163076752218
+     ],
+     "conf": 0.9999562500000001,
+     "char_conf": [
+      0.99999,
+      0.99995,
+      1.0,
+      0.99998,
+      0.99998,
+      0.99985,
+      0.99996,
+      0.99994
+     ],
+     "line_id": 3,
+     "idx_in_line": 12,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w46",
+     "text": "EUR",
+     "box_px": [
+      1058.0,
+      249.0,
+      1109.0,
+      286.0
+     ],
+     "box_pt": [
+      380.774822857821,
+      89.62400720668889,
+      399.1297528821583,
+      102.94163076752218
+     ],
+     "conf": 0.99979,
+     "char_conf": [
+      0.99967,
+      0.99974,
+      0.99996
+     ],
+     "line_id": 3,
+     "idx_in_line": 13,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w47",
+     "text": "Pago",
+     "box_px": [
+      142.0,
+      287.0,
+      196.0,
+      322.0
+     ],
+     "box_pt": [
+      51.10588359717446,
+      103.30156653943659,
+      70.54051538764925,
+      115.89931855644106
+     ],
+     "conf": 0.999725,
+     "char_conf": [
+      0.9999,
+      0.99997,
+      0.9999,
+      0.99913
+     ],
+     "line_id": 4,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w48",
+     "text": "por",
+     "box_px": [
+      207.0,
+      287.0,
+      249.0,
+      322.0
+     ],
+     "box_pt": [
+      74.49942186348672,
+      103.30156653943659,
+      89.61524658941156,
+      115.89931855644106
+     ],
+     "conf": 0.9999766666666666,
+     "char_conf": [
+      0.99998,
+      0.99996,
+      0.99999
+     ],
+     "line_id": 4,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w49",
+     "text": "transferencia",
+     "box_px": [
+      253.0,
+      287.0,
+      412.0,
+      322.0
+     ],
+     "box_pt": [
+      91.05484894426154,
+      103.30156653943659,
+      148.27904254954842,
+      115.89931855644106
+     ],
+     "conf": 0.9996200000000001,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99975,
+      0.99998,
+      0.99993,
+      0.99992,
+      0.99994,
+      0.99999,
+      0.99988,
+      0.99997,
+      0.99995,
+      0.99587,
+      0.99989
+     ],
+     "line_id": 4,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w50",
+     "text": "en",
+     "box_px": [
+      422.0,
+      287.0,
+      447.0,
+      322.0
+     ],
+     "box_pt": [
+      151.8780484366734,
+      103.30156653943659,
+      160.8755631544858,
+      115.89931855644106
+     ],
+     "conf": 0.99995,
+     "char_conf": [
+      0.99996,
+      0.99994
+     ],
+     "line_id": 4,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w51",
+     "text": "un",
+     "box_px": [
+      457.0,
+      287.0,
+      487.0,
+      322.0
+     ],
+     "box_pt": [
+      164.47456904161075,
+      103.30156653943659,
+      175.27158670298564,
+      115.89931855644106
+     ],
+     "conf": 0.9999549999999999,
+     "char_conf": [
+      0.99995,
+      0.99996
+     ],
+     "line_id": 4,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w52",
+     "text": "plazo",
+     "box_px": [
+      498.0,
+      287.0,
+      557.0,
+      322.0
+     ],
+     "box_pt": [
+      179.2304931788231,
+      103.30156653943659,
+      200.46462791286038,
+      115.89931855644106
+     ],
+     "conf": 0.999906,
+     "char_conf": [
+      0.99999,
+      0.99996,
+      0.99994,
+      0.99982,
+      0.99982
+     ],
+     "line_id": 4,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w53",
+     "text": "de",
+     "box_px": [
+      567.0,
+      287.0,
+      598.0,
+      322.0
+     ],
+     "box_pt": [
+      204.06363379998535,
+      103.30156653943659,
+      215.2205520500727,
+      115.89931855644106
+     ],
+     "conf": 0.9999899999999999,
+     "char_conf": [
+      1.0,
+      0.99998
+     ],
+     "line_id": 4,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w54",
+     "text": "treinta",
+     "box_px": [
+      602.0,
+      287.0,
+      685.0,
+      322.0
+     ],
+     "box_pt": [
+      216.6601544049227,
+      103.30156653943659,
+      246.5319032680599,
+      115.89931855644106
+     ],
+     "conf": 0.9998328571428571,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99996,
+      0.99921,
+      0.99995,
+      0.99998,
+      0.99974
+     ],
+     "line_id": 4,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w55",
+     "text": "dias",
+     "box_px": [
+      690.0,
+      287.0,
+      738.0,
+      322.0
+     ],
+     "box_pt": [
+      248.33140621162238,
+      103.30156653943659,
+      265.6066344698222,
+      115.89931855644106
+     ],
+     "conf": 0.996165,
+     "char_conf": [
+      1.0,
+      0.98477,
+      0.99992,
+      0.99997
+     ],
+     "line_id": 4,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w56",
+     "text": "desde",
+     "box_px": [
+      748.0,
+      287.0,
+      819.0,
+      322.0
+     ],
+     "box_pt": [
+      269.20564035694713,
+      103.30156653943659,
+      294.7585821555344,
+      115.89931855644106
+     ],
+     "conf": 0.9999780000000001,
+     "char_conf": [
+      0.99999,
+      0.99997,
+      0.99996,
+      0.99999,
+      0.99998
+     ],
+     "line_id": 4,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w57",
+     "text": "la",
+     "box_px": [
+      824.0,
+      287.0,
+      848.0,
+      322.0
+     ],
+     "box_pt": [
+      296.55808509909684,
+      103.30156653943659,
+      305.19569922819676,
+      115.89931855644106
+     ],
+     "conf": 0.999805,
+     "char_conf": [
+      0.99964,
+      0.99997
+     ],
+     "line_id": 4,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w58",
+     "text": "fecha",
+     "box_px": [
+      859.0,
+      287.0,
+      924.0,
+      322.0
+     ],
+     "box_pt": [
+      309.1546057040342,
+      103.30156653943659,
+      332.5481439703465,
+      115.89931855644106
+     ],
+     "conf": 0.999924,
+     "char_conf": [
+      0.99992,
+      0.99994,
+      0.99997,
+      0.99999,
+      0.9998
+     ],
+     "line_id": 4,
+     "idx_in_line": 11,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w59",
+     "text": "de",
+     "box_px": [
+      934.0,
+      287.0,
+      959.0,
+      322.0
+     ],
+     "box_pt": [
+      336.14714985747145,
+      103.30156653943659,
+      345.14466457528385,
+      115.89931855644106
+     ],
+     "conf": 0.99999,
+     "char_conf": [
+      0.99999,
+      0.99999
+     ],
+     "line_id": 4,
+     "idx_in_line": 12,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w60",
+     "text": "factura",
+     "box_px": [
+      969.0,
+      287.0,
+      1052.0,
+      322.0
+     ],
+     "box_pt": [
+      348.74367046240883,
+      103.30156653943659,
+      378.615419325546,
+      115.89931855644106
+     ],
+     "conf": 0.9999214285714286,
+     "char_conf": [
+      0.99993,
+      0.99985,
+      0.99993,
+      0.99999,
+      0.99991,
+      0.99999,
+      0.99985
+     ],
+     "line_id": 4,
+     "idx_in_line": 13,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w61",
+     "text": "El",
+     "box_px": [
+      143.0,
+      327.0,
+      167.0,
+      362.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      117.69899741601313,
+      60.10339831498686,
+      130.2967494330176
+     ],
+     "conf": 0.99932,
+     "char_conf": [
+      0.99877,
+      0.99987
+     ],
+     "line_id": 5,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w62",
+     "text": "presente",
+     "box_px": [
+      172.0,
+      327.0,
+      278.0,
+      362.0
+     ],
+     "box_pt": [
+      61.90290125854935,
+      117.69899741601313,
+      100.05236366207394,
+      130.2967494330176
+     ],
+     "conf": 0.9999575,
+     "char_conf": [
+      0.99999,
+      0.99999,
+      0.99986,
+      0.99995,
+      0.99995,
+      0.99999,
+      0.99999,
+      0.99994
+     ],
+     "line_id": 5,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w63",
+     "text": "documento",
+     "box_px": [
+      283.0,
+      327.0,
+      418.0,
+      362.0
+     ],
+     "box_pt": [
+      101.85186660563642,
+      117.69899741601313,
+      150.4384460818234,
+      130.2967494330176
+     ],
+     "conf": 0.9999522222222222,
+     "char_conf": [
+      0.99999,
+      0.99997,
+      0.99998,
+      0.99997,
+      0.99997,
+      0.99981,
+      0.99999,
+      0.99999,
+      0.9999
+     ],
+     "line_id": 5,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w64",
+     "text": "se",
+     "box_px": [
+      430.0,
+      327.0,
+      454.0,
+      362.0
+     ],
+     "box_pt": [
+      154.75725314637336,
+      117.69899741601313,
+      163.39486727547327,
+      130.2967494330176
+     ],
+     "conf": 0.99997,
+     "char_conf": [
+      0.99998,
+      0.99996
+     ],
+     "line_id": 5,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w65",
+     "text": "emite",
+     "box_px": [
+      465.0,
+      327.0,
+      530.0,
+      362.0
+     ],
+     "box_pt": [
+      167.35377375131074,
+      117.69899741601313,
+      190.747312017623,
+      130.2967494330176
+     ],
+     "conf": 0.9999379999999999,
+     "char_conf": [
+      0.99989,
+      0.99997,
+      0.99998,
+      0.99989,
+      0.99996
+     ],
+     "line_id": 5,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w66",
+     "text": "conforme",
+     "box_px": [
+      541.0,
+      327.0,
+      652.0,
+      362.0
+     ],
+     "box_pt": [
+      194.70621849346045,
+      117.69899741601313,
+      234.65518384054752,
+      130.2967494330176
+     ],
+     "conf": 0.9998625,
+     "char_conf": [
+      0.99999,
+      0.99994,
+      0.99999,
+      0.99997,
+      0.99996,
+      0.99999,
+      0.99914,
+      0.99992
+     ],
+     "line_id": 5,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w67",
+     "text": "a",
+     "box_px": [
+      664.0,
+      327.0,
+      676.0,
+      362.0
+     ],
+     "box_pt": [
+      238.97399090509748,
+      117.69899741601313,
+      243.29279796964744,
+      130.2967494330176
+     ],
+     "conf": 0.99867,
+     "char_conf": [
+      0.99867
+     ],
+     "line_id": 5,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w68",
+     "text": "la",
+     "box_px": [
+      681.0,
+      327.0,
+      705.0,
+      362.0
+     ],
+     "box_pt": [
+      245.0923009132099,
+      117.69899741601313,
+      253.7299150423098,
+      130.2967494330176
+     ],
+     "conf": 0.999925,
+     "char_conf": [
+      0.99993,
+      0.99992
+     ],
+     "line_id": 5,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w69",
+     "text": "normativa",
+     "box_px": [
+      716.0,
+      327.0,
+      834.0,
+      362.0
+     ],
+     "box_pt": [
+      257.6888215181473,
+      117.69899741601313,
+      300.1570909862218,
+      130.2967494330176
+     ],
+     "conf": 0.9999355555555556,
+     "char_conf": [
+      0.99989,
+      0.99988,
+      0.99998,
+      0.99998,
+      0.9999,
+      0.99998,
+      0.99996,
+      0.99999,
+      0.99986
+     ],
+     "line_id": 5,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w70",
+     "text": "vigente",
+     "box_px": [
+      845.0,
+      327.0,
+      933.0,
+      362.0
+     ],
+     "box_pt": [
+      304.1159974620593,
+      117.69899741601313,
+      335.78724926875896,
+      130.2967494330176
+     ],
+     "conf": 0.9999728571428571,
+     "char_conf": [
+      1.0,
+      0.99998,
+      0.99998,
+      0.99989,
+      0.99999,
+      1.0,
+      0.99997
+     ],
+     "line_id": 5,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w71",
+     "text": "en",
+     "box_px": [
+      944.0,
+      327.0,
+      968.0,
+      362.0
+     ],
+     "box_pt": [
+      339.7461557445964,
+      117.69899741601313,
+      348.38376987369634,
+      130.2967494330176
+     ],
+     "conf": 0.999965,
+     "char_conf": [
+      0.99995,
+      0.99998
+     ],
+     "line_id": 5,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w72",
+     "text": "la",
+     "box_px": [
+      979.0,
+      327.0,
+      998.0,
+      362.0
+     ],
+     "box_pt": [
+      352.34267634953375,
+      117.69899741601313,
+      359.1807875350712,
+      130.2967494330176
+     ],
+     "conf": 0.9999,
+     "char_conf": [
+      0.99987,
+      0.99993
+     ],
+     "line_id": 5,
+     "idx_in_line": 11,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w73",
+     "text": "materia",
+     "box_px": [
+      1015.0,
+      327.0,
+      1103.0,
+      362.0
+     ],
+     "box_pt": [
+      365.2990975431836,
+      117.69899741601313,
+      396.9703493498833,
+      130.2967494330176
+     ],
+     "conf": 0.9999514285714286,
+     "char_conf": [
+      0.99997,
+      0.99991,
+      0.99999,
+      0.99995,
+      0.99999,
+      0.99994,
+      0.99991
+     ],
+     "line_id": 5,
+     "idx_in_line": 12,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w74",
+     "text": "Para",
+     "box_px": [
+      143.0,
+      365.0,
+      193.0,
+      402.0
+     ],
+     "box_pt": [
+      51.46578418588695,
+      131.37655674876083,
+      69.46081362151176,
+      144.69418030959412
+     ],
+     "conf": 0.9999475,
+     "char_conf": [
+      0.9999,
+      0.99999,
+      0.99999,
+      0.99991
+     ],
+     "line_id": 6,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w75",
+     "text": "cualquier",
+     "box_px": [
+      199.0,
+      365.0,
+      316.0,
+      402.0
+     ],
+     "box_pt": [
+      71.62021715378674,
+      131.37655674876083,
+      113.7285860331488,
+      144.69418030959412
+     ],
+     "conf": 0.9999422222222223,
+     "char_conf": [
+      0.99998,
+      0.99998,
+      0.99992,
+      0.99998,
+      0.99985,
+      0.99998,
+      0.9999,
+      0.9999,
+      0.99999
+     ],
+     "line_id": 6,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w76",
+     "text": "aclaracion",
+     "box_px": [
+      322.0,
+      365.0,
+      440.0,
+      402.0
+     ],
+     "box_pt": [
+      115.88798956542378,
+      131.37655674876083,
+      158.35625903349833,
+      144.69418030959412
+     ],
+     "conf": 0.9997619999999999,
+     "char_conf": [
+      0.99996,
+      0.99999,
+      0.99998,
+      0.99991,
+      1.0,
+      0.99965,
+      0.99994,
+      0.99976,
+      0.99855,
+      0.99988
+     ],
+     "line_id": 6,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w77",
+     "text": "puede",
+     "box_px": [
+      451.0,
+      365.0,
+      526.0,
+      402.0
+     ],
+     "box_pt": [
+      162.31516550933577,
+      131.37655674876083,
+      189.307709662773,
+      144.69418030959412
+     ],
+     "conf": 0.999958,
+     "char_conf": [
+      0.99999,
+      0.99998,
+      0.99987,
+      0.99999,
+      0.99996
+     ],
+     "line_id": 6,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w78",
+     "text": "ponerse",
+     "box_px": [
+      537.0,
+      365.0,
+      630.0,
+      402.0
+     ],
+     "box_pt": [
+      193.26661613861046,
+      131.37655674876083,
+      226.7373708888726,
+      144.69418030959412
+     ],
+     "conf": 0.99992,
+     "char_conf": [
+      0.99999,
+      0.99987,
+      0.99987,
+      0.99984,
+      0.99999,
+      0.99996,
+      0.99992
+     ],
+     "line_id": 6,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w79",
+     "text": "en",
+     "box_px": [
+      642.0,
+      365.0,
+      667.0,
+      402.0
+     ],
+     "box_pt": [
+      231.05617795342255,
+      131.37655674876083,
+      240.05369267123496,
+      144.69418030959412
+     ],
+     "conf": 0.999895,
+     "char_conf": [
+      0.99989,
+      0.9999
+     ],
+     "line_id": 6,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w80",
+     "text": "contacto",
+     "box_px": [
+      679.0,
+      365.0,
+      778.0,
+      402.0
+     ],
+     "box_pt": [
+      244.3724997357849,
+      131.37655674876083,
+      280.00265801832205,
+      144.69418030959412
+     ],
+     "conf": 0.99988625,
+     "char_conf": [
+      0.99998,
+      0.99995,
+      0.99998,
+      0.99999,
+      0.99988,
+      0.9998,
+      1.0,
+      0.99951
+     ],
+     "line_id": 6,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w81",
+     "text": "con",
+     "box_px": [
+      790.0,
+      365.0,
+      827.0,
+      402.0
+     ],
+     "box_pt": [
+      284.321465082872,
+      131.37655674876083,
+      297.6377868652344,
+      144.69418030959412
+     ],
+     "conf": 0.9999266666666666,
+     "char_conf": [
+      0.99998,
+      0.99991,
+      0.99989
+     ],
+     "line_id": 6,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w82",
+     "text": "nuestro",
+     "box_px": [
+      839.0,
+      365.0,
+      932.0,
+      402.0
+     ],
+     "box_pt": [
+      301.95659392978433,
+      131.37655674876083,
+      335.42734868004646,
+      144.69418030959412
+     ],
+     "conf": 0.9998314285714286,
+     "char_conf": [
+      0.99983,
+      0.99997,
+      0.99985,
+      0.99997,
+      1.0,
+      0.99985,
+      0.99935
+     ],
+     "line_id": 6,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w83",
+     "text": "departamento",
+     "box_px": [
+      937.0,
+      365.0,
+      1110.0,
+      402.0
+     ],
+     "box_pt": [
+      337.2268516236089,
+      131.37655674876083,
+      399.4896534708708,
+      144.69418030959412
+     ],
+     "conf": 0.9999325,
+     "char_conf": [
+      1.0,
+      0.9999,
+      0.99998,
+      0.99988,
+      0.99999,
+      1.0,
+      0.9999,
+      0.99995,
+      0.99985,
+      0.99997,
+      0.99999,
+      0.99978
+     ],
+     "line_id": 6,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w84",
+     "text": "Gracias",
+     "box_px": [
+      142.0,
+      400.0,
+      230.0,
+      437.0
+     ],
+     "box_pt": [
+      51.10588359717446,
+      143.9743087657653,
+      82.77713540387413,
+      157.29193232659858
+     ],
+     "conf": 0.9998199999999999,
+     "char_conf": [
+      0.99989,
+      0.99999,
+      0.99978,
+      0.99996,
+      0.99918,
+      0.99996,
+      0.99998
+     ],
+     "line_id": 7,
+     "idx_in_line": 0,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w85",
+     "text": "por",
+     "box_px": [
+      242.0,
+      400.0,
+      280.0,
+      437.0
+     ],
+     "box_pt": [
+      87.09594246842408,
+      143.9743087657653,
+      100.77216483949894,
+      157.29193232659858
+     ],
+     "conf": 0.9999766666666666,
+     "char_conf": [
+      0.99998,
+      0.99996,
+      0.99999
+     ],
+     "line_id": 7,
+     "idx_in_line": 1,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w86",
+     "text": "confiar",
+     "box_px": [
+      286.0,
+      400.0,
+      367.0,
+      437.0
+     ],
+     "box_pt": [
+      102.9315683717739,
+      143.9743087657653,
+      132.0835160574861,
+      157.29193232659858
+     ],
+     "conf": 0.9991814285714286,
+     "char_conf": [
+      0.99999,
+      0.99995,
+      0.99997,
+      0.99792,
+      0.99649,
+      0.99996,
+      0.99999
+     ],
+     "line_id": 7,
+     "idx_in_line": 2,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w87",
+     "text": "en",
+     "box_px": [
+      380.0,
+      401.0,
+      405.0,
+      437.0
+     ],
+     "box_pt": [
+      136.76222371074854,
+      144.3342445376797,
+      145.75973842856095,
+      157.29193232659858
+     ],
+     "conf": 0.999955,
+     "char_conf": [
+      0.99997,
+      0.99994
+     ],
+     "line_id": 7,
+     "idx_in_line": 3,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w88",
+     "text": "nuestros",
+     "box_px": [
+      417.0,
+      401.0,
+      516.0,
+      438.0
+     ],
+     "box_pt": [
+      150.0785454931109,
+      144.3342445376797,
+      185.70870377564805,
+      157.651868098513
+     ],
+     "conf": 0.999955,
+     "char_conf": [
+      0.99991,
+      0.99997,
+      0.99994,
+      0.99996,
+      0.99999,
+      0.99998,
+      0.99991,
+      0.99998
+     ],
+     "line_id": 7,
+     "idx_in_line": 4,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w89",
+     "text": "servicios",
+     "box_px": [
+      528.0,
+      401.0,
+      628.0,
+      438.0
+     ],
+     "box_pt": [
+      190.02751084019798,
+      144.3342445376797,
+      226.0175697114476,
+      157.651868098513
+     ],
+     "conf": 0.9999422222222223,
+     "char_conf": [
+      0.99995,
+      0.99994,
+      0.99999,
+      0.99999,
+      0.99993,
+      0.99999,
+      0.99996,
+      0.99975,
+      0.99998
+     ],
+     "line_id": 7,
+     "idx_in_line": 5,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w90",
+     "text": "durante",
+     "box_px": [
+      639.0,
+      402.0,
+      731.0,
+      439.0
+     ],
+     "box_pt": [
+      229.97647618728507,
+      144.69418030959412,
+      263.0873303488347,
+      158.0118038704274
+     ],
+     "conf": 0.9999714285714286,
+     "char_conf": [
+      0.99999,
+      0.99994,
+      1.0,
+      0.99991,
+      0.99999,
+      1.0,
+      0.99997
+     ],
+     "line_id": 7,
+     "idx_in_line": 6,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w91",
+     "text": "este",
+     "box_px": [
+      743.0,
+      402.0,
+      792.0,
+      439.0
+     ],
+     "box_pt": [
+      267.40613741338467,
+      144.69418030959412,
+      285.041266260297,
+      158.0118038704274
+     ],
+     "conf": 0.99993,
+     "char_conf": [
+      0.99988,
+      0.99998,
+      1.0,
+      0.99986
+     ],
+     "line_id": 7,
+     "idx_in_line": 7,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w92",
+     "text": "periodo",
+     "box_px": [
+      797.0,
+      402.0,
+      889.0,
+      439.0
+     ],
+     "box_pt": [
+      286.84076920385945,
+      144.69418030959412,
+      319.9516233654091,
+      158.0118038704274
+     ],
+     "conf": 0.9999485714285715,
+     "char_conf": [
+      0.99999,
+      0.99993,
+      0.99999,
+      0.99983,
+      0.99994,
+      0.99999,
+      0.99997
+     ],
+     "line_id": 7,
+     "idx_in_line": 8,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w93",
+     "text": "de",
+     "box_px": [
+      901.0,
+      403.0,
+      925.0,
+      439.0
+     ],
+     "box_pt": [
+      324.27043042995905,
+      145.05411608150854,
+      332.90804455905896,
+      158.0118038704274
+     ],
+     "conf": 0.999995,
+     "char_conf": [
+      1.0,
+      0.99999
+     ],
+     "line_id": 7,
+     "idx_in_line": 9,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    },
+    {
+     "id": "p3w94",
+     "text": "trabajo",
+     "box_px": [
+      931.0,
+      403.0,
+      1022.0,
+      439.0
+     ],
+     "box_pt": [
+      335.067448091334,
+      145.05411608150854,
+      367.8184016641711,
+      158.0118038704274
+     ],
+     "conf": 0.9999442857142858,
+     "char_conf": [
+      1.0,
+      0.99999,
+      0.99996,
+      0.99999,
+      0.99995,
+      0.99999,
+      0.99973
+     ],
+     "line_id": 7,
+     "idx_in_line": 10,
+     "status": "ok",
+     "p_wrong": 0.01,
+     "reasons": [],
+     "suggestion": null,
+     "suggestion_conf": null,
+     "review": null,
+     "original": null,
+     "corrected_by": null,
+     "absorbed_by": null,
+     "guard_status": null,
+     "orig_box_px": null,
+     "fix": null
+    }
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "word_ids": [
+    "p1w2"
+   ],
+   "page": 1,
+   "text": "2026-0042",
+   "value": null,
+   "kind": "other",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w5"
+   ],
+   "page": 1,
+   "text": "14/03/2026",
+   "value": null,
+   "kind": "date",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.date_valid",
+     "params": {},
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w17"
+   ],
+   "page": 1,
+   "text": "12,",
+   "value": "12",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w35"
+   ],
+   "page": 1,
+   "text": "1.000,00",
+   "value": "1000.00",
+   "kind": "amount",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w38"
+   ],
+   "page": 1,
+   "text": "21",
+   "value": "21",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w40"
+   ],
+   "page": 1,
+   "text": "210,00",
+   "value": "210.00",
+   "kind": "amount",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p1w45"
+   ],
+   "page": 1,
+   "text": "1.210,00",
+   "value": "1210.00",
+   "kind": "amount",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p3w2"
+   ],
+   "page": 3,
+   "text": "2026-0042",
+   "value": null,
+   "kind": "other",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p3w5"
+   ],
+   "page": 3,
+   "text": "14/03/2026",
+   "value": null,
+   "kind": "date",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.date_valid",
+     "params": {},
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p3w17"
+   ],
+   "page": 3,
+   "text": "12,",
+   "value": "12",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p3w35"
+   ],
+   "page": 3,
+   "text": "1.000,00",
+   "value": "1000.00",
+   "kind": "amount",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p3w38"
+   ],
+   "page": 3,
+   "text": "21",
+   "value": "21",
+   "kind": "integer",
+   "status": "unverified",
+   "rules": [],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p3w40"
+   ],
+   "page": 3,
+   "text": "210,00",
+   "value": "210.00",
+   "kind": "amount",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  },
+  {
+   "word_ids": [
+    "p3w45"
+   ],
+   "page": 3,
+   "text": "1.210,00",
+   "value": "1210.00",
+   "kind": "amount",
+   "status": "unverified",
+   "rules": [
+    {
+     "key": "checks.rule.number_format",
+     "params": {
+      "locale": "es"
+     },
+     "result": "pass",
+     "verifying": false
+    }
+   ],
+   "suggestion": null
+  }
+ ],
+ "invoice": {
+  "fields": {
+   "number": {
+    "text": "2026-0042",
+    "word_ids": [
+     "p1w2"
+    ],
+    "page": 1,
+    "status": "unverified"
+   },
+   "date": null,
+   "subtotal": null,
+   "vat": [],
+   "withholding": null,
+   "withholding_rate": null,
+   "total": null,
+   "currency": "EUR"
+  },
+  "lines": [],
+  "missing": [
+   "date",
+   "subtotal",
+   "total",
+   "vat",
+   "lines"
+  ]
+ }
+}

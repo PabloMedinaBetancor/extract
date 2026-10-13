@@ -1,0 +1,37 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ubuntu / Python 3.10
+    # Linux with Python 3.10 is the tested combination. The Python 3.12 and Windows lock files exist but have not been
+    # run, so they are not in this matrix: they would only report failures nobody has looked at.
+    runs-on: ubuntu-latest
+    env:
+      EXTRACT_MODELS_DIR: ${{ github.workspace }}/models-cache
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Cache the OCR models
+        uses: actions/cache@v4
+        with:
+          path: models-cache
+          key: models-${{ hashFiles('models/models.json') }}
+      - name: Install
+        run: python scripts/install.py --ci
+      - name: Lint
+        run: |
+          .venv/bin/python -m ruff check .
+          .venv/bin/python -m ruff format --check src tests bench scripts
+      - name: Tests
+        run: .venv/bin/python -m pytest -m "not corpus"
+      - name: Install from nothing and read a PDF
+        run: python scripts/verify_install.py

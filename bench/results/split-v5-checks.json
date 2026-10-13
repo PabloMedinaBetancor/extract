@@ -1,0 +1,12 @@
+{
+ "development_pages": 698,
+ "t5_pages_checked": 458,
+ "t5_catalogue_documents": 145,
+ "development_catalogue_documents": 275,
+ "documents_in_both": 0,
+ "pages_repeating_a_development_page": 0,
+ "pages_with_jaccard_at_or_over_threshold": 0,
+ "largest_jaccard_against_development": 0.4778,
+ "threshold": 0.5,
+ "t5_pages_near_an_earlier_t5_page": 0
+}

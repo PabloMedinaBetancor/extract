@@ -1,0 +1,9 @@
+file,source_url,licence,sha256,note
+fonts/DejaVuSans.ttf,https://packages.debian.org/fonts-dejavu-core,Bitstream Vera,,invoice font (training); also DejaVuSans-Bold.ttf
+fonts/DejaVuSerif.ttf,https://packages.debian.org/fonts-dejavu-core,Bitstream Vera,,invoice font (training); also DejaVuSerif-Bold.ttf
+fonts/LiberationSans-Regular.ttf,https://packages.debian.org/fonts-liberation2,SIL OFL 1.1,,invoice font (training); also LiberationSans-Bold.ttf
+fonts/LiberationSerif-Regular.ttf,https://packages.debian.org/fonts-liberation2,SIL OFL 1.1,,invoice font (training); also LiberationSerif-Bold.ttf
+fonts/LiberationMono-Regular.ttf,https://packages.debian.org/fonts-liberation2,SIL OFL 1.1,,invoice font (training); also LiberationMono-Bold.ttf
+fonts/Ubuntu-R.ttf,https://packages.debian.org/fonts-ubuntu,Ubuntu Font Licence 1.0,,invoice font (training); also Ubuntu-B.ttf
+fonts/FreeSans.ttf,https://packages.debian.org/fonts-freefont-ttf,GPL-3 with font exception,,invoice font (test only); also FreeSansBold.ttf
+fonts/FreeSerif.ttf,https://packages.debian.org/fonts-freefont-ttf,GPL-3 with font exception,,invoice font (test only); also FreeSerifBold.ttf

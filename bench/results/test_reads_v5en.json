@@ -1,0 +1,44 @@
+[
+ {
+  "time": "2026-10-02T20:28:24+00:00",
+  "purpose": "ocr",
+  "pages": 284,
+  "fingerprint": "ab1ef4269692b4c0fd1ef5d389b744cd6115bb3a942c0442722e5b8fbdd6851a",
+  "reason": null
+ },
+ {
+  "time": "2026-10-03T11:22:31+00:00",
+  "purpose": "ocr",
+  "pages": 284,
+  "fingerprint": "ab1ef4269692b4c0fd1ef5d389b744cd6115bb3a942c0442722e5b8fbdd6851a",
+  "reason": null
+ },
+ {
+  "time": "2026-10-03T12:02:27+00:00",
+  "purpose": "ocr",
+  "pages": 284,
+  "fingerprint": "ab1ef4269692b4c0fd1ef5d389b744cd6115bb3a942c0442722e5b8fbdd6851a",
+  "reason": null
+ },
+ {
+  "time": "2026-10-03T12:07:52+00:00",
+  "purpose": "metrics",
+  "pages": 284,
+  "fingerprint": "ab1ef4269692b4c0fd1ef5d389b744cd6115bb3a942c0442722e5b8fbdd6851a",
+  "reason": null
+ },
+ {
+  "time": "2026-10-03T13:48:23+00:00",
+  "purpose": "ocr",
+  "pages": 284,
+  "fingerprint": "ab1ef4269692b4c0fd1ef5d389b744cd6115bb3a942c0442722e5b8fbdd6851a",
+  "reason": null
+ },
+ {
+  "time": "2026-10-03T14:33:24+00:00",
+  "purpose": "metrics",
+  "pages": 284,
+  "fingerprint": "ab1ef4269692b4c0fd1ef5d389b744cd6115bb3a942c0442722e5b8fbdd6851a",
+  "reason": "second-read-tables"
+ }
+]

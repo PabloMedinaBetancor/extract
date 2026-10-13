@@ -1,0 +1,756 @@
+{
+ "pages": 698,
+ "documents": 363,
+ "structure_sites": true,
+ "t_gen_raw": -4.3675073772517115,
+ "flagged_sites": 47074,
+ "seconds": 551.2,
+ "lightgbm": {
+  "in_sample_calibration": {
+   "sites": 47074,
+   "rows": 523920,
+   "reachable_sites": 3713,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": 0.9945777221678035,
+    "applied": 157,
+    "fixed": 157,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": 1.0,
+    "net": 157,
+    "intervals": {
+     "fixed": {
+      "value": 157.0,
+      "low": 119.0,
+      "high": 198.0,
+      "se": 20.145707609069984
+     },
+     "net": {
+      "value": 157.0,
+      "low": 119.0,
+      "high": 198.0,
+      "se": 20.145707609069984
+     },
+     "precision": {
+      "value": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "se": 0.0
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "precision_at_applied": {
+    "50": 1.0,
+    "100": 1.0,
+    "200": 0.99,
+    "300": 0.9933333333333333,
+    "500": 0.988,
+    "800": 0.98375,
+    "1200": 0.9775
+   },
+   "more": {
+    "m": -0.013668812415454956,
+    "applied": 5283,
+    "fixed": 2761,
+    "broken": 138,
+    "changed_still_wrong": 2384,
+    "precision": 0.5226197236418701,
+    "net": 2623,
+    "intervals": {
+     "fixed": {
+      "value": 2761.0,
+      "low": 2187.275,
+      "high": 3298.575,
+      "se": 294.7422094034175
+     },
+     "net": {
+      "value": 2623.0,
+      "low": 2066.7,
+      "high": 3145.2,
+      "se": 284.46711256710245
+     },
+     "precision": {
+      "value": 0.5226197236418701,
+      "low": 0.4651148873624886,
+      "high": 0.5866265121011957,
+      "se": 0.031048220735584452
+     }
+    }
+   }
+  },
+  "cross_fitted_calibration": {
+   "sites": 47074,
+   "rows": 523920,
+   "reachable_sites": 3713,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "precision_at_applied": {
+    "50": 1.0,
+    "100": 1.0,
+    "200": 0.985,
+    "300": 0.99,
+    "500": 0.986,
+    "800": 0.98625,
+    "1200": 0.9733333333333334
+   },
+   "more": {
+    "m": 0.01475139666961584,
+    "applied": 3707,
+    "fixed": 2720,
+    "broken": 135,
+    "changed_still_wrong": 852,
+    "precision": 0.7337469652009712,
+    "net": 2585,
+    "intervals": {
+     "fixed": {
+      "value": 2720.0,
+      "low": 2153.65,
+      "high": 3255.7749999999996,
+      "se": 291.19158417335274
+     },
+     "net": {
+      "value": 2585.0,
+      "low": 2038.9,
+      "high": 3094.625,
+      "se": 280.8041681059085
+     },
+     "precision": {
+      "value": 0.7337469652009712,
+      "low": 0.6761909872721018,
+      "high": 0.793337724477028,
+      "se": 0.030075240917660555
+     }
+    }
+   }
+  },
+  "by_op": {
+   "sites": 47074,
+   "cross_fit": true,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.04031992845705987
+    },
+    "join": {
+     "t_safe": null,
+     "m": -0.009678317092879488
+    },
+    "segment": {
+     "t_safe": null,
+     "m": -0.00432601249484289
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.5448454376672931
+    }
+   },
+   "safe": {
+    "total": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "intervals": {
+      "fixed": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "se": 0.0
+      },
+      "net": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "se": 0.0
+      },
+      "precision": {
+       "value": NaN,
+       "low": NaN,
+       "high": NaN,
+       "se": NaN
+      }
+     }
+    },
+    "text": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    },
+    "join": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    },
+    "segment": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    },
+    "drop": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    }
+   },
+   "more": {
+    "total": {
+     "applied": 3720,
+     "fixed": 2674,
+     "broken": 130,
+     "changed_still_wrong": 916,
+     "precision": 0.7188172043010753,
+     "net": 2544,
+     "intervals": {
+      "fixed": {
+       "value": 2674.0,
+       "low": 2105.875,
+       "high": 3215.825,
+       "se": 290.358184576742
+      },
+      "net": {
+       "value": 2544.0,
+       "low": 1984.775,
+       "high": 3059.625,
+       "se": 279.9725264506042
+      },
+      "precision": {
+       "value": 0.7188172043010753,
+       "low": 0.6616764118631682,
+       "high": 0.7831827809303661,
+       "se": 0.031476740601350056
+      }
+     }
+    },
+    "text": {
+     "applied": 3617,
+     "fixed": 2622,
+     "broken": 130,
+     "changed_still_wrong": 865,
+     "precision": 0.7249101465302737,
+     "net": 2492
+    },
+    "join": {
+     "applied": 13,
+     "fixed": 6,
+     "broken": 0,
+     "changed_still_wrong": 7,
+     "precision": 0.46153846153846156,
+     "net": 6
+    },
+    "segment": {
+     "applied": 69,
+     "fixed": 31,
+     "broken": 0,
+     "changed_still_wrong": 38,
+     "precision": 0.4492753623188406,
+     "net": 31
+    },
+    "drop": {
+     "applied": 21,
+     "fixed": 15,
+     "broken": 0,
+     "changed_still_wrong": 6,
+     "precision": 0.7142857142857143,
+     "net": 15
+    }
+   }
+  }
+ },
+ "logistic": {
+  "in_sample_calibration": {
+   "sites": 47074,
+   "rows": 523920,
+   "reachable_sites": 3713,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": 0.9951490404044703,
+    "applied": 106,
+    "fixed": 106,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": 1.0,
+    "net": 106,
+    "intervals": {
+     "fixed": {
+      "value": 106.0,
+      "low": 80.0,
+      "high": 133.0,
+      "se": 13.941322640047744
+     },
+     "net": {
+      "value": 106.0,
+      "low": 80.0,
+      "high": 133.0,
+      "se": 13.941322640047744
+     },
+     "precision": {
+      "value": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "se": 0.0
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "precision_at_applied": {
+    "50": 1.0,
+    "100": 1.0,
+    "200": 0.995,
+    "300": 0.99,
+    "500": 0.968,
+    "800": 0.96,
+    "1200": 0.9383333333333334
+   },
+   "more": {
+    "m": 0.350121660053671,
+    "applied": 1799,
+    "fixed": 1593,
+    "broken": 79,
+    "changed_still_wrong": 127,
+    "precision": 0.8854919399666481,
+    "net": 1514,
+    "intervals": {
+     "fixed": {
+      "value": 1593.0,
+      "low": 1289.9,
+      "high": 1891.2499999999998,
+      "se": 157.96420157097592
+     },
+     "net": {
+      "value": 1514.0,
+      "low": 1208.275,
+      "high": 1794.1,
+      "se": 150.7434766333024
+     },
+     "precision": {
+      "value": 0.8854919399666481,
+      "low": 0.8504011593474862,
+      "high": 0.9174464831804281,
+      "se": 0.017066657840402764
+     }
+    }
+   }
+  },
+  "cross_fitted_calibration": {
+   "sites": 47074,
+   "rows": 523920,
+   "reachable_sites": 3713,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "precision_at_applied": {
+    "50": 0.98,
+    "100": 0.95,
+    "200": 0.97,
+    "300": 0.97,
+    "500": 0.954,
+    "800": 0.9475,
+    "1200": 0.9341666666666667
+   },
+   "more": {
+    "m": 0.39058902741216706,
+    "applied": 1760,
+    "fixed": 1552,
+    "broken": 77,
+    "changed_still_wrong": 131,
+    "precision": 0.8818181818181818,
+    "net": 1475,
+    "intervals": {
+     "fixed": {
+      "value": 1552.0,
+      "low": 1257.95,
+      "high": 1837.1499999999999,
+      "se": 154.7544895247182
+     },
+     "net": {
+      "value": 1475.0,
+      "low": 1184.225,
+      "high": 1748.1999999999998,
+      "se": 147.8498160709862
+     },
+     "precision": {
+      "value": 0.8818181818181818,
+      "low": 0.8413113681008194,
+      "high": 0.9159569427994148,
+      "se": 0.019170401899582398
+     }
+    }
+   }
+  },
+  "by_op": {
+   "sites": 47074,
+   "cross_fit": true,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": 0.38042095288508765
+    },
+    "join": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment": {
+     "t_safe": null,
+     "m": 9.378255130486433e-05
+    },
+    "drop": {
+     "t_safe": null,
+     "m": null
+    }
+   },
+   "safe": {
+    "total": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "intervals": {
+      "fixed": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "se": 0.0
+      },
+      "net": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "se": 0.0
+      },
+      "precision": {
+       "value": NaN,
+       "low": NaN,
+       "high": NaN,
+       "se": NaN
+      }
+     }
+    },
+    "text": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    },
+    "join": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    },
+    "segment": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    },
+    "drop": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    }
+   },
+   "more": {
+    "total": {
+     "applied": 1862,
+     "fixed": 1580,
+     "broken": 78,
+     "changed_still_wrong": 204,
+     "precision": 0.8485499462943072,
+     "net": 1502,
+     "intervals": {
+      "fixed": {
+       "value": 1580.0,
+       "low": 1283.475,
+       "high": 1867.1,
+       "se": 156.95934578245704
+      },
+      "net": {
+       "value": 1502.0,
+       "low": 1205.0,
+       "high": 1778.1999999999998,
+       "se": 149.79518661113156
+      },
+      "precision": {
+       "value": 0.8485499462943072,
+       "low": 0.7904819178431532,
+       "high": 0.904163314261875,
+       "se": 0.02956724718564227
+      }
+     }
+    },
+    "text": {
+     "applied": 1784,
+     "fixed": 1574,
+     "broken": 78,
+     "changed_still_wrong": 132,
+     "precision": 0.8822869955156951,
+     "net": 1496
+    },
+    "join": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    },
+    "segment": {
+     "applied": 78,
+     "fixed": 6,
+     "broken": 0,
+     "changed_still_wrong": 72,
+     "precision": 0.07692307692307693,
+     "net": 6
+    },
+    "drop": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0
+    }
+   }
+  }
+ },
+ "nearest_word": {
+  "applied": 4464,
+  "fixed": 1922,
+  "broken": 1881,
+  "changed_still_wrong": 661,
+  "precision": 0.4305555555555556,
+  "net": 41,
+  "intervals": {
+   "fixed": {
+    "value": 1922.0,
+    "low": 1508.425,
+    "high": 2299.6749999999997,
+    "se": 202.65979227960742
+   },
+   "net": {
+    "value": 41.0,
+    "low": -330.675,
+    "high": 412.67499999999984,
+    "se": 195.8871747881749
+   },
+   "precision": {
+    "value": 0.4305555555555556,
+    "low": 0.38492670258016265,
+    "high": 0.46880078874872094,
+    "se": 0.021346770906427386
+   }
+  }
+ },
+ "keep": {
+  "applied": 0
+ },
+ "gate_f": {
+  "safe_applied_at_floor": 0,
+  "more_net": 2585,
+  "more_net_interval": [
+   2038.9,
+   3094.625
+  ],
+  "passes": true
+ }
+}

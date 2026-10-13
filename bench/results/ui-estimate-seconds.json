@@ -1,0 +1,42 @@
+{
+ "what": "Seconds per scanned page on the small laptop (2 cores, 04/10/2026): the three sample PDFs read with the whole pipeline (little text per page) and five catalogue pages read by the engine alone (full of text). Two readings of each, 911e969 and 5.0.1.",
+ "sample_pdfs_seconds_per_page": {
+  "doubtful": [
+   13.65,
+   13.54
+  ],
+  "mismatch": [
+   13.21,
+   13.09
+  ],
+  "unreadable": [
+   7.48,
+   7.41
+  ]
+ },
+ "catalogue_pages_seconds": {
+  "page_1": [
+   41.16,
+   42.44
+  ],
+  "page_2": [
+   27.19,
+   27.21
+  ],
+  "page_3": [
+   40.4,
+   40.55
+  ],
+  "page_4": [
+   18.58,
+   18.05
+  ],
+  "page_5": [
+   40.77,
+   40.66
+  ]
+ },
+ "sparse_mean": 11.4,
+ "dense_mean": 33.7,
+ "ratio_sparse_to_dense": 0.34
+}

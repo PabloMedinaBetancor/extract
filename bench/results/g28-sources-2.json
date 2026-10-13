@@ -1,0 +1,71 @@
+{
+ "pages": 698,
+ "structure_sites": true,
+ "exploratory": "31x200",
+ "base": {
+  "wrong_words": 7150,
+  "chooser": {
+   "safe_applied": 304,
+   "safe_fixed": 303,
+   "more_applied": 3777,
+   "more_net": 2616,
+   "more_net_se": 282.59269522323825,
+   "more_broken": 136,
+   "sites": 47387,
+   "reachable_sites": 3742
+  }
+ },
+ "dropped": {
+  "page": {
+   "safe_applied": 0,
+   "safe_fixed": 0,
+   "more_applied": 3780,
+   "more_net": 2628,
+   "more_net_se": 280.58650826013405,
+   "more_broken": 134,
+   "sites": 46491,
+   "reachable_sites": 3703
+  },
+  "ctc_alt": {
+   "safe_applied": 0,
+   "safe_fixed": 0,
+   "more_applied": 3844,
+   "more_net": 2723,
+   "more_net_se": 295.1169160640528,
+   "more_broken": 139,
+   "sites": 47093,
+   "reachable_sites": 3770
+  },
+  "reading": {
+   "safe_applied": 0,
+   "safe_fixed": 0,
+   "more_applied": 3754,
+   "more_net": 2564,
+   "more_net_se": 274.37417826573375,
+   "more_broken": 131,
+   "sites": 47510,
+   "reachable_sites": 3635
+  }
+ },
+ "verdicts": {
+  "page": {
+   "safe_fixed_lost_per_100_wrong": 4.2377622377622375,
+   "more_net_lost_per_100_wrong": -0.16783216783216784,
+   "keeps": true,
+   "reachable_sites": 3703
+  },
+  "ctc_alt": {
+   "safe_fixed_lost_per_100_wrong": 4.2377622377622375,
+   "more_net_lost_per_100_wrong": -1.4965034965034965,
+   "keeps": true,
+   "reachable_sites": 3770
+  },
+  "reading": {
+   "safe_fixed_lost_per_100_wrong": 4.2377622377622375,
+   "more_net_lost_per_100_wrong": 0.7272727272727273,
+   "keeps": true,
+   "reachable_sites": 3635
+  }
+ },
+ "seconds": 1090.2
+}

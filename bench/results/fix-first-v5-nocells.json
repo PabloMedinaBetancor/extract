@@ -1,0 +1,3824 @@
+{
+ "pages": 698,
+ "documents": 363,
+ "structure_sites": true,
+ "t_gen_raw": -4.384557871599807,
+ "flagged_sites": 47437,
+ "seconds": 567.8,
+ "lightgbm": {
+  "in_sample_calibration": {
+   "sites": 47437,
+   "rows": 528404,
+   "reachable_sites": 3632,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "broken_per_100_applied": null,
+    "still_wrong_share": null,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "broken_per_100_applied": null,
+    "still_wrong_share": null,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "top_errors": {
+    "top": 1200,
+    "errors": 29,
+    "by_outcome_op_kind": {
+     "3|text|letters": 11,
+     "3|text|accent": 10,
+     "2|text|accent": 6,
+     "3|text|punct": 1,
+     "3|segment|structure": 1
+    },
+    "first": [
+     {
+      "rank": 85,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "insp\u0119cci\u00f3n",
+      "truth": "\"Inspecci\u00f3n",
+      "applied": "inspecci\u00f3n",
+      "p_fix": 0.9955,
+      "doc": "c68c57919fb"
+     },
+     {
+      "rank": 145,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "articulo,",
+      "truth": "art\u00edculo",
+      "applied": "art\u00edculo,",
+      "p_fix": 0.9924,
+      "doc": "cb93c45a672"
+     },
+     {
+      "rank": 169,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "generat",
+      "truth": "general:",
+      "applied": "general",
+      "p_fix": 0.9914,
+      "doc": "cebf5c45e1b"
+     },
+     {
+      "rank": 178,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "CARACTERISTICAS",
+      "truth": "CARACTER\u00cdSTICAS.",
+      "applied": "CARACTER\u00cdSTICAS",
+      "p_fix": 0.9913,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 194,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Articulo",
+      "truth": "Articulo",
+      "applied": "Art\u00edculo",
+      "p_fix": 0.9908,
+      "doc": "c473fcf7cba"
+     },
+     {
+      "rank": 212,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Articulo",
+      "truth": "Articulo",
+      "applied": "Art\u00edculo",
+      "p_fix": 0.9903,
+      "doc": "c473fcf7cba"
+     },
+     {
+      "rank": 234,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Evaluacion",
+      "truth": "5http://www.adaptecca.es/sites/default/files/editor_documentos/CEDEX_Evaluacion_cambio_climatico_recursos_hidricos",
+      "applied": "Evaluaci\u00f3n",
+      "p_fix": 0.9896,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 270,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "naturnles",
+      "truth": "naturales.",
+      "applied": "naturales",
+      "p_fix": 0.9886,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 370,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "juridico.",
+      "truth": "jur\u00eddico,",
+      "applied": "jur\u00eddico.",
+      "p_fix": 0.9865,
+      "doc": "c81af70be03"
+     },
+     {
+      "rank": 528,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "cicto",
+      "truth": "cielo",
+      "applied": "ciclo",
+      "p_fix": 0.9822,
+      "doc": "cd5ad402128"
+     },
+     {
+      "rank": 581,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Articulo",
+      "truth": "Articulo",
+      "applied": "Art\u00edculo",
+      "p_fix": 0.9794,
+      "doc": "c473fcf7cba"
+     },
+     {
+      "rank": 665,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "or\u00edginales.",
+      "truth": "originales,",
+      "applied": "originales.",
+      "p_fix": 0.9754,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 719,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "ias*",
+      "truth": "las",
+      "applied": "las*",
+      "p_fix": 0.9726,
+      "doc": "cc6e5fb9d29"
+     },
+     {
+      "rank": 775,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "punct",
+      "token": "car\u00e1cter.",
+      "truth": "car\u00e1cter",
+      "applied": "car\u00e1cter,",
+      "p_fix": 0.9701,
+      "doc": "cc6e5fb9d29"
+     },
+     {
+      "rank": 776,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "contamimantes",
+      "truth": "contaminantes.",
+      "applied": "contaminantes",
+      "p_fix": 0.97,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 835,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Arqueol\u00f3gsea",
+      "truth": "Arqueol\u00f3gica.",
+      "applied": "Arqueol\u00f3gica",
+      "p_fix": 0.967,
+      "doc": "c3af8f8e21d"
+     },
+     {
+      "rank": 868,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "temporat",
+      "truth": "temporal,",
+      "applied": "temporal",
+      "p_fix": 0.9654,
+      "doc": "cac22f89225"
+     },
+     {
+      "rank": 903,
+      "outcome": "still_wrong",
+      "op": "segment",
+      "kind": "structure",
+      "token": "tienenel",
+      "truth": "tienen",
+      "applied": "tienen el",
+      "p_fix": 0.9634,
+      "doc": "c23a506fd07"
+     },
+     {
+      "rank": 905,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Eas",
+      "truth": "El Las",
+      "applied": "Las",
+      "p_fix": 0.9633,
+      "doc": "c2faa389cc5"
+     },
+     {
+      "rank": 939,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c0REA",
+      "truth": "\u00c0REA",
+      "applied": "AREA",
+      "p_fix": 0.9611,
+      "doc": "c22cc49773b"
+     },
+     {
+      "rank": 1056,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "especificas",
+      "truth": "especificas",
+      "applied": "espec\u00edficas",
+      "p_fix": 0.9519,
+      "doc": "c4d7ab06554"
+     },
+     {
+      "rank": 1064,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Jardin.",
+      "truth": "Jard\u00edn,",
+      "applied": "Jard\u00edn.",
+      "p_fix": 0.9513,
+      "doc": "cc47689086a"
+     },
+     {
+      "rank": 1093,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "EJECUCION",
+      "truth": "EJECUCI\u00d3N:",
+      "applied": "EJECUCI\u00d3N",
+      "p_fix": 0.9499,
+      "doc": "c548410c209"
+     },
+     {
+      "rank": 1129,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Sanchez.",
+      "truth": "S\u00e1nchez,",
+      "applied": "S\u00e1nchez.",
+      "p_fix": 0.9488,
+      "doc": "c89020ddc11"
+     },
+     {
+      "rank": 1134,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Articulo",
+      "truth": "Articulo",
+      "applied": "Art\u00edculo",
+      "p_fix": 0.9486,
+      "doc": "c473fcf7cba"
+     },
+     {
+      "rank": 1141,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "pr\u00f3tegidas,",
+      "truth": "protegidas",
+      "applied": "protegidas,",
+      "p_fix": 0.9485,
+      "doc": "cbda4668a0f"
+     },
+     {
+      "rank": 1176,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "vbraciones",
+      "truth": "vibraciones.",
+      "applied": "vibraciones",
+      "p_fix": 0.9462,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1179,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "ka",
+      "truth": "Ambiente",
+      "applied": "la",
+      "p_fix": 0.9456,
+      "doc": "cce0592c446"
+     },
+     {
+      "rank": 1187,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Crdenaci\u00f3n",
+      "truth": "Ordenaci\u00f3n.",
+      "applied": "Ordenaci\u00f3n",
+      "p_fix": 0.945,
+      "doc": "c5eaa9902db"
+     }
+    ]
+   },
+   "by_group": {
+    "drop|structure": {
+     "sites": 2909,
+     "fixed_in_group": 157,
+     "precision_at": {
+      "50": 0.74,
+      "100": 0.66,
+      "300": 0.43333333333333335,
+      "800": 0.1925
+     },
+     "largest_k_at_0.995": 12,
+     "largest_k_at_0.99": 12
+    },
+    "join|structure": {
+     "sites": 1442,
+     "fixed_in_group": 20,
+     "precision_at": {
+      "50": 0.36,
+      "100": 0.19,
+      "300": 0.06333333333333334,
+      "800": 0.025
+     },
+     "largest_k_at_0.995": 10,
+     "largest_k_at_0.99": 10
+    },
+    "segment|structure": {
+     "sites": 17921,
+     "fixed_in_group": 85,
+     "precision_at": {
+      "50": 0.6,
+      "100": 0.41,
+      "300": 0.19333333333333333,
+      "800": 0.09125
+     },
+     "largest_k_at_0.995": 3,
+     "largest_k_at_0.99": 3
+    },
+    "text|accent": {
+     "sites": 5663,
+     "fixed_in_group": 1300,
+     "precision_at": {
+      "50": 0.98,
+      "100": 0.98,
+      "300": 0.9766666666666667,
+      "800": 0.98
+     },
+     "largest_k_at_0.995": 47,
+     "largest_k_at_0.99": 47
+    },
+    "text|accent_case": {
+     "sites": 2,
+     "fixed_in_group": 0,
+     "precision_at": {},
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    },
+    "text|case": {
+     "sites": 958,
+     "fixed_in_group": 20,
+     "precision_at": {
+      "50": 0.26,
+      "100": 0.17,
+      "300": 0.06,
+      "800": 0.025
+     },
+     "largest_k_at_0.995": 1,
+     "largest_k_at_0.99": 1
+    },
+    "text|letters": {
+     "sites": 12135,
+     "fixed_in_group": 1361,
+     "precision_at": {
+      "50": 1.0,
+      "100": 0.98,
+      "300": 0.9766666666666667,
+      "800": 0.93375
+     },
+     "largest_k_at_0.995": 61,
+     "largest_k_at_0.99": 61
+    },
+    "text|punct": {
+     "sites": 6407,
+     "fixed_in_group": 331,
+     "precision_at": {
+      "50": 0.9,
+      "100": 0.87,
+      "300": 0.69,
+      "800": 0.34625
+     },
+     "largest_k_at_0.995": 1,
+     "largest_k_at_0.99": 1
+    }
+   },
+   "precision_at_applied": {
+    "50": 1.0,
+    "100": 0.99,
+    "200": 0.975,
+    "300": 0.9733333333333334,
+    "500": 0.982,
+    "800": 0.98125,
+    "1200": 0.9758333333333333
+   },
+   "more": {
+    "m": 0.0012892400654031986,
+    "applied": 3783,
+    "fixed": 2587,
+    "broken": 129,
+    "changed_still_wrong": 1067,
+    "precision": 0.6838487972508591,
+    "net": 2458,
+    "broken_per_100_applied": 3.409992069785884,
+    "still_wrong_share": 0.28205128205128205,
+    "intervals": {
+     "fixed": {
+      "value": 2587.0,
+      "low": 2032.275,
+      "high": 3076.625,
+      "se": 274.427111625638
+     },
+     "net": {
+      "value": 2458.0,
+      "low": 1915.075,
+      "high": 2933.625,
+      "se": 264.59705089566927
+     },
+     "precision": {
+      "value": 0.6838487972508591,
+      "low": 0.6058146697508883,
+      "high": 0.7689740109736941,
+      "se": 0.0427236129702337
+     }
+    }
+   }
+  },
+  "cross_fitted_calibration": {
+   "sites": 47437,
+   "rows": 528404,
+   "reachable_sites": 3632,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "broken_per_100_applied": null,
+    "still_wrong_share": null,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "broken_per_100_applied": null,
+    "still_wrong_share": null,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "top_errors": {
+    "top": 1200,
+    "errors": 36,
+    "by_outcome_op_kind": {
+     "3|text|accent": 16,
+     "3|text|letters": 10,
+     "2|text|accent": 8,
+     "3|text|punct": 1,
+     "3|segment|structure": 1
+    },
+    "first": [
+     {
+      "rank": 16,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "punct",
+      "token": "car\u00e1cter.",
+      "truth": "car\u00e1cter",
+      "applied": "car\u00e1cter,",
+      "p_fix": 1.0,
+      "doc": "cc6e5fb9d29"
+     },
+     {
+      "rank": 78,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "insp\u0119cci\u00f3n",
+      "truth": "\"Inspecci\u00f3n",
+      "applied": "inspecci\u00f3n",
+      "p_fix": 0.9982,
+      "doc": "c68c57919fb"
+     },
+     {
+      "rank": 127,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "generat",
+      "truth": "general:",
+      "applied": "general",
+      "p_fix": 0.9951,
+      "doc": "cebf5c45e1b"
+     },
+     {
+      "rank": 142,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "CARACTERISTICAS",
+      "truth": "CARACTER\u00cdSTICAS.",
+      "applied": "CARACTER\u00cdSTICAS",
+      "p_fix": 0.9947,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 156,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Articulo",
+      "truth": "Articulo",
+      "applied": "Art\u00edculo",
+      "p_fix": 0.9943,
+      "doc": "c473fcf7cba"
+     },
+     {
+      "rank": 168,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Articulo",
+      "truth": "Articulo",
+      "applied": "Art\u00edculo",
+      "p_fix": 0.9939,
+      "doc": "c473fcf7cba"
+     },
+     {
+      "rank": 236,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "naturnles",
+      "truth": "naturales.",
+      "applied": "naturales",
+      "p_fix": 0.9918,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 285,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "articulo,",
+      "truth": "art\u00edculo",
+      "applied": "art\u00edculo,",
+      "p_fix": 0.9907,
+      "doc": "cb93c45a672"
+     },
+     {
+      "rank": 434,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Evaluacion",
+      "truth": "5http://www.adaptecca.es/sites/default/files/editor_documentos/CEDEX_Evaluacion_cambio_climatico_recursos_hidricos",
+      "applied": "Evaluaci\u00f3n",
+      "p_fix": 0.9873,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 440,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "cicto",
+      "truth": "cielo",
+      "applied": "ciclo",
+      "p_fix": 0.9872,
+      "doc": "cd5ad402128"
+     },
+     {
+      "rank": 448,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Articulo",
+      "truth": "Articulo",
+      "applied": "Art\u00edculo",
+      "p_fix": 0.9868,
+      "doc": "c473fcf7cba"
+     },
+     {
+      "rank": 526,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "or\u00edginales.",
+      "truth": "originales,",
+      "applied": "originales.",
+      "p_fix": 0.9848,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 572,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "juridico.",
+      "truth": "jur\u00eddico,",
+      "applied": "jur\u00eddico.",
+      "p_fix": 0.9835,
+      "doc": "c81af70be03"
+     },
+     {
+      "rank": 725,
+      "outcome": "still_wrong",
+      "op": "segment",
+      "kind": "structure",
+      "token": "tienenel",
+      "truth": "tienen",
+      "applied": "tienen el",
+      "p_fix": 0.9781,
+      "doc": "c23a506fd07"
+     },
+     {
+      "rank": 732,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c0REA",
+      "truth": "\u00c0REA",
+      "applied": "AREA",
+      "p_fix": 0.9777,
+      "doc": "c22cc49773b"
+     },
+     {
+      "rank": 733,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "ias*",
+      "truth": "las",
+      "applied": "las*",
+      "p_fix": 0.9777,
+      "doc": "cc6e5fb9d29"
+     },
+     {
+      "rank": 826,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Jardin.",
+      "truth": "Jard\u00edn,",
+      "applied": "Jard\u00edn.",
+      "p_fix": 0.9729,
+      "doc": "cc47689086a"
+     },
+     {
+      "rank": 846,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "EJECUCION",
+      "truth": "EJECUCI\u00d3N:",
+      "applied": "EJECUCI\u00d3N",
+      "p_fix": 0.9721,
+      "doc": "c548410c209"
+     },
+     {
+      "rank": 882,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Sanchez.",
+      "truth": "S\u00e1nchez,",
+      "applied": "S\u00e1nchez.",
+      "p_fix": 0.9699,
+      "doc": "c89020ddc11"
+     },
+     {
+      "rank": 891,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Articulo",
+      "truth": "Articulo",
+      "applied": "Art\u00edculo",
+      "p_fix": 0.9694,
+      "doc": "c473fcf7cba"
+     },
+     {
+      "rank": 942,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "DENOMINACION",
+      "truth": "DENOMINACI\u00d3N:",
+      "applied": "DENOMINACI\u00d3N",
+      "p_fix": 0.9673,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 961,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "articulo.",
+      "truth": "art\u00edculo,",
+      "applied": "art\u00edculo.",
+      "p_fix": 0.966,
+      "doc": "cc72ba0a352"
+     },
+     {
+      "rank": 978,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "testamentar\u00eda,",
+      "truth": "testamentar\u00eda,",
+      "applied": "testamentaria,",
+      "p_fix": 0.9652,
+      "doc": "c53b7401ad6"
+     },
+     {
+      "rank": 989,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "articulo",
+      "truth": "art\u00edculo.",
+      "applied": "art\u00edculo",
+      "p_fix": 0.9647,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 991,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "contamimantes",
+      "truth": "contaminantes.",
+      "applied": "contaminantes",
+      "p_fix": 0.9646,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 997,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Tengase,",
+      "truth": "T\u00e9ngase",
+      "applied": "T\u00e9ngase,",
+      "p_fix": 0.9644,
+      "doc": "c0b637fc667"
+     },
+     {
+      "rank": 1005,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "EJECUCION",
+      "truth": "EJECUCI\u00d3N:",
+      "applied": "EJECUCI\u00d3N",
+      "p_fix": 0.9639,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 1025,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "TIPOLOGIA",
+      "truth": "TIPOLOG\u00cdA:",
+      "applied": "TIPOLOG\u00cdA",
+      "p_fix": 0.963,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 1045,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "OCUPACION",
+      "truth": "OCUPACION",
+      "applied": "OCUPACI\u00d3N",
+      "p_fix": 0.962,
+      "doc": "c82371d5ef9"
+     },
+     {
+      "rank": 1049,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "OBTENCION",
+      "truth": "OBTENCI\u00d3N:",
+      "applied": "OBTENCI\u00d3N",
+      "p_fix": 0.9609,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 1055,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9",
+      "truth": "d\u00e9",
+      "applied": "de",
+      "p_fix": 0.9606,
+      "doc": "cf96b5c90cf"
+     },
+     {
+      "rank": 1075,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Arqueol\u00f3gsea",
+      "truth": "Arqueol\u00f3gica.",
+      "applied": "Arqueol\u00f3gica",
+      "p_fix": 0.9591,
+      "doc": "c3af8f8e21d"
+     },
+     {
+      "rank": 1122,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "temporat",
+      "truth": "temporal,",
+      "applied": "temporal",
+      "p_fix": 0.9545,
+      "doc": "cac22f89225"
+     },
+     {
+      "rank": 1176,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "vbraciones",
+      "truth": "vibraciones.",
+      "applied": "vibraciones",
+      "p_fix": 0.9493,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1180,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "ka",
+      "truth": "Ambiente",
+      "applied": "la",
+      "p_fix": 0.9491,
+      "doc": "cce0592c446"
+     },
+     {
+      "rank": 1185,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Crdenaci\u00f3n",
+      "truth": "Ordenaci\u00f3n.",
+      "applied": "Ordenaci\u00f3n",
+      "p_fix": 0.949,
+      "doc": "c5eaa9902db"
+     }
+    ]
+   },
+   "by_group": {
+    "drop|structure": {
+     "sites": 2909,
+     "fixed_in_group": 157,
+     "precision_at": {
+      "50": 0.68,
+      "100": 0.65,
+      "300": 0.4066666666666667,
+      "800": 0.19125
+     },
+     "largest_k_at_0.995": 9,
+     "largest_k_at_0.99": 9
+    },
+    "join|structure": {
+     "sites": 1442,
+     "fixed_in_group": 20,
+     "precision_at": {
+      "50": 0.36,
+      "100": 0.19,
+      "300": 0.06666666666666667,
+      "800": 0.025
+     },
+     "largest_k_at_0.995": 9,
+     "largest_k_at_0.99": 9
+    },
+    "segment|structure": {
+     "sites": 17921,
+     "fixed_in_group": 85,
+     "precision_at": {
+      "50": 0.58,
+      "100": 0.41,
+      "300": 0.19333333333333333,
+      "800": 0.09
+     },
+     "largest_k_at_0.995": 3,
+     "largest_k_at_0.99": 3
+    },
+    "text|accent": {
+     "sites": 5822,
+     "fixed_in_group": 1301,
+     "precision_at": {
+      "50": 0.98,
+      "100": 0.96,
+      "300": 0.98,
+      "800": 0.97
+     },
+     "largest_k_at_0.995": 38,
+     "largest_k_at_0.99": 38
+    },
+    "text|accent_case": {
+     "sites": 2,
+     "fixed_in_group": 0,
+     "precision_at": {},
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    },
+    "text|case": {
+     "sites": 846,
+     "fixed_in_group": 20,
+     "precision_at": {
+      "50": 0.26,
+      "100": 0.16,
+      "300": 0.06,
+      "800": 0.025
+     },
+     "largest_k_at_0.995": 2,
+     "largest_k_at_0.99": 2
+    },
+    "text|letters": {
+     "sites": 12407,
+     "fixed_in_group": 1358,
+     "precision_at": {
+      "50": 1.0,
+      "100": 0.98,
+      "300": 0.98,
+      "800": 0.93125
+     },
+     "largest_k_at_0.995": 50,
+     "largest_k_at_0.99": 50
+    },
+    "text|punct": {
+     "sites": 6088,
+     "fixed_in_group": 330,
+     "precision_at": {
+      "50": 0.86,
+      "100": 0.86,
+      "300": 0.6466666666666666,
+      "800": 0.345
+     },
+     "largest_k_at_0.995": 4,
+     "largest_k_at_0.99": 4
+    }
+   },
+   "precision_at_applied": {
+    "50": 0.98,
+    "100": 0.98,
+    "200": 0.97,
+    "300": 0.9733333333333334,
+    "500": 0.978,
+    "800": 0.98,
+    "1200": 0.97
+   },
+   "more": {
+    "m": 0.03630878907175652,
+    "applied": 3360,
+    "fixed": 2542,
+    "broken": 127,
+    "changed_still_wrong": 691,
+    "precision": 0.756547619047619,
+    "net": 2415,
+    "broken_per_100_applied": 3.7797619047619047,
+    "still_wrong_share": 0.2056547619047619,
+    "intervals": {
+     "fixed": {
+      "value": 2542.0,
+      "low": 1999.475,
+      "high": 3023.625,
+      "se": 270.774350413187
+     },
+     "net": {
+      "value": 2415.0,
+      "low": 1883.475,
+      "high": 2890.1499999999996,
+      "se": 260.3542086695429
+     },
+     "precision": {
+      "value": 0.756547619047619,
+      "low": 0.6968335012398095,
+      "high": 0.8169131851899486,
+      "se": 0.030849739899486736
+     }
+    }
+   }
+  },
+  "by_op": {
+   "sites": 47437,
+   "cross_fit": true,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": -0.035308695942889476
+    },
+    "join": {
+     "t_safe": null,
+     "m": 0.02586690808712744
+    },
+    "segment": {
+     "t_safe": null,
+     "m": -0.0027563167850872226
+    },
+    "drop": {
+     "t_safe": null,
+     "m": 0.2491451016568982
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   },
+   "safe": {
+    "total": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null,
+     "intervals": {
+      "fixed": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "se": 0.0
+      },
+      "net": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "se": 0.0
+      },
+      "precision": {
+       "value": NaN,
+       "low": NaN,
+       "high": NaN,
+       "se": NaN
+      }
+     }
+    },
+    "text": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "join": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "segment": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "drop": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "text|accent": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "text|letters": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "text|punct": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "segment|structure": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "drop|structure": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    }
+   },
+   "more": {
+    "total": {
+     "applied": 3620,
+     "fixed": 2580,
+     "broken": 127,
+     "changed_still_wrong": 913,
+     "precision": 0.712707182320442,
+     "net": 2453,
+     "broken_per_100_applied": 3.5082872928176796,
+     "still_wrong_share": 0.2522099447513812,
+     "intervals": {
+      "fixed": {
+       "value": 2580.0,
+       "low": 2028.7,
+       "high": 3065.05,
+       "se": 274.7156088165631
+      },
+      "net": {
+       "value": 2453.0,
+       "low": 1909.7250000000001,
+       "high": 2918.05,
+       "se": 264.4799750726487
+      },
+      "precision": {
+       "value": 0.712707182320442,
+       "low": 0.6476814292033244,
+       "high": 0.7856950657645355,
+       "se": 0.03547971331367953
+      }
+     }
+    },
+    "text": {
+     "applied": 3481,
+     "fixed": 2514,
+     "broken": 125,
+     "changed_still_wrong": 842,
+     "precision": 0.7222062625682275,
+     "net": 2389,
+     "broken_per_100_applied": 3.590922148807814,
+     "still_wrong_share": 0.24188451594369434
+    },
+    "join": {
+     "applied": 1,
+     "fixed": 1,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": 1.0,
+     "net": 1,
+     "broken_per_100_applied": 0.0,
+     "still_wrong_share": 0.0
+    },
+    "segment": {
+     "applied": 69,
+     "fixed": 18,
+     "broken": 0,
+     "changed_still_wrong": 51,
+     "precision": 0.2608695652173913,
+     "net": 18,
+     "broken_per_100_applied": 0.0,
+     "still_wrong_share": 0.7391304347826086
+    },
+    "drop": {
+     "applied": 69,
+     "fixed": 47,
+     "broken": 2,
+     "changed_still_wrong": 20,
+     "precision": 0.6811594202898551,
+     "net": 45,
+     "broken_per_100_applied": 2.898550724637681,
+     "still_wrong_share": 0.2898550724637681
+    }
+   }
+  }
+ },
+ "logistic": {
+  "in_sample_calibration": {
+   "sites": 47437,
+   "rows": 528404,
+   "reachable_sites": 3632,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "broken_per_100_applied": null,
+    "still_wrong_share": null,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "broken_per_100_applied": null,
+    "still_wrong_share": null,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "top_errors": {
+    "top": 1200,
+    "errors": 78,
+    "by_outcome_op_kind": {
+     "2|text|accent": 34,
+     "3|text|accent": 20,
+     "3|text|letters": 18,
+     "2|text|letters": 4,
+     "2|text|punct": 2
+    },
+    "first": [
+     {
+      "rank": 50,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "nucieo",
+      "truth": "n\u00facleo.",
+      "applied": "n\u00facleo",
+      "p_fix": 0.9923,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 75,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9",
+      "truth": "d\u00e9",
+      "applied": "de",
+      "p_fix": 0.9883,
+      "doc": "cf96b5c90cf"
+     },
+     {
+      "rank": 119,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "or\u00edginales.",
+      "truth": "originales,",
+      "applied": "originales.",
+      "p_fix": 0.9811,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 144,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "articulo,",
+      "truth": "art\u00edculo",
+      "applied": "art\u00edculo,",
+      "p_fix": 0.9773,
+      "doc": "cb93c45a672"
+     },
+     {
+      "rank": 193,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Paimas",
+      "truth": "Palmas.",
+      "applied": "Palmas",
+      "p_fix": 0.9727,
+      "doc": "c3af8f8e21d"
+     },
+     {
+      "rank": 222,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "EJECUCION",
+      "truth": "EJECUCI\u00d3N:",
+      "applied": "EJECUCI\u00d3N",
+      "p_fix": 0.969,
+      "doc": "c548410c209"
+     },
+     {
+      "rank": 237,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1reas",
+      "truth": "\u00c1reas",
+      "applied": "Areas",
+      "p_fix": 0.9674,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 291,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "OBTENCION",
+      "truth": "OBTENCI\u00d3N:",
+      "applied": "OBTENCI\u00d3N",
+      "p_fix": 0.9634,
+      "doc": "c0ced8f838f"
+     },
+     {
+      "rank": 313,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "b",
+      "truth": "la",
+      "applied": "a",
+      "p_fix": 0.9619,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 345,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "DENOMINACION",
+      "truth": "DENOMINACI\u00d3N:",
+      "applied": "DENOMINACI\u00d3N",
+      "p_fix": 0.96,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 350,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "pr\u00f3tegidas,",
+      "truth": "protegidas",
+      "applied": "protegidas,",
+      "p_fix": 0.9597,
+      "doc": "cbda4668a0f"
+     },
+     {
+      "rank": 375,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Mat\u00edn",
+      "truth": "Mart\u00edn",
+      "applied": "Matin",
+      "p_fix": 0.9579,
+      "doc": "c020ba8ce92"
+     },
+     {
+      "rank": 399,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Crdenaci\u00f3n",
+      "truth": "Ordenaci\u00f3n.",
+      "applied": "Ordenaci\u00f3n",
+      "p_fix": 0.9564,
+      "doc": "c5eaa9902db"
+     },
+     {
+      "rank": 403,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e1reas",
+      "truth": "\u00e1reas",
+      "applied": "areas",
+      "p_fix": 0.9563,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 422,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1reas",
+      "truth": "\u00c1reas",
+      "applied": "Areas",
+      "p_fix": 0.9557,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 473,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "juridico.",
+      "truth": "jur\u00eddico,",
+      "applied": "jur\u00eddico.",
+      "p_fix": 0.9554,
+      "doc": "c81af70be03"
+     },
+     {
+      "rank": 489,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Sanchez.",
+      "truth": "S\u00e1nchez,",
+      "applied": "S\u00e1nchez.",
+      "p_fix": 0.9553,
+      "doc": "c89020ddc11"
+     },
+     {
+      "rank": 506,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "adopt\u00e1n",
+      "truth": "adoptar\u00e1n",
+      "applied": "adoptan",
+      "p_fix": 0.9551,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 522,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "v\u00eda",
+      "truth": "v\u00eda",
+      "applied": "via",
+      "p_fix": 0.955,
+      "doc": "c8c909ebabc"
+     },
+     {
+      "rank": 564,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "v\u00eda",
+      "truth": "v\u00eda",
+      "applied": "via",
+      "p_fix": 0.9547,
+      "doc": "c6b4381e457"
+     },
+     {
+      "rank": 578,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "aqu\u00e9lla",
+      "truth": "aqu\u00e9lla",
+      "applied": "aquella",
+      "p_fix": 0.9546,
+      "doc": "c512747738a"
+     },
+     {
+      "rank": 608,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "v\u00eda",
+      "truth": "v\u00eda",
+      "applied": "via",
+      "p_fix": 0.954,
+      "doc": "ce838d057d8"
+     },
+     {
+      "rank": 616,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1rea",
+      "truth": "\u00c1rea",
+      "applied": "Area",
+      "p_fix": 0.9538,
+      "doc": "cba0997a976"
+     },
+     {
+      "rank": 622,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e0",
+      "truth": "la",
+      "applied": "a",
+      "p_fix": 0.9537,
+      "doc": "c89020ddc11"
+     },
+     {
+      "rank": 639,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Pi\u00e1n",
+      "truth": "Plan",
+      "applied": "Pian",
+      "p_fix": 0.9534,
+      "doc": "cebf5c45e1b"
+     },
+     {
+      "rank": 653,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e1reas",
+      "truth": "\u00e1reas",
+      "applied": "areas",
+      "p_fix": 0.9532,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 695,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "climatico",
+      "truth": "5http://www.adaptecca.es/sites/default/files/editor_documentos/CEDEX_Evaluacion_cambio_climatico_recursos_hidricos",
+      "applied": "clim\u00e1tico",
+      "p_fix": 0.9512,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 731,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "naturnles",
+      "truth": "naturales.",
+      "applied": "naturales",
+      "p_fix": 0.9476,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 764,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "suclo",
+      "truth": "delsuelo",
+      "applied": "suelo",
+      "p_fix": 0.9443,
+      "doc": "cc05078b478"
+     },
+     {
+      "rank": 777,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "est\u00e1",
+      "truth": "est\u00e1",
+      "applied": "esta",
+      "p_fix": 0.9432,
+      "doc": "cb0f908a8b6"
+     },
+     {
+      "rank": 805,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "contamimantes",
+      "truth": "contaminantes.",
+      "applied": "contaminantes",
+      "p_fix": 0.9404,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 815,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Evaluacion",
+      "truth": "5http://www.adaptecca.es/sites/default/files/editor_documentos/CEDEX_Evaluacion_cambio_climatico_recursos_hidricos",
+      "applied": "Evaluaci\u00f3n",
+      "p_fix": 0.9389,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 840,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Mar\u00eda",
+      "truth": "Mar\u00eda",
+      "applied": "Maria",
+      "p_fix": 0.9307,
+      "doc": "cc6e5fb9d29"
+     },
+     {
+      "rank": 843,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9",
+      "truth": "d\u00e9",
+      "applied": "de",
+      "p_fix": 0.93,
+      "doc": "c3af8f8e21d"
+     },
+     {
+      "rank": 847,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "temporat",
+      "truth": "temporal,",
+      "applied": "temporal",
+      "p_fix": 0.9284,
+      "doc": "cac22f89225"
+     },
+     {
+      "rank": 866,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c0REA",
+      "truth": "\u00c0REA",
+      "applied": "AREA",
+      "p_fix": 0.9228,
+      "doc": "c22cc49773b"
+     },
+     {
+      "rank": 870,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "ELECTRONICO",
+      "truth": "ELECTRONICO",
+      "applied": "ELECTR\u00d3NICO",
+      "p_fix": 0.9215,
+      "doc": "c44ad1ab27a"
+     },
+     {
+      "rank": 888,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e1rea",
+      "truth": "\u00e1rea",
+      "applied": "area",
+      "p_fix": 0.9142,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 894,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Arqueol\u00f3gsea",
+      "truth": "Arqueol\u00f3gica.",
+      "applied": "Arqueol\u00f3gica",
+      "p_fix": 0.9127,
+      "doc": "c3af8f8e21d"
+     },
+     {
+      "rank": 917,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9",
+      "truth": "d\u00e9",
+      "applied": "de",
+      "p_fix": 0.9056,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 918,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "letters",
+      "token": "codiciones",
+      "truth": "codiciones",
+      "applied": "condiciones",
+      "p_fix": 0.905,
+      "doc": "c9ed9ea694a"
+     },
+     {
+      "rank": 933,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Terrutorio.",
+      "truth": "Territorio.-",
+      "applied": "Territorio.",
+      "p_fix": 0.9007,
+      "doc": "cdb6e36589a"
+     },
+     {
+      "rank": 951,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Tengase,",
+      "truth": "T\u00e9ngase",
+      "applied": "T\u00e9ngase,",
+      "p_fix": 0.8971,
+      "doc": "c0b637fc667"
+     },
+     {
+      "rank": 957,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9ficit",
+      "truth": "d\u00e9ficit",
+      "applied": "deficit",
+      "p_fix": 0.8956,
+      "doc": "cecc994ebb0"
+     },
+     {
+      "rank": 970,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "insp\u0119cci\u00f3n",
+      "truth": "\"Inspecci\u00f3n",
+      "applied": "inspecci\u00f3n",
+      "p_fix": 0.8931,
+      "doc": "c68c57919fb"
+     },
+     {
+      "rank": 980,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "ORDENACION",
+      "truth": "ORDENACION",
+      "applied": "ORDENACI\u00d3N",
+      "p_fix": 0.8908,
+      "doc": "cf6cd1751ba"
+     },
+     {
+      "rank": 987,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "v\u00eda",
+      "truth": "v\u00eda",
+      "applied": "via",
+      "p_fix": 0.8881,
+      "doc": "c8677b31781"
+     },
+     {
+      "rank": 1003,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "sequias",
+      "truth": "_sequias_Espa%F1a.pdf",
+      "applied": "sequ\u00edas",
+      "p_fix": 0.882,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 1005,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "gir\u00e1",
+      "truth": "gir\u00e1",
+      "applied": "gira",
+      "p_fix": 0.8816,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 1008,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "OCUPACION",
+      "truth": "OCUPACION",
+      "applied": "OCUPACI\u00d3N",
+      "p_fix": 0.8799,
+      "doc": "c82371d5ef9"
+     },
+     {
+      "rank": 1009,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "homogeneos.",
+      "truth": "homog\u00e9neos,",
+      "applied": "homog\u00e9neos.",
+      "p_fix": 0.8797,
+      "doc": "cac22f89225"
+     },
+     {
+      "rank": 1017,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "OBTENCION",
+      "truth": "OBTENCI\u00d3N:",
+      "applied": "OBTENCI\u00d3N",
+      "p_fix": 0.8786,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 1025,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "ANALISIS",
+      "truth": "ANALISIS",
+      "applied": "AN\u00c1LISIS",
+      "p_fix": 0.8763,
+      "doc": "c7f5d51e2c9"
+     },
+     {
+      "rank": 1026,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "ORDENACION",
+      "truth": "ORDENACION",
+      "applied": "ORDENACI\u00d3N",
+      "p_fix": 0.8759,
+      "doc": "c62e75944a7"
+     },
+     {
+      "rank": 1057,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "PIO",
+      "truth": "PIO",
+      "applied": "P\u00cdO",
+      "p_fix": 0.867,
+      "doc": "c106cf3cec7"
+     },
+     {
+      "rank": 1063,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1reas",
+      "truth": "\u00c1reas",
+      "applied": "Areas",
+      "p_fix": 0.8664,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 1073,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "realizar\u00e1",
+      "truth": "realizar\u00e1",
+      "applied": "realizara",
+      "p_fix": 0.8652,
+      "doc": "ce46d357666"
+     },
+     {
+      "rank": 1080,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1lvarez",
+      "truth": "\u00c1lvarez",
+      "applied": "Alvarez",
+      "p_fix": 0.8638,
+      "doc": "c9b253336b6"
+     },
+     {
+      "rank": 1091,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "punct",
+      "token": "camping,",
+      "truth": "camping,",
+      "applied": "camping.",
+      "p_fix": 0.8618,
+      "doc": "cc05078b478"
+     },
+     {
+      "rank": 1100,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "jerarquico,",
+      "truth": "jerarquico,",
+      "applied": "jer\u00e1rquico,",
+      "p_fix": 0.8598,
+      "doc": "c89fde4bbd2"
+     },
+     {
+      "rank": 1109,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Ejecucion,",
+      "truth": "Ejecucion,",
+      "applied": "Ejecuci\u00f3n,",
+      "p_fix": 0.8577,
+      "doc": "c70bb57504e"
+     },
+     {
+      "rank": 1117,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "letters",
+      "token": "tividades",
+      "truth": "tividades",
+      "applied": "actividades",
+      "p_fix": 0.8542,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 1118,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "espec\u00edfica",
+      "truth": "espec\u00edfica",
+      "applied": "especifica",
+      "p_fix": 0.8522,
+      "doc": "c799c4ab635"
+     },
+     {
+      "rank": 1128,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "v\u00e9gente",
+      "truth": "vigente.",
+      "applied": "vigente",
+      "p_fix": 0.8428,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1129,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "est\u00e1",
+      "truth": "est\u00e1",
+      "applied": "esta",
+      "p_fix": 0.8419,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 1139,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "generat",
+      "truth": "general:",
+      "applied": "general",
+      "p_fix": 0.8319,
+      "doc": "cebf5c45e1b"
+     },
+     {
+      "rank": 1145,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "S\u00e1che",
+      "truth": "S\u00e1nchez",
+      "applied": "Sacha",
+      "p_fix": 0.8294,
+      "doc": "cf2e00440dd"
+     },
+     {
+      "rank": 1151,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "punct",
+      "token": "mantener:",
+      "truth": "mantener:",
+      "applied": "mantener.",
+      "p_fix": 0.8257,
+      "doc": "cc05078b478"
+     },
+     {
+      "rank": 1154,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "eces",
+      "truth": "",
+      "applied": "eees",
+      "p_fix": 0.8224,
+      "doc": "c6a907140d5"
+     },
+     {
+      "rank": 1157,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "ias*",
+      "truth": "las",
+      "applied": "las*",
+      "p_fix": 0.822,
+      "doc": "cc6e5fb9d29"
+     },
+     {
+      "rank": 1161,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "letters",
+      "token": "superfice",
+      "truth": "superfice",
+      "applied": "superficie",
+      "p_fix": 0.8196,
+      "doc": "c54bb3f6bd4"
+     },
+     {
+      "rank": 1162,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "D\u00eda",
+      "truth": "D\u00eda",
+      "applied": "Dia",
+      "p_fix": 0.8191,
+      "doc": "c6a907140d5"
+     },
+     {
+      "rank": 1166,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "v",
+      "truth": "visibles).",
+      "applied": "a",
+      "p_fix": 0.8186,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1179,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00f3n",
+      "truth": "utilizaci\u00f3n",
+      "applied": "on",
+      "p_fix": 0.8138,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1185,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "F",
+      "truth": "Fi",
+      "applied": "A",
+      "p_fix": 0.8117,
+      "doc": "c5eaa9902db"
+     },
+     {
+      "rank": 1189,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "cicto",
+      "truth": "cielo",
+      "applied": "ciclo",
+      "p_fix": 0.8097,
+      "doc": "cd5ad402128"
+     },
+     {
+      "rank": 1193,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "letters",
+      "token": "o",
+      "truth": "o",
+      "applied": "a",
+      "p_fix": 0.8072,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1197,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e9stas",
+      "truth": "\u00e9stas",
+      "applied": "estas",
+      "p_fix": 0.805,
+      "doc": "c01144db03e"
+     }
+    ]
+   },
+   "by_group": {
+    "drop|structure": {
+     "sites": 2909,
+     "fixed_in_group": 157,
+     "precision_at": {
+      "50": 0.06,
+      "100": 0.13,
+      "300": 0.15333333333333332,
+      "800": 0.085
+     },
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    },
+    "join|structure": {
+     "sites": 1442,
+     "fixed_in_group": 18,
+     "precision_at": {
+      "50": 0.12,
+      "100": 0.06,
+      "300": 0.03333333333333333,
+      "800": 0.0175
+     },
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    },
+    "segment|structure": {
+     "sites": 17921,
+     "fixed_in_group": 85,
+     "precision_at": {
+      "50": 0.3,
+      "100": 0.24,
+      "300": 0.12666666666666668,
+      "800": 0.0675
+     },
+     "largest_k_at_0.995": 1,
+     "largest_k_at_0.99": 1
+    },
+    "text|accent": {
+     "sites": 4201,
+     "fixed_in_group": 1296,
+     "precision_at": {
+      "50": 0.98,
+      "100": 0.97,
+      "300": 0.9633333333333334,
+      "800": 0.945
+     },
+     "largest_k_at_0.995": 32,
+     "largest_k_at_0.99": 32
+    },
+    "text|case": {
+     "sites": 1254,
+     "fixed_in_group": 16,
+     "precision_at": {
+      "50": 0.22,
+      "100": 0.12,
+      "300": 0.05333333333333334,
+      "800": 0.02
+     },
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    },
+    "text|letters": {
+     "sites": 14587,
+     "fixed_in_group": 1275,
+     "precision_at": {
+      "50": 0.98,
+      "100": 0.98,
+      "300": 0.9366666666666666,
+      "800": 0.78125
+     },
+     "largest_k_at_0.995": 25,
+     "largest_k_at_0.99": 25
+    },
+    "text|punct": {
+     "sites": 5123,
+     "fixed_in_group": 243,
+     "precision_at": {
+      "50": 0.4,
+      "100": 0.35,
+      "300": 0.26,
+      "800": 0.18875
+     },
+     "largest_k_at_0.995": 2,
+     "largest_k_at_0.99": 2
+    }
+   },
+   "precision_at_applied": {
+    "50": 1.0,
+    "100": 0.98,
+    "200": 0.975,
+    "300": 0.9733333333333334,
+    "500": 0.966,
+    "800": 0.9625,
+    "1200": 0.935
+   },
+   "more": {
+    "m": 0.39194866839365533,
+    "applied": 1463,
+    "fixed": 1295,
+    "broken": 64,
+    "changed_still_wrong": 104,
+    "precision": 0.8851674641148325,
+    "net": 1231,
+    "broken_per_100_applied": 4.3745727956254274,
+    "still_wrong_share": 0.0710868079289132,
+    "intervals": {
+     "fixed": {
+      "value": 1295.0,
+      "low": 1041.9,
+      "high": 1531.625,
+      "se": 128.3721838997779
+     },
+     "net": {
+      "value": 1231.0,
+      "low": 993.0,
+      "high": 1461.1999999999998,
+      "se": 123.02662974841874
+     },
+     "precision": {
+      "value": 0.8851674641148325,
+      "low": 0.840961944156045,
+      "high": 0.9223174626797326,
+      "se": 0.02026164533581271
+     }
+    }
+   }
+  },
+  "cross_fitted_calibration": {
+   "sites": 47437,
+   "rows": 528404,
+   "reachable_sites": 3632,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "broken_per_100_applied": null,
+    "still_wrong_share": null,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "broken_per_100_applied": null,
+    "still_wrong_share": null,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "top_errors": {
+    "top": 1200,
+    "errors": 87,
+    "by_outcome_op_kind": {
+     "2|text|accent": 38,
+     "3|text|letters": 23,
+     "3|text|accent": 21,
+     "2|text|letters": 5
+    },
+    "first": [
+     {
+      "rank": 8,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "nucieo",
+      "truth": "n\u00facleo.",
+      "applied": "n\u00facleo",
+      "p_fix": 1.0,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 59,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9",
+      "truth": "d\u00e9",
+      "applied": "de",
+      "p_fix": 0.9982,
+      "doc": "cf96b5c90cf"
+     },
+     {
+      "rank": 78,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "or\u00edginales.",
+      "truth": "originales,",
+      "applied": "originales.",
+      "p_fix": 0.9943,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 134,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "EJECUCION",
+      "truth": "EJECUCI\u00d3N:",
+      "applied": "EJECUCI\u00d3N",
+      "p_fix": 0.988,
+      "doc": "c548410c209"
+     },
+     {
+      "rank": 144,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1reas",
+      "truth": "\u00c1reas",
+      "applied": "Areas",
+      "p_fix": 0.9869,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 196,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "OBTENCION",
+      "truth": "OBTENCI\u00d3N:",
+      "applied": "OBTENCI\u00d3N",
+      "p_fix": 0.9813,
+      "doc": "c0ced8f838f"
+     },
+     {
+      "rank": 235,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "DENOMINACION",
+      "truth": "DENOMINACI\u00d3N:",
+      "applied": "DENOMINACI\u00d3N",
+      "p_fix": 0.9758,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 255,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "b",
+      "truth": "la",
+      "applied": "a",
+      "p_fix": 0.9745,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 279,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Paimas",
+      "truth": "Palmas.",
+      "applied": "Palmas",
+      "p_fix": 0.9711,
+      "doc": "c3af8f8e21d"
+     },
+     {
+      "rank": 287,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e1reas",
+      "truth": "\u00e1reas",
+      "applied": "areas",
+      "p_fix": 0.97,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 289,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Crdenaci\u00f3n",
+      "truth": "Ordenaci\u00f3n.",
+      "applied": "Ordenaci\u00f3n",
+      "p_fix": 0.9698,
+      "doc": "c5eaa9902db"
+     },
+     {
+      "rank": 307,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1reas",
+      "truth": "\u00c1reas",
+      "applied": "Areas",
+      "p_fix": 0.9681,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 364,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Sanchez.",
+      "truth": "S\u00e1nchez,",
+      "applied": "S\u00e1nchez.",
+      "p_fix": 0.9611,
+      "doc": "c89020ddc11"
+     },
+     {
+      "rank": 373,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "naturnles",
+      "truth": "naturales.",
+      "applied": "naturales",
+      "p_fix": 0.9603,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 377,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "articulo,",
+      "truth": "art\u00edculo",
+      "applied": "art\u00edculo,",
+      "p_fix": 0.96,
+      "doc": "cb93c45a672"
+     },
+     {
+      "rank": 406,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "adopt\u00e1n",
+      "truth": "adoptar\u00e1n",
+      "applied": "adoptan",
+      "p_fix": 0.9592,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 470,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "pr\u00f3tegidas,",
+      "truth": "protegidas",
+      "applied": "protegidas,",
+      "p_fix": 0.9573,
+      "doc": "cbda4668a0f"
+     },
+     {
+      "rank": 480,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Mat\u00edn",
+      "truth": "Mart\u00edn",
+      "applied": "Matin",
+      "p_fix": 0.9569,
+      "doc": "c020ba8ce92"
+     },
+     {
+      "rank": 529,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "juridico.",
+      "truth": "jur\u00eddico,",
+      "applied": "jur\u00eddico.",
+      "p_fix": 0.9557,
+      "doc": "c81af70be03"
+     },
+     {
+      "rank": 568,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "v\u00eda",
+      "truth": "v\u00eda",
+      "applied": "via",
+      "p_fix": 0.9538,
+      "doc": "c6b4381e457"
+     },
+     {
+      "rank": 585,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "v\u00eda",
+      "truth": "v\u00eda",
+      "applied": "via",
+      "p_fix": 0.9518,
+      "doc": "c8c909ebabc"
+     },
+     {
+      "rank": 604,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "contamimantes",
+      "truth": "contaminantes.",
+      "applied": "contaminantes",
+      "p_fix": 0.9498,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 609,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "v\u00eda",
+      "truth": "v\u00eda",
+      "applied": "via",
+      "p_fix": 0.9493,
+      "doc": "ce838d057d8"
+     },
+     {
+      "rank": 613,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1rea",
+      "truth": "\u00c1rea",
+      "applied": "Area",
+      "p_fix": 0.9488,
+      "doc": "cba0997a976"
+     },
+     {
+      "rank": 616,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e0",
+      "truth": "la",
+      "applied": "a",
+      "p_fix": 0.9484,
+      "doc": "c89020ddc11"
+     },
+     {
+      "rank": 637,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e1reas",
+      "truth": "\u00e1reas",
+      "applied": "areas",
+      "p_fix": 0.9462,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 723,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "suclo",
+      "truth": "delsuelo",
+      "applied": "suelo",
+      "p_fix": 0.9399,
+      "doc": "cc05078b478"
+     },
+     {
+      "rank": 727,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "aqu\u00e9lla",
+      "truth": "aqu\u00e9lla",
+      "applied": "aquella",
+      "p_fix": 0.9395,
+      "doc": "c512747738a"
+     },
+     {
+      "rank": 748,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c0REA",
+      "truth": "\u00c0REA",
+      "applied": "AREA",
+      "p_fix": 0.9379,
+      "doc": "c22cc49773b"
+     },
+     {
+      "rank": 751,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "ELECTRONICO",
+      "truth": "ELECTRONICO",
+      "applied": "ELECTR\u00d3NICO",
+      "p_fix": 0.9378,
+      "doc": "c44ad1ab27a"
+     },
+     {
+      "rank": 775,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e1rea",
+      "truth": "\u00e1rea",
+      "applied": "area",
+      "p_fix": 0.9351,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 806,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "temporat",
+      "truth": "temporal,",
+      "applied": "temporal",
+      "p_fix": 0.9302,
+      "doc": "cac22f89225"
+     },
+     {
+      "rank": 812,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Pi\u00e1n",
+      "truth": "Plan",
+      "applied": "Pian",
+      "p_fix": 0.9277,
+      "doc": "cebf5c45e1b"
+     },
+     {
+      "rank": 823,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9",
+      "truth": "d\u00e9",
+      "applied": "de",
+      "p_fix": 0.9256,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 829,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Arqueol\u00f3gsea",
+      "truth": "Arqueol\u00f3gica.",
+      "applied": "Arqueol\u00f3gica",
+      "p_fix": 0.9243,
+      "doc": "c3af8f8e21d"
+     },
+     {
+      "rank": 843,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "letters",
+      "token": "codiciones",
+      "truth": "codiciones",
+      "applied": "condiciones",
+      "p_fix": 0.9215,
+      "doc": "c9ed9ea694a"
+     },
+     {
+      "rank": 856,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "climatico",
+      "truth": "5http://www.adaptecca.es/sites/default/files/editor_documentos/CEDEX_Evaluacion_cambio_climatico_recursos_hidricos",
+      "applied": "clim\u00e1tico",
+      "p_fix": 0.9178,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 881,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Tengase,",
+      "truth": "T\u00e9ngase",
+      "applied": "T\u00e9ngase,",
+      "p_fix": 0.9126,
+      "doc": "c0b637fc667"
+     },
+     {
+      "rank": 889,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9ficit",
+      "truth": "d\u00e9ficit",
+      "applied": "deficit",
+      "p_fix": 0.9103,
+      "doc": "cecc994ebb0"
+     },
+     {
+      "rank": 894,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "est\u00e1",
+      "truth": "est\u00e1",
+      "applied": "esta",
+      "p_fix": 0.909,
+      "doc": "cb0f908a8b6"
+     },
+     {
+      "rank": 912,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "insp\u0119cci\u00f3n",
+      "truth": "\"Inspecci\u00f3n",
+      "applied": "inspecci\u00f3n",
+      "p_fix": 0.9067,
+      "doc": "c68c57919fb"
+     },
+     {
+      "rank": 917,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "generat",
+      "truth": "general:",
+      "applied": "general",
+      "p_fix": 0.9055,
+      "doc": "cebf5c45e1b"
+     },
+     {
+      "rank": 923,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "Evaluacion",
+      "truth": "5http://www.adaptecca.es/sites/default/files/editor_documentos/CEDEX_Evaluacion_cambio_climatico_recursos_hidricos",
+      "applied": "Evaluaci\u00f3n",
+      "p_fix": 0.9044,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 939,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Mar\u00eda",
+      "truth": "Mar\u00eda",
+      "applied": "Maria",
+      "p_fix": 0.9011,
+      "doc": "cc6e5fb9d29"
+     },
+     {
+      "rank": 941,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "d\u00e9",
+      "truth": "d\u00e9",
+      "applied": "de",
+      "p_fix": 0.9009,
+      "doc": "c3af8f8e21d"
+     },
+     {
+      "rank": 943,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "v\u00eda",
+      "truth": "v\u00eda",
+      "applied": "via",
+      "p_fix": 0.9,
+      "doc": "c8677b31781"
+     },
+     {
+      "rank": 959,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "S\u00e1che",
+      "truth": "S\u00e1nchez",
+      "applied": "Sacha",
+      "p_fix": 0.8954,
+      "doc": "cf2e00440dd"
+     },
+     {
+      "rank": 992,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "ORDENACION",
+      "truth": "ORDENACION",
+      "applied": "ORDENACI\u00d3N",
+      "p_fix": 0.8864,
+      "doc": "cf6cd1751ba"
+     },
+     {
+      "rank": 1005,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "sequias",
+      "truth": "_sequias_Espa%F1a.pdf",
+      "applied": "sequ\u00edas",
+      "p_fix": 0.8835,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 1007,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "homogeneos.",
+      "truth": "homog\u00e9neos,",
+      "applied": "homog\u00e9neos.",
+      "p_fix": 0.8829,
+      "doc": "cac22f89225"
+     },
+     {
+      "rank": 1012,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "ANALISIS",
+      "truth": "ANALISIS",
+      "applied": "AN\u00c1LISIS",
+      "p_fix": 0.8821,
+      "doc": "c7f5d51e2c9"
+     },
+     {
+      "rank": 1013,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "ORDENACION",
+      "truth": "ORDENACION",
+      "applied": "ORDENACI\u00d3N",
+      "p_fix": 0.882,
+      "doc": "c62e75944a7"
+     },
+     {
+      "rank": 1023,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "gir\u00e1",
+      "truth": "gir\u00e1",
+      "applied": "gira",
+      "p_fix": 0.8804,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 1028,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "PIO",
+      "truth": "PIO",
+      "applied": "P\u00cdO",
+      "p_fix": 0.8798,
+      "doc": "c106cf3cec7"
+     },
+     {
+      "rank": 1037,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1lvarez",
+      "truth": "\u00c1lvarez",
+      "applied": "Alvarez",
+      "p_fix": 0.8784,
+      "doc": "c9b253336b6"
+     },
+     {
+      "rank": 1049,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "jerarquico,",
+      "truth": "jerarquico,",
+      "applied": "jer\u00e1rquico,",
+      "p_fix": 0.8767,
+      "doc": "c89fde4bbd2"
+     },
+     {
+      "rank": 1051,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "Ejecucion,",
+      "truth": "Ejecucion,",
+      "applied": "Ejecuci\u00f3n,",
+      "p_fix": 0.8758,
+      "doc": "c70bb57504e"
+     },
+     {
+      "rank": 1055,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "OCUPACION",
+      "truth": "OCUPACION",
+      "applied": "OCUPACI\u00d3N",
+      "p_fix": 0.8751,
+      "doc": "c82371d5ef9"
+     },
+     {
+      "rank": 1060,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "D\u00eda",
+      "truth": "D\u00eda",
+      "applied": "Dia",
+      "p_fix": 0.8737,
+      "doc": "c6a907140d5"
+     },
+     {
+      "rank": 1061,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Terrutorio.",
+      "truth": "Territorio.-",
+      "applied": "Territorio.",
+      "p_fix": 0.8736,
+      "doc": "cdb6e36589a"
+     },
+     {
+      "rank": 1072,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "proh\u00edben",
+      "truth": "proh\u00edben",
+      "applied": "prohiben",
+      "p_fix": 0.8721,
+      "doc": "cc05078b478"
+     },
+     {
+      "rank": 1076,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "OBTENCION",
+      "truth": "OBTENCI\u00d3N:",
+      "applied": "OBTENCI\u00d3N",
+      "p_fix": 0.8714,
+      "doc": "c60081fbf5f"
+     },
+     {
+      "rank": 1077,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "RECAUDACION",
+      "truth": "RECAUDACION",
+      "applied": "RECAUDACI\u00d3N",
+      "p_fix": 0.8714,
+      "doc": "c6622b7d174"
+     },
+     {
+      "rank": 1080,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "accent",
+      "token": "hidricos",
+      "truth": "5http://www.adaptecca.es/sites/default/files/editor_documentos/CEDEX_Evaluacion_cambio_climatico_recursos_hidricos",
+      "applied": "h\u00eddricos",
+      "p_fix": 0.871,
+      "doc": "c961d3b3213"
+     },
+     {
+      "rank": 1082,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00c1reas",
+      "truth": "\u00c1reas",
+      "applied": "Areas",
+      "p_fix": 0.8698,
+      "doc": "cebf5c45e1b"
+     },
+     {
+      "rank": 1095,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "especificas",
+      "truth": "especificas",
+      "applied": "espec\u00edficas",
+      "p_fix": 0.8642,
+      "doc": "c4d7ab06554"
+     },
+     {
+      "rank": 1100,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "letters",
+      "token": "tividades",
+      "truth": "tividades",
+      "applied": "actividades",
+      "p_fix": 0.8608,
+      "doc": "cd3ad66583f"
+     },
+     {
+      "rank": 1108,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "v\u00e9gente",
+      "truth": "vigente.",
+      "applied": "vigente",
+      "p_fix": 0.8586,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1118,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "DIRECCION",
+      "truth": "DIRECCION",
+      "applied": "DIRECCI\u00d3N",
+      "p_fix": 0.8547,
+      "doc": "c741e83e4ae"
+     },
+     {
+      "rank": 1133,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "v",
+      "truth": "visibles).",
+      "applied": "a",
+      "p_fix": 0.8503,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1137,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "F",
+      "truth": "Fi",
+      "applied": "A",
+      "p_fix": 0.8473,
+      "doc": "c5eaa9902db"
+     },
+     {
+      "rank": 1139,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "cicto",
+      "truth": "cielo",
+      "applied": "ciclo",
+      "p_fix": 0.8464,
+      "doc": "cd5ad402128"
+     },
+     {
+      "rank": 1141,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "letters",
+      "token": "o",
+      "truth": "o",
+      "applied": "a",
+      "p_fix": 0.8453,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1149,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "GUIA",
+      "truth": "GUIA",
+      "applied": "GU\u00cdA",
+      "p_fix": 0.8395,
+      "doc": "c6622b7d174"
+     },
+     {
+      "rank": 1158,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "*pura",
+      "truth": "para",
+      "applied": "*para",
+      "p_fix": 0.8368,
+      "doc": "cd340e54c6a"
+     },
+     {
+      "rank": 1160,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Servioe",
+      "truth": "Servicio",
+      "applied": "Service",
+      "p_fix": 0.8362,
+      "doc": "ce46d357666"
+     },
+     {
+      "rank": 1165,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "s\u00f3io",
+      "truth": "s\u00f3lo",
+      "applied": "solo",
+      "p_fix": 0.8354,
+      "doc": "c5c749d1d6a"
+     },
+     {
+      "rank": 1166,
+      "outcome": "broken",
+      "op": "text",
+      "kind": "accent",
+      "token": "\u00e1reas",
+      "truth": "\u00e1reas",
+      "applied": "areas",
+      "p_fix": 0.8353,
+      "doc": "cbda4668a0f"
+     },
+     {
+      "rank": 1167,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "adoptades",
+      "truth": "adoptadas.",
+      "applied": "adoptadas",
+      "p_fix": 0.8348,
+      "doc": "c01144db03e"
+     },
+     {
+      "rank": 1176,
+      "outcome": "still_wrong",
+      "op": "text",
+      "kind": "letters",
+      "token": "Pian",
+      "truth": "P lan",
+      "applied": "Plan",
+      "p_fix": 0.8302,
+      "doc": "c9b9d763e5e"
+     }
+    ]
+   },
+   "by_group": {
+    "drop|structure": {
+     "sites": 2909,
+     "fixed_in_group": 157,
+     "precision_at": {
+      "50": 0.18,
+      "100": 0.13,
+      "300": 0.13666666666666666,
+      "800": 0.085
+     },
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    },
+    "join|structure": {
+     "sites": 1442,
+     "fixed_in_group": 18,
+     "precision_at": {
+      "50": 0.12,
+      "100": 0.06,
+      "300": 0.03333333333333333,
+      "800": 0.0175
+     },
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    },
+    "segment|structure": {
+     "sites": 17921,
+     "fixed_in_group": 85,
+     "precision_at": {
+      "50": 0.28,
+      "100": 0.19,
+      "300": 0.12666666666666668,
+      "800": 0.0675
+     },
+     "largest_k_at_0.995": 2,
+     "largest_k_at_0.99": 2
+    },
+    "text|accent": {
+     "sites": 4481,
+     "fixed_in_group": 1294,
+     "precision_at": {
+      "50": 0.96,
+      "100": 0.96,
+      "300": 0.9633333333333334,
+      "800": 0.9425
+     },
+     "largest_k_at_0.995": 25,
+     "largest_k_at_0.99": 25
+    },
+    "text|case": {
+     "sites": 1353,
+     "fixed_in_group": 15,
+     "precision_at": {
+      "50": 0.2,
+      "100": 0.11,
+      "300": 0.05,
+      "800": 0.01875
+     },
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    },
+    "text|letters": {
+     "sites": 14350,
+     "fixed_in_group": 1273,
+     "precision_at": {
+      "50": 0.98,
+      "100": 0.99,
+      "300": 0.9366666666666666,
+      "800": 0.7825
+     },
+     "largest_k_at_0.995": 4,
+     "largest_k_at_0.99": 101
+    },
+    "text|punct": {
+     "sites": 4981,
+     "fixed_in_group": 244,
+     "precision_at": {
+      "50": 0.3,
+      "100": 0.34,
+      "300": 0.26666666666666666,
+      "800": 0.19125
+     },
+     "largest_k_at_0.995": 0,
+     "largest_k_at_0.99": 0
+    }
+   },
+   "precision_at_applied": {
+    "50": 0.98,
+    "100": 0.97,
+    "200": 0.97,
+    "300": 0.9633333333333334,
+    "500": 0.964,
+    "800": 0.96125,
+    "1200": 0.9275
+   },
+   "more": {
+    "m": 0.4255939881959726,
+    "applied": 1405,
+    "fixed": 1254,
+    "broken": 62,
+    "changed_still_wrong": 89,
+    "precision": 0.892526690391459,
+    "net": 1192,
+    "broken_per_100_applied": 4.412811387900356,
+    "still_wrong_share": 0.06334519572953737,
+    "intervals": {
+     "fixed": {
+      "value": 1254.0,
+      "low": 1003.325,
+      "high": 1496.7749999999996,
+      "se": 126.64520132257705
+     },
+     "net": {
+      "value": 1192.0,
+      "low": 957.425,
+      "high": 1425.05,
+      "se": 120.9711592353048
+     },
+     "precision": {
+      "value": 0.892526690391459,
+      "low": 0.8527583437176273,
+      "high": 0.928737521009926,
+      "se": 0.018950764299544984
+     }
+    }
+   }
+  },
+  "by_op": {
+   "sites": 47437,
+   "cross_fit": true,
+   "thresholds": {
+    "text": {
+     "t_safe": null,
+     "m": 0.39452079232210113
+    },
+    "join": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop": {
+     "t_safe": null,
+     "m": -0.06381825252968346
+    },
+    "text|accent": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|letters": {
+     "t_safe": null,
+     "m": null
+    },
+    "text|punct": {
+     "t_safe": null,
+     "m": null
+    },
+    "segment|structure": {
+     "t_safe": null,
+     "m": null
+    },
+    "drop|structure": {
+     "t_safe": null,
+     "m": null
+    }
+   },
+   "safe": {
+    "total": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null,
+     "intervals": {
+      "fixed": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "se": 0.0
+      },
+      "net": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "se": 0.0
+      },
+      "precision": {
+       "value": NaN,
+       "low": NaN,
+       "high": NaN,
+       "se": NaN
+      }
+     }
+    },
+    "text": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "join": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "segment": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "drop": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "text|accent": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "text|letters": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "text|punct": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "segment|structure": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "drop|structure": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    }
+   },
+   "more": {
+    "total": {
+     "applied": 1432,
+     "fixed": 1272,
+     "broken": 63,
+     "changed_still_wrong": 97,
+     "precision": 0.888268156424581,
+     "net": 1209,
+     "broken_per_100_applied": 4.399441340782123,
+     "still_wrong_share": 0.06773743016759777,
+     "intervals": {
+      "fixed": {
+       "value": 1272.0,
+       "low": 1025.475,
+       "high": 1511.1499999999999,
+       "se": 126.43040860663577
+      },
+      "net": {
+       "value": 1209.0,
+       "low": 974.375,
+       "high": 1440.6749999999997,
+       "se": 120.78346852337481
+      },
+      "precision": {
+       "value": 0.888268156424581,
+       "low": 0.8490976950955433,
+       "high": 0.9238983723699881,
+       "se": 0.018962441801656814
+      }
+     }
+    },
+    "text": {
+     "applied": 1425,
+     "fixed": 1269,
+     "broken": 63,
+     "changed_still_wrong": 93,
+     "precision": 0.8905263157894737,
+     "net": 1206,
+     "broken_per_100_applied": 4.421052631578948,
+     "still_wrong_share": 0.06526315789473684
+    },
+    "join": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "segment": {
+     "applied": 0,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "precision": null,
+     "net": 0,
+     "broken_per_100_applied": null,
+     "still_wrong_share": null
+    },
+    "drop": {
+     "applied": 7,
+     "fixed": 3,
+     "broken": 0,
+     "changed_still_wrong": 4,
+     "precision": 0.42857142857142855,
+     "net": 3,
+     "broken_per_100_applied": 0.0,
+     "still_wrong_share": 0.5714285714285714
+    }
+   }
+  }
+ },
+ "nearest_word": {
+  "applied": 4476,
+  "fixed": 1913,
+  "broken": 1892,
+  "changed_still_wrong": 671,
+  "precision": 0.427390527256479,
+  "net": 21,
+  "broken_per_100_applied": 42.26988382484361,
+  "still_wrong_share": 0.1499106344950849,
+  "intervals": {
+   "fixed": {
+    "value": 1913.0,
+    "low": 1499.325,
+    "high": 2285.525,
+    "se": 201.62574067465994
+   },
+   "net": {
+    "value": 21.0,
+    "low": -353.29999999999995,
+    "high": 393.3499999999997,
+    "se": 195.63573696837273
+   },
+   "precision": {
+    "value": 0.427390527256479,
+    "low": 0.38231080634520004,
+    "high": 0.46487264089367064,
+    "se": 0.021264257476431576
+   }
+  }
+ },
+ "keep": {
+  "applied": 0
+ },
+ "gate_f": {
+  "safe_applied_at_floor": 0,
+  "more_net": 2415,
+  "more_net_interval": [
+   1883.475,
+   2890.1499999999996
+  ],
+  "passes": true
+ }
+}

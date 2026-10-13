@@ -1,0 +1,39 @@
+{
+ "pages": 698,
+ "structure_sites": true,
+ "exploratory": "31x200",
+ "learners": {
+  "wrong_words": 7150,
+  "binary": {
+   "safe_applied": 304,
+   "safe_fixed": 303,
+   "more_applied": 3777,
+   "more_net": 2616,
+   "more_net_se": 282.59269522323825,
+   "more_broken": 136,
+   "sites": 47387,
+   "reachable_sites": 3742
+  },
+  "lambdarank": {
+   "safe_applied": 0,
+   "safe_fixed": 0,
+   "more_applied": 3771,
+   "more_net": 2695,
+   "more_net_se": 297.70882834935554,
+   "more_broken": 139,
+   "sites": 47387,
+   "reachable_sites": 3742
+  }
+ },
+ "detector_without_monotone": {
+  "safe_applied": 0,
+  "safe_fixed": 0,
+  "more_applied": 3799,
+  "more_net": 2642,
+  "more_net_se": 278.58974113999676,
+  "more_broken": 136,
+  "sites": 44362,
+  "reachable_sites": 3736
+ },
+ "seconds": 688.7
+}

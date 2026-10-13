@@ -1,0 +1,57 @@
+{
+ "lines": [
+  "Factura numero 2026-0042 emitida el 14/03/2026 por servicios de consultoria",
+  "Cliente: Zulema Quentarra Ibolo, calle del Inventor 12, Villa Inventada de Abajo",
+  "Concepto: revision del proyecto de reforma y entrega de la documentacion",
+  "Base imponible 1.000,00 EUR, IVA 21 % 210,00 EUR, total a pagar 1.210,00 EUR",
+  "Pago por transferencia en un plazo de treinta dias desde la fecha de factura",
+  "El presente documento se emite conforme a la normativa vigente en la materia",
+  "Para cualquier aclaracion puede ponerse en contacto con nuestro departamento",
+  "Gracias por confiar en nuestros servicios durante este periodo de trabajo"
+ ],
+ "accented": "El niño comió piñas en España; ¿qué más? ¡Nada!",
+ "pdf_words": [
+  "señal",
+  "€1.234,56",
+  "camión",
+  "¿qué?",
+  "Año",
+  "ÁRBOL",
+  "pequeño",
+  "«cita»",
+  "fin.",
+  "(paréntesis)",
+  "a\\b"
+ ],
+ "word": "señal",
+ "word_plain": "senal",
+ "thanks": [
+  "Gracias",
+  "por",
+  "su",
+  "compra"
+ ],
+ "invoice_words": [
+  "Factura",
+  "2026-0042",
+  "Base",
+  "1.000,00",
+  "IVA",
+  "210,00",
+  "Total",
+  "1.210,00",
+  "señal",
+  "€",
+  "fecha",
+  "14/03/2026"
+ ],
+ "suggestions": {
+  "numero": "número",
+  "consultoria": "consultoría",
+  "documentacion": "documentación"
+ },
+ "sparse_page": [
+  "Pagina casi vacia con muy pocas",
+  "palabras legibles y nada mas"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "Written by hand from general knowledge of invoices, business letters and administrative texts, before any catalogue page was read. Nothing is copied from a document of the corpus.",
+  "licence": "Public domain (single words, no creative expression); released with the repository",
+  "es": [
+    "factura", "facturas", "albarán", "albaranes", "presupuesto", "pedido", "cliente", "proveedor", "emisor", "receptor",
+    "destinatario", "remitente", "importe", "imponible", "cuota", "iva", "irpf", "retención", "retenciones", "recargo",
+    "equivalencia", "descuento", "subtotal", "cantidad", "concepto", "descripción", "unidades", "precio", "vencimiento",
+    "emisión", "referencia", "pagado", "pendiente", "transferencia", "domiciliación", "efectivo", "titular", "iban", "bic",
+    "swift", "nif", "cif", "dni", "nie", "razón", "social", "domicilio", "teléfono", "electrónico", "observaciones",
+    "condiciones", "plazo", "trimestre", "ejercicio", "devengo", "exento", "exenta", "exención", "gravado", "impositivo",
+    "rectificativa", "abono", "cargo", "saldo", "deuda", "honorarios", "servicios", "suministro", "mantenimiento",
+    "alquiler", "arrendamiento", "comisión", "gastos", "envío", "portes", "embalaje", "garantía", "duplicado", "sello",
+    "firma", "registro", "mercantil", "inscrita", "tomo", "folio", "ayuntamiento", "consejería", "ministerio", "boletín",
+    "resolución", "expediente", "solicitud", "notificación", "recurso", "sentencia", "juzgado", "tribunal", "ordenanza",
+    "reglamento", "decreto", "disposición", "adicional", "transitoria", "derogatoria", "anexo", "apartado", "párrafo",
+    "licencia", "parcela", "catastral", "hacienda", "sociedad", "limitada", "anónima", "autónomo", "contrato", "contratista"
+  ],
+  "en": [
+    "invoice", "invoices", "receipt", "quotation", "customer", "supplier", "vendor", "seller", "buyer", "payee", "payer",
+    "taxable", "vat", "gst", "withholding", "surcharge", "discount", "subtotal", "quantity", "description", "unit", "units",
+    "payable", "overdue", "remittance", "direct", "debit", "holder", "iban", "bic", "swift", "registration", "registered",
+    "telephone", "email", "website", "terms", "conditions", "quarter", "exempt", "exemption", "credit", "refund", "fee",
+    "fees", "services", "shipping", "freight", "packaging", "warranty", "signature", "stamp", "company", "limited", "ltd",
+    "inc", "llc", "plc", "balance", "deposit", "purchase", "contract", "contractor", "agreement", "attachment", "annex",
+    "section", "paragraph", "article", "resolution", "council", "ministry", "tribunal", "judgment", "appeal"
+  ]
+}

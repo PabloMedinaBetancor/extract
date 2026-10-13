@@ -1,0 +1,20 @@
+[
+ {
+  "time": "2026-10-02T04:36:13+00:00",
+  "pages": 325,
+  "fingerprint": "9cb7e51b86d5bad7597030d8dc2ad03b6503438d53f281845c8bd0b253db4345",
+  "images": "6c8bd6031045dccf68ec0edf399458eaa927cc59425776ee4cd90ec99d6b591b",
+  "truth": "76e2629b0cfb61cd220afc80937135379314903a6c2c5012072a7b24bc62db0a",
+  "ungrounded": "b0cb89bcd6e5507a16772084a75815e843a347fdfe4a98a126fef398827cd4ca",
+  "note": "as read by the OCR run (rule v1 of the ungrounded patches, fingerprint equal to the logged OCR read), before the final patch rule"
+ },
+ {
+  "time": "2026-10-02T04:37:03+00:00",
+  "pages": 325,
+  "fingerprint": "e37808175856366efcadd3d5ac1336b697072d2af7d8a8cee92feb96237cbda1",
+  "images": "6c8bd6031045dccf68ec0edf399458eaa927cc59425776ee4cd90ec99d6b591b",
+  "truth": "76e2629b0cfb61cd220afc80937135379314903a6c2c5012072a7b24bc62db0a",
+  "ungrounded": "db0ae8c5315e2420ddd4e0c0798cbcb41392650384d699eecca659995e4c32ab",
+  "note": "after the final ungrounded rule (ink level 192, glyph-sparse patches, turned words) was applied to every set; images and truth unchanged, patches recomputed from the clean render; no test metric had been read"
+ }
+]

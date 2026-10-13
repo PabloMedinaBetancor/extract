@@ -1,0 +1,97 @@
+{
+ "pages": 20,
+ "backend": [
+  "openvino"
+ ],
+ "sha256_of_pages_pdf": "6ad4839b5f956fa84b840617af47aa2a30cfcc8fb49a2ed004c2908bca420fee",
+ "baseline": {
+  "processes": 1,
+  "threads": 4,
+  "seconds_per_page": 3.616,
+  "load_seconds": 1.5,
+  "peak_worker_rss_mb": 1728
+ },
+ "default_tuning": {
+  "det_buckets": false,
+  "rec_buckets": false
+ },
+ "optimizations": [
+  {
+   "name": "procs_2x2",
+   "what": "two processes of two threads against one of four",
+   "seconds_per_page_before": 3.616,
+   "seconds_per_page_after": 3.245,
+   "runs_before": [
+    3.657,
+    3.575
+   ],
+   "runs_after": [
+    3.285,
+    3.204
+   ],
+   "saving": 0.103,
+   "digital_word_accuracy_before": 0.9775,
+   "digital_word_accuracy_after": 0.9775,
+   "agreement_with_baseline": 1.0,
+   "peak_worker_rss_mb_before": 1728,
+   "peak_worker_rss_mb_after": 1544,
+   "on_by_default": true
+  },
+  {
+   "name": "det_buckets",
+   "what": "detection input sides in steps of 128 px",
+   "seconds_per_page_before": 3.616,
+   "seconds_per_page_after": 4.43,
+   "runs_before": [
+    3.657,
+    3.575
+   ],
+   "runs_after": [
+    4.43
+   ],
+   "saving": -0.225,
+   "digital_word_accuracy_before": 0.9775,
+   "digital_word_accuracy_after": 0.9778,
+   "agreement_with_baseline": 0.9777,
+   "peak_worker_rss_mb_before": 1728,
+   "peak_worker_rss_mb_after": 1579,
+   "on_by_default": false
+  },
+  {
+   "name": "rec_buckets",
+   "what": "recognition widths in steps of 160 px",
+   "seconds_per_page_before": 3.616,
+   "seconds_per_page_after": 3.907,
+   "runs_before": [
+    3.657,
+    3.575
+   ],
+   "runs_after": [
+    3.907
+   ],
+   "saving": -0.08,
+   "digital_word_accuracy_before": 0.9775,
+   "digital_word_accuracy_after": 0.9778,
+   "agreement_with_baseline": 0.9784,
+   "peak_worker_rss_mb_before": 1728,
+   "peak_worker_rss_mb_after": 1651,
+   "on_by_default": false
+  },
+  {
+   "name": "pdf_open_once",
+   "what": "a PDF opened once per document in a worker instead of once per page",
+   "seconds_per_page_before": 0.023,
+   "seconds_per_page_after": 0.016,
+   "saving": 0.318,
+   "note": "rendering only, 20 consecutive pages of the largest source document; a fraction of a percent of the seconds a page, kept because it is the simpler design and costs nothing"
+  },
+  {
+   "name": "engine_loaded_once",
+   "what": "the engine loaded once per process and kept until the recycle instead of once per page",
+   "seconds_per_page_before": 5.116,
+   "seconds_per_page_after": 3.616,
+   "saving": 0.293,
+   "note": "derived from the measured load time, not a separate run"
+  }
+ ]
+}

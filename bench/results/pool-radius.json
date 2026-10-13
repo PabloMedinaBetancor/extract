@@ -1,0 +1,30 @@
+{
+ "train": {
+  "sites": 1762,
+  "two_edits_index": 0.8519,
+  "three_edits_cap_20": {
+   "written": 0.8439,
+   "gain_points": -0.79,
+   "ms_per_site": 56.63
+  },
+  "three_edits_cap_24": {
+   "written": 0.8456,
+   "gain_points": -0.62,
+   "ms_per_site": 59.94
+  }
+ },
+ "val": {
+  "sites": 536,
+  "two_edits_index": 0.8209,
+  "three_edits_cap_20": {
+   "written": 0.8433,
+   "gain_points": 2.24,
+   "ms_per_site": 53.95
+  },
+  "three_edits_cap_24": {
+   "written": 0.8451,
+   "gain_points": 2.43,
+   "ms_per_site": 56.24
+  }
+ }
+}

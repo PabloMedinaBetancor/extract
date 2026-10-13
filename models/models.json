@@ -1,0 +1,54 @@
+{
+  "models": [
+    {
+      "name": "PP-OCRv6_det_small",
+      "file": "PP-OCRv6_det_small.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv6/det/PP-OCRv6_det_small.onnx",
+      "sha256": "090f04abcd9d9a7498bc4ebf677e4cb9bdce1fe4197ddb7e529f1ef44e1ff94f",
+      "size": 9929594,
+      "licence": "Apache-2.0",
+      "purpose": "PP-OCRv6 small text detection, converted to ONNX by RapidOCR",
+      "default": true
+    },
+    {
+      "name": "PP-OCRv6_rec_small",
+      "file": "PP-OCRv6_rec_small.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv6/rec/PP-OCRv6_rec_small.onnx",
+      "sha256": "6f327246b50388f3c176ae304bd95767ea6dc0c9ae92153ef8cbe210b3c14884",
+      "size": 21234383,
+      "licence": "Apache-2.0",
+      "purpose": "PP-OCRv6 small text recognition, converted to ONNX by RapidOCR",
+      "default": true
+    },
+    {
+      "name": "PP-OCRv6_rec_medium",
+      "file": "PP-OCRv6_rec_medium.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv6/rec/PP-OCRv6_rec_medium.onnx",
+      "sha256": "eef444829dbbe18d7fea59a3f6eb75647518d2b3a9568d27c92e42940204894b",
+      "size": 76629984,
+      "licence": "Apache-2.0",
+      "purpose": "PP-OCRv6 medium text recognition: the `deep` reader of the second reading (reader bake-off, bench/results/reader-bakeoff.json)",
+      "default": false
+    },
+    {
+      "name": "latin_PP-OCRv5_rec_mobile",
+      "file": "latin_PP-OCRv5_rec_mobile.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/rec/latin_PP-OCRv5_rec_mobile.onnx",
+      "sha256": "b20bd37c168a570f583afbc8cd7925603890efbcdc000a59e22c269d160b5f5a",
+      "size": 7904513,
+      "licence": "Apache-2.0",
+      "purpose": "PP-OCRv5 Latin mobile text recognition: the `latin` reader of the second reading",
+      "default": false
+    },
+    {
+      "name": "PP-OCRv5_rec_server",
+      "file": "ch_PP-OCRv5_rec_server.onnx",
+      "url": "https://www.modelscope.cn/models/RapidAI/RapidOCR/resolve/v3.9.2/onnx/PP-OCRv5/rec/ch_PP-OCRv5_rec_server.onnx",
+      "sha256": "e09385400eaaaef34ceff54aeb7c4f0f1fe014c27fa8b9905d4709b65746562a",
+      "size": 84577022,
+      "licence": "Apache-2.0",
+      "purpose": "PP-OCRv5 server text recognition: bake-off candidate, not used (it lost 54.6 points of net100)",
+      "default": false
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+site_name: Extract
+site_description: Offline OCR for PDFs that flags the words and numbers that are probably wrong
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+strict: true
+
+theme:
+  name: material
+  font: false
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+extra:
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: false
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+# Pages that stay in the repository and out of the site (no page of the site links to them: name them as a path in code
+# font). One path per line, relative to docs/; scripts/docs.py and tests/docs_support.py read the same list.
+exclude_docs: |
+  MEASURED.md
+  release-notes.md
+
+# The nav belongs to the guide writer (reserve this file before editing it). The order is the checklist of the plan.
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: getting-started/installation.md
+      - Quickstart: getting-started/quickstart.md
+  - Tutorial: tutorials/invoice.md
+  - Concepts:
+      - How it works: concepts/how-it-works.md
+      - Number checks: concepts/number-checks.md
+      - Corrections and the second reading: concepts/corrections.md
+      - Privacy: concepts/privacy.md
+  - How-to guides:
+      - Batch a folder: how-to/batch-a-folder.md
+      - Review doubtful words: how-to/review-doubtful-words.md
+      - Progress and cancel: how-to/progress-and-cancel.md
+      - Use in a web service: how-to/web-service.md
+      - Use from an AI assistant: how-to/ai-assistants.md
+  - Reference:
+      - Overview: reference/index.md
+      - Functions: reference/functions.md
+      - Reader: reference/reader.md
+      - Document: reference/document.md
+      - Options: reference/options.md
+      - Data types: reference/data-types.md
+      - Events: reference/events.md
+      - Errors: reference/errors.md
+      - JSON format: reference/json-format.md
+      - Interface: reference/interface.md
+      - Command line: reference/command-line.md
+  - Accuracy and limits: accuracy.md
+  - Help:
+      - FAQ: faq.md
+      - Troubleshooting: troubleshooting.md
+  - Licence and credits: licence.md

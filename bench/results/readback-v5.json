@@ -1,0 +1,37 @@
+{
+ "pages": 30,
+ "ocr_words": 14314,
+ "ok": 14111,
+ "boundary_only": 33,
+ "invented": 6,
+ "ungrounded": 120,
+ "missed": 70,
+ "truth_words": 14260,
+ "ok_share": 0.9941524587854023,
+ "boundary_mismatch_share": 0.0023249260250810203,
+ "missed_share": 0.004908835904628331,
+ "floor": 0.97,
+ "meets_floor": true,
+ "worst_pages": [
+  {
+   "page": "ce6f8f62679/24",
+   "ok_share": 0.971
+  },
+  {
+   "page": "c91e5535bf0/196",
+   "ok_share": 0.972
+  },
+  {
+   "page": "c3f219d1ace/118",
+   "ok_share": 0.976
+  },
+  {
+   "page": "c4df12d212c/18",
+   "ok_share": 0.978
+  },
+  {
+   "page": "cf00b1d9b2e/150",
+   "ok_share": 0.983
+  }
+ ]
+}

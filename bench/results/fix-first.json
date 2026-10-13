@@ -1,0 +1,463 @@
+{
+ "pages": 512,
+ "documents": 290,
+ "t_gen_raw": -4.277215331181999,
+ "flagged_sites": 13628,
+ "seconds": 115.3,
+ "lightgbm": {
+  "in_sample_calibration": {
+   "sites": 13628,
+   "rows": 205863,
+   "reachable_sites": 1835,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "precision_at_applied": {
+    "50": 1.0,
+    "100": 0.99,
+    "200": 0.98,
+    "300": 0.98,
+    "500": 0.97,
+    "800": 0.95,
+    "1200": 0.9125
+   },
+   "more": {
+    "m": 0.0026205881044187402,
+    "applied": 1709,
+    "fixed": 1321,
+    "broken": 66,
+    "changed_still_wrong": 322,
+    "precision": 0.7729666471620831,
+    "net": 1255,
+    "intervals": {
+     "fixed": {
+      "value": 1321.0,
+      "low": 928.8,
+      "high": 1770.1,
+      "se": 205.20682562372318
+     },
+     "net": {
+      "value": 1255.0,
+      "low": 877.425,
+      "high": 1661.6749999999997,
+      "se": 198.8741548289215
+     },
+     "precision": {
+      "value": 0.7729666471620831,
+      "low": 0.7274216300940439,
+      "high": 0.8231824854061817,
+      "se": 0.024717980147246243
+     }
+    }
+   }
+  },
+  "cross_fitted_calibration": {
+   "sites": 13628,
+   "rows": 205863,
+   "reachable_sites": 1835,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "precision_at_applied": {
+    "50": 0.88,
+    "100": 0.94,
+    "200": 0.96,
+    "300": 0.9633333333333334,
+    "500": 0.956,
+    "800": 0.9425,
+    "1200": 0.91
+   },
+   "more": {
+    "m": 0.005649764632955367,
+    "applied": 1709,
+    "fixed": 1324,
+    "broken": 66,
+    "changed_still_wrong": 319,
+    "precision": 0.7747220596840257,
+    "net": 1258,
+    "intervals": {
+     "fixed": {
+      "value": 1324.0,
+      "low": 922.425,
+      "high": 1776.7749999999996,
+      "se": 208.5032708710534
+     },
+     "net": {
+      "value": 1258.0,
+      "low": 873.475,
+      "high": 1671.05,
+      "se": 202.1622396548984
+     },
+     "precision": {
+      "value": 0.7747220596840257,
+      "low": 0.7310025552904306,
+      "high": 0.8227268978377021,
+      "se": 0.02389548518976239
+     }
+    }
+   }
+  }
+ },
+ "logistic": {
+  "in_sample_calibration": {
+   "sites": 13628,
+   "rows": 205863,
+   "reachable_sites": 1835,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "precision_at_applied": {
+    "50": 0.98,
+    "100": 0.96,
+    "200": 0.97,
+    "300": 0.96,
+    "500": 0.904,
+    "800": 0.85125,
+    "1200": 0.7591666666666667
+   },
+   "more": {
+    "m": 0.724070626103661,
+    "applied": 388,
+    "fixed": 358,
+    "broken": 17,
+    "changed_still_wrong": 13,
+    "precision": 0.9226804123711341,
+    "net": 341,
+    "intervals": {
+     "fixed": {
+      "value": 358.0,
+      "low": 260.9,
+      "high": 453.6249999999999,
+      "se": 48.52264768824301
+     },
+     "net": {
+      "value": 341.0,
+      "low": 250.425,
+      "high": 430.525,
+      "se": 46.51745529685162
+     },
+     "precision": {
+      "value": 0.9226804123711341,
+      "low": 0.8576370757180156,
+      "high": 0.9632901901469317,
+      "se": 0.02755063331226013
+     }
+    }
+   }
+  },
+  "cross_fitted_calibration": {
+   "sites": 13628,
+   "rows": 205863,
+   "reachable_sites": 1835,
+   "safe_min_100": {
+    "rule": "gate",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "safe_min_300": {
+    "rule": "design",
+    "t_safe": null,
+    "applied": 0,
+    "fixed": 0,
+    "broken": 0,
+    "changed_still_wrong": 0,
+    "precision": null,
+    "net": 0,
+    "intervals": {
+     "fixed": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "net": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "se": 0.0
+     },
+     "precision": {
+      "value": NaN,
+      "low": NaN,
+      "high": NaN,
+      "se": NaN
+     }
+    }
+   },
+   "precision_at_applied": {
+    "50": 0.88,
+    "100": 0.9,
+    "200": 0.94,
+    "300": 0.9333333333333333,
+    "500": 0.89,
+    "800": 0.8425,
+    "1200": 0.7533333333333333
+   },
+   "more": {
+    "m": 0.8181485736248795,
+    "applied": 312,
+    "fixed": 290,
+    "broken": 14,
+    "changed_still_wrong": 8,
+    "precision": 0.9294871794871795,
+    "net": 276,
+    "intervals": {
+     "fixed": {
+      "value": 290.0,
+      "low": 216.0,
+      "high": 364.0,
+      "se": 38.585587972692565
+     },
+     "net": {
+      "value": 276.0,
+      "low": 199.475,
+      "high": 343.525,
+      "se": 36.41731508054034
+     },
+     "precision": {
+      "value": 0.9294871794871795,
+      "low": 0.8560366062264797,
+      "high": 0.9764018771331058,
+      "se": 0.03248329152921399
+     }
+    }
+   }
+  }
+ },
+ "nearest_word": {
+  "applied": 2461,
+  "fixed": 1027,
+  "broken": 1050,
+  "changed_still_wrong": 384,
+  "precision": 0.4173100365704998,
+  "net": -23,
+  "intervals": {
+   "fixed": {
+    "value": 1027.0,
+    "low": 723.0,
+    "high": 1356.1,
+    "se": 154.60325454735184
+   },
+   "net": {
+    "value": -23.0,
+    "low": -279.1,
+    "high": 252.57499999999993,
+    "se": 136.06630841089626
+   },
+   "precision": {
+    "value": 0.4173100365704998,
+    "low": 0.3652102983205198,
+    "high": 0.4566712783344155,
+    "se": 0.02433850689828518
+   }
+  }
+ },
+ "keep": {
+  "applied": 0
+ },
+ "gate_f": {
+  "safe_applied_at_floor": 0,
+  "more_net": 1258,
+  "more_net_interval": [
+   873.475,
+   1671.05
+  ],
+  "passes": true
+ }
+}

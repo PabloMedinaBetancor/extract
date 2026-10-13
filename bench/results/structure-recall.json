@@ -1,0 +1,541 @@
+{
+ "train": {
+  "pages": 404,
+  "documents": 218,
+  "wrong_weight_by_component": {
+   "pair": 2708,
+   "invented": 109,
+   "split": 99,
+   "merge": 691,
+   "mixed": 15
+  },
+  "artifact_components_left_out": {
+   "layer_spaced": 13,
+   "layer_glue": 109,
+   "layer_duplicate": 147,
+   "layer_dropcap": 17
+  },
+  "join": {
+   "components": 99,
+   "lost_more_than_three_tokens": 12,
+   "lost_protected_or_not_plain": 49,
+   "lost_across_lines": 3,
+   "span_found": 32,
+   "lost_text_not_proposed": 14,
+   "lost_punctuation_between": 3,
+   "reached": 18,
+   "reached_by_joined+join_edit": 4,
+   "reached_by_joined": 13,
+   "reached_by_join_edit": 1,
+   "eligible": 32,
+   "recall_of_eligible": 0.5625,
+   "recall": 0.1818,
+   "floor": 0.55,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "acronym": 7,
+    "digit": 34,
+    "internal_marks": 8
+   }
+  },
+  "segment": {
+   "components": 323,
+   "eligible": 87,
+   "reached": 71,
+   "lost_protected_or_not_plain": 218,
+   "lost_cut_not_in_dictionary_or_over_cap": 16,
+   "lost_shorter_than_five_letters": 18,
+   "recall_of_eligible": 0.8161,
+   "recall": 0.2198,
+   "floor": 0.7,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "digit": 135,
+    "hyphen_end": 8,
+    "internal_marks": 75
+   }
+  },
+  "drop": {
+   "components": 109,
+   "short": 91,
+   "reached": 63,
+   "lost_not_small_or_doubtful_or_lone_dash": 6,
+   "lost_longer_than_two_characters": 18,
+   "lost_digit": 13,
+   "lost_listed_word": 9,
+   "eligible": 78,
+   "recall_of_eligible": 0.8077,
+   "recall": 0.6923,
+   "floor": 0.7,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {}
+  },
+  "join_as_written_variants": {
+   "listed": {
+    "reached": 18,
+    "recall": 0.1818
+   },
+   "listed_or_page": {
+    "reached": 18,
+    "recall": 0.1818
+   },
+   "any": {
+    "reached": 20,
+    "recall": 0.202
+   }
+  },
+  "cost": {
+   "words": 138751,
+   "join_sites": 171057,
+   "join_candidates": 11060,
+   "segment_sites": 62944,
+   "segment_candidates": 364021,
+   "drop_sites": 1894,
+   "join_sites_per_1000_words": 1232.8,
+   "segment_sites_per_1000_words": 453.6,
+   "drop_sites_per_1000_words": 13.7
+  }
+ },
+ "val": {
+  "pages": 108,
+  "documents": 72,
+  "wrong_weight_by_component": {
+   "pair": 656,
+   "split": 6,
+   "merge": 196,
+   "invented": 36,
+   "mixed": 30
+  },
+  "artifact_components_left_out": {
+   "layer_spaced": 1,
+   "layer_dropcap": 4,
+   "layer_duplicate": 1
+  },
+  "join": {
+   "components": 6,
+   "span_found": 1,
+   "reached": 1,
+   "reached_by_joined+join_edit": 1,
+   "lost_more_than_three_tokens": 2,
+   "lost_protected_or_not_plain": 3,
+   "eligible": 1,
+   "recall_of_eligible": 1.0,
+   "recall": 0.1667,
+   "floor": 0.55,
+   "passes": null,
+   "conclusive": false,
+   "lost_protected_or_not_plain_by_reason": {
+    "internal_marks": 3
+   }
+  },
+  "segment": {
+   "components": 85,
+   "eligible": 24,
+   "lost_cut_not_in_dictionary_or_over_cap": 11,
+   "lost_protected_or_not_plain": 52,
+   "reached": 13,
+   "lost_shorter_than_five_letters": 9,
+   "recall_of_eligible": 0.5417,
+   "recall": 0.1529,
+   "floor": 0.7,
+   "passes": false,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "digit": 28,
+    "hyphen_end": 4,
+    "internal_marks": 18,
+    "mixed_capitals": 2
+   }
+  },
+  "drop": {
+   "components": 36,
+   "short": 29,
+   "reached": 24,
+   "lost_digit": 2,
+   "lost_longer_than_two_characters": 7,
+   "lost_listed_word": 2,
+   "lost_not_small_or_doubtful_or_lone_dash": 1,
+   "eligible": 27,
+   "recall_of_eligible": 0.8889,
+   "recall": 0.8276,
+   "floor": 0.7,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {}
+  },
+  "join_as_written_variants": {
+   "listed": {
+    "reached": 1,
+    "recall": 0.1667
+   },
+   "listed_or_page": {
+    "reached": 1,
+    "recall": 0.1667
+   },
+   "any": {
+    "reached": 1,
+    "recall": 0.1667
+   }
+  },
+  "cost": {
+   "words": 33209,
+   "join_sites": 41590,
+   "join_candidates": 2917,
+   "segment_sites": 15284,
+   "segment_candidates": 88480,
+   "drop_sites": 722,
+   "join_sites_per_1000_words": 1252.4,
+   "segment_sites_per_1000_words": 460.2,
+   "drop_sites_per_1000_words": 21.7
+  }
+ },
+ "train+val": {
+  "pages": 512,
+  "documents": 290,
+  "wrong_weight_by_component": {
+   "pair": 3364,
+   "invented": 145,
+   "split": 105,
+   "merge": 887,
+   "mixed": 45
+  },
+  "artifact_components_left_out": {
+   "layer_spaced": 14,
+   "layer_glue": 109,
+   "layer_duplicate": 148,
+   "layer_dropcap": 21
+  },
+  "join": {
+   "components": 105,
+   "lost_more_than_three_tokens": 14,
+   "lost_protected_or_not_plain": 52,
+   "lost_across_lines": 3,
+   "span_found": 33,
+   "lost_text_not_proposed": 14,
+   "lost_punctuation_between": 3,
+   "reached": 19,
+   "reached_by_joined+join_edit": 5,
+   "reached_by_joined": 13,
+   "reached_by_join_edit": 1,
+   "eligible": 33,
+   "recall_of_eligible": 0.5758,
+   "recall": 0.181,
+   "floor": 0.55,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "acronym": 7,
+    "digit": 34,
+    "internal_marks": 11
+   }
+  },
+  "segment": {
+   "components": 408,
+   "eligible": 111,
+   "reached": 84,
+   "lost_protected_or_not_plain": 270,
+   "lost_cut_not_in_dictionary_or_over_cap": 27,
+   "lost_shorter_than_five_letters": 27,
+   "recall_of_eligible": 0.7568,
+   "recall": 0.2059,
+   "floor": 0.7,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "digit": 163,
+    "hyphen_end": 12,
+    "internal_marks": 93,
+    "mixed_capitals": 2
+   }
+  },
+  "drop": {
+   "components": 145,
+   "short": 120,
+   "reached": 87,
+   "lost_not_small_or_doubtful_or_lone_dash": 7,
+   "lost_longer_than_two_characters": 25,
+   "lost_digit": 15,
+   "lost_listed_word": 11,
+   "eligible": 105,
+   "recall_of_eligible": 0.8286,
+   "recall": 0.725,
+   "floor": 0.7,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {}
+  },
+  "join_as_written_variants": {
+   "listed": {
+    "reached": 19,
+    "recall": 0.181
+   },
+   "listed_or_page": {
+    "reached": 19,
+    "recall": 0.181
+   },
+   "any": {
+    "reached": 21,
+    "recall": 0.2
+   }
+  },
+  "cost": {
+   "words": 171960,
+   "join_sites": 212647,
+   "join_candidates": 13977,
+   "segment_sites": 78228,
+   "segment_candidates": 452501,
+   "drop_sites": 2616,
+   "join_sites_per_1000_words": 1236.6,
+   "segment_sites_per_1000_words": 454.9,
+   "drop_sites_per_1000_words": 15.2
+  }
+ },
+ "train_all_components": {
+  "pages": 404,
+  "documents": 218,
+  "wrong_weight_by_component": {
+   "pair": 2708,
+   "invented": 109,
+   "merge": 1151,
+   "split": 208,
+   "mixed": 15
+  },
+  "artifact_components_left_out": {},
+  "join": {
+   "components": 208,
+   "lost_punctuation_between": 23,
+   "span_found": 114,
+   "lost_text_not_proposed": 96,
+   "lost_more_than_three_tokens": 14,
+   "lost_protected_or_not_plain": 54,
+   "lost_across_lines": 3,
+   "reached": 18,
+   "reached_by_joined+join_edit": 4,
+   "reached_by_joined": 13,
+   "reached_by_join_edit": 1,
+   "eligible": 114,
+   "recall_of_eligible": 0.1579,
+   "recall": 0.0865,
+   "floor": 0.55,
+   "passes": false,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "acronym": 12,
+    "digit": 34,
+    "internal_marks": 8
+   }
+  },
+  "segment": {
+   "components": 500,
+   "eligible": 174,
+   "lost_cut_not_in_dictionary_or_over_cap": 103,
+   "reached": 71,
+   "lost_protected_or_not_plain": 249,
+   "lost_shorter_than_five_letters": 77,
+   "recall_of_eligible": 0.408,
+   "recall": 0.142,
+   "floor": 0.7,
+   "passes": false,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "acronym": 3,
+    "blocked_or_long": 1,
+    "digit": 147,
+    "fragment": 1,
+    "hyphen_end": 10,
+    "internal_marks": 87
+   }
+  },
+  "drop": {
+   "components": 109,
+   "short": 91,
+   "reached": 63,
+   "lost_not_small_or_doubtful_or_lone_dash": 6,
+   "lost_longer_than_two_characters": 18,
+   "lost_digit": 13,
+   "lost_listed_word": 9,
+   "eligible": 78,
+   "recall_of_eligible": 0.8077,
+   "recall": 0.6923,
+   "floor": 0.7,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {}
+  },
+  "cost": {
+   "words": 138751,
+   "join_sites": 171057,
+   "join_candidates": 11060,
+   "segment_sites": 62944,
+   "segment_candidates": 364021,
+   "drop_sites": 1894,
+   "join_sites_per_1000_words": 1232.8,
+   "segment_sites_per_1000_words": 453.6,
+   "drop_sites_per_1000_words": 13.7
+  }
+ },
+ "val_all_components": {
+  "pages": 108,
+  "documents": 72,
+  "wrong_weight_by_component": {
+   "pair": 656,
+   "merge": 212,
+   "split": 6,
+   "invented": 36,
+   "mixed": 30
+  },
+  "artifact_components_left_out": {},
+  "join": {
+   "components": 6,
+   "span_found": 1,
+   "reached": 1,
+   "reached_by_joined+join_edit": 1,
+   "lost_more_than_three_tokens": 2,
+   "lost_protected_or_not_plain": 3,
+   "eligible": 1,
+   "recall_of_eligible": 1.0,
+   "recall": 0.1667,
+   "floor": 0.55,
+   "passes": null,
+   "conclusive": false,
+   "lost_protected_or_not_plain_by_reason": {
+    "internal_marks": 3
+   }
+  },
+  "segment": {
+   "components": 91,
+   "eligible": 26,
+   "lost_cut_not_in_dictionary_or_over_cap": 13,
+   "lost_shorter_than_five_letters": 10,
+   "lost_protected_or_not_plain": 55,
+   "reached": 13,
+   "recall_of_eligible": 0.5,
+   "recall": 0.1429,
+   "floor": 0.7,
+   "passes": false,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "digit": 30,
+    "hyphen_end": 4,
+    "internal_marks": 19,
+    "mixed_capitals": 2
+   }
+  },
+  "drop": {
+   "components": 36,
+   "short": 29,
+   "reached": 24,
+   "lost_digit": 2,
+   "lost_longer_than_two_characters": 7,
+   "lost_listed_word": 2,
+   "lost_not_small_or_doubtful_or_lone_dash": 1,
+   "eligible": 27,
+   "recall_of_eligible": 0.8889,
+   "recall": 0.8276,
+   "floor": 0.7,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {}
+  },
+  "cost": {
+   "words": 33209,
+   "join_sites": 41590,
+   "join_candidates": 2917,
+   "segment_sites": 15284,
+   "segment_candidates": 88480,
+   "drop_sites": 722,
+   "join_sites_per_1000_words": 1252.4,
+   "segment_sites_per_1000_words": 460.2,
+   "drop_sites_per_1000_words": 21.7
+  }
+ },
+ "train+val_all_components": {
+  "pages": 512,
+  "documents": 290,
+  "wrong_weight_by_component": {
+   "pair": 3364,
+   "invented": 145,
+   "merge": 1363,
+   "split": 214,
+   "mixed": 45
+  },
+  "artifact_components_left_out": {},
+  "join": {
+   "components": 214,
+   "lost_punctuation_between": 23,
+   "span_found": 115,
+   "lost_text_not_proposed": 96,
+   "lost_more_than_three_tokens": 16,
+   "lost_protected_or_not_plain": 57,
+   "lost_across_lines": 3,
+   "reached": 19,
+   "reached_by_joined+join_edit": 5,
+   "reached_by_joined": 13,
+   "reached_by_join_edit": 1,
+   "eligible": 115,
+   "recall_of_eligible": 0.1652,
+   "recall": 0.0888,
+   "floor": 0.55,
+   "passes": false,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "acronym": 12,
+    "digit": 34,
+    "internal_marks": 11
+   }
+  },
+  "segment": {
+   "components": 591,
+   "eligible": 200,
+   "lost_cut_not_in_dictionary_or_over_cap": 116,
+   "reached": 84,
+   "lost_protected_or_not_plain": 304,
+   "lost_shorter_than_five_letters": 87,
+   "recall_of_eligible": 0.42,
+   "recall": 0.1421,
+   "floor": 0.7,
+   "passes": false,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {
+    "acronym": 3,
+    "blocked_or_long": 1,
+    "digit": 177,
+    "fragment": 1,
+    "hyphen_end": 14,
+    "internal_marks": 106,
+    "mixed_capitals": 2
+   }
+  },
+  "drop": {
+   "components": 145,
+   "short": 120,
+   "reached": 87,
+   "lost_not_small_or_doubtful_or_lone_dash": 7,
+   "lost_longer_than_two_characters": 25,
+   "lost_digit": 15,
+   "lost_listed_word": 11,
+   "eligible": 105,
+   "recall_of_eligible": 0.8286,
+   "recall": 0.725,
+   "floor": 0.7,
+   "passes": true,
+   "conclusive": true,
+   "lost_protected_or_not_plain_by_reason": {}
+  },
+  "cost": {
+   "words": 171960,
+   "join_sites": 212647,
+   "join_candidates": 13977,
+   "segment_sites": 78228,
+   "segment_candidates": 452501,
+   "drop_sites": 2616,
+   "join_sites_per_1000_words": 1236.6,
+   "segment_sites_per_1000_words": 454.9,
+   "drop_sites_per_1000_words": 15.2
+  }
+ },
+ "seconds": 209.9
+}

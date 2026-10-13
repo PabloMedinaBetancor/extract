@@ -1,0 +1,60 @@
+{
+ "machine": "a second, smaller laptop (i3, 2 cores, 3.3 GB)",
+ "install": {
+  "command": "python3 scripts/verify_install.py (a new environment, a cold pip cache, the models downloaded again)",
+  "seconds": 136.413
+ },
+ "method": "the pages are read on the other machine with this tree's engine, the page's dpi rounded as the corpus run passes it; the readings are compared with the `ocr.reading` stored by the development machine, without the `reread_report` (the study's bookkeeping, which only the development machine ran)",
+ "parity": {
+  "engine_other_machine": "rapidocr-3.9.2|PP-OCRv6-small|det1280|max3000|score0.3|nocls|v1|alts2",
+  "backend": "openvino",
+  "pages": [
+   {
+    "id": "c0b715d2790-6",
+    "words": 820,
+    "seconds_other_machine": 11.87,
+    "sha256_other_machine": "d0a44ff4113fe488d9e5e901799f43b5e424976bbdad9855f75769f406700920",
+    "set": "clean5en",
+    "identical": true,
+    "sha256_development": "d0a44ff4113fe488d9e5e901799f43b5e424976bbdad9855f75769f406700920"
+   },
+   {
+    "id": "c0bbf907a4e-40",
+    "words": 516,
+    "seconds_other_machine": 6.69,
+    "sha256_other_machine": "f154664f8ce4c209c16d1247aab1f56c021716811c0a823d1067c1f59ebb86be",
+    "set": "clean5en",
+    "identical": true,
+    "sha256_development": "f154664f8ce4c209c16d1247aab1f56c021716811c0a823d1067c1f59ebb86be"
+   },
+   {
+    "id": "c0fbd4f0d37-5",
+    "words": 865,
+    "seconds_other_machine": 9.83,
+    "sha256_other_machine": "f22bf48530178244650e0b26187c4d3f3a8e22697e038bfa8de192118a011f84",
+    "set": "clean5en",
+    "identical": true,
+    "sha256_development": "f22bf48530178244650e0b26187c4d3f3a8e22697e038bfa8de192118a011f84"
+   },
+   {
+    "id": "c12f0423b91-1",
+    "words": 302,
+    "seconds_other_machine": 4.48,
+    "sha256_other_machine": "93fb21632705c6c28076034450710c143f35fc629a74f37a792dfb322ce527c2",
+    "set": "clean5en",
+    "identical": true,
+    "sha256_development": "93fb21632705c6c28076034450710c143f35fc629a74f37a792dfb322ce527c2"
+   },
+   {
+    "id": "c167f3d6df0-78",
+    "words": 692,
+    "seconds_other_machine": 10.07,
+    "sha256_other_machine": "627a4abfa4c8e009e59f9652f7b0c93921a037730b74bafc52379c228400a831",
+    "set": "clean5en",
+    "identical": true,
+    "sha256_development": "627a4abfa4c8e009e59f9652f7b0c93921a037730b74bafc52379c228400a831"
+   }
+  ],
+  "all_identical": true
+ }
+}

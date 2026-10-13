@@ -1,0 +1,101 @@
+{
+ "default_readings": null,
+ "thorough_readings": {
+  "cap": null,
+  "readers": [
+   "deep",
+   "latin",
+   "wide"
+  ],
+  "unit": "line+zone"
+ },
+ "api_thorough_guard": "loaded",
+ "ids": {
+  "default": "2a1fb77ab905",
+  "thorough": "003ad3d83aae"
+ },
+ "pages": [
+  {
+   "set": "val",
+   "page": "c026f64f7d3/39",
+   "words": 452,
+   "words_with_readings": 283,
+   "fixes_default": 80,
+   "fixes_thorough": 80,
+   "warnings_default": [],
+   "warnings_thorough": []
+  },
+  {
+   "set": "val",
+   "page": "c026f64f7d3/4",
+   "words": 344,
+   "words_with_readings": 132,
+   "fixes_default": 29,
+   "fixes_thorough": 29,
+   "warnings_default": [],
+   "warnings_thorough": []
+  },
+  {
+   "set": "val",
+   "page": "c03cadd75a5/5",
+   "words": 563,
+   "words_with_readings": 92,
+   "fixes_default": 35,
+   "fixes_thorough": 36,
+   "warnings_default": [],
+   "warnings_thorough": []
+  },
+  {
+   "set": "val",
+   "page": "c03cadd75a5/8",
+   "words": 660,
+   "words_with_readings": 102,
+   "fixes_default": 30,
+   "fixes_thorough": 30,
+   "warnings_default": [],
+   "warnings_thorough": []
+  },
+  {
+   "set": "dev5en",
+   "page": "c00a72fc682/2",
+   "words": 345,
+   "words_with_readings": 32,
+   "fixes_default": 8,
+   "fixes_thorough": 8,
+   "warnings_default": [],
+   "warnings_thorough": []
+  },
+  {
+   "set": "dev5en",
+   "page": "c00a72fc682/3",
+   "words": 489,
+   "words_with_readings": 80,
+   "fixes_default": 14,
+   "fixes_thorough": 14,
+   "warnings_default": [],
+   "warnings_thorough": []
+  },
+  {
+   "set": "dev5en",
+   "page": "c00a72fc682/4",
+   "words": 500,
+   "words_with_readings": 76,
+   "fixes_default": 18,
+   "fixes_thorough": 18,
+   "warnings_default": [],
+   "warnings_thorough": []
+  },
+  {
+   "set": "dev5en",
+   "page": "c01e57fbbb4/1",
+   "words": 289,
+   "words_with_readings": 49,
+   "fixes_default": 10,
+   "fixes_thorough": 10,
+   "warnings_default": [],
+   "warnings_thorough": []
+  }
+ ],
+ "pages_judged": 8,
+ "pages_with_warnings": 0
+}

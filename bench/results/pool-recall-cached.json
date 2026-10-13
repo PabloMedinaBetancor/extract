@@ -1,0 +1,666 @@
+{
+ "definitions": {
+  "wrong_one_to_one": "OCR word and truth word paired one to one, different, no digit on either side",
+  "plain": "the token is letters with punctuation attached at its ends (v4's rule)",
+  "sites": "plain tokens that no protection rule excludes (candidates.PageContext.is_site)",
+  "written": "the truth, as written, is among the proposed texts",
+  "letters": "some proposed text has the truth's letters (case, accents kept; punctuation ignored)",
+  "dictionary_letters_ceiling": "the truth is a listed word within 3 edits of the token's letters: the figure that reproduces the 89-92 % of the design",
+  "pool": "every source before deduplication and before the cap of 16"
+ },
+ "train": {
+  "counts": {
+   "pages": 404,
+   "unreadable_pages": 1
+  },
+  "errors": {
+   "words": {
+    "accent": 608,
+    "case": 38,
+    "digit": 734,
+    "invented": 109,
+    "letters": 953,
+    "merge": 500,
+    "mixed": 7,
+    "punctuation": 375,
+    "right": 133160,
+    "split": 497,
+    "ungrounded": 1770
+   },
+   "wrong": 3821,
+   "wrong_share_with_digits": 0.1921,
+   "merge_repair": {
+    "tokens": 500,
+    "only_miss_the_space": 247,
+    "within_2_edits_of_no_space": 369
+   },
+   "split_groups": {
+    "groups": 208,
+    "exact": 158,
+    "within_2_edits": 191
+   }
+  },
+  "pool": {
+   "wrong_one_to_one": 1974,
+   "plain": 1898,
+   "sites": 1762,
+   "protected": 136,
+   "v4": {
+    "written": 0.6359,
+    "letters": 0.8446
+   },
+   "union": {
+    "written": 0.8467,
+    "letters": 0.8925
+   },
+   "capped": {
+    "written": 0.7692,
+    "letters": 0.8008
+   },
+   "dictionary": {
+    "written": 0.6776,
+    "letters": 0.862
+   },
+   "fold": {
+    "written": 0.3288,
+    "letters": 0.5047
+   },
+   "punct": {
+    "written": 0.1496,
+    "letters": 0.7629
+   },
+   "page": {
+    "written": 0.1913,
+    "letters": 0.196
+   },
+   "dictionary+fold": {
+    "written": 0.6823,
+    "letters": 0.8767
+   },
+   "dictionary+fold+punct": {
+    "written": 0.8319,
+    "letters": 0.8767
+   },
+   "sites_only": {
+    "v4": {
+     "written": 0.6549,
+     "letters": 0.8553
+    },
+    "union": {
+     "written": 0.8649,
+     "letters": 0.8995
+    },
+    "capped": {
+     "written": 0.8286,
+     "letters": 0.8627
+    },
+    "dictionary": {
+     "written": 0.7003,
+     "letters": 0.8791
+    },
+    "fold": {
+     "written": 0.3348,
+     "letters": 0.5017
+    },
+    "punct": {
+     "written": 0.1532,
+     "letters": 0.7707
+    },
+    "page": {
+     "written": 0.193,
+     "letters": 0.1981
+    },
+    "dictionary+fold": {
+     "written": 0.702,
+     "letters": 0.8888
+    },
+    "dictionary+fold+punct": {
+     "written": 0.8553,
+     "letters": 0.8888
+    }
+   },
+   "by_kind": {
+    "letters": {
+     "n": 918,
+     "v4": 0.6634,
+     "union": 0.7767
+    },
+    "accent": {
+     "n": 606,
+     "v4": 0.9241,
+     "union": 0.9703
+    },
+    "punctuation": {
+     "n": 336,
+     "v4": 0.0,
+     "union": 0.7976
+    },
+    "case": {
+     "n": 38,
+     "v4": 1.0,
+     "union": 1.0
+    }
+   },
+   "dictionary_letters_ceiling": 0.9183,
+   "union_written_over_ceiling": 0.922,
+   "v4_written_over_ceiling": 0.6925,
+   "unreached_by_cause": {
+    "words": 1898,
+    "counts": {
+     "reached": 1460,
+     "within_3_edits_not_found": 77,
+     "beyond_3_edits": 37,
+     "protected": 136,
+     "cut_by_the_cap": 64,
+     "written_form": 61,
+     "truth_outside_dictionary": 63
+    },
+    "shares": {
+     "reached": 0.7692,
+     "within_3_edits_not_found": 0.0406,
+     "beyond_3_edits": 0.0195,
+     "protected": 0.0717,
+     "cut_by_the_cap": 0.0337,
+     "written_form": 0.0321,
+     "truth_outside_dictionary": 0.0332
+    }
+   },
+   "document_vocabulary": {
+    "at_least_once": 0.3978,
+    "at_least_twice": 0.2987,
+    "with_dictionary_letters": 0.9041
+   },
+   "truth_outside_dictionary": 0.0606
+  },
+  "pool_without_punctuation_context": {
+   "wrong_one_to_one": 1974,
+   "plain": 1898,
+   "sites": 1762,
+   "protected": 136,
+   "v4": {
+    "written": 0.6359,
+    "letters": 0.8446
+   },
+   "union": {
+    "written": 0.8514,
+    "letters": 0.8925
+   },
+   "capped": {
+    "written": 0.7692,
+    "letters": 0.8008
+   },
+   "dictionary": {
+    "written": 0.6776,
+    "letters": 0.862
+   },
+   "fold": {
+    "written": 0.3288,
+    "letters": 0.5047
+   },
+   "punct": {
+    "written": 0.1544,
+    "letters": 0.7719
+   },
+   "page": {
+    "written": 0.1913,
+    "letters": 0.196
+   },
+   "dictionary+fold": {
+    "written": 0.6823,
+    "letters": 0.8767
+   },
+   "dictionary+fold+punct": {
+    "written": 0.8367,
+    "letters": 0.8767
+   },
+   "sites_only": {
+    "v4": {
+     "written": 0.6549,
+     "letters": 0.8553
+    },
+    "union": {
+     "written": 0.8695,
+     "letters": 0.8995
+    },
+    "capped": {
+     "written": 0.8286,
+     "letters": 0.8627
+    },
+    "dictionary": {
+     "written": 0.7003,
+     "letters": 0.8791
+    },
+    "fold": {
+     "written": 0.3348,
+     "letters": 0.5017
+    },
+    "punct": {
+     "written": 0.1578,
+     "letters": 0.7787
+    },
+    "page": {
+     "written": 0.193,
+     "letters": 0.1981
+    },
+    "dictionary+fold": {
+     "written": 0.702,
+     "letters": 0.8888
+    },
+    "dictionary+fold+punct": {
+     "written": 0.8598,
+     "letters": 0.8888
+    }
+   },
+   "by_kind": {
+    "letters": {
+     "n": 918,
+     "v4": 0.6634,
+     "union": 0.7767
+    },
+    "accent": {
+     "n": 606,
+     "v4": 0.9241,
+     "union": 0.9703
+    },
+    "punctuation": {
+     "n": 336,
+     "v4": 0.0,
+     "union": 0.8244
+    },
+    "case": {
+     "n": 38,
+     "v4": 1.0,
+     "union": 1.0
+    }
+   },
+   "dictionary_letters_ceiling": 0.9183,
+   "union_written_over_ceiling": 0.9271,
+   "v4_written_over_ceiling": 0.6925,
+   "unreached_by_cause": {
+    "words": 1898,
+    "counts": {
+     "reached": 1460,
+     "within_3_edits_not_found": 77,
+     "beyond_3_edits": 37,
+     "protected": 136,
+     "cut_by_the_cap": 72,
+     "written_form": 53,
+     "truth_outside_dictionary": 63
+    },
+    "shares": {
+     "reached": 0.7692,
+     "within_3_edits_not_found": 0.0406,
+     "beyond_3_edits": 0.0195,
+     "protected": 0.0717,
+     "cut_by_the_cap": 0.0379,
+     "written_form": 0.0279,
+     "truth_outside_dictionary": 0.0332
+    }
+   },
+   "document_vocabulary": {
+    "at_least_once": 0.3978,
+    "at_least_twice": 0.2987,
+    "with_dictionary_letters": 0.9041
+   },
+   "truth_outside_dictionary": 0.0606
+  },
+  "page_vocabulary_harm": {
+   "right_plain_outside_dictionary": 3081,
+   "sampled": 3081,
+   "with_stronger_neighbour": 449
+  },
+  "oracles": {
+   "join": {
+    "groups": 208,
+    "tokens": 497,
+    "same_line_and_adjacent": 205,
+    "exact": 158,
+    "within_1_edit": 171,
+    "letters": 186,
+    "two_or_three_tokens": 194,
+    "exact_share": 0.7596
+   },
+   "segment": {
+    "tokens": 500,
+    "truth_words": 1151,
+    "only_miss_the_space": 247,
+    "within_2_edits_of_no_space": 369,
+    "reachable": 62,
+    "reachable_share": 0.124,
+    "within_2_edits_of_no_space_share": 0.738
+   },
+   "drop": {
+    "tokens": 109,
+    "short": 91,
+    "short_share": 0.8349
+   }
+  }
+ },
+ "val": {
+  "counts": {
+   "pages": 108
+  },
+  "errors": {
+   "words": {
+    "accent": 147,
+    "case": 16,
+    "digit": 74,
+    "invented": 36,
+    "letters": 329,
+    "merge": 91,
+    "mixed": 8,
+    "punctuation": 90,
+    "right": 31785,
+    "split": 23,
+    "ungrounded": 610
+   },
+   "wrong": 814,
+   "wrong_share_with_digits": 0.0909,
+   "merge_repair": {
+    "tokens": 91,
+    "only_miss_the_space": 44,
+    "within_2_edits_of_no_space": 80
+   },
+   "split_groups": {
+    "groups": 6,
+    "exact": 2,
+    "within_2_edits": 4
+   }
+  },
+  "pool": {
+   "wrong_one_to_one": 582,
+   "plain": 563,
+   "sites": 536,
+   "protected": 27,
+   "v4": {
+    "written": 0.6607,
+    "letters": 0.8401
+   },
+   "union": {
+    "written": 0.8437,
+    "letters": 0.8721
+   },
+   "capped": {
+    "written": 0.7798,
+    "letters": 0.8064
+   },
+   "dictionary": {
+    "written": 0.6714,
+    "letters": 0.8384
+   },
+   "fold": {
+    "written": 0.2735,
+    "letters": 0.4227
+   },
+   "punct": {
+    "written": 0.1528,
+    "letters": 0.7211
+   },
+   "page": {
+    "written": 0.1936,
+    "letters": 0.2078
+   },
+   "dictionary+fold": {
+    "written": 0.6803,
+    "letters": 0.8597
+   },
+   "dictionary+fold+punct": {
+    "written": 0.833,
+    "letters": 0.8597
+   },
+   "sites_only": {
+    "v4": {
+     "written": 0.666,
+     "letters": 0.847
+    },
+    "union": {
+     "written": 0.8489,
+     "letters": 0.8787
+    },
+    "capped": {
+     "written": 0.819,
+     "letters": 0.847
+    },
+    "dictionary": {
+     "written": 0.6847,
+     "letters": 0.8526
+    },
+    "fold": {
+     "written": 0.2631,
+     "letters": 0.4123
+    },
+    "punct": {
+     "written": 0.153,
+     "letters": 0.7239
+    },
+    "page": {
+     "written": 0.1996,
+     "letters": 0.2146
+    },
+    "dictionary+fold": {
+     "written": 0.6847,
+     "letters": 0.8657
+    },
+    "dictionary+fold+punct": {
+     "written": 0.8377,
+     "letters": 0.8657
+    }
+   },
+   "by_kind": {
+    "letters": {
+     "n": 317,
+     "v4": 0.7035,
+     "union": 0.776
+    },
+    "accent": {
+     "n": 146,
+     "v4": 0.911,
+     "union": 0.9452
+    },
+    "punctuation": {
+     "n": 84,
+     "v4": 0.0,
+     "union": 0.8929
+    },
+    "case": {
+     "n": 16,
+     "v4": 1.0,
+     "union": 1.0
+    }
+   },
+   "dictionary_letters_ceiling": 0.897,
+   "union_written_over_ceiling": 0.9406,
+   "v4_written_over_ceiling": 0.7366,
+   "unreached_by_cause": {
+    "words": 563,
+    "counts": {
+     "reached": 439,
+     "protected": 27,
+     "within_3_edits_not_found": 28,
+     "written_form": 16,
+     "truth_outside_dictionary": 25,
+     "cut_by_the_cap": 16,
+     "beyond_3_edits": 12
+    },
+    "shares": {
+     "reached": 0.7798,
+     "protected": 0.048,
+     "within_3_edits_not_found": 0.0497,
+     "written_form": 0.0284,
+     "truth_outside_dictionary": 0.0444,
+     "cut_by_the_cap": 0.0284,
+     "beyond_3_edits": 0.0213
+    }
+   },
+   "document_vocabulary": {
+    "at_least_once": 0.3321,
+    "at_least_twice": 0.2096,
+    "with_dictionary_letters": 0.8792
+   },
+   "truth_outside_dictionary": 0.0817
+  },
+  "pool_without_punctuation_context": {
+   "wrong_one_to_one": 582,
+   "plain": 563,
+   "sites": 536,
+   "protected": 27,
+   "v4": {
+    "written": 0.6607,
+    "letters": 0.8401
+   },
+   "union": {
+    "written": 0.8526,
+    "letters": 0.8721
+   },
+   "capped": {
+    "written": 0.7798,
+    "letters": 0.8064
+   },
+   "dictionary": {
+    "written": 0.6714,
+    "letters": 0.8384
+   },
+   "fold": {
+    "written": 0.2735,
+    "letters": 0.4227
+   },
+   "punct": {
+    "written": 0.1616,
+    "letters": 0.7371
+   },
+   "page": {
+    "written": 0.1936,
+    "letters": 0.2078
+   },
+   "dictionary+fold": {
+    "written": 0.6803,
+    "letters": 0.8597
+   },
+   "dictionary+fold+punct": {
+    "written": 0.8419,
+    "letters": 0.8597
+   },
+   "sites_only": {
+    "v4": {
+     "written": 0.666,
+     "letters": 0.847
+    },
+    "union": {
+     "written": 0.8582,
+     "letters": 0.8787
+    },
+    "capped": {
+     "written": 0.819,
+     "letters": 0.847
+    },
+    "dictionary": {
+     "written": 0.6847,
+     "letters": 0.8526
+    },
+    "fold": {
+     "written": 0.2631,
+     "letters": 0.4123
+    },
+    "punct": {
+     "written": 0.1623,
+     "letters": 0.7369
+    },
+    "page": {
+     "written": 0.1996,
+     "letters": 0.2146
+    },
+    "dictionary+fold": {
+     "written": 0.6847,
+     "letters": 0.8657
+    },
+    "dictionary+fold+punct": {
+     "written": 0.847,
+     "letters": 0.8657
+    }
+   },
+   "by_kind": {
+    "letters": {
+     "n": 317,
+     "v4": 0.7035,
+     "union": 0.776
+    },
+    "accent": {
+     "n": 146,
+     "v4": 0.911,
+     "union": 0.9452
+    },
+    "punctuation": {
+     "n": 84,
+     "v4": 0.0,
+     "union": 0.9524
+    },
+    "case": {
+     "n": 16,
+     "v4": 1.0,
+     "union": 1.0
+    }
+   },
+   "dictionary_letters_ceiling": 0.897,
+   "union_written_over_ceiling": 0.9505,
+   "v4_written_over_ceiling": 0.7366,
+   "unreached_by_cause": {
+    "words": 563,
+    "counts": {
+     "reached": 439,
+     "protected": 27,
+     "within_3_edits_not_found": 28,
+     "written_form": 11,
+     "truth_outside_dictionary": 25,
+     "cut_by_the_cap": 21,
+     "beyond_3_edits": 12
+    },
+    "shares": {
+     "reached": 0.7798,
+     "protected": 0.048,
+     "within_3_edits_not_found": 0.0497,
+     "written_form": 0.0195,
+     "truth_outside_dictionary": 0.0444,
+     "cut_by_the_cap": 0.0373,
+     "beyond_3_edits": 0.0213
+    }
+   },
+   "document_vocabulary": {
+    "at_least_once": 0.3321,
+    "at_least_twice": 0.2096,
+    "with_dictionary_letters": 0.8792
+   },
+   "truth_outside_dictionary": 0.0817
+  },
+  "page_vocabulary_harm": {
+   "right_plain_outside_dictionary": 807,
+   "sampled": 807,
+   "with_stronger_neighbour": 129
+  },
+  "oracles": {
+   "join": {
+    "groups": 6,
+    "tokens": 23,
+    "same_line_and_adjacent": 6,
+    "exact": 2,
+    "within_1_edit": 3,
+    "letters": 3,
+    "two_or_three_tokens": 4,
+    "exact_share": 0.3333
+   },
+   "segment": {
+    "tokens": 91,
+    "truth_words": 212,
+    "only_miss_the_space": 44,
+    "within_2_edits_of_no_space": 80,
+    "reachable": 12,
+    "reachable_share": 0.1319,
+    "within_2_edits_of_no_space_share": 0.8791
+   },
+   "drop": {
+    "tokens": 36,
+    "short": 29,
+    "short_share": 0.8056
+   }
+  }
+ }
+}

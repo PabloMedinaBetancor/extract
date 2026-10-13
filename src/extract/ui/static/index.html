@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
+<meta name="google" content="notranslate">
+<title>Extract</title>
+<link rel="stylesheet" href="/static/app.css?t={{token}}" id="css">
+</head>
+<body>
+<div id="root"></div>
+<script src="/static/app.js?t={{token}}"></script>
+<script>
+if (new URLSearchParams(location.search).get("selftest") === "ui") {
+  const s = document.createElement("script");
+  s.src = "/static/selftest-ui.js?t={{token}}";
+  document.body.append(s);
+}
+</script>
+</body>
+</html>

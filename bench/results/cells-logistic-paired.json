@@ -1,0 +1,163 @@
+{
+ "resamples": 2000,
+ "runs": {
+  "latin+wide+deep": {
+   "wrong_words": 7150,
+   "sites": 47387,
+   "reachable_sites": 3742,
+   "seconds": 759.9,
+   "learners": {
+    "lightgbm": {
+     "safe": {
+      "applied": 304,
+      "fixed": 303,
+      "broken": 0,
+      "net": 303,
+      "precision": 0.9967105263157895,
+      "net_se": 38.74021896079397,
+      "net_interval": [
+       230.475,
+       379.0
+      ]
+     },
+     "more": {
+      "applied": 3777,
+      "fixed": 2752,
+      "broken": 136,
+      "net": 2616,
+      "precision": 0.7286205983584856,
+      "net_se": 283.417927172728,
+      "net_interval": [
+       2046.425,
+       3139.7749999999996
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": -0.028933256039110844
+      },
+      "join": {
+       "t_safe": null,
+       "m": -0.10003536480452717
+      },
+      "segment": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop": {
+       "t_safe": null,
+       "m": 0.5193690234673048
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": 0.9783971370283611,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment|structure": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop|structure": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    },
+    "logistic": {
+     "safe": {
+      "applied": 0,
+      "fixed": 0,
+      "broken": 0,
+      "net": 0,
+      "precision": null,
+      "net_se": 0.0,
+      "net_interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "more": {
+      "applied": 1908,
+      "fixed": 1699,
+      "broken": 84,
+      "net": 1615,
+      "precision": 0.890461215932914,
+      "net_se": 160.97913201993538,
+      "net_interval": [
+       1286.325,
+       1918.2999999999997
+      ]
+     },
+     "thresholds": {
+      "text": {
+       "t_safe": null,
+       "m": 0.3800571837754326
+      },
+      "join": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|accent": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|letters": {
+       "t_safe": null,
+       "m": null
+      },
+      "text|punct": {
+       "t_safe": null,
+       "m": null
+      },
+      "segment|structure": {
+       "t_safe": null,
+       "m": null
+      },
+      "drop|structure": {
+       "t_safe": null,
+       "m": null
+      }
+     }
+    }
+   }
+  }
+ },
+ "paired": {
+  "lightgbm": {},
+  "logistic": {}
+ },
+ "learner_pairs": {
+  "latin+wide+deep": {
+   "more_net": {
+    "difference": 1001.0,
+    "se": 135.35355215800914,
+    "low": 756.0,
+    "high": 1284.0249999999999,
+    "excludes_zero": true
+   },
+   "safe_fixed": {
+    "difference": 303.0,
+    "se": 38.969556616947294,
+    "low": 226.975,
+    "high": 381.0,
+    "excludes_zero": true
+   }
+  }
+ }
+}

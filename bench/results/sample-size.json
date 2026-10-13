@@ -1,0 +1,61 @@
+{
+ "rule": "n = (1.96 * SD / h)^2 with h = effect / 4, rate = 100 * net / truth words per catalogue document",
+ "es": {
+  "default": {
+   "documents": 259,
+   "truth_words": 265145,
+   "net": 2466,
+   "effect_per_100": 0.9300571385468329,
+   "sd_between_documents": 1.476262303713494,
+   "half_width": 0.23251428463670823,
+   "n": 155
+  },
+  "thorough": {
+   "documents": 259,
+   "truth_words": 265145,
+   "net": 2673,
+   "effect_per_100": 1.0081276282788663,
+   "sd_between_documents": 1.6209939758686494,
+   "half_width": 0.25203190706971657,
+   "n": 159
+  },
+  "thorough_minus_default": {
+   "documents": 259,
+   "truth_words": 265145,
+   "net": 207,
+   "effect_per_100": 0.07807048973203341,
+   "sd_between_documents": 0.2774028178223148,
+   "half_width": 0.019517622433008353,
+   "n": 777
+  }
+ },
+ "en": {
+  "default": {
+   "documents": 100,
+   "truth_words": 168612,
+   "net": 1168,
+   "effect_per_100": 0.692714634782815,
+   "sd_between_documents": 1.1167457738964708,
+   "half_width": 0.17317865869570376,
+   "n": 160
+  },
+  "thorough": {
+   "documents": 100,
+   "truth_words": 168612,
+   "net": 1294,
+   "effect_per_100": 0.7674424121652077,
+   "sd_between_documents": 1.1883980244677468,
+   "half_width": 0.19186060304130192,
+   "n": 148
+  },
+  "thorough_minus_default": {
+   "documents": 100,
+   "truth_words": 168612,
+   "net": 126,
+   "effect_per_100": 0.07472777738239271,
+   "sd_between_documents": 0.13454374764139077,
+   "half_width": 0.018681944345598177,
+   "n": 200
+  }
+ }
+}

@@ -1,0 +1,414 @@
+{
+  "note": "Run with the first version of bench/run_thorough.py: `rss_cap_mb`/`rss_cap_used_mb` are the cap passed by --rss-cap (3500, i.e. no cap), not the product's; the numbers are the measured ones",
+  "mode": "thorough",
+  "passes": [
+    [
+      "line",
+      [
+        "latin",
+        "wide"
+      ]
+    ],
+    [
+      "zone",
+      [
+        "deep"
+      ]
+    ]
+  ],
+  "pages": 60,
+  "left_out": {
+    "no_pass_1": 0,
+    "other_units": 0,
+    "no_cells": 0
+  },
+  "threads": 4,
+  "first_page_seconds": 7.579,
+  "seconds_per_page_mean": 2.951,
+  "seconds_per_page_p95": 5.462,
+  "seconds_per_page_max": 6.819,
+  "reader_rss_peak_mb": 1476,
+  "heaviest_pages_mb": {
+    "cea5d28b2c2/13": 1476,
+    "inv-tv-0000/1": 1385,
+    "c799c4ab635/4": 1329,
+    "cac22f89225/5": 1292,
+    "cde38841449/1": 1289
+  },
+  "rss_cap_used_mb": 3500,
+  "rss_trigger_mb": 1300,
+  "rss_cap_mb": 3500,
+  "replaced": 1,
+  "events": {
+    "reader.recycled": 1,
+    "reader.started": 2
+  },
+  "parity": {
+    "compared": 60,
+    "equal": 60,
+    "different_pages": 0,
+    "first_differences": []
+  },
+  "per_page": [
+    {
+      "id": "c01144db03e/39",
+      "seconds": 7.579,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "c1a6d7ae6ab/21",
+      "seconds": 5.6,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "c48e1e6374e/36",
+      "seconds": 5.401,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "c8c909ebabc/21",
+      "seconds": 3.31,
+      "units_read": 37,
+      "equal": true
+    },
+    {
+      "id": "cb266377215/20",
+      "seconds": 5.462,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "inv-te-0037/1",
+      "seconds": 1.52,
+      "units_read": 26,
+      "equal": true
+    },
+    {
+      "id": "inv-te-0042/1",
+      "seconds": 1.886,
+      "units_read": 37,
+      "equal": true
+    },
+    {
+      "id": "c08555d2af9/1",
+      "seconds": 4.502,
+      "units_read": 43,
+      "equal": true
+    },
+    {
+      "id": "c08555d2af9/5",
+      "seconds": 3.308,
+      "units_read": 37,
+      "equal": true
+    },
+    {
+      "id": "c0b46fc421c/72",
+      "seconds": 4.16,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "c203795fbf4/1",
+      "seconds": 3.27,
+      "units_read": 42,
+      "equal": true
+    },
+    {
+      "id": "c203795fbf4/3",
+      "seconds": 3.736,
+      "units_read": 43,
+      "equal": true
+    },
+    {
+      "id": "c22cc49773b/23",
+      "seconds": 4.76,
+      "units_read": 50,
+      "equal": true
+    },
+    {
+      "id": "c626d0c271e/13",
+      "seconds": 4.689,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "c913b66df2a/5",
+      "seconds": 4.208,
+      "units_read": 46,
+      "equal": true
+    },
+    {
+      "id": "c9dd9580ef5/15",
+      "seconds": 4.786,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "cac22f89225/5",
+      "seconds": 4.467,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "cba0997a976/2",
+      "seconds": 5.371,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "cc05078b478/2",
+      "seconds": 4.328,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "cc72ba0a352/28",
+      "seconds": 4.875,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "cd5554a6130/51",
+      "seconds": 2.184,
+      "units_read": 27,
+      "equal": true
+    },
+    {
+      "id": "cdac67a9c7d/1",
+      "seconds": 6.146,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "inv-tv-0013/1",
+      "seconds": 0.881,
+      "units_read": 16,
+      "equal": true
+    },
+    {
+      "id": "inv-tv-0125/1",
+      "seconds": 0.99,
+      "units_read": 20,
+      "equal": true
+    },
+    {
+      "id": "cdce121da05/21",
+      "seconds": 5.46,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "cb12d811e06/7",
+      "seconds": 0.471,
+      "units_read": 4,
+      "equal": true
+    },
+    {
+      "id": "cec1fbfc51b/30",
+      "seconds": 2.096,
+      "units_read": 28,
+      "equal": true
+    },
+    {
+      "id": "cf97b091c2d/1",
+      "seconds": 1.304,
+      "units_read": 10,
+      "equal": true
+    },
+    {
+      "id": "inv-te-0003/1",
+      "seconds": 0.216,
+      "units_read": 4,
+      "equal": true
+    },
+    {
+      "id": "cc018bb6134/8",
+      "seconds": 1.08,
+      "units_read": 18,
+      "equal": true
+    },
+    {
+      "id": "cc46f830c04/2",
+      "seconds": 1.358,
+      "units_read": 14,
+      "equal": true
+    },
+    {
+      "id": "cea5d28b2c2/13",
+      "seconds": 3.106,
+      "units_read": 17,
+      "equal": true
+    },
+    {
+      "id": "inv-tv-0000/1",
+      "seconds": 0.976,
+      "units_read": 0,
+      "equal": true
+    },
+    {
+      "id": "inv-tv-0080/1",
+      "seconds": 1.68,
+      "units_read": 4,
+      "equal": true
+    },
+    {
+      "id": "ca5dcf02b32/60",
+      "seconds": 1.945,
+      "units_read": 15,
+      "equal": true
+    },
+    {
+      "id": "c070702106b/78",
+      "seconds": 4.393,
+      "units_read": 48,
+      "equal": true
+    },
+    {
+      "id": "c070702106b/181",
+      "seconds": 2.97,
+      "units_read": 30,
+      "equal": true
+    },
+    {
+      "id": "c6a907140d5/7",
+      "seconds": 4.156,
+      "units_read": 56,
+      "equal": true
+    },
+    {
+      "id": "c6da68fd4a7/113",
+      "seconds": 0.955,
+      "units_read": 9,
+      "equal": true
+    },
+    {
+      "id": "c816bc3e452/26",
+      "seconds": 0.419,
+      "units_read": 4,
+      "equal": true
+    },
+    {
+      "id": "c9d239b6192/10",
+      "seconds": 2.134,
+      "units_read": 18,
+      "equal": true
+    },
+    {
+      "id": "cc69227c0a7/30",
+      "seconds": 1.069,
+      "units_read": 9,
+      "equal": true
+    },
+    {
+      "id": "cdb1bccf37e/12",
+      "seconds": 2.276,
+      "units_read": 27,
+      "equal": true
+    },
+    {
+      "id": "ce46d357666/58",
+      "seconds": 2.82,
+      "units_read": 23,
+      "equal": true
+    },
+    {
+      "id": "cec1fbfc51b/3",
+      "seconds": 6.819,
+      "units_read": 43,
+      "equal": true
+    },
+    {
+      "id": "cf2e00440dd/45",
+      "seconds": 3.441,
+      "units_read": 25,
+      "equal": true
+    },
+    {
+      "id": "cf3100beba6/2",
+      "seconds": 2.668,
+      "units_read": 22,
+      "equal": true
+    },
+    {
+      "id": "inv-te-0023/1",
+      "seconds": 0.469,
+      "units_read": 8,
+      "equal": true
+    },
+    {
+      "id": "c0b46fc421c/59",
+      "seconds": 3.19,
+      "units_read": 26,
+      "equal": true
+    },
+    {
+      "id": "c0f0fa660a7/35",
+      "seconds": 3.044,
+      "units_read": 24,
+      "equal": true
+    },
+    {
+      "id": "c160bc05772/75",
+      "seconds": 2.715,
+      "units_read": 27,
+      "equal": true
+    },
+    {
+      "id": "c196e4b93f8/92",
+      "seconds": 2.991,
+      "units_read": 34,
+      "equal": true
+    },
+    {
+      "id": "c56714b3737/37",
+      "seconds": 1.816,
+      "units_read": 13,
+      "equal": true
+    },
+    {
+      "id": "c799c4ab635/4",
+      "seconds": 4.195,
+      "units_read": 37,
+      "equal": true
+    },
+    {
+      "id": "c8677b31781/12",
+      "seconds": 4.592,
+      "units_read": 48,
+      "equal": true
+    },
+    {
+      "id": "cde38841449/1",
+      "seconds": 3.255,
+      "units_read": 38,
+      "equal": true
+    },
+    {
+      "id": "cf92d4402b8/30",
+      "seconds": 1.355,
+      "units_read": 10,
+      "equal": true
+    },
+    {
+      "id": "inv-tv-0004/1",
+      "seconds": 0.287,
+      "units_read": 4,
+      "equal": true
+    },
+    {
+      "id": "inv-tv-0045/1",
+      "seconds": 1.615,
+      "units_read": 30,
+      "equal": true
+    },
+    {
+      "id": "inv-tv-0141/1",
+      "seconds": 0.947,
+      "units_read": 20,
+      "equal": true
+    }
+  ]
+}

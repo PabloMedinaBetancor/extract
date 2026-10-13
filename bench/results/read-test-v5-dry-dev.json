@@ -1,0 +1,1623 @@
+{
+ "engines": [
+  "rapidocr-3.9.2|PP-OCRv6-small|det1280|max3000|score0.3|nocls|v1|alts2|u:0.9:0.9:16/40:16/40"
+ ],
+ "models": {
+  "default": "2a1fb77ab905",
+  "thorough": "003ad3d83aae"
+ },
+ "pages": 395,
+ "pages_without_cells": 6,
+ "warnings": {
+  "guard.warning.fixes_withheld": 39
+ },
+ "by_language": {
+  "es": {
+   "pages": {
+    "pages": 76,
+    "unreadable_pages": 0,
+    "documents": 40,
+    "none": {
+     "documents": 40,
+     "truth_words": 30132,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "applied": 0,
+     "wrong_as_read": 859,
+     "wer_as_read": {
+      "value": 0.028507898579583166,
+      "low": 0.013713405304301271,
+      "high": 0.049189165049980575,
+      "documents": 40
+     },
+     "d_wer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 40
+     },
+     "d_cer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 40
+     },
+     "precision": {
+      "value": null,
+      "low": null,
+      "high": null,
+      "documents": 40
+     },
+     "net_fixed_per_100_wrong": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 40
+     }
+    },
+    "models": {
+     "default": {
+      "safe": {
+       "documents": 40,
+       "truth_words": 30132,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 859,
+       "wer_as_read": {
+        "value": 0.028507898579583166,
+        "low": 0.013713405304301271,
+        "high": 0.049189165049980575,
+        "documents": 40
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 40
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 40
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 40
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 40
+       }
+      },
+      "more": {
+       "documents": 40,
+       "truth_words": 30132,
+       "fixed": 132,
+       "broken": 6,
+       "changed_still_wrong": 18,
+       "applied": 156,
+       "wrong_as_read": 859,
+       "wer_as_read": {
+        "value": 0.028507898579583166,
+        "low": 0.013713405304301271,
+        "high": 0.049189165049980575,
+        "documents": 40
+       },
+       "d_wer": {
+        "value": -0.004181600955794504,
+        "low": -0.005930110967348847,
+        "high": -0.002524873795156146,
+        "documents": 40
+       },
+       "d_cer": {
+        "value": -0.0007337021890786625,
+        "low": -0.0010705388509663313,
+        "high": -0.00041975418501945635,
+        "documents": 40
+       },
+       "precision": {
+        "value": 0.8461538461538461,
+        "low": 0.7651484103328365,
+        "high": 0.9117705882352941,
+        "documents": 40
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 14.668218859138532,
+        "low": 7.3949789256315235,
+        "high": 31.174204522713627,
+        "documents": 40
+       }
+      }
+     },
+     "thorough": {
+      "safe": {
+       "documents": 40,
+       "truth_words": 30132,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 859,
+       "wer_as_read": {
+        "value": 0.028507898579583166,
+        "low": 0.013713405304301271,
+        "high": 0.049189165049980575,
+        "documents": 40
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 40
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 40
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 40
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 40
+       }
+      },
+      "more": {
+       "documents": 40,
+       "truth_words": 30132,
+       "fixed": 147,
+       "broken": 5,
+       "changed_still_wrong": 17,
+       "applied": 169,
+       "wrong_as_read": 859,
+       "wer_as_read": {
+        "value": 0.028507898579583166,
+        "low": 0.013713405304301271,
+        "high": 0.049189165049980575,
+        "documents": 40
+       },
+       "d_wer": {
+        "value": -0.0047125979025620605,
+        "low": -0.006671972027829759,
+        "high": -0.0028951800206851483,
+        "documents": 40
+       },
+       "d_cer": {
+        "value": -0.0008840509983160934,
+        "low": -0.0012915302578483303,
+        "high": -0.0005357889184204965,
+        "documents": 40
+       },
+       "precision": {
+        "value": 0.8698224852071006,
+        "low": 0.7837247083148723,
+        "high": 0.9319817400644469,
+        "documents": 40
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 16.530849825378347,
+        "low": 8.30094246557019,
+        "high": 35.358000049487394,
+        "documents": 40
+       }
+      }
+     }
+    },
+    "paired_thorough_minus_default": {
+     "safe": {
+      "d_wer_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 40
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 40
+      }
+     },
+     "more": {
+      "d_wer_difference": {
+       "value": -0.0005309969467675561,
+       "low": -0.0008900346290436593,
+       "high": -0.00020731792368799574,
+       "documents": 40
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 1.8626309662398137,
+       "low": 0.6055976470042234,
+       "high": 4.829082830315224,
+       "documents": 40
+      }
+     }
+    }
+   },
+   "invoices": {
+    "pages": 17,
+    "unreadable_pages": 0,
+    "documents": 17,
+    "none": {
+     "documents": 17,
+     "truth_words": 1384,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "applied": 0,
+     "wrong_as_read": 30,
+     "wer_as_read": {
+      "value": 0.02167630057803468,
+      "low": 0.00824545767160492,
+      "high": 0.03997216274089936,
+      "documents": 17
+     },
+     "d_wer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 17
+     },
+     "d_cer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 17
+     },
+     "precision": {
+      "value": null,
+      "low": null,
+      "high": null,
+      "documents": 17
+     },
+     "net_fixed_per_100_wrong": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 17
+     }
+    },
+    "models": {
+     "default": {
+      "safe": {
+       "documents": 17,
+       "truth_words": 1384,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 30,
+       "wer_as_read": {
+        "value": 0.02167630057803468,
+        "low": 0.00824545767160492,
+        "high": 0.03997216274089936,
+        "documents": 17
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 17
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 17
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 17
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 17
+       }
+      },
+      "more": {
+       "documents": 17,
+       "truth_words": 1384,
+       "fixed": 3,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 3,
+       "wrong_as_read": 30,
+       "wer_as_read": {
+        "value": 0.02167630057803468,
+        "low": 0.00824545767160492,
+        "high": 0.03997216274089936,
+        "documents": 17
+       },
+       "d_wer": {
+        "value": -0.002167630057803468,
+        "low": -0.005764105212306974,
+        "high": 0.0,
+        "documents": 17
+       },
+       "d_cer": {
+        "value": -0.000384172109104879,
+        "low": -0.0010241999242343645,
+        "high": 0.0,
+        "documents": 17
+       },
+       "precision": {
+        "value": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "documents": 17
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 10.0,
+        "low": 0.0,
+        "high": 31.584928229665067,
+        "documents": 17
+       }
+      }
+     },
+     "thorough": {
+      "safe": {
+       "documents": 17,
+       "truth_words": 1384,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 30,
+       "wer_as_read": {
+        "value": 0.02167630057803468,
+        "low": 0.00824545767160492,
+        "high": 0.03997216274089936,
+        "documents": 17
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 17
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 17
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 17
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 17
+       }
+      },
+      "more": {
+       "documents": 17,
+       "truth_words": 1384,
+       "fixed": 3,
+       "broken": 2,
+       "changed_still_wrong": 1,
+       "applied": 6,
+       "wrong_as_read": 30,
+       "wer_as_read": {
+        "value": 0.02167630057803468,
+        "low": 0.00824545767160492,
+        "high": 0.03997216274089936,
+        "documents": 17
+       },
+       "d_wer": {
+        "value": -0.000722543352601156,
+        "low": -0.0030030594080180857,
+        "high": 0.0014673783644310566,
+        "documents": 17
+       },
+       "d_cer": {
+        "value": -0.00012805736970162632,
+        "low": -0.0005302872815323882,
+        "high": 0.0002594050549330727,
+        "documents": 17
+       },
+       "precision": {
+        "value": 0.5,
+        "low": 0.0,
+        "high": 1.0,
+        "documents": 17
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 3.3333333333333335,
+        "low": -10.0,
+        "high": 17.857142857142858,
+        "documents": 17
+       }
+      }
+     }
+    },
+    "paired_thorough_minus_default": {
+     "safe": {
+      "d_wer_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 17
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 17
+      }
+     },
+     "more": {
+      "d_wer_difference": {
+       "value": 0.001445086705202312,
+       "low": 0.0,
+       "high": 0.0035945363048166786,
+       "documents": 17
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": -6.666666666666667,
+       "low": -25.0,
+       "high": 0.0,
+       "documents": 17
+      }
+     }
+    }
+   },
+   "all": {
+    "pages": 93,
+    "unreadable_pages": 0,
+    "documents": 57,
+    "none": {
+     "documents": 57,
+     "truth_words": 31516,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "applied": 0,
+     "wrong_as_read": 889,
+     "wer_as_read": {
+      "value": 0.028207894402843,
+      "low": 0.014404959534061066,
+      "high": 0.04769573394539406,
+      "documents": 57
+     },
+     "d_wer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 57
+     },
+     "d_cer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 57
+     },
+     "precision": {
+      "value": null,
+      "low": null,
+      "high": null,
+      "documents": 57
+     },
+     "net_fixed_per_100_wrong": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 57
+     }
+    },
+    "models": {
+     "default": {
+      "safe": {
+       "documents": 57,
+       "truth_words": 31516,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 889,
+       "wer_as_read": {
+        "value": 0.028207894402843,
+        "low": 0.014404959534061066,
+        "high": 0.04769573394539406,
+        "documents": 57
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 57
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 57
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 57
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 57
+       }
+      },
+      "more": {
+       "documents": 57,
+       "truth_words": 31516,
+       "fixed": 135,
+       "broken": 6,
+       "changed_still_wrong": 18,
+       "applied": 159,
+       "wrong_as_read": 889,
+       "wer_as_read": {
+        "value": 0.028207894402843,
+        "low": 0.014404959534061066,
+        "high": 0.04769573394539406,
+        "documents": 57
+       },
+       "d_wer": {
+        "value": -0.004093159030333799,
+        "low": -0.005933729507806766,
+        "high": -0.0024583739465545897,
+        "documents": 57
+       },
+       "d_cer": {
+        "value": -0.000718023539683725,
+        "low": -0.0010635905685162969,
+        "high": -0.000404298296820198,
+        "documents": 57
+       },
+       "precision": {
+        "value": 0.8490566037735849,
+        "low": 0.7656223060344828,
+        "high": 0.9135923032407407,
+        "documents": 57
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 14.510686164229472,
+        "low": 7.07461679589976,
+        "high": 29.80588365516452,
+        "documents": 57
+       }
+      }
+     },
+     "thorough": {
+      "safe": {
+       "documents": 57,
+       "truth_words": 31516,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 889,
+       "wer_as_read": {
+        "value": 0.028207894402843,
+        "low": 0.014404959534061066,
+        "high": 0.04769573394539406,
+        "documents": 57
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 57
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 57
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 57
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 57
+       }
+      },
+      "more": {
+       "documents": 57,
+       "truth_words": 31516,
+       "fixed": 150,
+       "broken": 7,
+       "changed_still_wrong": 18,
+       "applied": 175,
+       "wrong_as_read": 889,
+       "wer_as_read": {
+        "value": 0.028207894402843,
+        "low": 0.014404959534061066,
+        "high": 0.04769573394539406,
+        "documents": 57
+       },
+       "d_wer": {
+        "value": -0.0045373778398273895,
+        "low": -0.006545380466960338,
+        "high": -0.0026928637044613714,
+        "documents": 57
+       },
+       "d_cer": {
+        "value": -0.0008501398709855304,
+        "low": -0.0012426194013064882,
+        "high": -0.0004964666075698708,
+        "documents": 57
+       },
+       "precision": {
+        "value": 0.8571428571428571,
+        "low": 0.7687600223755361,
+        "high": 0.9156643427643156,
+        "documents": 57
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 16.085489313835772,
+        "low": 7.891064503795947,
+        "high": 32.62003090486947,
+        "documents": 57
+       }
+      }
+     }
+    },
+    "paired_thorough_minus_default": {
+     "safe": {
+      "d_wer_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 57
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 57
+      }
+     },
+     "more": {
+      "d_wer_difference": {
+       "value": -0.00044421880949359056,
+       "low": -0.0007636100288520046,
+       "high": -0.00013288399320605436,
+       "documents": 57
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 1.574803149606299,
+       "low": 0.444365989997058,
+       "high": 3.9371489854090815,
+       "documents": 57
+      }
+     }
+    }
+   },
+   "n10": {
+    "default": {
+     "invoice_pages": 17,
+     "by_rule": {}
+    },
+    "thorough": {
+     "invoice_pages": 17,
+     "by_rule": {}
+    }
+   },
+   "extraction": {
+    "f1": {
+     "invoices": 17,
+     "others": 0,
+     "recall": 1.0,
+     "precision": 1.0,
+     "false_positives": 0
+    },
+    "f2": {
+     "number": 0.9411764705882353,
+     "date": 1.0,
+     "subtotal": 1.0,
+     "total": 1.0,
+     "currency": 1.0,
+     "vat_rate": 0.9411764705882353,
+     "vat_amount": 1.0,
+     "withholding": 0.9411764705882353,
+     "withholding_rate": 0.9411764705882353
+    },
+    "f3": {
+     "row_count": 1.0,
+     "row_amount": 0.9508196721311475,
+     "row_quantity_and_price": 0.9672131147540983,
+     "rows": 61
+    },
+    "n6": {
+     "invoices": 17,
+     "checked": 211,
+     "false_checked": 0,
+     "false_checked_numbers": [],
+     "rate_upper_bound_95": 0.014218009478672985,
+     "by_band": {
+      "light": {
+       "invoices": 8,
+       "checked": 108,
+       "false_checked": 0
+      },
+      "medium": {
+       "invoices": 7,
+       "checked": 91,
+       "false_checked": 0
+      },
+      "heavy": {
+       "invoices": 2,
+       "checked": 12,
+       "false_checked": 0
+      }
+     }
+    },
+    "injection": {
+     "seed": 1,
+     "invoices": 210,
+     "one_digit_sweep": {
+      "invoices": 210,
+      "trials": 15064,
+      "false_checked": 0
+     },
+     "one_digit": {
+      "trials": 20000,
+      "false_checked": 0,
+      "rate": 0.0,
+      "upper_bound_95": 0.00015
+     },
+     "one_edit": {
+      "trials": 20000,
+      "false_checked": 0,
+      "rate": 0.0,
+      "upper_bound_95": 0.00015
+     },
+     "two_digits_one_number": {
+      "trials": 19297,
+      "false_checked": 27,
+      "rate": 0.0013991812198787376,
+      "upper_bound_95": null
+     },
+     "two_digits_same_equation": {
+      "trials": 20000,
+      "false_checked": 307,
+      "rate": 0.01535,
+      "upper_bound_95": null
+     }
+    }
+   }
+  },
+  "en": {
+   "pages": {
+    "pages": 287,
+    "unreadable_pages": 0,
+    "documents": 100,
+    "none": {
+     "documents": 100,
+     "truth_words": 161173,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "applied": 0,
+     "wrong_as_read": 4389,
+     "wer_as_read": {
+      "value": 0.027231608271856948,
+      "low": 0.020962533491841906,
+      "high": 0.03353064512908533,
+      "documents": 100
+     },
+     "d_wer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 100
+     },
+     "d_cer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 100
+     },
+     "precision": {
+      "value": null,
+      "low": null,
+      "high": null,
+      "documents": 100
+     },
+     "net_fixed_per_100_wrong": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 100
+     }
+    },
+    "models": {
+     "default": {
+      "safe": {
+       "documents": 100,
+       "truth_words": 161173,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 4389,
+       "wer_as_read": {
+        "value": 0.027231608271856948,
+        "low": 0.020962533491841906,
+        "high": 0.03353064512908533,
+        "documents": 100
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 100
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 100
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 100
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 100
+       }
+      },
+      "more": {
+       "documents": 100,
+       "truth_words": 161173,
+       "fixed": 685,
+       "broken": 29,
+       "changed_still_wrong": 152,
+       "applied": 866,
+       "wrong_as_read": 4389,
+       "wer_as_read": {
+        "value": 0.027231608271856948,
+        "low": 0.020962533491841906,
+        "high": 0.03353064512908533,
+        "documents": 100
+       },
+       "d_wer": {
+        "value": -0.004070160634845787,
+        "low": -0.0049696994994656175,
+        "high": -0.0031157493650520764,
+        "documents": 100
+       },
+       "d_cer": {
+        "value": -0.0008917712852040181,
+        "low": -0.0010972521452895436,
+        "high": -0.000673331481785313,
+        "documents": 100
+       },
+       "precision": {
+        "value": 0.7909930715935335,
+        "low": 0.7427303820710243,
+        "high": 0.8335156601498096,
+        "documents": 100
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 14.94645705172021,
+        "low": 10.808782619271188,
+        "high": 20.008761668939645,
+        "documents": 100
+       }
+      }
+     },
+     "thorough": {
+      "safe": {
+       "documents": 100,
+       "truth_words": 161173,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 4389,
+       "wer_as_read": {
+        "value": 0.027231608271856948,
+        "low": 0.020962533491841906,
+        "high": 0.03353064512908533,
+        "documents": 100
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 100
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 100
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 100
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 100
+       }
+      },
+      "more": {
+       "documents": 100,
+       "truth_words": 161173,
+       "fixed": 757,
+       "broken": 26,
+       "changed_still_wrong": 146,
+       "applied": 929,
+       "wrong_as_read": 4389,
+       "wer_as_read": {
+        "value": 0.027231608271856948,
+        "low": 0.020962533491841906,
+        "high": 0.03353064512908533,
+        "documents": 100
+       },
+       "d_wer": {
+        "value": -0.004535499122061387,
+        "low": -0.005521176874923583,
+        "high": -0.0035089246607103316,
+        "documents": 100
+       },
+       "d_cer": {
+        "value": -0.0009911229854348013,
+        "low": -0.0012152672285193349,
+        "high": -0.0007573004621515687,
+        "documents": 100
+       },
+       "precision": {
+        "value": 0.8148546824542519,
+        "low": 0.769790094565754,
+        "high": 0.8537738442539641,
+        "documents": 100
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 16.65527455001139,
+        "low": 12.133773039335942,
+        "high": 22.0678845081744,
+        "documents": 100
+       }
+      }
+     }
+    },
+    "paired_thorough_minus_default": {
+     "safe": {
+      "d_wer_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 100
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 100
+      }
+     },
+     "more": {
+      "d_wer_difference": {
+       "value": -0.00046533848721560064,
+       "low": -0.0007133119613873736,
+       "high": -0.00020592166218895284,
+       "documents": 100
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 1.7088174982911826,
+       "low": 0.6970319709055016,
+       "high": 2.6919586071655712,
+       "documents": 100
+      }
+     }
+    }
+   },
+   "invoices": {
+    "pages": 15,
+    "unreadable_pages": 0,
+    "documents": 15,
+    "none": {
+     "documents": 15,
+     "truth_words": 1193,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "applied": 0,
+     "wrong_as_read": 35,
+     "wer_as_read": {
+      "value": 0.02933780385582565,
+      "low": 0.008116697857328013,
+      "high": 0.05744246889567764,
+      "documents": 15
+     },
+     "d_wer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 15
+     },
+     "d_cer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 15
+     },
+     "precision": {
+      "value": null,
+      "low": null,
+      "high": null,
+      "documents": 15
+     },
+     "net_fixed_per_100_wrong": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 15
+     }
+    },
+    "models": {
+     "default": {
+      "safe": {
+       "documents": 15,
+       "truth_words": 1193,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 35,
+       "wer_as_read": {
+        "value": 0.02933780385582565,
+        "low": 0.008116697857328013,
+        "high": 0.05744246889567764,
+        "documents": 15
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 15
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 15
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 15
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 15
+       }
+      },
+      "more": {
+       "documents": 15,
+       "truth_words": 1193,
+       "fixed": 5,
+       "broken": 2,
+       "changed_still_wrong": 0,
+       "applied": 7,
+       "wrong_as_read": 35,
+       "wer_as_read": {
+        "value": 0.02933780385582565,
+        "low": 0.008116697857328013,
+        "high": 0.05744246889567764,
+        "documents": 15
+       },
+       "d_wer": {
+        "value": -0.002514668901927913,
+        "low": -0.008271985008700309,
+        "high": 0.0017408342310431082,
+        "documents": 15
+       },
+       "d_cer": {
+        "value": -0.0005970149253731343,
+        "low": -0.001715649290220313,
+        "high": 0.0003061359791375465,
+        "documents": 15
+       },
+       "precision": {
+        "value": 0.7142857142857143,
+        "low": 0.0,
+        "high": 1.0,
+        "documents": 15
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 8.571428571428571,
+        "low": -11.133333333333331,
+        "high": 18.922136422136422,
+        "documents": 15
+       }
+      }
+     },
+     "thorough": {
+      "safe": {
+       "documents": 15,
+       "truth_words": 1193,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 35,
+       "wer_as_read": {
+        "value": 0.02933780385582565,
+        "low": 0.008116697857328013,
+        "high": 0.05744246889567764,
+        "documents": 15
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 15
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 15
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 15
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 15
+       }
+      },
+      "more": {
+       "documents": 15,
+       "truth_words": 1193,
+       "fixed": 4,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 4,
+       "wrong_as_read": 35,
+       "wer_as_read": {
+        "value": 0.02933780385582565,
+        "low": 0.008116697857328013,
+        "high": 0.05744246889567764,
+        "documents": 15
+       },
+       "d_wer": {
+        "value": -0.003352891869237217,
+        "low": -0.007323026851098454,
+        "high": 0.0,
+        "documents": 15
+       },
+       "d_cer": {
+        "value": -0.0007462686567164179,
+        "low": -0.0015797963268107831,
+        "high": 0.0,
+        "documents": 15
+       },
+       "precision": {
+        "value": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "documents": 15
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 11.428571428571429,
+        "low": 0.0,
+        "high": 19.047619047619047,
+        "documents": 15
+       }
+      }
+     }
+    },
+    "paired_thorough_minus_default": {
+     "safe": {
+      "d_wer_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 15
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 15
+      }
+     },
+     "more": {
+      "d_wer_difference": {
+       "value": -0.0008382229673093043,
+       "low": -0.003630177666528248,
+       "high": 0.001659785500613446,
+       "documents": 15
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 2.857142857142857,
+       "low": -4.764808362369338,
+       "high": 19.047619047619047,
+       "documents": 15
+      }
+     }
+    }
+   },
+   "all": {
+    "pages": 302,
+    "unreadable_pages": 0,
+    "documents": 115,
+    "none": {
+     "documents": 115,
+     "truth_words": 162366,
+     "fixed": 0,
+     "broken": 0,
+     "changed_still_wrong": 0,
+     "applied": 0,
+     "wrong_as_read": 4424,
+     "wer_as_read": {
+      "value": 0.027247083749060763,
+      "low": 0.021107110791558113,
+      "high": 0.03353250620248256,
+      "documents": 115
+     },
+     "d_wer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 115
+     },
+     "d_cer": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 115
+     },
+     "precision": {
+      "value": null,
+      "low": null,
+      "high": null,
+      "documents": 115
+     },
+     "net_fixed_per_100_wrong": {
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "documents": 115
+     }
+    },
+    "models": {
+     "default": {
+      "safe": {
+       "documents": 115,
+       "truth_words": 162366,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 4424,
+       "wer_as_read": {
+        "value": 0.027247083749060763,
+        "low": 0.021107110791558113,
+        "high": 0.03353250620248256,
+        "documents": 115
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 115
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 115
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 115
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 115
+       }
+      },
+      "more": {
+       "documents": 115,
+       "truth_words": 162366,
+       "fixed": 690,
+       "broken": 31,
+       "changed_still_wrong": 152,
+       "applied": 873,
+       "wrong_as_read": 4424,
+       "wer_as_read": {
+        "value": 0.027247083749060763,
+        "low": 0.021107110791558113,
+        "high": 0.03353250620248256,
+        "documents": 115
+       },
+       "d_wer": {
+        "value": -0.0040587315078279935,
+        "low": -0.005096207217536275,
+        "high": -0.0030913085785753648,
+        "documents": 115
+       },
+       "d_cer": {
+        "value": -0.0008894261598164624,
+        "low": -0.001109066302193235,
+        "high": -0.0006678602714491115,
+        "documents": 115
+       },
+       "precision": {
+        "value": 0.7903780068728522,
+        "low": 0.7409760915122262,
+        "high": 0.8331244054563743,
+        "documents": 115
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 14.896021699819167,
+        "low": 11.112826924151285,
+        "high": 19.718992800385863,
+        "documents": 115
+       }
+      }
+     },
+     "thorough": {
+      "safe": {
+       "documents": 115,
+       "truth_words": 162366,
+       "fixed": 0,
+       "broken": 0,
+       "changed_still_wrong": 0,
+       "applied": 0,
+       "wrong_as_read": 4424,
+       "wer_as_read": {
+        "value": 0.027247083749060763,
+        "low": 0.021107110791558113,
+        "high": 0.03353250620248256,
+        "documents": 115
+       },
+       "d_wer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 115
+       },
+       "d_cer": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 115
+       },
+       "precision": {
+        "value": null,
+        "low": null,
+        "high": null,
+        "documents": 115
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "documents": 115
+       }
+      },
+      "more": {
+       "documents": 115,
+       "truth_words": 162366,
+       "fixed": 761,
+       "broken": 26,
+       "changed_still_wrong": 146,
+       "applied": 933,
+       "wrong_as_read": 4424,
+       "wer_as_read": {
+        "value": 0.027247083749060763,
+        "low": 0.021107110791558113,
+        "high": 0.03353250620248256,
+        "documents": 115
+       },
+       "d_wer": {
+        "value": -0.004526809800081298,
+        "low": -0.005674811151333508,
+        "high": -0.003496160642523304,
+        "documents": 115
+       },
+       "d_cer": {
+        "value": -0.0009891748880201778,
+        "low": -0.0012382212473426599,
+        "high": -0.0007547153653554559,
+        "documents": 115
+       },
+       "precision": {
+        "value": 0.8156484458735263,
+        "low": 0.7731202854939613,
+        "high": 0.8572838398263943,
+        "documents": 115
+       },
+       "net_fixed_per_100_wrong": {
+        "value": 16.61392405063291,
+        "low": 12.414879297501148,
+        "high": 21.785192804763813,
+        "documents": 115
+       }
+      }
+     }
+    },
+    "paired_thorough_minus_default": {
+     "safe": {
+      "d_wer_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 115
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 0.0,
+       "low": 0.0,
+       "high": 0.0,
+       "documents": 115
+      }
+     },
+     "more": {
+      "d_wer_difference": {
+       "value": -0.00046807829225330427,
+       "low": -0.0007026604723233713,
+       "high": -0.00019007720579680953,
+       "documents": 115
+      },
+      "net_fixed_per_100_wrong_difference": {
+       "value": 1.7179023508137432,
+       "low": 0.6559749958854854,
+       "high": 2.8088466960607317,
+       "documents": 115
+      }
+     }
+    }
+   },
+   "n10": {
+    "default": {
+     "invoice_pages": 15,
+     "by_rule": {}
+    },
+    "thorough": {
+     "invoice_pages": 15,
+     "by_rule": {}
+    }
+   },
+   "extraction": {
+    "f1": {
+     "invoices": 15,
+     "others": 0,
+     "recall": 1.0,
+     "precision": 1.0,
+     "false_positives": 0
+    },
+    "f2": {
+     "number": 0.9333333333333333,
+     "date": 0.9333333333333333,
+     "subtotal": 0.8666666666666667,
+     "total": 1.0,
+     "currency": 1.0,
+     "vat_rate": 0.9333333333333333,
+     "vat_amount": 0.8666666666666667,
+     "withholding": 1.0,
+     "withholding_rate": 1.0,
+     "vat_base": 0.6666666666666666
+    },
+    "f3": {
+     "row_count": 1.0,
+     "row_amount": 0.864406779661017,
+     "row_quantity_and_price": 0.9322033898305084,
+     "rows": 59
+    },
+    "n6": {
+     "invoices": 15,
+     "checked": 180,
+     "false_checked": 0,
+     "false_checked_numbers": [],
+     "rate_upper_bound_95": 0.016666666666666666,
+     "by_band": {
+      "heavy": {
+       "invoices": 4,
+       "checked": 24,
+       "false_checked": 0
+      },
+      "medium": {
+       "invoices": 8,
+       "checked": 101,
+       "false_checked": 0
+      },
+      "light": {
+       "invoices": 3,
+       "checked": 55,
+       "false_checked": 0
+      }
+     }
+    },
+    "injection": {
+     "seed": 1,
+     "invoices": 210,
+     "one_digit_sweep": {
+      "invoices": 210,
+      "trials": 15064,
+      "false_checked": 0
+     },
+     "one_digit": {
+      "trials": 20000,
+      "false_checked": 0,
+      "rate": 0.0,
+      "upper_bound_95": 0.00015
+     },
+     "one_edit": {
+      "trials": 20000,
+      "false_checked": 0,
+      "rate": 0.0,
+      "upper_bound_95": 0.00015
+     },
+     "two_digits_one_number": {
+      "trials": 19297,
+      "false_checked": 27,
+      "rate": 0.0013991812198787376,
+      "upper_bound_95": null
+     },
+     "two_digits_same_equation": {
+      "trials": 20000,
+      "false_checked": 307,
+      "rate": 0.01535,
+      "upper_bound_95": null
+     }
+    }
+   }
+  }
+ }
+}
