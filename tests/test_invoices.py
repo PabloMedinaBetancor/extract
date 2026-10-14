@@ -5,6 +5,7 @@ import unittest
 from collections import Counter
 from decimal import Decimal
 from pathlib import Path
+from unittest import mock
 
 import pypdfium2 as pdfium
 
@@ -164,6 +165,14 @@ class FontPackagesTest(unittest.TestCase):
         missing = invoices.FontSpec("nope", "Nope", "ubuntu/Nope-R.ttf", "ubuntu/Nope-B.ttf", "none", False)
         with self.assertRaisesRegex(FileNotFoundError, "sudo apt install fonts-ubuntu"):
             invoices._register(missing)
+
+    def test_liberation_is_also_found_where_ubuntu_24_04_puts_it(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            moved = Path(tmp) / "liberation" / "LiberationMono-Regular.ttf"
+            moved.parent.mkdir()
+            moved.write_bytes(b"")
+            with mock.patch.object(invoices, "FONT_DIR", Path(tmp)):
+                self.assertEqual(invoices.font_path("liberation2/LiberationMono-Regular.ttf"), moved)
 
 
 if __name__ == "__main__":

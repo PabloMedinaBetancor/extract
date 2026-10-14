@@ -32,6 +32,21 @@ FONT_PACKAGES = {
     "liberation2": "fonts-liberation2",
     "ubuntu": "fonts-ubuntu",
 }
+# Ubuntu 24.04 ships the same Liberation 2.1.5 files in liberation/ (fonts-liberation2 is only a transition there).
+FONT_FOLDERS = {"liberation2": ("liberation2", "liberation")}
+
+
+def font_path(name: str) -> Path:
+    """The file of a FontSpec name such as "dejavu/DejaVuSans.ttf", or a FileNotFoundError that says what to install."""
+    folder, file = name.split("/", 1)
+    for candidate in FONT_FOLDERS.get(folder, (folder,)):
+        path = FONT_DIR / candidate / file
+        if path.exists():
+            return path
+    raise FileNotFoundError(
+        f"{FONT_DIR / name} is missing. The synthetic invoices are drawn with fixed fonts so that the corpus comes out "
+        f"the same on every machine: sudo apt install {FONT_PACKAGES[folder]}"
+    )
 
 
 @dataclass(frozen=True)
@@ -360,15 +375,9 @@ _REGISTERED: set[str] = set()
 def _register(font: FontSpec) -> tuple[str, str]:
     regular, bold = f"{font.key}-r", f"{font.key}-b"
     if regular not in _REGISTERED:
-        for name in (font.regular, font.bold):
-            if not (FONT_DIR / name).exists():
-                package = FONT_PACKAGES[name.split("/")[0]]
-                raise FileNotFoundError(
-                    f"{FONT_DIR / name} is missing. The synthetic invoices are drawn with fixed fonts so that the "
-                    f"corpus comes out the same on every machine: sudo apt install {package}"
-                )
-        pdfmetrics.registerFont(TTFont(regular, str(FONT_DIR / font.regular)))
-        pdfmetrics.registerFont(TTFont(bold, str(FONT_DIR / font.bold)))
+        regular_path, bold_path = font_path(font.regular), font_path(font.bold)
+        pdfmetrics.registerFont(TTFont(regular, str(regular_path)))
+        pdfmetrics.registerFont(TTFont(bold, str(bold_path)))
         _REGISTERED.add(regular)
     return regular, bold
 
