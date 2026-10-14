@@ -74,8 +74,8 @@ class InvoicesTest(unittest.TestCase):
 
     def test_F4_every_font_file_exists_and_has_a_licence(self):
         for font in invoices.FONTS:
-            self.assertTrue((invoices.FONT_DIR / font.regular).is_file())
-            self.assertTrue((invoices.FONT_DIR / font.bold).is_file())
+            self.assertTrue(invoices.font_path(font.regular).is_file())
+            self.assertTrue(invoices.font_path(font.bold).is_file())
             self.assertTrue(font.licence)
 
     def test_F4_text_layer_contains_every_sidecar_value(self):

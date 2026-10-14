@@ -124,7 +124,7 @@ These are for a person who changes Extract or rebuilds what ships with it. A use
 | `python3 scripts/docs.py {build,serve,check}` | Builds the documentation site, serves it for editing, or checks it (generated files, `mkdocs build --strict`, every example, every link). `check --no-nice` keeps the normal priority. |
 | `python3 scripts/ui_screenshots.py` | Regenerates the prepared screenshots in `docs/screenshots`, not the `real-*` ones. It runs only when the home folder is the neutral one that its description names (the description shows how to get one with `bwrap`), and it needs Chrome. |
 | `scripts/slow-tests.sh` | The slow exhaustive tests of the number rules. Its arguments go to `unittest`. |
-| `.venv/bin/python -m pytest` | The test suite. The tests that need the benchmark corpus, which is not shipped, are skipped by default. |
+| `.venv/bin/python -m pytest` | The test suite. The tests that need the benchmark corpus, which is not shipped, are skipped by default. It needs a few system packages that Extract does not (see [Run the tests](../getting-started/installation.md#run-the-tests)). |
 
 `ui_screenshots.py` does not look at `--help`, and `slow-tests.sh` passes it to `unittest`.
 

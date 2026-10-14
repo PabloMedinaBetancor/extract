@@ -119,6 +119,13 @@ class EligibilityTest(ScratchCase):
     def test_G3_text_that_cannot_be_seen_is_rejected(self):
         self.assertEqual(self.reason("ghost.pdf", hidden=True)[1], "no_ink")
 
+    def test_G3_a_missing_poppler_tool_stops_the_run_instead_of_rejecting_every_page(self):
+        make_pdf(self.tmp / "ok.pdf")
+        missing = FileNotFoundError(2, "No such file or directory", "pdfimages")
+        with mock.patch.object(catalog.subprocess, "run", side_effect=missing):
+            with self.assertRaisesRegex(catalog.CorpusError, "poppler-utils"):
+                check_page(document(self.tmp / "ok.pdf"), 1, set())
+
     def test_G4_a_repeated_page_is_rejected_the_second_time(self):
         make_pdf(self.tmp / "a.pdf", seed=5)
         make_pdf(self.tmp / "b.pdf", seed=5)

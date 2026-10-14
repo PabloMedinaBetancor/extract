@@ -49,6 +49,9 @@ Start the interface with `.venv/bin/python -m extract.ui`.
 
 The test suite has been run on Linux with Python 3.10 only. Python 3.12 installs and reads the same way, and Windows is
 untested. If the word lists are missing, `.venv/bin/python scripts/fetch_models.py --lists` builds them.
+Running the tests also takes Poppler's `pdftotext`, `pdffonts` and `pdfimages`, LibreOffice Calc and a few fonts, which
+Extract itself does not use: `sudo apt install poppler-utils libreoffice-calc fonts-dejavu-core fonts-freefont-ttf
+fonts-liberation2 fonts-ubuntu`.
 [Installation](docs/getting-started/installation.md) has the details, the offline bundle and where the models go.
 
 ## An example

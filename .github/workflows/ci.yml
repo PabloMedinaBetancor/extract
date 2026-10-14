@@ -31,11 +31,14 @@ jobs:
         run: |
           .venv/bin/python -m ruff check .
           .venv/bin/python -m ruff format --check src tests bench scripts
-      - name: Fonts for the synthetic invoices
-        # bench/corpus/invoices.py draws its invoices with these fonts (FONT_PACKAGES); the runner lacks some.
+      - name: System packages the tests call
+        # poppler-utils gives pdftotext, pdffonts and pdfimages, which the PDF tests and bench/corpus run; libreoffice-calc
+        # is for the test that opens an exported workbook in it; the fonts are the ones bench/corpus/invoices.py draws
+        # the synthetic invoices with (its FONT_PACKAGES).
         run: |
           sudo apt-get update -q
           sudo apt-get install -y -q --no-install-recommends \
+            poppler-utils libreoffice-calc \
             fonts-dejavu-core fonts-freefont-ttf fonts-liberation2 fonts-ubuntu
       - name: Tests
         run: .venv/bin/python -m pytest -m "not corpus"

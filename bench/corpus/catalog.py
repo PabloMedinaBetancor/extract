@@ -597,7 +597,13 @@ def _ink_share(path: Path, number: int, words) -> float:
 
 
 def _run(command: list[str]) -> str:
-    return subprocess.run(command, capture_output=True, text=True, errors="replace", timeout=60).stdout
+    try:
+        return subprocess.run(command, capture_output=True, text=True, errors="replace", timeout=60).stdout
+    except FileNotFoundError:
+        # A missing tool says nothing about the page; left alone, every page would be rejected as `tool_error`.
+        raise CorpusError(
+            f"{command[0]} is not installed; it comes with poppler-utils (sudo apt install poppler-utils)"
+        ) from None
 
 
 def main() -> None:

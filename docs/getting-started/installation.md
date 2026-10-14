@@ -127,7 +127,20 @@ $ python3 scripts/verify_install.py
 
 `verify_install.py` repeats the whole installation in a temporary folder with nothing cached and reads a sample, which is
 what continuous integration runs. `.venv/bin/python scripts/verify_install.py --here` only reads the sample with the
-installed Python, and works with the network cable out. The test suite is `.venv/bin/python -m pytest`.
+installed Python, and works with the network cable out.
+
+## Run the tests
+
+```console
+$ sudo apt install poppler-utils libreoffice-calc fonts-dejavu-core fonts-freefont-ttf fonts-liberation2 fonts-ubuntu
+$ .venv/bin/python -m pytest
+```
+
+Extract does not need any of those packages. The tests do: they check the searchable PDFs against Poppler's `pdftotext`,
+the corpus builder in `bench/` calls `pdffonts` and `pdfimages`, one test opens an exported workbook in LibreOffice, and the
+synthetic invoices are drawn with fixed fonts so that every machine makes the same ones. A test that cannot find one of
+them fails and names it. The browser tests are skipped when there is no Google Chrome. Continuous integration installs the
+same packages on Ubuntu 24.04 before it runs the suite.
 
 ## Read the documentation as a site
 

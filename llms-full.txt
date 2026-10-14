@@ -204,7 +204,20 @@ $ python3 scripts/verify_install.py
 
 `verify_install.py` repeats the whole installation in a temporary folder with nothing cached and reads a sample, which is
 what continuous integration runs. `.venv/bin/python scripts/verify_install.py --here` only reads the sample with the
-installed Python, and works with the network cable out. The test suite is `.venv/bin/python -m pytest`.
+installed Python, and works with the network cable out.
+
+## Run the tests
+
+```console
+$ sudo apt install poppler-utils libreoffice-calc fonts-dejavu-core fonts-freefont-ttf fonts-liberation2 fonts-ubuntu
+$ .venv/bin/python -m pytest
+```
+
+Extract does not need any of those packages. The tests do: they check the searchable PDFs against Poppler's `pdftotext`,
+the corpus builder in `bench/` calls `pdffonts` and `pdfimages`, one test opens an exported workbook in LibreOffice, and the
+synthetic invoices are drawn with fixed fonts so that every machine makes the same ones. A test that cannot find one of
+them fails and names it. The browser tests are skipped when there is no Google Chrome. Continuous integration installs the
+same packages on Ubuntu 24.04 before it runs the suite.
 
 ## Read the documentation as a site
 
@@ -4266,7 +4279,7 @@ These are for a person who changes Extract or rebuilds what ships with it. A use
 | `python3 scripts/docs.py {build,serve,check}` | Builds the documentation site, serves it for editing, or checks it (generated files, `mkdocs build --strict`, every example, every link). `check --no-nice` keeps the normal priority. |
 | `python3 scripts/ui_screenshots.py` | Regenerates the prepared screenshots in `docs/screenshots`, not the `real-*` ones. It runs only when the home folder is the neutral one that its description names (the description shows how to get one with `bwrap`), and it needs Chrome. |
 | `scripts/slow-tests.sh` | The slow exhaustive tests of the number rules. Its arguments go to `unittest`. |
-| `.venv/bin/python -m pytest` | The test suite. The tests that need the benchmark corpus, which is not shipped, are skipped by default. |
+| `.venv/bin/python -m pytest` | The test suite. The tests that need the benchmark corpus, which is not shipped, are skipped by default. It needs a few system packages that Extract does not (see [Run the tests](../getting-started/installation.md#run-the-tests)). |
 
 `ui_screenshots.py` does not look at `--help`, and `slow-tests.sh` passes it to `unittest`.
 
