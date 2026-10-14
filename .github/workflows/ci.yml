@@ -31,6 +31,12 @@ jobs:
         run: |
           .venv/bin/python -m ruff check .
           .venv/bin/python -m ruff format --check src tests bench scripts
+      - name: Fonts for the synthetic invoices
+        # bench/corpus/invoices.py draws its invoices with these fonts (FONT_PACKAGES); the runner lacks some.
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q --no-install-recommends \
+            fonts-dejavu-core fonts-freefont-ttf fonts-liberation2 fonts-ubuntu
       - name: Tests
         run: .venv/bin/python -m pytest -m "not corpus"
       - name: Install from nothing and read a PDF

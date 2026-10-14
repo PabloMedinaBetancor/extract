@@ -154,5 +154,17 @@ class InvoicesTest(unittest.TestCase):
         self.assertNotEqual(a, invoices.make_invoice("inv-x", invoices.LAYOUTS[0], invoices.FONTS[0], 4))
 
 
+class FontPackagesTest(unittest.TestCase):
+    def test_every_font_folder_names_its_package(self):
+        for font in invoices.FONTS:
+            for name in (font.regular, font.bold):
+                self.assertIn(name.split("/")[0], invoices.FONT_PACKAGES, name)
+
+    def test_a_missing_font_says_what_to_install(self):
+        missing = invoices.FontSpec("nope", "Nope", "ubuntu/Nope-R.ttf", "ubuntu/Nope-B.ttf", "none", False)
+        with self.assertRaisesRegex(FileNotFoundError, "sudo apt install fonts-ubuntu"):
+            invoices._register(missing)
+
+
 if __name__ == "__main__":
     unittest.main()

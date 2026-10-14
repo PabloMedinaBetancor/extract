@@ -25,6 +25,13 @@ from reportlab.pdfgen import canvas
 
 CENT = Decimal("0.01")
 FONT_DIR = Path("/usr/share/fonts/truetype")
+# The Debian and Ubuntu package behind each folder of FONT_DIR, so that a missing font says what to install.
+FONT_PACKAGES = {
+    "dejavu": "fonts-dejavu-core",
+    "freefont": "fonts-freefont-ttf",
+    "liberation2": "fonts-liberation2",
+    "ubuntu": "fonts-ubuntu",
+}
 
 
 @dataclass(frozen=True)
@@ -353,6 +360,13 @@ _REGISTERED: set[str] = set()
 def _register(font: FontSpec) -> tuple[str, str]:
     regular, bold = f"{font.key}-r", f"{font.key}-b"
     if regular not in _REGISTERED:
+        for name in (font.regular, font.bold):
+            if not (FONT_DIR / name).exists():
+                package = FONT_PACKAGES[name.split("/")[0]]
+                raise FileNotFoundError(
+                    f"{FONT_DIR / name} is missing. The synthetic invoices are drawn with fixed fonts so that the "
+                    f"corpus comes out the same on every machine: sudo apt install {package}"
+                )
         pdfmetrics.registerFont(TTFont(regular, str(FONT_DIR / font.regular)))
         pdfmetrics.registerFont(TTFont(bold, str(FONT_DIR / font.bold)))
         _REGISTERED.add(regular)
